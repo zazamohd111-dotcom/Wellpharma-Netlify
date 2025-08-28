@@ -1,0 +1,702 @@
+/* WellPharma Color Scheme & Effects */
+/* Extracted from https://wellmartconnect.com/ */
+
+:root {
+  /* WellPharma Green Color Palette */
+  --wp-green-primary: #2d5016;
+  --wp-green-secondary: #4a7c59;
+  --wp-green-light: #7fc8a9;
+  --wp-green-lighter: #a8d5ba;
+  --wp-green-accent: #5d8a66;
+  --wp-green-dark: #1e3510;
+  --wp-green-muted: #6b8e23;
+  --wp-green-soft: #ebf3ed;
+
+  /* Background Gradients */
+  --wp-gradient-primary: linear-gradient(135deg, #ebf3ed 0%, #ffffff 100%);
+  --wp-gradient-secondary: linear-gradient(135deg, #7fc8a9 0%, #4a7c59 100%);
+  --wp-gradient-hero: linear-gradient(135deg, rgba(235, 243, 237, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%);
+
+  /* Box Shadows */
+  --wp-shadow-card: 0 4px 6px rgba(45, 80, 22, 0.1);
+  --wp-shadow-card-hover: 0 10px 25px rgba(45, 80, 22, 0.2);
+  --wp-shadow-button: 0 2px 4px rgba(45, 80, 22, 0.2);
+  --wp-shadow-button-hover: 0 6px 16px rgba(45, 80, 22, 0.3);
+
+  /* Transitions */
+  --wp-transition-fast: 0.2s ease-out;
+  --wp-transition-medium: 0.3s ease-out;
+  --wp-transition-slow: 0.5s ease-out;
+}
+
+/* Hero Section Styling */
+.hero-section {
+  background: var(--wp-gradient-hero);
+  position: relative;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--wp-gradient-primary);
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Button Styling - Primary */
+.btn-primary {
+  background: var(--wp-green-primary);
+  border: 2px solid var(--wp-green-primary);
+  color: white;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: all var(--wp-transition-medium);
+  box-shadow: var(--wp-shadow-button);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.btn-primary:hover {
+  background: var(--wp-green-secondary);
+  border-color: var(--wp-green-secondary);
+  transform: translateY(-2px);
+  box-shadow: var(--wp-shadow-button-hover);
+  color: white;
+}
+
+/* Button Styling - Secondary */
+.btn-secondary {
+  background: transparent;
+  border: 2px solid var(--wp-green-primary);
+  color: var(--wp-green-primary);
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: all var(--wp-transition-medium);
+  box-shadow: var(--wp-shadow-button);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.btn-secondary:hover {
+  background: var(--wp-green-primary);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: var(--wp-shadow-button-hover);
+}
+
+/* Service Cards */
+.service-card {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: var(--wp-shadow-card);
+  transition: all var(--wp-transition-medium);
+  border: 1px solid rgba(45, 80, 22, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--wp-gradient-secondary);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--wp-transition-medium);
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--wp-shadow-card-hover);
+  border-color: var(--wp-green-light);
+}
+
+.service-card:hover::before {
+  transform: scaleX(1);
+}
+
+.service-card h3 {
+  color: var(--wp-green-primary);
+  margin-bottom: 15px;
+  font-weight: 700;
+  transition: color var(--wp-transition-fast);
+}
+
+.service-card:hover h3 {
+  color: var(--wp-green-secondary);
+}
+
+.service-card p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Section Backgrounds */
+.section-light {
+  background: var(--wp-gradient-primary);
+}
+
+.section-white {
+  background: white;
+}
+
+.section-green {
+  background: var(--wp-green-primary);
+  color: white;
+}
+
+/* Accent Elements */
+.accent-green {
+  color: var(--wp-green-primary);
+}
+
+.bg-accent-green {
+  background-color: var(--wp-green-light);
+}
+
+/* Form Styling */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  border: 2px solid rgba(45, 80, 22, 0.2);
+  border-radius: 8px;
+  padding: 12px 15px;
+  transition: border-color var(--wp-transition-fast);
+  background: white;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--wp-green-light);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(127, 200, 169, 0.2);
+}
+
+/* Typography Enhancements */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--wp-green-primary);
+}
+
+.hero-section h1,
+.hero-section h2 {
+  color: var(--wp-green-primary);
+  font-weight: 700;
+}
+
+/* Link Styling */
+a {
+  color: var(--wp-green-secondary);
+  transition: color var(--wp-transition-fast);
+}
+
+a:hover {
+  color: var(--wp-green-primary);
+  text-decoration: none;
+}
+
+/* Custom Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Comprehensive Service Cards */
+.comprehensive-services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+.comprehensive-service-card {
+  background: white;
+  border-radius: 15px;
+  padding: 35px 30px;
+  border: 2px solid rgba(45, 80, 22, 0.1);
+  box-shadow: var(--wp-shadow-card);
+  transition: all var(--wp-transition-medium);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.comprehensive-service-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: var(--wp-gradient-secondary);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--wp-transition-medium);
+}
+
+.comprehensive-service-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: var(--wp-shadow-card-hover);
+  border-color: var(--wp-green-light);
+}
+
+.comprehensive-service-card:hover::before {
+  transform: scaleX(1);
+}
+
+.service-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.comprehensive-service-card h3 {
+  color: var(--wp-green-primary);
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  transition: color var(--wp-transition-fast);
+}
+
+.service-header h3 {
+  margin-bottom: 0;
+}
+
+.comprehensive-service-card:hover h3 {
+  color: var(--wp-green-secondary);
+}
+
+.service-badge {
+  background: var(--wp-green-light);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.service-badge.new {
+  background: #e74c3c;
+}
+
+.service-badge.cms {
+  background: var(--wp-green-secondary);
+}
+
+.comprehensive-service-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.comprehensive-service-card li {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 12px;
+  padding-left: 0;
+  transition: color var(--wp-transition-fast);
+}
+
+.comprehensive-service-card:hover li {
+  color: #555;
+}
+
+.comprehensive-service-card li:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .comprehensive-services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-card {
+    padding: 20px;
+  }
+  
+  .btn-primary,
+  .btn-secondary {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  
+  .comprehensive-services-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 30px;
+    padding: 0 10px;
+  }
+  
+  .comprehensive-service-card {
+    padding: 25px 20px;
+  }
+  
+  .comprehensive-service-card h3 {
+    font-size: 1.2rem;
+  }
+}
+
+/* FAQ Section Styling */
+.faq-section {
+  background: var(--wp-gradient-primary);
+  padding: 50px 0;
+}
+
+.faq-categories {
+  display: grid;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.faq-category {
+  background: white;
+  border-radius: 12px;
+  padding: 25px 20px;
+  box-shadow: var(--wp-shadow-card);
+  border: 2px solid rgba(45, 80, 22, 0.1);
+  transition: all var(--wp-transition-medium);
+}
+
+.faq-category:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--wp-shadow-card-hover);
+  border-color: var(--wp-green-light);
+}
+
+.faq-category h3 {
+  color: var(--wp-green-primary);
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--wp-green-light);
+  text-align: center;
+}
+
+.faq-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.faq-item {
+  border: 1px solid rgba(45, 80, 22, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all var(--wp-transition-fast);
+}
+
+.faq-item:hover {
+  border-color: var(--wp-green-light);
+}
+
+.faq-question {
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 15px 20px;
+  text-align: left;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--wp-green-primary);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all var(--wp-transition-fast);
+}
+
+.faq-question:hover {
+  background: rgba(45, 80, 22, 0.05);
+  color: var(--wp-green-secondary);
+}
+
+.faq-toggle {
+  background: var(--wp-green-light);
+  color: white;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all var(--wp-transition-fast);
+  flex-shrink: 0;
+}
+
+.faq-item.active .faq-toggle {
+  background: var(--wp-green-primary);
+  transform: rotate(45deg);
+}
+
+.faq-answer {
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: all var(--wp-transition-medium);
+}
+
+.faq-item.active .faq-answer {
+  max-height: 250px;
+  padding: 0 20px 15px 20px;
+}
+
+.faq-answer p {
+  color: #666;
+  line-height: 1.5;
+  margin: 0;
+  padding-top: 0;
+  font-size: 0.9rem;
+}
+
+/* Responsive FAQ Design */
+@media (max-width: 768px) {
+  .faq-section {
+    padding: 40px 0;
+  }
+  
+  .faq-category {
+    padding: 20px 15px;
+  }
+  
+  .faq-question {
+    padding: 12px 15px;
+    font-size: 0.9rem;
+  }
+  
+  .faq-answer {
+    padding: 0 15px;
+  }
+  
+  .faq-item.active .faq-answer {
+    padding: 0 15px 12px 15px;
+  }
+  
+  .faq-toggle {
+    width: 25px;
+    height: 25px;
+    font-size: 1rem;
+  }
+}
+
+/* Testimonials Slider */
+.testimonials-section {
+  background: var(--wp-gradient-primary);
+  padding: 60px 0;
+}
+
+.testimonials-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.testimonials-header h3 {
+  color: var(--wp-green-primary);
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.testimonials-header .rating {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.testimonials-header .review-link {
+  color: var(--wp-green-secondary);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color var(--wp-transition-fast);
+}
+
+.testimonials-header .review-link:hover {
+  color: var(--wp-green-primary);
+}
+
+.testimonials-slider {
+  position: relative;
+  overflow: hidden;
+  margin: 0 20px;
+}
+
+.testimonials-track {
+  display: flex;
+  gap: 30px;
+  animation: slideTestimonials 60s linear infinite;
+  will-change: transform;
+}
+
+.testimonials-track:hover {
+  animation-play-state: paused;
+}
+
+.testimonial {
+  flex: 0 0 450px;
+  padding: 25px 30px;
+  text-align: center;
+  background: white;
+  border-radius: 12px;
+  position: relative;
+  box-shadow: var(--wp-shadow-card);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--wp-shadow-card-hover);
+}
+
+.testimonial .stars {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  color: #ffd700;
+}
+
+.testimonial blockquote {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #333;
+  line-height: 1.5;
+  margin: 0 0 20px 0;
+  position: relative;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonial blockquote::before,
+.testimonial blockquote::after {
+  content: '"';
+  font-size: 2rem;
+  color: var(--wp-green-light);
+  position: absolute;
+  font-family: Georgia, serif;
+}
+
+.testimonial blockquote::before {
+  top: -8px;
+  left: -25px;
+}
+
+.testimonial blockquote::after {
+  bottom: -30px;
+  right: -25px;
+}
+
+.testimonial cite {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--wp-green-primary);
+  font-style: normal;
+}
+
+.slider-nav {
+  display: none;
+}
+
+/* Testimonials Animation */
+@keyframes slideTestimonials {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-480px * 6));
+  }
+}
+
+/* Responsive Testimonials */
+@media (max-width: 768px) {
+  .testimonials-section {
+    padding: 60px 0;
+  }
+  
+  .testimonials-header h3 {
+    font-size: 1.8rem;
+  }
+  
+  .testimonials-header .rating {
+    font-size: 1.5rem;
+  }
+  
+  .testimonials-slider {
+    margin: 0 10px;
+  }
+  
+  .testimonial {
+    flex: 0 0 280px;
+    padding: 20px 15px;
+  }
+  
+  .testimonial blockquote {
+    font-size: 1rem;
+    max-width: 250px;
+  }
+  
+  .testimonial blockquote::before,
+  .testimonial blockquote::after {
+    font-size: 2rem;
+  }
+  
+  .testimonial blockquote::before {
+    left: -15px;
+  }
+  
+  .testimonial blockquote::after {
+    right: -15px;
+  }
+  
+  @keyframes slideTestimonials {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-310px * 6));
+    }
+  }
+}
