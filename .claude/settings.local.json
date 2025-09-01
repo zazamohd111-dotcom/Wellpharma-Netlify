@@ -19,7 +19,8 @@
       "Read(C:\\Users\\zazam\\Local Sites\\wellpharma-pharmacy\\app\\public\\wp-content\\themes\\wellpharma/**)",
       "Bash(git init:*)",
       "Bash(git remote add:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []

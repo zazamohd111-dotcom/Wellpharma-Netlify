@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/wellpharma-theme.css">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
     <!-- Header -->
@@ -36,25 +36,25 @@
                     <li class="nav-item dropdown">
                         <a href="#prescriptions" class="nav-link">Prescriptions <span class="dropdown-arrow">▼</span></a>
                         <div class="dropdown-menu">
-                            <a href="#refill" class="dropdown-link">Refill</a>
-                            <a href="#transfer" class="dropdown-link">Transfer</a>
+                            <a href="#refill-prescription-card" class="dropdown-link">Refill</a>
+                            <a href="#transfer-prescription-card" class="dropdown-link">Transfer</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a href="#birth-control" class="nav-link">Birth Control <span class="dropdown-arrow">▼</span></a>
                         <div class="dropdown-menu">
                             <a href="#consultation" class="dropdown-link">Consultation</a>
-                            <a href="#options" class="dropdown-link">Options</a>
                             <a href="#how-it-works" class="dropdown-link">How It Works</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a href="#services" class="nav-link">Services <span class="dropdown-arrow">▼</span></a>
                         <div class="dropdown-menu">
-                            <a href="#immunization" class="dropdown-link">Immunizations</a>
+                            <a href="#immunizations-card" class="dropdown-link">Immunizations</a>
                             <a href="#compounding" class="dropdown-link">Compounding</a>
-                            <a href="#testing" class="dropdown-link">Testing</a>
-                            <a href="#hormone-kits" class="dropdown-link">Hormone Kits</a>
+                            <a href="#testing-card" class="dropdown-link">Testing</a>
+                            <a href="#hormone-kits-card" class="dropdown-link">Hormone Kits</a>
+                            <a href="#comprehensive-services" class="dropdown-link">Pharmacy Care at Home</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -109,7 +109,7 @@
                 </div>
                 
                 <div class="hero-image">
-                    <img src="images/pharmacy-interior.jpg" alt="WellPharma Pharmacy Interior - Modern, Clean Pharmacy in Randallstown MD">
+                    <img src="images/pharmacy-interior.jpg" alt="WellPharma Pharmacy Interior - Modern, Clean Pharmacy in Randallstown MD" loading="lazy">
                 </div>
             </div>
         </section>
@@ -119,41 +119,49 @@
             <div class="container">
                 <div class="section-content">
                     <div class="content-left">
-                        <h2>Same-Day Birth Control Prescribing by Pharmacist</h2>
-                        <p class="section-subtitle">Get your birth control prescription today - no doctor's appointment needed!</p>
+                        <h2>Same-Day Birth Control Prescribed by a Pharmacist - No Doctor Visit Required</h2>
+                        <p class="section-subtitle">Our licensed pharmacist can prescribe birth control directly to you, making contraceptive access faster and more convenient than ever.</p>
                         
-                        <div class="features-grid">
-                            <div class="feature-box">
-                                <h3>Same-Day Service</h3>
-                                <p>No waiting 2-5 days like online services. Get your prescription today.</p>
-                            </div>
-                            <div class="feature-box">
-                                <h3>Affordable - Only $30</h3>
-                                <p>Save up to $9 compared to other providers who charge up to $39. Insurance may cover consultation.</p>
-                            </div>
-                            <div class="feature-box">
-                                <h3>Professional Consultation</h3>
-                                <p>Face-to-face consultation with licensed pharmacist. Personalized care.</p>
-                            </div>
-                            <div class="feature-box">
-                                <h3>Private & Confidential</h3>
-                                <p>Discrete consultation in private pharmacy setting. Your privacy protected.</p>
-                            </div>
+                        <h3>What We Offer:</h3>
+                        <ul>
+                            <li>We offer various options of birth control methods including pills, patches, vaginal rings and emergency contraceptions</li>
+                            <li>Same-day pickup or free discrete delivery</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="content-right">
+                        <img src="images/birth-control-consultation.jpg" alt="Birth Control Consultation with Pharmacist at WellPharma" loading="lazy">
+                    </div>
+                </div>
+                
+                <div class="birth-control-bottom">
+                    <div class="bottom-left">
+                        <div id="how-it-works">
+                            <h3>How It Works:</h3>
+                            <ol>
+                                <li>Complete a quick health consultation with our licensed pharmacist</li>
+                                <li>Get your prescription reviewed and approved if medically appropriate</li>
+                                <li>Pick up your birth control the same day</li>
+                            </ol>
                         </div>
                         
-                        <div class="section-cta">
+                        <h3>Why Choose Us:</h3>
+                        <ul>
+                            <li>Same-day service - no waiting 2-5 days like online services</li>
+                            <li>Professional consultation for only $30 (insurance may cover)</li>
+                            <li>Private, confidential care with a Maryland-licensed pharmacist</li>
+                        </ul>
+                        
+                        <div id="consultation" class="section-cta">
                             <a href="#contact" class="btn btn-primary">Schedule Consultation</a>
-                            <a href="#birth-control-info" class="btn btn-secondary">Learn More</a>
+                            <a href="tel:+14106989068" class="btn btn-secondary">Call (410) 698-9068</a>
                         </div>
                         
                         <p class="legal-notice">
                             <strong>Maryland Law:</strong> Licensed pharmacists can prescribe hormonal contraceptives after consultation. No doctor referral needed.
                         </p>
                     </div>
-                    
-                    <div class="content-right">
-                        <img src="images/birth-control-consultation.jpg" alt="Birth Control Consultation with Pharmacist at WellPharma">
-                    </div>
+                    <div class="bottom-spacer"></div>
                 </div>
             </div>
         </section>
@@ -163,39 +171,46 @@
             <div class="container">
                 <h2>Pharmacy Services</h2>
                 <div class="services-grid">
-                    <div class="service-card">
-                        <img src="images/refill-prescription.jpg" alt="Refill Prescription Service">
+                    <div id="refill-prescription-card" class="service-card">
+                        <img src="images/refill-prescription.jpg" alt="Refill Prescription Service" loading="lazy">
                         <h3>Refill Prescription</h3>
                         <p>Quick and easy prescription refills online or by phone</p>
-                        <a href="#refill" class="service-link action-btn">Refill →</a>
+                        <a href="#refill" class="service-link action-btn">Refill</a>
                     </div>
                     
-                    <div class="service-card">
-                        <img src="images/transfer-prescription.jpg" alt="Transfer Prescription Service">
+                    <div id="transfer-prescription-card" class="service-card">
+                        <img src="images/transfer-prescription.jpg" alt="Transfer Prescription Service" loading="lazy">
                         <h3>Transfer Prescription</h3>
                         <p>Transfer your prescriptions from another pharmacy</p>
-                        <a href="#transfer" class="service-link action-btn">Transfer →</a>
+                        <a href="#transfer" class="service-link action-btn">Transfer</a>
                     </div>
                     
-                    <div class="service-card">
-                        <img src="images/immunizations.jpg" alt="Immunizations Service">
+                    <div id="immunizations-card" class="service-card">
+                        <img src="images/immunizations.jpg" alt="Immunizations Service" loading="lazy">
                         <h3>Get Immunizations</h3>
                         <p>Flu shots, COVID vaccines, and travel immunizations</p>
-                        <a href="#immunizations" class="service-link health-btn">Book →</a>
+                        <a href="#immunizations" class="service-link health-btn">Book</a>
                     </div>
                     
-                    <div class="service-card">
-                        <img src="images/testing-services.jpg" alt="Testing Services">
+                    <div id="testing-card" class="service-card">
+                        <img src="images/testing-services.jpg" alt="Testing Services" loading="lazy">
                         <h3>Testing</h3>
                         <p>Strep tests, COVID & flu tests available for quick diagnosis</p>
-                        <a href="#testing" class="service-link schedule-btn">Schedule →</a>
+                        <a href="#testing" class="service-link schedule-btn">Schedule</a>
                     </div>
                     
-                    <div class="service-card">
-                        <img src="images/hormone-kits.jpg" alt="Hormone Test Kits">
+                    <div id="hormone-kits-card" class="service-card">
+                        <img src="images/hormone-kits.jpg" alt="Hormone Test Kits" loading="lazy">
                         <h3>Hormone Kits</h3>
                         <p>Saliva kits & blood spot kits from MyZRTLab.com for comprehensive hormone testing</p>
-                        <a href="https://myzrtlab.com" class="service-link order-btn" target="_blank">Order →</a>
+                        <a href="https://myzrtlab.com" class="service-link order-btn" target="_blank">Order</a>
+                    </div>
+                    
+                    <div id="pharmacy-care-at-home-card" class="service-card">
+                        <img src="images/pharmacy care at home.jpg" alt="Pharmacy Care at Home Services" loading="lazy">
+                        <h3>Pharmacy Care at Home</h3>
+                        <p>Let us help you age in place on your terms.</p>
+                        <a href="#comprehensive-services" class="service-link order-btn">Schedule</a>
                     </div>
                 </div>
             </div>
@@ -256,17 +271,6 @@
                     </div>
                     
                     <div class="comprehensive-service-card">
-                        <h3>Health & Wellness</h3>
-                        <ul>
-                            <li>✓ Blood pressure monitoring</li>
-                            <li>✓ Diabetes care and supplies</li>
-                            <li>✓ Cholesterol screening</li>
-                            <li>✓ Weight management programs</li>
-                            <li>✓ Medication adherence support</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="comprehensive-service-card">
                         <div class="service-header">
                             <h3>Pharmacy Care at Home</h3>
                             <span class="service-badge cms">CMS</span>
@@ -277,6 +281,17 @@
                             <li>✓ Clinical pharmacy consultations</li>
                             <li>✓ Medication therapy management</li>
                             <li>✓ Chronic disease care coordination</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="comprehensive-service-card">
+                        <h3>High-Quality Vitamins & Supplements</h3>
+                        <ul>
+                            <li>✓ Personalized supplement recommendations for individual health needs</li>
+                            <li>✓ Premium brands: Ortho-Molecular Products, Designs for Health</li>
+                            <li>✓ Professional-grade vitamins not available in retail stores</li>
+                            <li>✓ Medication interaction screening for supplement safety</li>
+                            <li>✓ Pharmacist consultations on optimal supplement timing and dosing</li>
                         </ul>
                     </div>
                 </div>
@@ -296,23 +311,23 @@
                             <!-- Blog Card 1 -->
                             <div class="blog-card">
                                 <div class="blog-card-image">
-                                    <img src="images/blog-anxiety-medication.jpg" alt="Medication for anxiety: A complete guide" loading="lazy">
+                                    <img src="images/blog-pill-organizers.jpg" alt="Pill organizers: Your guide to medication management" loading="lazy">
                                     <div class="blog-card-overlay">
-                                        <h3>Medication for anxiety: A complete guide</h3>
+                                        <h3>Pill organizers: Your guide to medication management</h3>
                                     </div>
                                 </div>
-                                <a href="#anxiety-medication" class="blog-explore-btn">Explore</a>
+                                <a href="#pill-organizers" class="blog-explore-btn">Explore</a>
                             </div>
                             
                             <!-- Blog Card 2 -->
                             <div class="blog-card">
                                 <div class="blog-card-image">
-                                    <img src="images/blog-weight-loss.jpg" alt="Weight loss medications: Are they effective?" loading="lazy">
+                                    <img src="images/blog-compounding.png" alt="Custom compounding: Personalized medications for your needs" loading="lazy">
                                     <div class="blog-card-overlay">
-                                        <h3>Weight loss medications: Are they effective?</h3>
+                                        <h3>Custom compounding: Personalized medications for your needs</h3>
                                     </div>
                                 </div>
-                                <a href="#weight-loss" class="blog-explore-btn">Explore</a>
+                                <a href="#compounding" class="blog-explore-btn">Explore</a>
                             </div>
                             
                             <!-- Blog Card 3 -->
@@ -340,22 +355,22 @@
                             <!-- Duplicate cards for seamless loop -->
                             <div class="blog-card">
                                 <div class="blog-card-image">
-                                    <img src="images/blog-anxiety-medication.jpg" alt="Medication for anxiety: A complete guide" loading="lazy">
+                                    <img src="images/blog-pill-organizers.jpg" alt="Pill organizers: Your guide to medication management" loading="lazy">
                                     <div class="blog-card-overlay">
-                                        <h3>Medication for anxiety: A complete guide</h3>
+                                        <h3>Pill organizers: Your guide to medication management</h3>
                                     </div>
                                 </div>
-                                <a href="#anxiety-medication" class="blog-explore-btn">Explore</a>
+                                <a href="#pill-organizers" class="blog-explore-btn">Explore</a>
                             </div>
                             
                             <div class="blog-card">
                                 <div class="blog-card-image">
-                                    <img src="images/blog-weight-loss.jpg" alt="Weight loss medications: Are they effective?" loading="lazy">
+                                    <img src="images/blog-compounding.png" alt="Custom compounding: Personalized medications for your needs" loading="lazy">
                                     <div class="blog-card-overlay">
-                                        <h3>Weight loss medications: Are they effective?</h3>
+                                        <h3>Custom compounding: Personalized medications for your needs</h3>
                                     </div>
                                 </div>
-                                <a href="#weight-loss" class="blog-explore-btn">Explore</a>
+                                <a href="#compounding" class="blog-explore-btn">Explore</a>
                             </div>
                             
                             <div class="blog-card">
@@ -379,18 +394,6 @@
                             </div>
                         </div>
                     </div>
-                    
-                    <!-- Navigation Arrows -->
-                    <button class="blog-slider-arrow blog-slider-prev" aria-label="Previous">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="15 18 9 12 15 6"></polyline>
-                        </svg>
-                    </button>
-                    <button class="blog-slider-arrow blog-slider-next" aria-label="Next">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="9 18 15 12 9 6"></polyline>
-                        </svg>
-                    </button>
                 </div>
                 
                 <!-- Category Pills -->
@@ -399,17 +402,21 @@
                         <span class="category-title">Compounding</span>
                         <span class="category-subtitle">Custom Medications</span>
                     </a>
-                    <a href="#birth-control" class="category-pill category-birth-control">
-                        <span class="category-title">Birth Control</span>
+                    <a href="#hormonal-imbalance" class="category-pill category-hormonal-imbalance">
+                        <span class="category-title">Hormonal Imbalance</span>
                         <span class="category-subtitle">Women's health</span>
                     </a>
                     <a href="#weight-loss" class="category-pill category-weight-loss">
                         <span class="category-title">Weight Loss</span>
                         <span class="category-subtitle">Wellness</span>
                     </a>
-                    <a href="#vaccines" class="category-pill category-vaccines">
-                        <span class="category-title">Vaccines</span>
-                        <span class="category-subtitle">Immunizations</span>
+                    <a href="#diabetes-prevention" class="category-pill category-diabetes-prevention">
+                        <span class="category-title">Diabetes Prevention</span>
+                        <span class="category-subtitle">Community Health</span>
+                    </a>
+                    <a href="#hormone-testing" class="category-pill category-hormone-testing">
+                        <span class="category-title">Hormone Testing</span>
+                        <span class="category-subtitle">Health Analysis</span>
                     </a>
                 </div>
             </div>
@@ -454,11 +461,13 @@
                         </div>
                     </div>
                     
-                    <div class="about-image">
-                        <img src="images/dr-sarah-johnson.jpg" alt="Dr. Sarah Johnson, PharmD - Owner of WellPharma Pharmacy">
-                        <div class="doctor-info">
-                            <strong>Dr. Sarah Johnson, PharmD</strong>
-                            <span>Owner & Licensed Pharmacist</span>
+                    <div class="about-pharmacist">
+                        <div class="pharmacist-image">
+                            <img src="images/my-pic-1.png" alt="Dr. Zahraa Babiker - Licensed Pharmacist at WellPharma Pharmacy" loading="lazy">
+                        </div>
+                        <div class="pharmacist-info">
+                            <h3>Dr. Zahraa Babiker, PharmD</h3>
+                            <p class="pharmacist-title">Owner & Licensed Pharmacist</p>
                         </div>
                     </div>
                 </div>
@@ -924,10 +933,7 @@
         <div class="footer-container">
             <div class="footer-content">
                 <div class="footer-section footer-about">
-                    <div class="footer-logo">
-                        <img src="images/wellpharma-logo.png" alt="Wellpharma Pharmacy">
-                        <span>Wellpharma Pharmacy</span>
-                    </div>
+                    <h3>Wellpharma Pharmacy</h3>
                     <p>Your trusted independent pharmacy serving Randallstown, MD with personalized healthcare services since 2022.</p>
                     <div class="footer-contact">
                         <p>📞 <a href="tel:(410) 698-9068">(410) 698-9068</a></p>
