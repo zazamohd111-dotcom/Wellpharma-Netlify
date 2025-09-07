@@ -7,6 +7,14 @@
     <title>Wellpharma Pharmacy - Prescription Services & Healthcare in Randallstown, MD</title>
     <meta name="description" content="Your trusted independent pharmacy in Randallstown, MD. Same-day birth control prescribing, compounding services, immunizations, and free delivery. Call (410) 698-9068.">
     
+    <!-- Critical Resource Preloads -->
+    <link rel="preload" href="images/pharmacy-interior.jpg" as="image" fetchpriority="high">
+    <link rel="preload" href="images/wellpharma-logo.png" as="image">
+    
+    <!-- Preload Critical Fonts -->
+    <link rel="preload" href="https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVIGxA.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2" as="font" type="font/woff2" crossorigin>
+    
     <!-- DNS Prefetch for External Resources -->
     <link rel="dns-prefetch" href="//www.google.com">
     <link rel="dns-prefetch" href="//maps.googleapis.com">
@@ -15,31 +23,61 @@
     <link rel="dns-prefetch" href="//app.formdr.com">
     <link rel="dns-prefetch" href="//www.drugs.com">
     
-    <!-- Google Fonts - Optimized Loading -->
+    <!-- Google Fonts - Modern Loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"></noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     
     <!-- Critical CSS - Inline for immediate rendering -->
     <style>
-        :root{--primary-color:rgb(77,123,107);--secondary-color:rgb(144,173,114);--text-color:#2e2e2e;--white:#ffffff;--transition:all 0.3s ease-out}
+        :root{--primary-color:rgb(77,123,107);--secondary-color:rgb(144,173,114);--text-color:#2e2e2e;--white:#ffffff;--light-bg:rgb(235,243,237);--transition:all 0.3s ease-out}
         *{margin:0;padding:0;box-sizing:border-box}
-        body{font-family:'Open Sans',Arial,sans-serif;line-height:1.6;color:var(--text-color);background:var(--white)}
-        .header{position:fixed;top:0;width:100%;background:var(--white);z-index:1000;box-shadow:0 2px 10px rgba(0,0,0,0.1)}
-        .nav-container{display:flex;justify-content:space-between;align-items:center;padding:1rem 2rem}
-        .logo{height:60px}
+        body{font-family:'Open Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:17px;font-weight:500;line-height:1.6;color:var(--text-color);background:var(--white)}
+        
+        /* Critical Navigation Styles - Complete to prevent layout shifts */
+        .header{position:fixed;top:0;width:100%;background:var(--white);z-index:1000;box-shadow:0 2px 10px rgba(0,0,0,0.1);min-height:80px}
+        .nav{padding:0;height:100%}
+        .nav-container{display:flex;justify-content:space-between;align-items:center;padding:1rem 2rem;max-width:1200px;margin:0 auto;min-height:80px}
+        .nav-logo{display:flex;align-items:center}
+        .logo{height:60px;width:auto;display:block}
+        .nav-menu{display:flex;list-style:none;margin:0;padding:0;gap:0.5rem;align-items:center;height:100%}
+        .nav-item{position:relative;height:auto}
+        .nav-link{display:flex;align-items:center;padding:0.75rem 1rem;color:var(--text-color);text-decoration:none;font-weight:600;font-size:1rem;line-height:1.5;border-radius:6px;white-space:nowrap;min-height:44px;box-sizing:border-box}
+        .nav-link:hover{background:var(--light-bg);color:var(--primary-color)}
+        .dropdown-arrow{font-size:0.75rem;margin-left:0.5rem;transition:transform 0.2s ease;display:inline-block;width:10px;text-align:center}
+        .dropdown-menu{position:absolute;top:100%;left:0;background:var(--white);border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.1);padding:0.5rem;min-width:200px;opacity:0;visibility:hidden;transform:translateY(-10px);transition:all 0.2s ease;z-index:1001}
+        .dropdown:hover .dropdown-menu{opacity:1;visibility:visible;transform:translateY(0)}
+        .dropdown-link{display:block;padding:0.5rem 1rem;color:var(--text-color);text-decoration:none;font-size:0.95rem;border-radius:4px;line-height:1.4;white-space:nowrap}
+        .dropdown-link:hover{background:var(--light-bg);color:var(--primary-color)}
+        .hamburger{display:none;flex-direction:column;cursor:pointer;gap:4px;padding:8px;background:none;border:none}
+        .bar{width:25px;height:3px;background:var(--primary-color);transition:all 0.3s ease;border-radius:2px}
+        
+        /* Hero Critical Styles */
         .hero-section{padding-top:100px;min-height:80vh;display:flex;align-items:center}
         .hero-container{max-width:1200px;margin:0 auto;padding:0 2rem;display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
-        .btn{display:inline-block;padding:12px 24px;border:none;border-radius:8px;text-decoration:none;font-weight:600;transition:var(--transition);cursor:pointer}
+        .hero-image{aspect-ratio:3/2;display:flex;align-items:center;justify-content:center}
+        .hero-image img{width:100%;height:100%;object-fit:cover;border-radius:12px}
+        .btn{display:inline-block;padding:12px 24px;border:none;border-radius:8px;text-decoration:none;font-weight:700;font-size:1.1rem;transition:var(--transition);cursor:pointer}
         .btn-primary{background:var(--primary-color);color:var(--white)}
         .btn-secondary{background:transparent;color:var(--primary-color);border:2px solid var(--primary-color)}
+        
+        /* Mobile Navigation - Prevent layout shifts */
+        @media (max-width: 768px) {
+            .nav-container{padding:0.75rem 1rem;min-height:70px}
+            .nav-menu{display:none;position:absolute;top:100%;left:0;width:100%;background:var(--white);flex-direction:column;box-shadow:0 4px 12px rgba(0,0,0,0.1);padding:1rem;border-top:1px solid #e5e7eb}
+            .nav-menu.active{display:flex}
+            .nav-item{width:100%}
+            .nav-link{padding:1rem;justify-content:flex-start;min-height:auto;width:100%;border-radius:0}
+            .hamburger{display:flex}
+            .hero-container{grid-template-columns:1fr;text-align:center;padding-top:80px}
+            .hero-section{padding-top:80px}
+        }
     </style>
     
-    <!-- Non-critical CSS - Load asynchronously -->
-    <link rel="stylesheet" href="css/main.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="css/main.css"></noscript>
+    <!-- Critical CSS - Load immediately -->
+    <link rel="stylesheet" href="css/main.css">
     
+    <!-- Non-critical CSS - Load asynchronously -->
     <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="css/style.css"></noscript>
     
@@ -49,9 +87,6 @@
     <link rel="stylesheet" href="css/wellpharma-theme.css" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="css/wellpharma-theme.css"></noscript>
     
-    <!-- Resource Hints for Critical Images -->
-    <link rel="preload" href="images/pharmacy-interior.jpg" as="image">
-    <link rel="preload" href="images/wellpharma-logo.png" as="image">
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
@@ -144,7 +179,7 @@
                 </div>
                 
                 <div class="hero-image">
-                    <img src="images/pharmacy-interior.jpg" alt="WellPharma Pharmacy Interior - Modern, Clean Pharmacy in Randallstown MD" fetchpriority="high" decoding="async" width="600" height="400">
+                    <img src="images/pharmacy-interior.jpg" alt="WellPharma Pharmacy Interior - Modern, Clean Pharmacy in Randallstown MD" fetchpriority="high" loading="eager" decoding="sync" width="600" height="400">
                 </div>
             </div>
         </section>
@@ -554,7 +589,11 @@
                     <!-- Right Column - Contact Form (Taking full right side) -->
                     <div class="contact-form">
                         <h3>Get in Touch</h3>
-                        <form id="contactForm">
+                        <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/thank-you">
+                            <!-- Hidden spam protection field -->
+                            <div style="display: none;">
+                                <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+                            </div>
                             <div class="form-group">
                                 <label for="fullName">Full Name</label>
                                 <input type="text" id="fullName" name="fullName" required>
@@ -639,7 +678,7 @@
                                     <span class="faq-toggle">+</span>
                                 </button>
                                 <div class="faq-answer">
-                                    <p>Yes! Licensed pharmacists in Maryland can prescribe hormonal contraceptives after a consultation. No doctor referral needed. We offer same-day birth control prescriptions for $25.</p>
+                                    <p>Yes, licensed pharmacists in Maryland can prescribe contraceptives after a consultation. No doctor referral needed. We offer same-day birth control prescriptions for up to 12-month supply.</p>
                                 </div>
                             </div>
                             
@@ -649,7 +688,7 @@
                                     <span class="faq-toggle">+</span>
                                 </button>
                                 <div class="faq-answer">
-                                    <p>Our pharmacist birth control consultation is only $25 - lower than competitors ($28-$39). Insurance may cover the consultation fee. The consultation includes personalized recommendations and same-day prescription.</p>
+                                    <p>Our pharmacist birth control consultation is only $30. Many insurance plans cover the consultation fee, and you can use your FSA/HSA card for payment. This affordable service includes personalized recommendations and same-day prescription - much more convenient than waiting days for online services.</p>
                                 </div>
                             </div>
                             
@@ -669,7 +708,7 @@
                                     <span class="faq-toggle">+</span>
                                 </button>
                                 <div class="faq-answer">
-                                    <p>No insurance required! Our $25 consultation fee is affordable without insurance. We also accept most insurance plans that may cover both the consultation and prescription costs.</p>
+                                    <p>No insurance required! Our $30 consultation fee is affordable without insurance. We accept most insurance plans that may cover both the consultation and prescription costs, plus you can use your FSA or HSA card for convenient payment.</p>
                                 </div>
                             </div>
                         </div>
@@ -1023,7 +1062,7 @@
                 </div>
                 <p class="license-info">
                     <strong>Licensed by:</strong> Maryland Board of Pharmacy | <strong>NPI:</strong> 1003585373 | 
-                    <a href="admin.html" style="color: #374151; text-decoration: none; font-size: 0.8em;">Admin</a>
+                    <a href="admin.html" style="color: #374151; text-decoration: none; font-size: 0.8rem;">Admin</a>
                 </p>
             </div>
         </div>
@@ -1036,6 +1075,28 @@
     <script src="js/dynamic-blog.js" defer></script>
 </body>
 
-<!-- RapidSSL Site Seal - Deferred Loading -->
-<script type='text/javascript' src='https://www.rapidscansecure.com/siteseal/siteseal.js?code=126,2322C3E75D661756CB85B2A20573DCD7324F2C83' defer></script>
+<!-- RapidSSL Site Seal - Optimized Loading -->
+<script>
+// Load RapidSSL script with better caching strategy
+(function() {
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.async = true;
+    script.src = 'https://www.rapidscansecure.com/siteseal/siteseal.js?code=126,2322C3E75D661756CB85B2A20573DCD7324F2C83';
+    
+    // Add cache-friendly loading
+    script.onerror = function() {
+        console.log('RapidSSL seal failed to load');
+    };
+    
+    // Load after page is fully loaded to avoid blocking
+    if (document.readyState === 'complete') {
+        document.head.appendChild(script);
+    } else {
+        window.addEventListener('load', function() {
+            document.head.appendChild(script);
+        });
+    }
+})();
+</script>
 </html>

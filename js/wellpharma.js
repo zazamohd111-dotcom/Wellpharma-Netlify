@@ -85,9 +85,11 @@ document.addEventListener('DOMContentLoaded', function() {
             e.preventDefault();
             const target = document.querySelector(this.getAttribute('href'));
             if (target) {
-                // Get actual header height dynamically
-                const header = document.querySelector('.header');
-                const headerHeight = header ? header.offsetHeight : 80;
+                // Cache header height to avoid repeated DOM queries
+                if (!window.cachedHeaderHeight) {
+                    const header = document.querySelector('.header');
+                    window.cachedHeaderHeight = header ? header.offsetHeight : 80;
+                }
                 
                 // Much larger padding for contact section to show full card
                 const targetHref = this.getAttribute('href');
@@ -102,14 +104,17 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                 }
                 
-                const totalOffset = headerHeight + extraPadding;
+                const totalOffset = window.cachedHeaderHeight + extraPadding;
                 
-                const elementPosition = target.getBoundingClientRect().top;
-                const offsetPosition = elementPosition + window.pageYOffset - totalOffset;
-                
-                window.scrollTo({
-                    top: offsetPosition,
-                    behavior: 'smooth'
+                // Use requestAnimationFrame to batch DOM reads
+                requestAnimationFrame(() => {
+                    const elementPosition = target.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - totalOffset;
+                    
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
                 });
             }
         });
@@ -131,15 +136,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             });
             
-            // Toggle current FAQ
+            // Toggle current FAQ with requestAnimationFrame to prevent forced reflow
             this.classList.toggle('active');
-            if (answer.style.maxHeight) {
-                answer.style.maxHeight = null;
-                toggle.textContent = '+';
-            } else {
-                answer.style.maxHeight = answer.scrollHeight + "px";
-                toggle.textContent = '−';
-            }
+            
+            requestAnimationFrame(() => {
+                if (answer.style.maxHeight) {
+                    answer.style.maxHeight = null;
+                    toggle.textContent = '+';
+                } else {
+                    // Read DOM property first
+                    const scrollHeight = answer.scrollHeight;
+                    // Then write to DOM
+                    answer.style.maxHeight = scrollHeight + "px";
+                    toggle.textContent = '−';
+                }
+            });
         });
     });
     
