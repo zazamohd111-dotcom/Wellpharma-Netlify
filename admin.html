@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WellPharma Blog Admin</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', Arial, sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .admin-header {
+            background: linear-gradient(135deg, #2c5aa0 0%, #1e3a8a 100%);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .admin-header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .admin-header p {
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px 20px;
+        }
+
+        .admin-section {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .section-title {
+            color: #2c5aa0;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 10px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #374151;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: #2c5aa0;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #2c5aa0 0%, #1e3a8a 100%);
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(44, 90, 160, 0.3);
+        }
+
+        .btn-danger {
+            background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+        }
+
+        .btn-danger:hover {
+            box-shadow: 0 5px 15px rgba(220, 38, 38, 0.3);
+        }
+
+        .blog-list,
+        .category-list {
+            display: grid;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .blog-item,
+        .category-item {
+            background: #f9fafb;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e5e7eb;
+        }
+
+        .item-actions {
+            margin-top: 15px;
+        }
+
+        .success-message,
+        .error-message {
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .success-message {
+            background-color: #d1fae5;
+            color: #065f46;
+            border: 1px solid #a7f3d0;
+        }
+
+        .error-message {
+            background-color: #fee2e2;
+            color: #991b1b;
+            border: 1px solid #fca5a5;
+        }
+
+        .preview-image {
+            max-width: 200px;
+            max-height: 150px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        .tabs {
+            display: flex;
+            background: #e5e7eb;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 30px;
+        }
+
+        .tab {
+            flex: 1;
+            padding: 15px;
+            text-align: center;
+            cursor: pointer;
+            font-weight: 600;
+            background: #e5e7eb;
+            transition: all 0.3s ease;
+        }
+
+        .tab.active {
+            background: white;
+            color: #2c5aa0;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px 15px;
+            }
+            
+            .admin-section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="admin-header">
+        <h1>WellPharma Blog Manager</h1>
+        <p>Manage your blog posts and categories</p>
+    </div>
+
+    <div class="container">
+        <div id="message-container"></div>
+
+        <div class="tabs">
+            <div class="tab active" onclick="switchTab('blogs')">Blog Posts</div>
+            <div class="tab" onclick="switchTab('categories')">Categories</div>
+        </div>
+
+        <!-- Blog Management Tab -->
+        <div id="blogs-tab" class="tab-content active">
+            <div class="admin-section">
+                <h2 class="section-title">Add/Edit Blog Post</h2>
+                <form id="blog-form">
+                    <input type="hidden" id="blog-id">
+                    
+                    <div class="form-group">
+                        <label for="blog-title">Blog Title</label>
+                        <input type="text" id="blog-title" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="blog-image">Image URL</label>
+                        <input type="url" id="blog-image" placeholder="https://example.com/image.jpg" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="blog-link">Blog Link URL</label>
+                        <input type="url" id="blog-link" placeholder="https://example.com/article" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="blog-alt">Image Alt Text</label>
+                        <input type="text" id="blog-alt" placeholder="Descriptive text for accessibility" required>
+                    </div>
+
+                    <button type="submit" class="btn">Save Blog Post</button>
+                    <button type="button" class="btn" onclick="clearBlogForm()">Clear Form</button>
+                </form>
+            </div>
+
+            <div class="admin-section">
+                <h2 class="section-title">Current Blog Posts</h2>
+                <div id="blog-list" class="blog-list"></div>
+            </div>
+        </div>
+
+        <!-- Category Management Tab -->
+        <div id="categories-tab" class="tab-content">
+            <div class="admin-section">
+                <h2 class="section-title">Add/Edit Category</h2>
+                <form id="category-form">
+                    <input type="hidden" id="category-id">
+                    
+                    <div class="form-group">
+                        <label for="category-title">Category Title</label>
+                        <input type="text" id="category-title" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="category-subtitle">Category Subtitle</label>
+                        <input type="text" id="category-subtitle" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="category-link">Category Link URL</label>
+                        <input type="url" id="category-link" placeholder="https://example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="category-class">CSS Class Name</label>
+                        <input type="text" id="category-class" placeholder="category-example" required>
+                        <small style="color: #6b7280;">Used for styling - use lowercase with hyphens</small>
+                    </div>
+
+                    <button type="submit" class="btn">Save Category</button>
+                    <button type="button" class="btn" onclick="clearCategoryForm()">Clear Form</button>
+                </form>
+            </div>
+
+            <div class="admin-section">
+                <h2 class="section-title">Current Categories</h2>
+                <div id="category-list" class="category-list"></div>
+            </div>
+        </div>
+
+        <div class="admin-section">
+            <h2 class="section-title">Export/Import Data</h2>
+            <p style="margin-bottom: 15px;">Backup your data or restore from a previous backup:</p>
+            <button class="btn" onclick="exportData()">Export Data</button>
+            <button class="btn" onclick="document.getElementById('import-file').click()">Import Data</button>
+            <input type="file" id="import-file" accept=".json" style="display: none;" onchange="importData(event)">
+        </div>
+    </div>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>

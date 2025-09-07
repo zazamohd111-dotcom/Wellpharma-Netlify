@@ -595,7 +595,7 @@ h3 {
 }
 
 .footer-section a {
-    color: #ccc;
+    color: #e5e7eb;
     text-decoration: none;
     transition: var(--transition);
 }
@@ -631,7 +631,7 @@ h3 {
 }
 
 .legal-links a {
-    color: #ccc;
+    color: #e5e7eb;
     text-decoration: none;
     font-size: 0.875rem;
 }

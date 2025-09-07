@@ -7,16 +7,51 @@
     <title>Wellpharma Pharmacy - Prescription Services & Healthcare in Randallstown, MD</title>
     <meta name="description" content="Your trusted independent pharmacy in Randallstown, MD. Same-day birth control prescribing, compounding services, immunizations, and free delivery. Call (410) 698-9068.">
     
-    <!-- Google Fonts -->
+    <!-- DNS Prefetch for External Resources -->
+    <link rel="dns-prefetch" href="//www.google.com">
+    <link rel="dns-prefetch" href="//maps.googleapis.com">
+    <link rel="dns-prefetch" href="//www.rapidscansecure.com">
+    <link rel="dns-prefetch" href="//myzrtlab.com">
+    <link rel="dns-prefetch" href="//app.formdr.com">
+    <link rel="dns-prefetch" href="//www.drugs.com">
+    
+    <!-- Google Fonts - Optimized Loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"></noscript>
     
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/hero-fullscreen.css">
-    <link rel="stylesheet" href="css/wellpharma-theme.css">
+    <!-- Critical CSS - Inline for immediate rendering -->
+    <style>
+        :root{--primary-color:rgb(77,123,107);--secondary-color:rgb(144,173,114);--text-color:#2e2e2e;--white:#ffffff;--transition:all 0.3s ease-out}
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Open Sans',Arial,sans-serif;line-height:1.6;color:var(--text-color);background:var(--white)}
+        .header{position:fixed;top:0;width:100%;background:var(--white);z-index:1000;box-shadow:0 2px 10px rgba(0,0,0,0.1)}
+        .nav-container{display:flex;justify-content:space-between;align-items:center;padding:1rem 2rem}
+        .logo{height:60px}
+        .hero-section{padding-top:100px;min-height:80vh;display:flex;align-items:center}
+        .hero-container{max-width:1200px;margin:0 auto;padding:0 2rem;display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
+        .btn{display:inline-block;padding:12px 24px;border:none;border-radius:8px;text-decoration:none;font-weight:600;transition:var(--transition);cursor:pointer}
+        .btn-primary{background:var(--primary-color);color:var(--white)}
+        .btn-secondary{background:transparent;color:var(--primary-color);border:2px solid var(--primary-color)}
+    </style>
+    
+    <!-- Non-critical CSS - Load asynchronously -->
+    <link rel="stylesheet" href="css/main.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="css/main.css"></noscript>
+    
+    <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="css/style.css"></noscript>
+    
+    <link rel="stylesheet" href="css/hero-fullscreen.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="css/hero-fullscreen.css"></noscript>
+    
+    <link rel="stylesheet" href="css/wellpharma-theme.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="css/wellpharma-theme.css"></noscript>
+    
+    <!-- Resource Hints for Critical Images -->
+    <link rel="preload" href="images/pharmacy-interior.jpg" as="image">
+    <link rel="preload" href="images/wellpharma-logo.png" as="image">
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
@@ -28,7 +63,7 @@
             <div class="nav-container">
                 <div class="nav-logo site-branding">
                     <a href="#home">
-                        <img src="images/wellpharma-logo.png" alt="WellPharma Pharmacy Logo" class="logo">
+                        <img src="images/wellpharma-logo.png" alt="WellPharma Pharmacy Logo" class="logo" width="120" height="60" decoding="async">
                     </a>
                 </div>
                 
@@ -36,8 +71,8 @@
                     <li class="nav-item dropdown">
                         <a href="#prescriptions" class="nav-link">Prescriptions <span class="dropdown-arrow">▼</span></a>
                         <div class="dropdown-menu">
-                            <a href="#refill-prescription-card" class="dropdown-link">Refill</a>
-                            <a href="#transfer-prescription-card" class="dropdown-link">Transfer</a>
+                            <a href="https://app.formdr.com/practice/NDUzNjE=/form/eg8P_60baYvMleMIRDy3ux7YtPT4GAAY" class="dropdown-link" target="_blank">Refill</a>
+                            <a href="https://app.formdr.com/practice/NDUzNjE=/form/t8T5m2GJfxhERNOEJgdxFg19xks4_Se2" class="dropdown-link" target="_blank">Transfer</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -51,10 +86,10 @@
                         <a href="#services" class="nav-link">Services <span class="dropdown-arrow">▼</span></a>
                         <div class="dropdown-menu">
                             <a href="#immunizations-card" class="dropdown-link">Immunizations</a>
-                            <a href="#compounding" class="dropdown-link">Compounding</a>
                             <a href="#testing-card" class="dropdown-link">Testing</a>
                             <a href="#hormone-kits-card" class="dropdown-link">Hormone Kits</a>
-                            <a href="#comprehensive-services" class="dropdown-link">Pharmacy Care at Home</a>
+                            <a href="https://app.formdr.com/practice/NDUzNjE=/form/4jeHvkYWSUxEgFnzx0VpmpH4FHRePzps" class="dropdown-link" target="_blank">Pharmacy Care at Home</a>
+                            <a href="https://pharmacy.imagemovermd.com/v1/web-workflow/117/self-registration.html" class="dropdown-link" target="_blank">Other</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -109,7 +144,7 @@
                 </div>
                 
                 <div class="hero-image">
-                    <img src="images/pharmacy-interior.jpg" alt="WellPharma Pharmacy Interior - Modern, Clean Pharmacy in Randallstown MD" loading="lazy">
+                    <img src="images/pharmacy-interior.jpg" alt="WellPharma Pharmacy Interior - Modern, Clean Pharmacy in Randallstown MD" fetchpriority="high" decoding="async" width="600" height="400">
                 </div>
             </div>
         </section>
@@ -130,7 +165,7 @@
                     </div>
                     
                     <div class="content-right">
-                        <img src="images/birth-control-consultation.jpg" alt="Birth Control Consultation with Pharmacist at WellPharma" loading="lazy">
+                        <img src="images/birth-control-consultation.jpg" alt="Birth Control Consultation with Pharmacist at WellPharma" fetchpriority="high" decoding="async" width="500" height="375">
                     </div>
                 </div>
                 
@@ -141,14 +176,14 @@
                             <ol>
                                 <li>Complete a quick health consultation with our licensed pharmacist</li>
                                 <li>Get your prescription reviewed and approved if medically appropriate</li>
-                                <li>Pick up your birth control the same day</li>
+                                <li>Pick up your birth control the same day for up to 12-month supply</li>
                             </ol>
                         </div>
                         
                         <h3>Why Choose Us:</h3>
                         <ul>
                             <li>Same-day service - no waiting 2-5 days like online services</li>
-                            <li>Professional consultation for only $30 (insurance may cover)</li>
+                            <li>Professional consultation for only $30 (insurance may cover, FSA/HSA eligible)</li>
                             <li>Private, confidential care with a Maryland-licensed pharmacist</li>
                         </ul>
                         
@@ -172,35 +207,35 @@
                 <h2>Pharmacy Services</h2>
                 <div class="services-grid">
                     <div id="refill-prescription-card" class="service-card">
-                        <img src="images/refill-prescription.jpg" alt="Refill Prescription Service" loading="lazy">
+                        <img src="images/refill-prescription.jpg" alt="Refill Prescription Service" loading="lazy" decoding="async" width="300" height="200">
                         <h3>Refill Prescription</h3>
                         <p>Quick and easy prescription refills online or by phone</p>
-                        <a href="#refill" class="service-link action-btn">Refill</a>
+                        <a href="https://app.formdr.com/practice/NDUzNjE=/form/eg8P_60baYvMleMIRDy3ux7YtPT4GAAY" class="service-link action-btn" target="_blank">Refill</a>
                     </div>
                     
                     <div id="transfer-prescription-card" class="service-card">
-                        <img src="images/transfer-prescription.jpg" alt="Transfer Prescription Service" loading="lazy">
+                        <img src="images/transfer-prescription.jpg" alt="Transfer Prescription Service" loading="lazy" decoding="async" width="300" height="200">
                         <h3>Transfer Prescription</h3>
                         <p>Transfer your prescriptions from another pharmacy</p>
-                        <a href="#transfer" class="service-link action-btn">Transfer</a>
+                        <a href="https://app.formdr.com/practice/NDUzNjE=/form/t8T5m2GJfxhERNOEJgdxFg19xks4_Se2" class="service-link action-btn" target="_blank">Transfer</a>
                     </div>
                     
                     <div id="immunizations-card" class="service-card">
-                        <img src="images/immunizations.jpg" alt="Immunizations Service" loading="lazy">
+                        <img src="images/immunizations.jpg" alt="Immunizations Service" loading="lazy" decoding="async" width="300" height="200">
                         <h3>Get Immunizations</h3>
                         <p>Flu shots, COVID vaccines, and travel immunizations</p>
-                        <a href="#immunizations" class="service-link health-btn">Book</a>
+                        <a href="#contact" class="service-link health-btn">Schedule</a>
                     </div>
                     
                     <div id="testing-card" class="service-card">
-                        <img src="images/testing-services.jpg" alt="Testing Services" loading="lazy">
+                        <img src="images/testing-services.jpg" alt="Testing Services" loading="lazy" decoding="async">
                         <h3>Testing</h3>
                         <p>Strep tests, COVID & flu tests available for quick diagnosis</p>
-                        <a href="#testing" class="service-link schedule-btn">Schedule</a>
+                        <a href="tel:+14106989068" class="service-link schedule-btn">Schedule</a>
                     </div>
                     
                     <div id="hormone-kits-card" class="service-card">
-                        <img src="images/hormone-kits.jpg" alt="Hormone Test Kits" loading="lazy">
+                        <img src="images/hormone-kits.jpg" alt="Hormone Test Kits" loading="lazy" decoding="async">
                         <h3>Hormone Kits</h3>
                         <p>Saliva kits & blood spot kits from MyZRTLab.com for comprehensive hormone testing</p>
                         <a href="https://myzrtlab.com" class="service-link order-btn" target="_blank">Order</a>
@@ -210,7 +245,7 @@
                         <img src="images/pharmacy care at home.jpg" alt="Pharmacy Care at Home Services" loading="lazy">
                         <h3>Pharmacy Care at Home</h3>
                         <p>Let us help you age in place on your terms.</p>
-                        <a href="#comprehensive-services" class="service-link order-btn">Schedule</a>
+                        <a href="https://app.formdr.com/practice/NDUzNjE=/form/4jeHvkYWSUxEgFnzx0VpmpH4FHRePzps" class="service-link order-btn" target="_blank">Schedule</a>
                     </div>
                 </div>
             </div>
@@ -406,9 +441,9 @@
                         <span class="category-title">Hormonal Imbalance</span>
                         <span class="category-subtitle">Women's health</span>
                     </a>
-                    <a href="#weight-loss" class="category-pill category-weight-loss">
-                        <span class="category-title">Weight Loss</span>
-                        <span class="category-subtitle">Wellness</span>
+                    <a href="https://www.drugs.com/imprints.php" class="category-pill category-weight-loss" target="_blank">
+                        <span class="category-title">Pill Identifier</span>
+                        <span class="category-subtitle">Identify Your Pills</span>
                     </a>
                     <a href="#diabetes-prevention" class="category-pill category-diabetes-prevention">
                         <span class="category-title">Diabetes Prevention</span>
@@ -570,7 +605,8 @@
                         height="450" 
                         style="border:0;" 
                         allowfullscreen="" 
-                        loading="lazy">
+                        loading="lazy"
+                        title="Google Maps showing WellPharma Pharmacy location at 9818 Liberty Rd Ste B, Randallstown, MD 21133">
                     </iframe>
                     <div class="map-info">
                         <div class="map-card">
@@ -986,18 +1022,20 @@
                     </ul>
                 </div>
                 <p class="license-info">
-                    <strong>Licensed by:</strong> Maryland Board of Pharmacy | <strong>NPI:</strong> 1003585373
+                    <strong>Licensed by:</strong> Maryland Board of Pharmacy | <strong>NPI:</strong> 1003585373 | 
+                    <a href="admin.html" style="color: #374151; text-decoration: none; font-size: 0.8em;">Admin</a>
                 </p>
             </div>
         </div>
     </footer>
 
-    <!-- JavaScript -->
-    <script src="js/wellpharma.js"></script>
-    <script src="js/blog-slider.js"></script>
-    <script src="js/testimonials-slider.js"></script>
-    
-    <!-- RapidSSL Site Seal -->
-    <script type='text/javascript' src='https://www.rapidscansecure.com/siteseal/siteseal.js?code=126,2322C3E75D661756CB85B2A20573DCD7324F2C83'></script>
+    <!-- JavaScript - Optimized Loading -->
+    <script src="js/wellpharma.js" defer></script>
+    <script src="js/blog-slider.js" defer></script>
+    <script src="js/testimonials-slider.js" defer></script>
+    <script src="js/dynamic-blog.js" defer></script>
 </body>
+
+<!-- RapidSSL Site Seal - Deferred Loading -->
+<script type='text/javascript' src='https://www.rapidscansecure.com/siteseal/siteseal.js?code=126,2322C3E75D661756CB85B2A20573DCD7324F2C83' defer></script>
 </html>
