@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hormone Test Kits - At-Home Health Testing | WellPharma Pharmacy</title>
+    <meta name="description" content="Professional at-home hormone test kits from ZRT Labs and Designs for Health. Saliva hormone testing, adrenal stress, thyroid, and GI kits available in Randallstown, MD.">
+    
+    <!-- Critical Resource Preloads -->
+    <link rel="preload" href="Image.webp/hormone-kits.webp" as="image" fetchpriority="high">
+    <link rel="preload" href="Image.webp/wellpharma-logo240.webp" as="image">
+    
+    <!-- Preload Critical Fonts -->
+    <link rel="preload" href="https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVIGxA.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <!-- DNS Prefetch -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="dns-prefetch" href="//myzrtlab.com">
+    
+    <!-- Google Fonts - Non-blocking Loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap&font-display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap&font-display=swap" rel="stylesheet"></noscript>
+    
+    <!-- Critical CSS -->
+    <style>
+        :root{--primary-color:rgb(77,123,107);--secondary-color:rgb(144,173,114);--text-color:#2e2e2e;--white:#ffffff;--light-bg:rgb(235,243,237);--transition:all 0.3s ease-out}
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Open Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:17px;font-weight:500;line-height:1.6;color:var(--text-color);background:var(--white)}
+        
+        /* Header Styles */
+        .header{position:fixed;top:0;width:100%;background:var(--white);z-index:1000;box-shadow:0 2px 10px rgba(0,0,0,0.1);min-height:80px}
+        .nav{padding:0;height:100%}
+        .nav-container{display:flex;justify-content:space-between;align-items:center;padding:1rem 2rem;max-width:1200px;margin:0 auto;min-height:80px}
+        .nav-logo{display:flex;align-items:center}
+        .logo{height:60px;width:auto;display:block}
+        .nav-menu{display:flex;list-style:none;margin:0;padding:0;gap:0.5rem;align-items:center;height:100%}
+        .nav-item{position:relative;height:auto}
+        .nav-link{display:flex;align-items:center;padding:0.75rem 1rem;color:var(--text-color);text-decoration:none;font-weight:600;font-size:1rem;line-height:1.5;border-radius:6px;white-space:nowrap;min-height:44px;box-sizing:border-box}
+        .nav-link:hover{background:var(--light-bg);color:var(--primary-color)}
+        .hamburger{display:none;flex-direction:column;cursor:pointer;gap:4px;padding:8px;background:none;border:none}
+        .bar{width:25px;height:3px;background:var(--primary-color);transition:all 0.3s ease;border-radius:2px}
+        
+        /* Hero Section */
+        .hero-section{padding:120px 2rem 80px;background:linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%)}
+        .hero-container{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
+        .hero-content h1{color:var(--white);margin-bottom:1rem;font-size:2.8rem;font-weight:700;line-height:1.2}
+        .hero-content p{margin-bottom:1rem;font-size:1.2rem;color:var(--white)}
+        .hero-image{aspect-ratio:3/2;display:flex;align-items:center;justify-content:center}
+        .hero-image img{width:100%;height:100%;object-fit:cover;border-radius:12px}
+        .btn{display:inline-block;padding:12px 24px;border:none;border-radius:8px;text-decoration:none;font-weight:700;font-size:1.1rem;transition:var(--transition);cursor:pointer;text-align:center}
+        .btn-primary{background:#ff6b6b;color:var(--white)}
+        .btn-primary:hover{background:#ff5252;transform:translateY(-1px)}
+        .btn-secondary{background:transparent;color:var(--white);border:2px solid var(--white)}
+        .btn-secondary:hover{background:var(--white);color:var(--primary-color)}
+        
+        /* Trust Badges */
+        .trust-badges{padding:2rem;background:var(--white);border-bottom:1px solid #e5e5e5}
+        .badges-grid{display:flex;justify-content:center;align-items:center;gap:3rem;flex-wrap:wrap;max-width:1200px;margin:0 auto}
+        .badge-item{display:flex;align-items:center;gap:0.5rem}
+        .badge-icon{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;background:var(--primary-color);color:var(--white);border-radius:50%;font-size:14px;font-weight:bold}
+        .badge-text{color:var(--text-color);font-size:0.95rem;font-weight:600}
+        
+        /* Content Sections */
+        .section{padding:4rem 2rem}
+        .section-light{background:var(--light-bg)}
+        .container{max-width:1200px;margin:0 auto}
+        .section h2{color:var(--primary-color);margin-bottom:2rem;font-size:2.2rem;font-weight:700;text-align:center}
+        .section h3{color:var(--primary-color);margin-bottom:1rem;font-size:1.5rem;font-weight:600}
+        .section p{margin-bottom:1.5rem;line-height:1.6}
+        .section ul{margin-bottom:1.5rem;padding-left:1.5rem}
+        .section li{margin-bottom:0.5rem;list-style-type:disc}
+        
+        /* Features Section */
+        .features-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;margin:3rem 0}
+        .feature-card{background:var(--white);border:1px solid #e5e5e5;border-radius:12px;padding:2rem;box-shadow:0 2px 10px rgba(0,0,0,0.08);transition:var(--transition);display:flex;flex-direction:column;text-align:center}
+        .feature-card:hover{transform:translateY(-5px);box-shadow:0 4px 20px rgba(0,0,0,0.12)}
+        .feature-icon{width:80px;height:80px;margin:0 auto 1.5rem;background:linear-gradient(135deg, #667eea 0%, #764ba2 100%);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:2rem}
+        .feature-card h3{color:#2563eb;margin-bottom:1rem;font-size:1.3rem}
+        .feature-card p{color:#666;margin-bottom:1.5rem;font-size:0.95rem;line-height:1.5}
+        .feature-list{list-style:none;padding:0;margin:0 0 1.5rem 0;text-align:left}
+        .feature-list li{position:relative;padding-left:1.8rem;margin-bottom:0.8rem;color:#555;font-size:0.9rem;line-height:1.4}
+        .feature-list li:before{content:"✓";position:absolute;left:0;color:var(--primary-color);font-weight:bold;font-size:1.1rem}
+        .price{font-size:2.5rem;color:#ff6b6b;font-weight:bold;text-align:center;margin:1.5rem 0 1rem}
+        .btn-feature{background:#2563eb;color:var(--white);padding:12px 30px;border-radius:25px;display:inline-block;text-decoration:none;font-weight:600;transition:all 0.3s;margin-top:auto}
+        .btn-feature:hover{background:#1d4ed8;transform:translateY(-2px)}
+        
+        /* Steps Section */
+        .steps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;margin:3rem 0}
+        .step-card{text-align:center;padding:2rem}
+        .step-number{width:60px;height:60px;margin:0 auto 1.5rem;background:#ff6b6b;color:var(--white);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.8rem;font-weight:bold}
+        .step-card h3{color:#2563eb;margin-bottom:1rem;font-size:1.3rem;font-weight:600}
+        .step-card p{color:#666;line-height:1.6;font-size:0.95rem}
+        
+        /* Benefits Section */
+        .benefits-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2rem;margin:3rem 0}
+        .benefit-card{text-align:center;padding:1.5rem}
+        .benefit-icon{width:80px;height:80px;margin:0 auto 1.5rem;background:var(--primary-color);border-radius:50%;display:flex;align-items:center;justify-content:center}
+        .benefit-icon span{font-size:2.5rem}
+        .benefit-card h3{color:#2563eb;margin-bottom:1rem;font-size:1.1rem;font-weight:600}
+        .benefit-card p{color:#666;line-height:1.5;font-size:0.9rem}
+        
+        /* CTA Section */
+        .cta-section{background:var(--secondary-color);color:var(--white);text-align:center}
+        .cta-section h2{color:var(--white);margin-bottom:1rem}
+        .cta-section p{font-size:1.1rem;margin-bottom:2rem;color:var(--white)}
+        .btn-white{background:var(--white);color:var(--primary-color)}
+        .btn-white:hover{background:#f9f9f9;transform:translateY(-1px)}
+        
+        /* FAQ Section */
+        .faq-container{max-width:800px;margin:0 auto}
+        .faq-item{background:var(--white);border-radius:8px;margin-bottom:1rem;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.05)}
+        .faq-question{padding:1.5rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;transition:background 0.3s}
+        .faq-question:hover{background:var(--light-bg)}
+        .faq-question h3{margin:0;color:var(--primary-color);font-size:1.1rem}
+        .faq-toggle{font-size:1.5rem;color:var(--primary-color);font-weight:300;transition:transform 0.3s}
+        .faq-question.active .faq-toggle{transform:rotate(45deg)}
+        .faq-answer{max-height:0;overflow:hidden;transition:max-height 0.3s ease}
+        .faq-answer p{padding:0 1.5rem 1.5rem;margin:0;color:var(--text-color);line-height:1.6}
+        
+        /* Animation Classes */
+        .animate-on-scroll{opacity:0;transform:translateY(20px);transition:all 0.6s ease-out}
+        .animate-on-scroll.animated{opacity:1;transform:translateY(0)}
+        .kit-card.animate-on-scroll.animated{animation:popGrow 0.6s ease-out}
+        .feature-card.animate-on-scroll.animated{animation:popGrow 0.6s ease-out}
+        
+        @keyframes popGrow {
+            0% { transform: translateY(0) scale(1); }
+            50% { transform: translateY(-3px) scale(1.08); }
+            100% { transform: translateY(-5px) scale(1.05); }
+        }
+        
+        /* Tablet Styles */
+        @media (max-width: 1024px) {
+            .features-grid{grid-template-columns:repeat(2,1fr)}
+            .benefits-grid{grid-template-columns:repeat(2,1fr)}
+        }
+        
+        /* Mobile Styles */
+        @media (max-width: 768px) {
+            .nav-menu{display:none}
+            .hamburger{display:flex}
+            .hero-container{grid-template-columns:1fr;text-align:center}
+            .hero-content h1{font-size:2.2rem}
+            .section h2{font-size:1.8rem}
+            .features-grid{grid-template-columns:1fr}
+            .steps-grid{grid-template-columns:1fr}
+            .benefits-grid{grid-template-columns:1fr}
+            .badges-grid{gap:1rem;font-size:0.85rem}
+            .badge-item{flex-direction:column;text-align:center}
+            .badge-text{font-size:0.8rem}
+        }
+    </style>
+    
+    <!-- Non-critical CSS -->
+    <link rel="stylesheet" href="css/main.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="css/main.min.css"></noscript>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html">
+                        <picture>
+                            <source srcset="Image.webp/wellpharma-logo240.webp" type="image/webp">
+                            <img src="images/wellpharma-logo.png" alt="WellPharma Pharmacy Logo" class="logo" width="120" height="60" decoding="async">
+                        </picture>
+                    </a>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="index.html#services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="index.html#birth-control" class="nav-link">Birth Control</a></li>
+                    <li class="nav-item"><a href="index.html#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Professional Hormone Testing Kits</h1>
+                <p>Take control of your health with ZRT Laboratory and Designs for Health testing solutions.</p>
+                <p>Licensed pharmacist consultation included with every test.</p>
+                <div class="hero-cta">
+                    <a href="#test-kits" class="btn btn-primary">Shop Hormone Kits</a>
+                    <a href="#contact" class="btn btn-secondary">Free Consultation</a>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <picture>
+                    <source srcset="Image.webp/hormone-kits.webp" type="image/webp">
+                    <img src="images/hormone-kits.jpg" alt="Hormone Test Kits - Professional At-Home Testing" loading="eager" width="600" height="400">
+                </picture>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges Section -->
+    <section class="trust-badges">
+        <div class="container">
+            <div class="badges-grid">
+                <div class="badge-item">
+                    <span class="badge-icon">✓</span>
+                    <span class="badge-text">ZRT Laboratory Partner</span>
+                </div>
+                <div class="badge-item">
+                    <span class="badge-icon">✓</span>
+                    <span class="badge-text">Designs for Health Authorized</span>
+                </div>
+                <div class="badge-item">
+                    <span class="badge-icon">✓</span>
+                    <span class="badge-text">Licensed Pharmacist Owned</span>
+                </div>
+                <div class="badge-item">
+                    <span class="badge-icon">✓</span>
+                    <span class="badge-text">CLIA Certified Labs</span>
+                </div>
+                <div class="badge-item">
+                    <span class="badge-icon">✓</span>
+                    <span class="badge-text">Discreet Shipping</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comprehensive Hormone Testing Solutions Section -->
+    <section class="section">
+        <div class="container">
+            <h2>Comprehensive Hormone Testing Solutions</h2>
+            <p style="text-align: center; font-size: 1.1rem; margin-bottom: 3rem; color: #666;">Professional-grade testing kits with expert pharmacist interpretation and consultation</p>
+            
+            <div class="features-grid">
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">💉</div>
+                    <h3>ZRT Saliva Hormone Test Kit</h3>
+                    <p>Comprehensive saliva hormone panel measuring key reproductive and stress hormones</p>
+                    <ul class="feature-list">
+                        <li>Estradiol, Progesterone, Testosterone levels</li>
+                        <li>DHEA-S and Cortisol (4-point)</li>
+                        <li>FSH and LH measurement</li>
+                        <li>Easy at-home saliva collection</li>
+                        <li>7-10 day turnaround time</li>
+                    </ul>
+                    <div class="price">$299</div>
+                    <a href="#" class="btn btn-feature">Learn More</a>
+                </div>
+                
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Adrenal Stress Test Kit</h3>
+                    <p>ZRT Laboratory adrenal function assessment for stress and energy optimization</p>
+                    <ul class="feature-list">
+                        <li>4-point cortisol rhythm analysis</li>
+                        <li>DHEA-S measurement</li>
+                        <li>Cortisol awakening response</li>
+                        <li>Stress resilience evaluation</li>
+                        <li>Fatigue and sleep assessment</li>
+                    </ul>
+                    <div class="price">$199</div>
+                    <a href="#" class="btn btn-feature">Learn More</a>
+                </div>
+                
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">🦋</div>
+                    <h3>Thyroid Function Test Kit</h3>
+                    <p>Complete thyroid panel including TSH, T3, T4, and thyroid antibodies</p>
+                    <ul class="feature-list">
+                        <li>TSH, Free T3, Free T4</li>
+                        <li>Reverse T3 measurement</li>
+                        <li>Anti-TPO and Anti-TG antibodies</li>
+                        <li>Finger stick blood collection</li>
+                        <li>Metabolism assessment</li>
+                    </ul>
+                    <div class="price">$249</div>
+                    <a href="#" class="btn btn-feature">Learn More</a>
+                </div>
+                
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon">🌱</div>
+                    <h3>GI Microbiome Test Kit</h3>
+                    <p>Designs for Health comprehensive digestive health and microbiome analysis</p>
+                    <ul class="feature-list">
+                        <li>Comprehensive stool analysis</li>
+                        <li>Beneficial bacteria assessment</li>
+                        <li>Pathogen detection</li>
+                        <li>Digestive enzyme function</li>
+                        <li>Inflammation markers</li>
+                    </ul>
+                    <div class="price">$399</div>
+                    <a href="#" class="btn btn-feature">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- How It Works Section -->
+    <section class="section">
+        <div class="container">
+            <h2>How It Works</h2>
+            <p style="text-align: center; font-size: 1.1rem; margin-bottom: 3rem; color: #666;">Simple, professional, and completely confidential</p>
+            
+            <div class="steps-grid">
+                <div class="step-card animate-on-scroll">
+                    <div class="step-number">1</div>
+                    <h3>Order Your Kit</h3>
+                    <p>Choose your hormone test kit online or visit our Randallstown pharmacy. All kits ship discreetly to your home with detailed instructions.</p>
+                </div>
+                
+                <div class="step-card animate-on-scroll">
+                    <div class="step-number">2</div>
+                    <h3>Collect Sample at Home</h3>
+                    <p>Follow the simple collection instructions. Most tests use saliva or finger stick blood - quick, easy, and painless.</p>
+                </div>
+                
+                <div class="step-card animate-on-scroll">
+                    <div class="step-number">3</div>
+                    <h3>Get Expert Results</h3>
+                    <p>Receive your results with a complimentary consultation from Dr. Zahraa Babiker, PharmD. Discuss findings and next steps.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose WellPharma Section -->
+    <section class="section section-light">
+        <div class="container">
+            <h2>Why Choose WellPharma for Hormone Testing?</h2>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card animate-on-scroll">
+                    <div class="benefit-icon">
+                        <span>👥</span>
+                    </div>
+                    <h3>Licensed Pharmacist Support</h3>
+                    <p>Dr. Zahraa Babiker, PharmD provides personalized consultation and interpretation of your hormone test results.</p>
+                </div>
+                
+                <div class="benefit-card animate-on-scroll">
+                    <div class="benefit-icon">
+                        <span>🔬</span>
+                    </div>
+                    <h3>CLIA-Certified Laboratory</h3>
+                    <p>All testing performed by ZRT Laboratory and Designs for Health - industry leaders in functional medicine testing.</p>
+                </div>
+                
+                <div class="benefit-card animate-on-scroll">
+                    <div class="benefit-icon">
+                        <span>🔒</span>
+                    </div>
+                    <h3>Complete Privacy</h3>
+                    <p>Discreet packaging, confidential results, and HIPAA-compliant handling of all your health information.</p>
+                </div>
+                
+                <div class="benefit-card animate-on-scroll">
+                    <div class="benefit-icon">
+                        <span>🏪</span>
+                    </div>
+                    <h3>Local Randallstown Support</h3>
+                    <p>Community-based pharmacy with in-person consultations available. Supporting Maryland families since 2022.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section section-light">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How accurate are at-home hormone tests?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our hormone test kits from ZRT Laboratory and Designs for Health use CLIA-certified lab processing, providing the same accuracy as tests ordered by your doctor. The saliva and blood spot collection methods have been validated through extensive research to ensure reliable results.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do I need a prescription for hormone testing?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No prescription is required for our hormone test kits. As a licensed pharmacy, we can provide these tests directly to you. Our pharmacist is available for consultation to help you select the right test and understand your results.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How long does it take to get results?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Once the lab receives your sample, results are typically available within 5-7 business days. You'll receive a comprehensive report with your hormone levels, reference ranges, and interpretive information to help you understand your results.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I use my FSA/HSA to pay for testing?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, hormone test kits are typically eligible for FSA/HSA reimbursement as they are considered medical diagnostic tests. We provide detailed receipts that you can submit to your FSA/HSA administrator for reimbursement.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What's included with my test kit purchase?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Each kit includes all collection materials, detailed instructions, prepaid return shipping label, lab processing, comprehensive results report, and a free consultation with our licensed pharmacist to discuss your results and answer any questions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta-section">
+        <div class="container">
+            <h2>Ready to Take Control of Your Health?</h2>
+            <p>Contact WellPharma Pharmacy today to learn more about our hormone test kits and get personalized recommendations.</p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="tel:+14106989068" class="btn btn-white">Call (410) 698-9068</a>
+                <a href="index.html#contact" class="btn btn-secondary">Contact Us</a>
+            </div>
+            
+            <div style="margin-top: 2rem; font-size: 0.9rem; opacity: 0.9;">
+                <p><strong>Location:</strong> 9818 Liberty Rd Ste B, Randallstown, MD 21133</p>
+                <p><strong>Hours:</strong> Monday - Friday: 10:00 AM - 6:00 PM</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section footer-about">
+                    <h3>Wellpharma Pharmacy</h3>
+                    <p>Your trusted independent pharmacy serving Randallstown, MD with personalized healthcare services since 2022.</p>
+                    <div class="footer-contact">
+                        <p>📞 <a href="tel:(410) 698-9068">(410) 698-9068</a></p>
+                        <p>📧 <a href="mailto:info@wellpharmapharmacy.com">info@wellpharmapharmacy.com</a></p>
+                        <p>📍 9818 Liberty Road Ste B, Randallstown, MD 21133</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="index.html#refill">Prescription Refill</a></li>
+                        <li><a href="index.html#birth-control">Birth Control</a></li>
+                        <li><a href="index.html#immunization">Immunizations</a></li>
+                        <li><a href="index.html#compounding">Compounding</a></li>
+                        <li><a href="hormone-kits.html">Hormone Test Kits</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="index.html#faq">FAQ</a></li>
+                        <li><a href="index.html#delivery">Delivery Info</a></li>
+                        <li><a href="index.html#hours">Hours</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Health Resources</h3>
+                    <ul>
+                        <li><a href="index.html#blog">Health Blog</a></li>
+                        <li><a href="https://www.cdc.gov/vaccines/" target="_blank">CDC Vaccine Info</a></li>
+                        <li><a href="https://www.fda.gov/drugs/drug-safety-and-availability" target="_blank">Drug Safety Info</a></li>
+                        <li><a href="index.html#medication-guides">Medication Guides</a></li>
+                        <li><a href="index.html#health-resources">Health Resources</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p>© 2025 Wellpharma Pharmacy. All rights reserved.</p>
+                    <ul class="legal-links">
+                        <li><a href="index.html#privacy">Privacy Policy</a></li>
+                        <li><a href="index.html#terms">Terms of Service</a></li>
+                        <li><a href="index.html#hipaa">HIPAA Notice</a></li>
+                    </ul>
+                </div>
+                <p class="license-info">
+                    <strong>Licensed by:</strong> Maryland Board of Pharmacy | <strong>NPI:</strong> 1003585373
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile menu toggle
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('.nav-menu');
+            
+            if (hamburger && navMenu) {
+                hamburger.addEventListener('click', function() {
+                    navMenu.classList.toggle('active');
+                });
+            }
+
+            // Smooth scrolling for internal links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+            
+            // FAQ Accordion
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const answer = this.nextElementSibling;
+                    const toggle = this.querySelector('.faq-toggle');
+                    
+                    // Close all other FAQs
+                    faqQuestions.forEach(otherQuestion => {
+                        if (otherQuestion !== this) {
+                            otherQuestion.classList.remove('active');
+                            otherQuestion.nextElementSibling.style.maxHeight = null;
+                        }
+                    });
+                    
+                    // Toggle current FAQ
+                    this.classList.toggle('active');
+                    
+                    if (answer.style.maxHeight) {
+                        answer.style.maxHeight = null;
+                    } else {
+                        answer.style.maxHeight = answer.scrollHeight + "px";
+                    }
+                });
+            });
+            
+            // Animation on Scroll
+            const animateElements = document.querySelectorAll('.animate-on-scroll');
+            if (animateElements.length > 0) {
+                const animateOnScroll = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('animated');
+                        }
+                    });
+                }, {
+                    threshold: 0.1
+                });
+                
+                animateElements.forEach(element => {
+                    animateOnScroll.observe(element);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
