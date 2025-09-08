@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pharmacy Care at Home - CMS Approved Medicare Services | WellPharma Pharmacy</title>
+    <meta name="description" content="CMS-approved Medicare pharmacy services helping seniors age safely at home. Medication management, delivery, and clinical pharmacy consultations in Randallstown, MD.">
+    
+    <!-- Critical Resource Preloads -->
+    <link rel="preload" href="Image.webp/pharmacy-interior696w.webp" as="image" fetchpriority="high">
+    <link rel="preload" href="Image.webp/wellpharma-logo240.webp" as="image">
+    
+    <!-- Preload Critical Fonts -->
+    <link rel="preload" href="https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVIGxA.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <!-- DNS Prefetch for External Resources -->
+    <link rel="dns-prefetch" href="//www.google.com">
+    <link rel="dns-prefetch" href="//maps.googleapis.com">
+    <link rel="dns-prefetch" href="//app.formdr.com">
+    
+    <!-- Google Fonts - Non-blocking Loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap&font-display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap&font-display=swap" rel="stylesheet"></noscript>
+    
+    <!-- Critical CSS - Inline for immediate rendering -->
+    <style>
+        :root{--primary-color:rgb(77,123,107);--secondary-color:rgb(144,173,114);--text-color:#2e2e2e;--white:#ffffff;--light-bg:rgb(235,243,237);--transition:all 0.3s ease-out}
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Open Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:17px;font-weight:500;line-height:1.6;color:var(--text-color);background:var(--white)}
+        
+        /* Navigation Styles */
+        .header{position:fixed;top:0;width:100%;background:var(--white);z-index:1000;box-shadow:0 2px 10px rgba(0,0,0,0.1);min-height:80px}
+        .nav{padding:0;height:100%}
+        .nav-container{display:flex;justify-content:space-between;align-items:center;padding:1rem 2rem;max-width:1200px;margin:0 auto;min-height:80px}
+        .nav-logo{display:flex;align-items:center}
+        .logo{height:60px;width:auto;display:block}
+        .nav-menu{display:flex;list-style:none;margin:0;padding:0;gap:0.5rem;align-items:center;height:100%}
+        .nav-item{position:relative;height:auto}
+        .nav-link{display:flex;align-items:center;padding:0.75rem 1rem;color:var(--text-color);text-decoration:none;font-weight:600;font-size:1rem;line-height:1.5;border-radius:6px;white-space:nowrap;min-height:44px;box-sizing:border-box}
+        .nav-link:hover{background:var(--light-bg);color:var(--primary-color)}
+        .hamburger{display:none;flex-direction:column;cursor:pointer;gap:4px;padding:8px;background:none;border:none}
+        .bar{width:25px;height:3px;background:var(--primary-color);transition:all 0.3s ease;border-radius:2px}
+        
+        /* Hero Section */
+        .hero-section{padding:120px 2rem 80px;background:var(--light-bg)}
+        .hero-container{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
+        .hero-content h1{color:var(--primary-color);margin-bottom:1rem;font-size:2.8rem;font-weight:700;line-height:1.2}
+        .hero-content p{margin-bottom:1.5rem;font-size:1.2rem;color:var(--text-color)}
+        .hero-image{aspect-ratio:3/2;display:flex;align-items:center;justify-content:center}
+        .hero-image img{width:100%;height:100%;object-fit:cover;border-radius:12px}
+        .btn{display:inline-block;padding:12px 24px;border:none;border-radius:8px;text-decoration:none;font-weight:700;font-size:1.1rem;transition:var(--transition);cursor:pointer}
+        .btn-primary{background:var(--primary-color);color:var(--white)}
+        .btn-primary:hover{background:rgb(65,103,90);transform:translateY(-1px)}
+        .btn-secondary{background:transparent;color:var(--primary-color);border:2px solid var(--primary-color)}
+        .btn-secondary:hover{background:var(--primary-color);color:var(--white)}
+        
+        /* Content Sections */
+        .section{padding:4rem 2rem}
+        .section-light{background:var(--light-bg)}
+        .container{max-width:1200px;margin:0 auto}
+        .section h2{color:var(--primary-color);margin-bottom:2rem;font-size:2.2rem;font-weight:700;text-align:center}
+        .section h3{color:var(--primary-color);margin-bottom:1rem;font-size:1.5rem;font-weight:600}
+        .section p{margin-bottom:1.5rem;line-height:1.6}
+        .section ul{margin-bottom:1.5rem}
+        .section li{margin-bottom:0.5rem;padding-left:1rem;position:relative}
+        .section li{list-style-type:disc;margin-left:1rem}
+        
+        /* Feature Grid */
+        .feature-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:2rem;margin:2rem 0}
+        .feature-card{background:var(--white);padding:2rem;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1)}
+        .feature-card h3{margin-bottom:1rem;color:var(--primary-color)}
+        .feature-card ul{margin:0}
+        
+        /* Eligibility Grid - Three Column Layout */
+        .eligibility-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:3rem;margin:2rem 0}
+        .eligibility-column{padding:1rem 0}
+        .eligibility-column h3{margin-bottom:1rem;color:var(--primary-color);font-size:1.4rem;font-weight:600}
+        .eligibility-column p{margin-bottom:1rem;line-height:1.6}
+        .eligibility-column ul{margin:0;padding-left:1rem}
+        .eligibility-column ol{margin:0;padding-left:1.5rem}
+        .eligibility-column li{margin-bottom:0.5rem}
+        
+        /* CTA Section */
+        .cta-section{background:var(--secondary-color);color:var(--white);text-align:center}
+        .cta-section h2{color:var(--white);margin-bottom:1rem}
+        .cta-section p{font-size:1.1rem;margin-bottom:2rem;color:var(--white)}
+        .cta-section strong{color:var(--white)}
+        .btn-white{background:var(--white);color:var(--primary-color)}
+        .btn-white:hover{background:#f9f9f9;transform:translateY(-1px)}
+        .cta-section .btn-secondary{background:transparent;color:var(--white);border:2px solid var(--white)}
+        .cta-section .btn-secondary:hover{background:var(--white);color:var(--primary-color)}
+        
+        /* Animation Classes */
+        .animate-on-scroll{opacity:0;transform:translateY(20px);transition:all 0.6s ease-out}
+        .animate-on-scroll.animated{opacity:1;transform:translateY(0)}
+        .feature-card.animate-on-scroll.animated{animation:popGrow 0.6s ease-out}
+        .eligibility-column.animate-on-scroll.animated{animation:popGrow 0.6s ease-out}
+        
+        @keyframes popGrow {
+            0% {
+                transform: translateY(0) scale(1);
+            }
+            50% {
+                transform: translateY(-3px) scale(1.08);
+            }
+            100% {
+                transform: translateY(-5px) scale(1.05);
+            }
+        }
+        
+        /* Mobile Styles */
+        @media (max-width: 768px) {
+            .nav-menu{display:none}
+            .hamburger{display:flex}
+            .hero-container{grid-template-columns:1fr;text-align:center}
+            .hero-content h1{font-size:2.2rem}
+            .section h2{font-size:1.8rem}
+            .feature-grid{grid-template-columns:1fr}
+            .eligibility-grid{grid-template-columns:1fr}
+        }
+    </style>
+    
+    <!-- Non-critical CSS -->
+    <link rel="stylesheet" href="css/main.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="css/main.min.css"></noscript>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html">
+                        <picture>
+                            <source srcset="Image.webp/wellpharma-logo240.webp" type="image/webp">
+                            <img src="images/wellpharma-logo.png" alt="WellPharma Pharmacy Logo" class="logo" width="120" height="60" decoding="async">
+                        </picture>
+                    </a>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="index.html#services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="index.html#birth-control" class="nav-link">Birth Control</a></li>
+                    <li class="nav-item"><a href="index.html#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Pharmacy Care at Home</h1>
+                <p><strong>CMS-Approved Medicare Pharmacy Services</strong></p>
+                <p>Helping seniors age safely at home with comprehensive medication management, delivery, and clinical pharmacy consultations.</p>
+                <div class="hero-cta">
+                    <a href="https://app.formdr.com/practice/NDUzNjE=/form/4jeHvkYWSUxEgFnzx0VpmpH4FHRePzps" class="btn btn-primary" target="_blank">Check Eligibility</a>
+                    <a href="tel:+14106989068" class="btn btn-secondary">Call (410) 698-9068</a>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <picture>
+                    <source srcset="Image.webp/pharmacy care at home.webp" type="image/webp">
+                    <img src="images/pharmacy care at home.jpg" alt="Pharmacy Care at Home Services - Senior receiving medication at home" loading="eager" width="600" height="400">
+                </picture>
+            </div>
+        </div>
+    </section>
+
+    <!-- What We Offer Section -->
+    <section class="section">
+        <div class="container">
+            <h2>Comprehensive Home Pharmacy Services</h2>
+            <p style="text-align: center; font-size: 1.1rem; margin-bottom: 3rem;">WellPharma is proud to offer Pharmacy Care at Home services, providing specialized medication management and delivery to patients who are homebound or have difficulty managing complex medication regimens.</p>
+            
+            <div class="feature-grid">
+                <div class="feature-card animate-on-scroll">
+                    <h3>Medication Delivery</h3>
+                    <ul>
+                        <li>Free home medication delivery</li>
+                        <li>Scheduled delivery coordination</li>
+                        <li>Temperature-controlled transport</li>
+                        <li>Secure delivery protocols</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card animate-on-scroll">
+                    <h3>Medication Management</h3>
+                    <ul>
+                        <li>Personalized medication packaging</li>
+                        <li>Blister pack organization</li>
+                        <li>Medication synchronization</li>
+                        <li>Refill reminder systems</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card animate-on-scroll">
+                    <h3>Clinical Consultations</h3>
+                    <ul>
+                        <li>Over-the-phone pharmacy consultations</li>
+                        <li>Medication therapy management</li>
+                        <li>Drug interaction screening</li>
+                        <li>Side effect monitoring</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card animate-on-scroll">
+                    <h3>Care Coordination</h3>
+                    <ul>
+                        <li>Communication with healthcare providers</li>
+                        <li>Insurance billing coordination</li>
+                        <li>Prior authorization assistance</li>
+                        <li>Care team collaboration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eligibility Section -->
+    <section id="eligibility" class="section section-light">
+        <div class="container">
+            <h2>Patient Eligibility Criteria</h2>
+            
+            <div class="eligibility-grid">
+                <div class="eligibility-column animate-on-scroll">
+                    <h3>Who Qualifies for Pharmacy Care at Home?</h3>
+                    <ul>
+                        <li>Homebound Medicare patients</li>
+                        <li>Patients with multiple chronic diseases</li>
+                        <li>Individuals taking 8+ medications</li>
+                        <li>Those with difficulty managing medications independently</li>
+                        <li>Patients at risk for hospital readmission</li>
+                        <li>Individuals with complex medication regimens</li>
+                    </ul>
+                </div>
+                
+                <div class="eligibility-column animate-on-scroll">
+                    <h3>Medicare Coverage</h3>
+                    <p>Certain Medicare insurance plans cover these CMS-approved services under Medicare Part D. Coverage varies by plan, and we'll verify your specific benefits to determine eligibility.</p>
+                    <p style="margin-top: 1.5rem;"><strong>Coverage includes:</strong></p>
+                    <ul style="margin-top: 0.5rem;">
+                        <li>Clinical pharmacy consultations</li>
+                        <li>Medication therapy management</li>
+                        <li>Care coordination services</li>
+                    </ul>
+                </div>
+                
+                <div class="eligibility-column animate-on-scroll">
+                    <h3>How to Get Started</h3>
+                    <p>Ready to begin? Follow these simple steps:</p>
+                    <ol style="padding-left: 1.5rem; margin-top: 1rem;">
+                        <li>Call our pharmacy at (410) 698-9068</li>
+                        <li>Speak with our clinical pharmacist</li>
+                        <li>Complete eligibility verification</li>
+                        <li>Begin personalized care plan</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="section">
+        <div class="container">
+            <h2>Benefits of Pharmacy Care at Home</h2>
+            
+            <div class="feature-grid">
+                <div class="feature-card animate-on-scroll">
+                    <h3>Prevent Hospital Readmissions</h3>
+                    <p>Our clinical pharmacy services include medication adherence monitoring and care coordination to reduce complications that lead to hospital visits.</p>
+                </div>
+                
+                <div class="feature-card animate-on-scroll">
+                    <h3>Improve Medication Adherence</h3>
+                    <p>Organized medication packaging and regular check-ins help ensure patients take medications correctly and on schedule.</p>
+                </div>
+                
+                <div class="feature-card animate-on-scroll">
+                    <h3>Age in Place Safely</h3>
+                    <p>Comprehensive support allows seniors to remain in their homes while receiving professional medication management.</p>
+                </div>
+                
+                <div class="feature-card animate-on-scroll">
+                    <h3>Cost-Effective Care</h3>
+                    <p>Preventing medication errors and hospital readmissions can result in significant healthcare cost savings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CMS Approval Section -->
+    <section class="section section-light">
+        <div class="container">
+            <h2>CMS-Approved Medicare Services</h2>
+            <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+                <p style="font-size: 1.1rem; margin-bottom: 2rem;">WellPharma Pharmacy is authorized to provide CMS-approved Pharmacy Care at Home services under Medicare Part D. These evidence-based programs are designed to improve patient outcomes while reducing healthcare costs.</p>
+                
+                <div style="background: var(--white); padding: 2rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 2rem 0;">
+                    <h3>Why Choose CMS-Approved Services?</h3>
+                    <ul style="text-align: left; margin: 1rem 0;">
+                        <li>Evidence-based care protocols</li>
+                        <li>Quality metrics and outcomes tracking</li>
+                        <li>Medicare Part D coverage for eligible patients</li>
+                        <li>Professional clinical pharmacy oversight</li>
+                        <li>Coordination with your healthcare team</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta-section">
+        <div class="container">
+            <h2>Ready to Get Started?</h2>
+            <p>Contact WellPharma Pharmacy today to learn more about our Pharmacy Care at Home services and check your Medicare eligibility.</p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="tel:+14106989068" class="btn btn-white">Call (410) 698-9068</a>
+                <a href="https://app.formdr.com/practice/NDUzNjE=/form/4jeHvkYWSUxEgFnzx0VpmpH4FHRePzps" class="btn btn-secondary" target="_blank">Schedule Consultation</a>
+            </div>
+            
+            <div style="margin-top: 2rem; font-size: 0.9rem; opacity: 0.9;">
+                <p><strong>Location:</strong> 9818 Liberty Rd Ste B, Randallstown, MD 21133</p>
+                <p><strong>Hours:</strong> Monday - Friday: 10:00 AM - 6:00 PM</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section footer-about">
+                    <h3>Wellpharma Pharmacy</h3>
+                    <p>Your trusted independent pharmacy serving Randallstown, MD with personalized healthcare services since 2022.</p>
+                    <div class="footer-contact">
+                        <p>📞 <a href="tel:(410) 698-9068">(410) 698-9068</a></p>
+                        <p>📧 <a href="mailto:info@wellpharmapharmacy.com">info@wellpharmapharmacy.com</a></p>
+                        <p>📍 9818 Liberty Road Ste B, Randallstown, MD 21133</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="index.html#refill">Prescription Refill</a></li>
+                        <li><a href="index.html#birth-control">Birth Control</a></li>
+                        <li><a href="index.html#immunization">Immunizations</a></li>
+                        <li><a href="index.html#compounding">Compounding</a></li>
+                        <li><a href="pharmacy-care-at-home.html">Pharmacy Care at Home</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="index.html#faq">FAQ</a></li>
+                        <li><a href="index.html#delivery">Delivery Info</a></li>
+                        <li><a href="index.html#hours">Hours</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Health Resources</h3>
+                    <ul>
+                        <li><a href="index.html#blog">Health Blog</a></li>
+                        <li><a href="https://www.cdc.gov/vaccines/" target="_blank">CDC Vaccine Info</a></li>
+                        <li><a href="https://www.fda.gov/drugs/drug-safety-and-availability" target="_blank">Drug Safety Info</a></li>
+                        <li><a href="index.html#medication-guides">Medication Guides</a></li>
+                        <li><a href="index.html#health-resources">Health Resources</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p>© 2025 Wellpharma Pharmacy. All rights reserved.</p>
+                    <ul class="legal-links">
+                        <li><a href="index.html#privacy">Privacy Policy</a></li>
+                        <li><a href="index.html#terms">Terms of Service</a></li>
+                        <li><a href="index.html#hipaa">HIPAA Notice</a></li>
+                    </ul>
+                </div>
+                <p class="license-info">
+                    <strong>Licensed by:</strong> Maryland Board of Pharmacy | <strong>NPI:</strong> 1003585373
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile menu toggle
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('.nav-menu');
+            
+            if (hamburger && navMenu) {
+                hamburger.addEventListener('click', function() {
+                    navMenu.classList.toggle('active');
+                });
+            }
+
+            // Smooth scrolling for internal links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+            
+            // Animation on Scroll
+            const animateElements = document.querySelectorAll('.animate-on-scroll');
+            if (animateElements.length > 0) {
+                const animateOnScroll = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('animated');
+                        }
+                    });
+                }, {
+                    threshold: 0.1
+                });
+                
+                animateElements.forEach(element => {
+                    animateOnScroll.observe(element);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
