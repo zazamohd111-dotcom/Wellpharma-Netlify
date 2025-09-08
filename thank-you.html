@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thank You - WellPharma Pharmacy</title>
+    <meta name="description" content="Thank you for contacting WellPharma Pharmacy. We'll get back to you soon!">
+    
+    <!-- Critical Resource Preloads -->
+    <link rel="preload" href="Image.webp/wellpharma-logo240.webp" as="image">
+    
+    <!-- DNS Prefetch for External Resources -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    
+    <!-- Google Fonts - Non-blocking Loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap&font-display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap&font-display=swap" rel="stylesheet"></noscript>
+    
+    <!-- Critical CSS - Inline for immediate rendering -->
+    <style>
+        :root{--primary-color:rgb(77,123,107);--secondary-color:rgb(144,173,114);--text-color:#2e2e2e;--white:#ffffff;--light-bg:rgb(235,243,237);--transition:all 0.3s ease-out}
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Open Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:17px;font-weight:500;line-height:1.6;color:var(--text-color);background:var(--white)}
+        
+        /* Header Styles */
+        .header{position:fixed;top:0;width:100%;background:var(--white);z-index:1000;box-shadow:0 2px 10px rgba(0,0,0,0.1);min-height:80px}
+        .nav{padding:0;height:100%}
+        .nav-container{display:flex;justify-content:space-between;align-items:center;padding:1rem 2rem;max-width:1200px;margin:0 auto;min-height:80px}
+        .nav-logo{display:flex;align-items:center}
+        .logo{height:60px;width:auto;display:block}
+        
+        /* Thank You Section */
+        .thank-you-section{padding:120px 2rem 80px;min-height:80vh;display:flex;align-items:center;justify-content:center;background:var(--light-bg)}
+        .thank-you-container{max-width:600px;text-align:center;background:var(--white);padding:3rem;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,0.1)}
+        .thank-you-icon{font-size:4rem;color:var(--primary-color);margin-bottom:1rem}
+        .thank-you-container h1{color:var(--primary-color);margin-bottom:1rem;font-size:2.5rem;font-weight:700}
+        .thank-you-container p{color:var(--text-color);margin-bottom:1.5rem;font-size:1.1rem;line-height:1.6}
+        .contact-info{background:var(--light-bg);padding:1.5rem;border-radius:8px;margin:2rem 0}
+        .contact-info h3{color:var(--primary-color);margin-bottom:0.5rem}
+        .contact-info p{margin:0.25rem 0;color:var(--text-color)}
+        .btn{display:inline-block;padding:12px 24px;border:none;border-radius:8px;text-decoration:none;font-weight:700;font-size:1.1rem;transition:var(--transition);cursor:pointer}
+        .btn-primary{background:var(--primary-color);color:var(--white)}
+        .btn-primary:hover{background:rgb(65,103,90);transform:translateY(-1px)}
+        .btn-secondary{background:transparent;color:var(--primary-color);border:2px solid var(--primary-color)}
+        .btn-secondary:hover{background:var(--primary-color);color:var(--white)}
+        
+        /* Footer */
+        .footer{background:var(--text-color);color:var(--white);padding:2rem 0;text-align:center}
+        .footer p{margin:0.5rem 0}
+        .footer a{color:var(--secondary-color);text-decoration:none}
+        .footer a:hover{color:var(--white)}
+        
+        @media (max-width: 768px) {
+            .thank-you-container{margin:1rem;padding:2rem}
+            .thank-you-container h1{font-size:2rem}
+            .nav-container{padding:0.75rem 1rem}
+        }
+    </style>
+    
+    <!-- Non-critical CSS - Load asynchronously -->
+    <link rel="stylesheet" href="css/main.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="css/main.min.css"></noscript>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html">
+                        <picture>
+                            <source srcset="Image.webp/wellpharma-logo240.webp" type="image/webp">
+                            <img src="images/wellpharma-logo.png" alt="WellPharma Pharmacy Logo" class="logo" width="120" height="60" decoding="async">
+                        </picture>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Thank You Section -->
+    <section class="thank-you-section">
+        <div class="thank-you-container">
+            <div class="thank-you-icon">✅</div>
+            <h1>Thank You!</h1>
+            <p><strong>Your message has been successfully submitted.</strong></p>
+            <p>We appreciate you reaching out to WellPharma Pharmacy. Our team will review your message and get back to you within 24 hours during business days.</p>
+            
+            <div class="contact-info">
+                <h3>Need Immediate Assistance?</h3>
+                <p><strong>Phone:</strong> <a href="tel:+14106989068">(410) 698-9068</a></p>
+                <p><strong>Address:</strong> 9818 Liberty Rd Ste B, Randallstown, MD 21133</p>
+                <p><strong>Hours:</strong> Monday - Friday: 10:00 AM - 6:00 PM</p>
+            </div>
+            
+            <div style="margin-top: 2rem;">
+                <a href="index.html" class="btn btn-primary">Return to Home</a>
+                <a href="index.html#services" class="btn btn-secondary">View Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div>
+            <p>© 2025 WellPharma Pharmacy. All rights reserved.</p>
+            <p><strong>Licensed by:</strong> Maryland Board of Pharmacy | <strong>NPI:</strong> 1003585373</p>
+            <p>Email: <a href="mailto:info@wellpharmapharmacy.com">info@wellpharmapharmacy.com</a></p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Auto-redirect to home after 30 seconds
+        setTimeout(function() {
+            if (confirm('Would you like to return to the home page?')) {
+                window.location.href = 'index.html';
+            }
+        }, 30000);
+    </script>
+</body>
+</html>

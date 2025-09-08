@@ -8,12 +8,15 @@
     <meta name="description" content="Your trusted independent pharmacy in Randallstown, MD. Same-day birth control prescribing, compounding services, immunizations, and free delivery. Call (410) 698-9068.">
     
     <!-- Critical Resource Preloads - WebP with fallbacks -->
-    <link rel="preload" href="Image.webp/pharmacy-interio600wr.webp" as="image" fetchpriority="high">
-    <link rel="preload" href="Image.webp/wellpharma-logo.webp" as="image">
+    <link rel="preload" href="Image.webp/pharmacy-interior696w.webp" as="image" fetchpriority="high">
+    <link rel="preload" href="Image.webp/wellpharma-logo240.webp" as="image">
     
-    <!-- Preload Critical Fonts -->
+    <!-- Preload Critical Fonts - Break loading chain -->
     <link rel="preload" href="https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVIGxA.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- Preload additional critical font weights -->
+    <link rel="preload" href="https://fonts.gstatic.com/s/opensans/v40/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWVAewA.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2" as="font" type="font/woff2" crossorigin>
     
     <!-- DNS Prefetch for External Resources -->
     <link rel="dns-prefetch" href="//www.google.com">
@@ -23,10 +26,11 @@
     <link rel="dns-prefetch" href="//app.formdr.com">
     <link rel="dns-prefetch" href="//www.drugs.com">
     
-    <!-- Google Fonts - Modern Loading -->
+    <!-- Google Fonts - Non-blocking Loading with faster fallback -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap&font-display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap&font-display=swap" rel="stylesheet"></noscript>
     
     <!-- Critical CSS - Inline for immediate rendering -->
     <style>
@@ -74,8 +78,9 @@
         }
     </style>
     
-    <!-- Critical CSS - Load immediately -->
-    <link rel="stylesheet" href="css/main.css">
+    <!-- Critical CSS - Non-blocking load (minified) -->
+    <link rel="stylesheet" href="css/main.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="css/main.min.css"></noscript>
     
     <!-- Non-critical CSS - Load asynchronously -->
     <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
@@ -84,8 +89,8 @@
     <link rel="stylesheet" href="css/hero-fullscreen.css" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="css/hero-fullscreen.css"></noscript>
     
-    <link rel="stylesheet" href="css/wellpharma-theme.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="css/wellpharma-theme.css"></noscript>
+    <link rel="stylesheet" href="css/wellpharma-theme.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="css/wellpharma-theme.min.css"></noscript>
     
     
     <!-- Favicon -->
@@ -99,7 +104,7 @@
                 <div class="nav-logo site-branding">
                     <a href="#home">
                         <picture>
-                            <source srcset="Image.webp/wellpharma-logo.webp" type="image/webp">
+                            <source srcset="Image.webp/wellpharma-logo240.webp" type="image/webp">
                             <img src="images/wellpharma-logo.png" alt="WellPharma Pharmacy Logo" class="logo" width="120" height="60" decoding="async">
                         </picture>
                     </a>
@@ -183,7 +188,7 @@
                 
                 <div class="hero-image">
                     <picture>
-                        <source srcset="Image.webp/pharmacy-interio600wr.webp 600w, Image.webp/pharmacy-interior800w.webp 800w, Image.webp/pharmacy-interior1200w.webp 1200w" type="image/webp">
+                        <source srcset="Image.webp/pharmacy-interior696w.webp 696w, Image.webp/pharmacy-interio600wr.webp 600w, Image.webp/pharmacy-interior800w.webp 800w, Image.webp/pharmacy-interior1200w.webp 1200w" type="image/webp">
                         <source srcset="Image.jpg/pharmacy-interior600w.jpg 600w, Image.jpg/pharmacy-interior800w.jpg 800w, Image.jpg/pharmacy-interio1200wr.jpg 1200w" type="image/jpeg">
                         <img src="images/pharmacy-interior.jpg" alt="WellPharma Pharmacy Interior - Modern, Clean Pharmacy in Randallstown MD" fetchpriority="high" loading="eager" decoding="sync" width="600" height="400" sizes="(max-width: 768px) 100vw, 50vw">
                     </picture>
@@ -208,7 +213,7 @@
                     
                     <div class="content-right">
                         <picture>
-                            <source srcset="Image.webp/birth-control-consultation.webp" type="image/webp">
+                            <source srcset="Image.webp/birth-control-consultation744.webp" type="image/webp">
                             <img src="images/birth-control-consultation.jpg" alt="Birth Control Consultation with Pharmacist at WellPharma" fetchpriority="high" decoding="async" width="500" height="375">
                         </picture>
                     </div>
@@ -253,7 +258,7 @@
                 <div class="services-grid">
                     <div id="refill-prescription-card" class="service-card">
                         <picture>
-                            <source srcset="Image.webp/refill-prescription.webp" type="image/webp">
+                            <source srcset="Image.webp/refill-prescription660.webp" type="image/webp">
                             <img src="images/refill-prescription.jpg" alt="Refill Prescription Service" loading="lazy" decoding="async" width="300" height="200">
                         </picture>
                         <h3>Refill Prescription</h3>
@@ -263,7 +268,7 @@
                     
                     <div id="transfer-prescription-card" class="service-card">
                         <picture>
-                            <source srcset="Image.webp/transfer-prescription.webp" type="image/webp">
+                            <source srcset="Image.webp/transfer-prescription660.webp" type="image/webp">
                             <img src="images/transfer-prescription.jpg" alt="Transfer Prescription Service" loading="lazy" decoding="async" width="300" height="200">
                         </picture>
                         <h3>Transfer Prescription</h3>
@@ -273,7 +278,7 @@
                     
                     <div id="immunizations-card" class="service-card">
                         <picture>
-                            <source srcset="Image.webp/immunizations.webp" type="image/webp">
+                            <source srcset="Image.webp/immunizations660.webp" type="image/webp">
                             <img src="images/immunizations.jpg" alt="Immunizations Service" loading="lazy" decoding="async" width="300" height="200">
                         </picture>
                         <h3>Get Immunizations</h3>
