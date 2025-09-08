@@ -7,9 +7,9 @@
     <title>Wellpharma Pharmacy - Prescription Services & Healthcare in Randallstown, MD</title>
     <meta name="description" content="Your trusted independent pharmacy in Randallstown, MD. Same-day birth control prescribing, compounding services, immunizations, and free delivery. Call (410) 698-9068.">
     
-    <!-- Critical Resource Preloads -->
-    <link rel="preload" href="images/pharmacy-interior.jpg" as="image" fetchpriority="high">
-    <link rel="preload" href="images/wellpharma-logo.png" as="image">
+    <!-- Critical Resource Preloads - WebP with fallbacks -->
+    <link rel="preload" href="Image.webp/pharmacy-interio600wr.webp" as="image" fetchpriority="high">
+    <link rel="preload" href="Image.webp/wellpharma-logo.webp" as="image">
     
     <!-- Preload Critical Fonts -->
     <link rel="preload" href="https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVIGxA.woff2" as="font" type="font/woff2" crossorigin>
@@ -98,7 +98,10 @@
             <div class="nav-container">
                 <div class="nav-logo site-branding">
                     <a href="#home">
-                        <img src="images/wellpharma-logo.png" alt="WellPharma Pharmacy Logo" class="logo" width="120" height="60" decoding="async">
+                        <picture>
+                            <source srcset="Image.webp/wellpharma-logo.webp" type="image/webp">
+                            <img src="images/wellpharma-logo.png" alt="WellPharma Pharmacy Logo" class="logo" width="120" height="60" decoding="async">
+                        </picture>
                     </a>
                 </div>
                 
@@ -179,7 +182,11 @@
                 </div>
                 
                 <div class="hero-image">
-                    <img src="images/pharmacy-interior.jpg" alt="WellPharma Pharmacy Interior - Modern, Clean Pharmacy in Randallstown MD" fetchpriority="high" loading="eager" decoding="sync" width="600" height="400">
+                    <picture>
+                        <source srcset="Image.webp/pharmacy-interio600wr.webp 600w, Image.webp/pharmacy-interior800w.webp 800w, Image.webp/pharmacy-interior1200w.webp 1200w" type="image/webp">
+                        <source srcset="Image.jpg/pharmacy-interior600w.jpg 600w, Image.jpg/pharmacy-interior800w.jpg 800w, Image.jpg/pharmacy-interio1200wr.jpg 1200w" type="image/jpeg">
+                        <img src="images/pharmacy-interior.jpg" alt="WellPharma Pharmacy Interior - Modern, Clean Pharmacy in Randallstown MD" fetchpriority="high" loading="eager" decoding="sync" width="600" height="400" sizes="(max-width: 768px) 100vw, 50vw">
+                    </picture>
                 </div>
             </div>
         </section>
@@ -200,7 +207,10 @@
                     </div>
                     
                     <div class="content-right">
-                        <img src="images/birth-control-consultation.jpg" alt="Birth Control Consultation with Pharmacist at WellPharma" fetchpriority="high" decoding="async" width="500" height="375">
+                        <picture>
+                            <source srcset="Image.webp/birth-control-consultation.webp" type="image/webp">
+                            <img src="images/birth-control-consultation.jpg" alt="Birth Control Consultation with Pharmacist at WellPharma" fetchpriority="high" decoding="async" width="500" height="375">
+                        </picture>
                     </div>
                 </div>
                 
@@ -242,42 +252,60 @@
                 <h2>Pharmacy Services</h2>
                 <div class="services-grid">
                     <div id="refill-prescription-card" class="service-card">
-                        <img src="images/refill-prescription.jpg" alt="Refill Prescription Service" loading="lazy" decoding="async" width="300" height="200">
+                        <picture>
+                            <source srcset="Image.webp/refill-prescription.webp" type="image/webp">
+                            <img src="images/refill-prescription.jpg" alt="Refill Prescription Service" loading="lazy" decoding="async" width="300" height="200">
+                        </picture>
                         <h3>Refill Prescription</h3>
                         <p>Quick and easy prescription refills online or by phone</p>
                         <a href="https://app.formdr.com/practice/NDUzNjE=/form/eg8P_60baYvMleMIRDy3ux7YtPT4GAAY" class="service-link action-btn" target="_blank">Refill</a>
                     </div>
                     
                     <div id="transfer-prescription-card" class="service-card">
-                        <img src="images/transfer-prescription.jpg" alt="Transfer Prescription Service" loading="lazy" decoding="async" width="300" height="200">
+                        <picture>
+                            <source srcset="Image.webp/transfer-prescription.webp" type="image/webp">
+                            <img src="images/transfer-prescription.jpg" alt="Transfer Prescription Service" loading="lazy" decoding="async" width="300" height="200">
+                        </picture>
                         <h3>Transfer Prescription</h3>
                         <p>Transfer your prescriptions from another pharmacy</p>
                         <a href="https://app.formdr.com/practice/NDUzNjE=/form/t8T5m2GJfxhERNOEJgdxFg19xks4_Se2" class="service-link action-btn" target="_blank">Transfer</a>
                     </div>
                     
                     <div id="immunizations-card" class="service-card">
-                        <img src="images/immunizations.jpg" alt="Immunizations Service" loading="lazy" decoding="async" width="300" height="200">
+                        <picture>
+                            <source srcset="Image.webp/immunizations.webp" type="image/webp">
+                            <img src="images/immunizations.jpg" alt="Immunizations Service" loading="lazy" decoding="async" width="300" height="200">
+                        </picture>
                         <h3>Get Immunizations</h3>
                         <p>Flu shots, COVID vaccines, and travel immunizations</p>
                         <a href="#contact" class="service-link health-btn">Schedule</a>
                     </div>
                     
                     <div id="testing-card" class="service-card">
-                        <img src="images/testing-services.jpg" alt="Testing Services" loading="lazy" decoding="async">
+                        <picture>
+                            <source srcset="Image.webp/testing-services.webp" type="image/webp">
+                            <img src="images/testing-services.jpg" alt="Testing Services" loading="lazy" decoding="async">
+                        </picture>
                         <h3>Testing</h3>
                         <p>Strep tests, COVID & flu tests available for quick diagnosis</p>
                         <a href="tel:+14106989068" class="service-link schedule-btn">Schedule</a>
                     </div>
                     
                     <div id="hormone-kits-card" class="service-card">
-                        <img src="images/hormone-kits.jpg" alt="Hormone Test Kits" loading="lazy" decoding="async">
+                        <picture>
+                            <source srcset="Image.webp/hormone-kits.webp" type="image/webp">
+                            <img src="images/hormone-kits.jpg" alt="Hormone Test Kits" loading="lazy" decoding="async">
+                        </picture>
                         <h3>Hormone Kits</h3>
                         <p>Saliva kits & blood spot kits from MyZRTLab.com for comprehensive hormone testing</p>
                         <a href="https://myzrtlab.com" class="service-link order-btn" target="_blank">Order</a>
                     </div>
                     
                     <div id="pharmacy-care-at-home-card" class="service-card">
-                        <img src="images/pharmacy care at home.jpg" alt="Pharmacy Care at Home Services" loading="lazy">
+                        <picture>
+                            <source srcset="Image.webp/pharmacy care at home.webp" type="image/webp">
+                            <img src="images/pharmacy care at home.jpg" alt="Pharmacy Care at Home Services" loading="lazy">
+                        </picture>
                         <h3>Pharmacy Care at Home</h3>
                         <p>Let us help you age in place on your terms.</p>
                         <a href="https://app.formdr.com/practice/NDUzNjE=/form/4jeHvkYWSUxEgFnzx0VpmpH4FHRePzps" class="service-link order-btn" target="_blank">Schedule</a>
@@ -381,7 +409,10 @@
                             <!-- Blog Card 1 -->
                             <div class="blog-card">
                                 <div class="blog-card-image">
-                                    <img src="images/blog-pill-organizers.jpg" alt="Pill organizers: Your guide to medication management" loading="lazy">
+                                    <picture>
+                                        <source srcset="Image.webp/blog-pill-organizers.webp" type="image/webp">
+                                        <img src="images/blog-pill-organizers.jpg" alt="Pill organizers: Your guide to medication management" loading="lazy">
+                                    </picture>
                                     <div class="blog-card-overlay">
                                         <h3>Pill organizers: Your guide to medication management</h3>
                                     </div>
@@ -392,7 +423,10 @@
                             <!-- Blog Card 2 -->
                             <div class="blog-card">
                                 <div class="blog-card-image">
-                                    <img src="images/blog-compounding.png" alt="Custom compounding: Personalized medications for your needs" loading="lazy">
+                                    <picture>
+                                        <source srcset="Image.webp/blog-compounding.webp" type="image/webp">
+                                        <img src="images/blog-compounding.png" alt="Custom compounding: Personalized medications for your needs" loading="lazy">
+                                    </picture>
                                     <div class="blog-card-overlay">
                                         <h3>Custom compounding: Personalized medications for your needs</h3>
                                     </div>
@@ -403,7 +437,10 @@
                             <!-- Blog Card 3 -->
                             <div class="blog-card">
                                 <div class="blog-card-image">
-                                    <img src="images/blog-birth-control.jpg" alt="Your complete guide to birth control options" loading="lazy">
+                                    <picture>
+                                        <source srcset="Image.webp/blog-birth-control.webp" type="image/webp">
+                                        <img src="images/blog-birth-control.jpg" alt="Your complete guide to birth control options" loading="lazy">
+                                    </picture>
                                     <div class="blog-card-overlay">
                                         <h3>Your complete guide to birth control options</h3>
                                     </div>
@@ -414,7 +451,10 @@
                             <!-- Blog Card 4 -->
                             <div class="blog-card">
                                 <div class="blog-card-image">
-                                    <img src="images/blog-vaccines.jpg" alt="Essential vaccines: What adults need to know" loading="lazy">
+                                    <picture>
+                                        <source srcset="Image.webp/blog-vaccines.webp" type="image/webp">
+                                        <img src="images/blog-vaccines.jpg" alt="Essential vaccines: What adults need to know" loading="lazy">
+                                    </picture>
                                     <div class="blog-card-overlay">
                                         <h3>Essential vaccines: What adults need to know</h3>
                                     </div>
@@ -425,7 +465,10 @@
                             <!-- Duplicate cards for seamless loop -->
                             <div class="blog-card">
                                 <div class="blog-card-image">
-                                    <img src="images/blog-pill-organizers.jpg" alt="Pill organizers: Your guide to medication management" loading="lazy">
+                                    <picture>
+                                        <source srcset="Image.webp/blog-pill-organizers.webp" type="image/webp">
+                                        <img src="images/blog-pill-organizers.jpg" alt="Pill organizers: Your guide to medication management" loading="lazy">
+                                    </picture>
                                     <div class="blog-card-overlay">
                                         <h3>Pill organizers: Your guide to medication management</h3>
                                     </div>
@@ -435,7 +478,10 @@
                             
                             <div class="blog-card">
                                 <div class="blog-card-image">
-                                    <img src="images/blog-compounding.png" alt="Custom compounding: Personalized medications for your needs" loading="lazy">
+                                    <picture>
+                                        <source srcset="Image.webp/blog-compounding.webp" type="image/webp">
+                                        <img src="images/blog-compounding.png" alt="Custom compounding: Personalized medications for your needs" loading="lazy">
+                                    </picture>
                                     <div class="blog-card-overlay">
                                         <h3>Custom compounding: Personalized medications for your needs</h3>
                                     </div>
@@ -445,7 +491,10 @@
                             
                             <div class="blog-card">
                                 <div class="blog-card-image">
-                                    <img src="images/blog-birth-control.jpg" alt="Your complete guide to birth control options" loading="lazy">
+                                    <picture>
+                                        <source srcset="Image.webp/blog-birth-control.webp" type="image/webp">
+                                        <img src="images/blog-birth-control.jpg" alt="Your complete guide to birth control options" loading="lazy">
+                                    </picture>
                                     <div class="blog-card-overlay">
                                         <h3>Your complete guide to birth control options</h3>
                                     </div>
@@ -455,7 +504,10 @@
                             
                             <div class="blog-card">
                                 <div class="blog-card-image">
-                                    <img src="images/blog-vaccines.jpg" alt="Essential vaccines: What adults need to know" loading="lazy">
+                                    <picture>
+                                        <source srcset="Image.webp/blog-vaccines.webp" type="image/webp">
+                                        <img src="images/blog-vaccines.jpg" alt="Essential vaccines: What adults need to know" loading="lazy">
+                                    </picture>
                                     <div class="blog-card-overlay">
                                         <h3>Essential vaccines: What adults need to know</h3>
                                     </div>
@@ -533,7 +585,10 @@
                     
                     <div class="about-pharmacist">
                         <div class="pharmacist-image">
-                            <img src="images/my-pic-1.png" alt="Dr. Zahraa Babiker - Licensed Pharmacist at WellPharma Pharmacy" loading="lazy">
+                            <picture>
+                                <source srcset="Image.webp/my-pic-1.webp" type="image/webp">
+                                <img src="images/my-pic-1.png" alt="Dr. Zahraa Babiker - Licensed Pharmacist at WellPharma Pharmacy" loading="lazy">
+                            </picture>
                         </div>
                         <div class="pharmacist-info">
                             <h3>Dr. Zahraa Babiker, PharmD</h3>
