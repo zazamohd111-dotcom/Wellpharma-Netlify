@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WellPharma Auto-Update Tool</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .warning {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        .warning h3 {
+            color: #856404;
+            margin-bottom: 10px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .input-group input, .input-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        .input-group input:focus, .input-group textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 20px;
+            transition: transform 0.2s;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .btn-success {
+            background: linear-gradient(135deg, #56ab2f 0%, #a8e063 100%);
+        }
+
+        .output {
+            background: #f8f9fa;
+            border: 2px dashed #dee2e6;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            display: none;
+        }
+
+        .output.show {
+            display: block;
+        }
+
+        .output h3 {
+            color: #28a745;
+            margin-bottom: 15px;
+        }
+
+        .output pre {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            border: 1px solid #e0e0e0;
+        }
+
+        .step {
+            background: #f0f9ff;
+            border-left: 4px solid #3b82f6;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .step h4 {
+            color: #1e40af;
+            margin-bottom: 5px;
+        }
+
+        .step p {
+            color: #64748b;
+            margin: 0;
+        }
+
+        .copy-btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .copy-btn:hover {
+            background: #218838;
+        }
+
+        #status {
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 8px;
+            display: none;
+        }
+
+        #status.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+            display: block;
+        }
+
+        #status.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 WellPharma Easy Update Tool</h1>
+        <p class="subtitle">Update your website content in seconds!</p>
+
+        <div class="warning">
+            <h3>⚠️ One-Time Setup Required</h3>
+            <p>This tool generates a complete index.html file with your updates. You'll need to:</p>
+            <ol style="margin-left: 20px; margin-top: 10px;">
+                <li>Download the generated file</li>
+                <li>Replace your current index.html with it</li>
+                <li>Upload to GitHub (or ask someone to help with this step)</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <h2>Step 1: Load Your Current Content</h2>
+            <button class="btn" onclick="loadCurrentContent()">Load Current Website Content</button>
+            <div id="loadStatus" style="margin-top: 10px; color: green;"></div>
+        </div>
+
+        <div class="section" id="editSection" style="display: none;">
+            <h2>Step 2: Add New Blog or Category</h2>
+
+            <h3 style="margin-bottom: 15px;">Add a Blog Post:</h3>
+            <div class="input-group">
+                <label>Blog Title:</label>
+                <input type="text" id="blogTitle" placeholder="e.g., New Health Tips for 2024">
+            </div>
+            <div class="input-group">
+                <label>Image File Name:</label>
+                <input type="text" id="blogImage" placeholder="e.g., images/health-tips.jpg">
+            </div>
+            <div class="input-group">
+                <label>Link:</label>
+                <input type="text" id="blogLink" placeholder="e.g., #health-tips or https://example.com">
+            </div>
+            <button class="btn" onclick="addBlog()">Add Blog</button>
+
+            <h3 style="margin: 30px 0 15px;">OR Add a Category:</h3>
+            <div class="input-group">
+                <label>Category Title:</label>
+                <input type="text" id="catTitle" placeholder="e.g., BMI Check">
+            </div>
+            <div class="input-group">
+                <label>Subtitle:</label>
+                <input type="text" id="catSubtitle" placeholder="e.g., Calculator">
+            </div>
+            <div class="input-group">
+                <label>Link:</label>
+                <input type="text" id="catLink" placeholder="e.g., https://calculator.net/bmi">
+            </div>
+            <button class="btn" onclick="addCategory()">Add Category</button>
+        </div>
+
+        <div class="section" id="downloadSection" style="display: none;">
+            <h2>Step 3: Download Your Updated Website</h2>
+            <button class="btn btn-success" onclick="downloadHTML()">📥 Download Updated index.html</button>
+
+            <div class="step" style="margin-top: 20px;">
+                <h4>What to do next:</h4>
+                <p>1. The file will download to your Downloads folder</p>
+                <p>2. Replace your old index.html with this new one</p>
+                <p>3. Upload to GitHub or ask someone to help you commit the changes</p>
+            </div>
+        </div>
+
+        <div id="status"></div>
+    </div>
+
+    <script>
+        let currentHTML = '';
+        let blogs = [];
+        let categories = [];
+
+        function loadCurrentContent() {
+            // Try to load from localStorage first
+            const savedBlogs = localStorage.getItem('wellpharma_blogs');
+            const savedCategories = localStorage.getItem('wellpharma_categories');
+
+            if (savedBlogs) {
+                blogs = JSON.parse(savedBlogs);
+            } else {
+                // Default blogs
+                blogs = [
+                    {
+                        title: "Pill organizers: Your guide to medication management",
+                        image: "images/blog-pill-organizers.jpg",
+                        link: "#pill-organizers"
+                    },
+                    {
+                        title: "Custom compounding: Personalized medications for your needs",
+                        image: "images/blog-compounding.png",
+                        link: "#compounding"
+                    },
+                    {
+                        title: "Your complete guide to birth control options",
+                        image: "images/blog-birth-control.jpg",
+                        link: "#birth-control"
+                    },
+                    {
+                        title: "Essential vaccines: What adults need to know",
+                        image: "images/blog-vaccines.jpg",
+                        link: "#vaccines"
+                    }
+                ];
+            }
+
+            if (savedCategories) {
+                categories = JSON.parse(savedCategories);
+            } else {
+                // Current categories from your site
+                categories = [
+                    {
+                        title: "BMI Check",
+                        subtitle: "Calculator",
+                        link: "https://www.calculator.net/bmi-calculator.html",
+                        colorClass: "category-bmi"
+                    },
+                    {
+                        title: "BP Monitor",
+                        subtitle: "BP",
+                        link: "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings",
+                        colorClass: "category-bp-monitor"
+                    },
+                    {
+                        title: "Pill ID",
+                        subtitle: "Pill Identifier",
+                        link: "https://www.drugs.com/imprints.php",
+                        colorClass: "category-pill-id"
+                    },
+                    {
+                        title: "Med Review",
+                        subtitle: "Drug Saftey Check",
+                        link: "#medication-review",
+                        colorClass: "category-med-review"
+                    },
+                    {
+                        title: "Risk Test",
+                        subtitle: "Pre-Diabetes",
+                        link: "https://www.cdc.gov/diabetes/risk-test/index.html",
+                        colorClass: "category-risk-test"
+                    }
+                ];
+            }
+
+            document.getElementById('loadStatus').textContent = '✅ Content loaded successfully!';
+            document.getElementById('editSection').style.display = 'block';
+            document.getElementById('downloadSection').style.display = 'block';
+
+            // Save to localStorage
+            localStorage.setItem('wellpharma_blogs', JSON.stringify(blogs));
+            localStorage.setItem('wellpharma_categories', JSON.stringify(categories));
+        }
+
+        function addBlog() {
+            const title = document.getElementById('blogTitle').value;
+            const image = document.getElementById('blogImage').value;
+            const link = document.getElementById('blogLink').value;
+
+            if (!title || !image || !link) {
+                alert('Please fill in all blog fields');
+                return;
+            }
+
+            blogs.push({ title, image, link });
+            localStorage.setItem('wellpharma_blogs', JSON.stringify(blogs));
+
+            // Clear fields
+            document.getElementById('blogTitle').value = '';
+            document.getElementById('blogImage').value = '';
+            document.getElementById('blogLink').value = '';
+
+            showStatus('Blog added successfully! Click "Download Updated index.html" when ready.', 'success');
+        }
+
+        function addCategory() {
+            const title = document.getElementById('catTitle').value;
+            const subtitle = document.getElementById('catSubtitle').value;
+            const link = document.getElementById('catLink').value;
+
+            if (!title || !subtitle || !link) {
+                alert('Please fill in all category fields');
+                return;
+            }
+
+            // Auto-assign color class based on existing pattern
+            const colorClasses = ['category-bmi', 'category-bp-monitor', 'category-pill-id', 'category-med-review', 'category-risk-test'];
+            const colorClass = colorClasses[categories.length % colorClasses.length];
+
+            categories.push({ title, subtitle, link, colorClass });
+            localStorage.setItem('wellpharma_categories', JSON.stringify(categories));
+
+            // Clear fields
+            document.getElementById('catTitle').value = '';
+            document.getElementById('catSubtitle').value = '';
+            document.getElementById('catLink').value = '';
+
+            showStatus('Category added successfully! Click "Download Updated index.html" when ready.', 'success');
+        }
+
+        function generateBlogHTML() {
+            let html = '';
+            // Generate blog cards
+            blogs.forEach(blog => {
+                const isExternal = blog.link.startsWith('http');
+                html += `                        <div class="blog-card">
+                            <div class="blog-card-image">
+                                <img src="${blog.image}" alt="${blog.title}" loading="lazy">
+                                <div class="blog-card-overlay">
+                                    <h3>${blog.title}</h3>
+                                </div>
+                            </div>
+                            <a href="${blog.link}" class="blog-explore-btn"${isExternal ? ' target="_blank"' : ''}>Explore</a>
+                        </div>\n`;
+            });
+
+            // Duplicate for seamless scrolling
+            html += `\n                        <!-- Duplicate cards for seamless loop -->\n`;
+            blogs.forEach(blog => {
+                const isExternal = blog.link.startsWith('http');
+                html += `                        <div class="blog-card">
+                            <div class="blog-card-image">
+                                <img src="${blog.image}" alt="${blog.title}" loading="lazy">
+                                <div class="blog-card-overlay">
+                                    <h3>${blog.title}</h3>
+                                </div>
+                            </div>
+                            <a href="${blog.link}" class="blog-explore-btn"${isExternal ? ' target="_blank"' : ''}>Explore</a>
+                        </div>\n`;
+            });
+
+            return html;
+        }
+
+        function generateCategoryHTML() {
+            let html = '';
+            categories.forEach(category => {
+                const isExternal = category.link.startsWith('http');
+                html += `                    <a href="${category.link}" class="category-pill ${category.colorClass}"${isExternal ? ' target="_blank"' : ''}>
+                        <span class="category-title">${category.title}</span>
+                        <span class="category-subtitle">${category.subtitle}</span>
+                    </a>\n`;
+            });
+            return html;
+        }
+
+        async function downloadHTML() {
+            try {
+                // Fetch the current index.html as a template
+                const response = await fetch('index.html');
+                let htmlContent = await response.text();
+
+                // Replace blog section
+                const blogStartMarker = '<!-- Blog Cards -->';
+                const blogEndMarker = '<!-- Duplicate cards for seamless loop -->';
+                const blogStartIndex = htmlContent.indexOf(blogStartMarker);
+
+                if (blogStartIndex !== -1) {
+                    const beforeBlogs = htmlContent.substring(0, blogStartIndex);
+                    const afterBlogsIndex = htmlContent.lastIndexOf('</div>\n                        </div>\n                    </div>\n                </div>');
+                    const afterBlogs = htmlContent.substring(afterBlogsIndex);
+
+                    const newBlogHTML = `<!-- Blog Cards -->
+                <div class="blog-track">
+                    <div class="blog-cards">
+${generateBlogHTML()}                    </div>
+                </div>`;
+
+                    // First update blogs
+                    htmlContent = beforeBlogs + newBlogHTML + '\n            ';
+
+                    // Now find and replace categories in the updated content
+                    const catStartMarker = '<!-- Category Pills -->';
+                    const catStartIndex = htmlContent.indexOf(catStartMarker);
+
+                    if (catStartIndex !== -1) {
+                        const catEndIndex = htmlContent.indexOf('</div>', catStartIndex + catStartMarker.length) + 6;
+                        const beforeCat = htmlContent.substring(0, catStartIndex);
+                        const afterCat = htmlContent.substring(catEndIndex);
+
+                        const newCatHTML = `<!-- Category Pills -->
+                <div class="blog-categories">
+${generateCategoryHTML()}                </div>`;
+
+                        htmlContent = beforeCat + newCatHTML + afterCat;
+                    }
+                }
+
+                // Create download
+                const blob = new Blob([htmlContent], { type: 'text/html' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'index.html';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+
+                showStatus('✅ File downloaded! Now replace your old index.html with this new one.', 'success');
+            } catch (error) {
+                // If fetch fails, generate a basic template
+                showStatus('Note: Using basic template. Make sure you\'re running this from your website folder.', 'error');
+                downloadBasicHTML();
+            }
+        }
+
+        function downloadBasicHTML() {
+            // This is a fallback - just downloads the sections that need updating
+            const blogHTML = generateBlogHTML();
+            const categoryHTML = generateCategoryHTML();
+
+            const instructions = `INSTRUCTIONS TO UPDATE YOUR WEBSITE:
+
+1. Open your current index.html file in a text editor
+2. Find the section with: <!-- Blog Cards -->
+3. Replace everything between <!-- Blog Cards --> and the closing </div></div></div> with:
+
+${blogHTML}
+
+4. Find the section with: <!-- Category Pills -->
+5. Replace everything between <!-- Category Pills --> and the closing </div> with:
+
+${categoryHTML}
+
+6. Save the file
+7. Upload to GitHub`;
+
+            const blob = new Blob([instructions], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'update-instructions.txt';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+
+        function showStatus(message, type) {
+            const status = document.getElementById('status');
+            status.textContent = message;
+            status.className = type;
+        }
+    </script>
+</body>
+</html>

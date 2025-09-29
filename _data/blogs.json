@@ -1,0 +1,24 @@
+{
+  "blogs": [
+    {
+      "title": "Pill organizers: Your guide to medication management",
+      "image": "images/blog-pill-organizers.jpg",
+      "link": "#pill-organizers"
+    },
+    {
+      "title": "Custom compounding: Personalized medications for your needs",
+      "image": "images/blog-compounding.png",
+      "link": "#compounding"
+    },
+    {
+      "title": "Your complete guide to birth control options",
+      "image": "images/blog-birth-control.jpg",
+      "link": "#birth-control"
+    },
+    {
+      "title": "Essential vaccines: What adults need to know",
+      "image": "images/blog-vaccines.jpg",
+      "link": "#vaccines"
+    }
+  ]
+}

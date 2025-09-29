@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sync Categories</title>
+</head>
+<body>
+    <h1>Category Sync Tool</h1>
+    <p>Open this page in your browser to see the generated HTML from your admin panel.</p>
+
+    <h2>Generated Category HTML:</h2>
+    <pre id="category-html" style="background: #f0f0f0; padding: 20px; overflow-x: auto;"></pre>
+
+    <button onclick="copyToClipboard()">Copy to Clipboard</button>
+
+    <h2>Current Categories in localStorage:</h2>
+    <pre id="category-data" style="background: #f0f0f0; padding: 20px; overflow-x: auto;"></pre>
+
+    <script>
+        // Display the generated HTML
+        const categoryHTML = localStorage.getItem('wellpharma_category_html');
+        const categoryData = localStorage.getItem('wellpharma_categories');
+
+        document.getElementById('category-html').textContent = categoryHTML || 'No category HTML found in localStorage';
+        document.getElementById('category-data').textContent = categoryData ? JSON.stringify(JSON.parse(categoryData), null, 2) : 'No category data found';
+
+        function copyToClipboard() {
+            const text = document.getElementById('category-html').textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                alert('Copied to clipboard!');
+            });
+        }
+    </script>
+</body>
+</html>

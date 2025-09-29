@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Wellpharma Pharmacy - Prescription Services & Healthcare in Randallstown, MD</title>
     <meta name="description" content="Your trusted independent pharmacy in Randallstown, MD. Same-day birth control prescribing, compounding services, immunizations, and free delivery. Call (410) 698-9068.">
-    
+
+    <!-- Netlify Identity Widget for CMS -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
     <!-- Critical Resource Preloads - WebP with fallbacks -->
     <link rel="preload" href="Image.webp/pharmacy-interior696w.webp" as="image" fetchpriority="high">
     <link rel="preload" href="Image.webp/wellpharma-logo240.webp" as="image">
@@ -1160,5 +1163,16 @@
         });
     }
 })();
+
+// Netlify Identity redirect for CMS
+if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+        if (!user) {
+            window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+            });
+        }
+    });
+}
 </script>
 </html>

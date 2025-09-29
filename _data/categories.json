@@ -1,0 +1,34 @@
+{
+  "categories": [
+    {
+      "title": "BMI Check",
+      "subtitle": "Calculator",
+      "link": "https://www.calculator.net/bmi-calculator.html",
+      "colorClass": "category-bmi"
+    },
+    {
+      "title": "BP Monitor",
+      "subtitle": "BP",
+      "link": "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings",
+      "colorClass": "category-bp-monitor"
+    },
+    {
+      "title": "Pill ID",
+      "subtitle": "Pill Identifier",
+      "link": "https://www.drugs.com/imprints.php",
+      "colorClass": "category-pill-id"
+    },
+    {
+      "title": "Med Review",
+      "subtitle": "Drug Saftey Check",
+      "link": "#medication-review",
+      "colorClass": "category-med-review"
+    },
+    {
+      "title": "Risk Test",
+      "subtitle": "Pre-Diabetes",
+      "link": "https://www.cdc.gov/diabetes/risk-test/index.html",
+      "colorClass": "category-risk-test"
+    }
+  ]
+}
