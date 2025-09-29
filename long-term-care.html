@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Long Term Care Pharmacy Services - WellPharma Pharmacy | Assisted Living & Senior Care in Maryland</title>
+    <meta name="description" content="Specialized long-term care pharmacy services for assisted living facilities and senior communities in Maryland. HIPAA-compliant medication management, MTM, and 24/7 pharmacist support.">
+    
+    <!-- Critical Resource Preloads - WebP with fallbacks -->
+    <link rel="preload" href="Image.webp/wellpharma-logo240.webp" as="image">
+    
+    <!-- Preload Critical Fonts - Break loading chain -->
+    <link rel="preload" href="https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVIGxA.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <!-- DNS Prefetch for External Resources -->
+    <link rel="dns-prefetch" href="//www.google.com">
+    <link rel="dns-prefetch" href="//maps.googleapis.com">
+    
+    <!-- Google Fonts - Non-blocking Loading with faster fallback -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap&font-display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap&font-display=swap" rel="stylesheet"></noscript>
+    
+    <!-- Critical CSS - Inline for immediate rendering -->
+    <style>
+        :root{--primary-color:rgb(77,123,107);--secondary-color:rgb(144,173,114);--text-color:#2e2e2e;--white:#ffffff;--light-bg:rgb(235,243,237);--transition:all 0.3s ease-out}
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Open Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:17px;font-weight:500;line-height:1.6;color:var(--text-color);background:var(--white)}
+        
+        /* Critical Navigation Styles - Complete to prevent layout shifts */
+        .header{position:fixed;top:0;width:100%;background:var(--white);z-index:1000;box-shadow:0 2px 10px rgba(0,0,0,0.1);min-height:80px}
+        .nav{padding:0;height:100%}
+        .nav-container{display:flex;justify-content:space-between;align-items:center;padding:1rem 2rem;max-width:1200px;margin:0 auto;min-height:80px}
+        .nav-logo{display:flex;align-items:center}
+        .logo{height:60px;width:auto;display:block}
+        .nav-menu{display:flex;list-style:none;margin:0;padding:0;gap:0.5rem;align-items:center;height:100%}
+        .nav-item{position:relative;height:auto}
+        .nav-link{display:flex;align-items:center;padding:0.75rem 1rem;color:var(--text-color);text-decoration:none;font-weight:600;font-size:1rem;line-height:1.5;border-radius:6px;white-space:nowrap;min-height:44px;box-sizing:border-box}
+        .nav-link:hover{background:var(--light-bg);color:var(--primary-color)}
+        .dropdown-arrow{font-size:0.75rem;margin-left:0.5rem;transition:transform 0.2s ease;display:inline-block;width:10px;text-align:center}
+        .dropdown-menu{position:absolute;top:100%;left:0;background:var(--white);border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.1);padding:0.5rem;min-width:200px;opacity:0;visibility:hidden;transform:translateY(-10px);transition:all 0.2s ease;z-index:1001}
+        .dropdown:hover .dropdown-menu{opacity:1;visibility:visible;transform:translateY(0)}
+        .dropdown-link{display:block;padding:0.5rem 1rem;color:var(--text-color);text-decoration:none;font-size:0.95rem;border-radius:4px;line-height:1.4;white-space:nowrap}
+        .dropdown-link:hover{background:var(--light-bg);color:var(--primary-color)}
+        .hamburger{display:none;flex-direction:column;cursor:pointer;gap:4px;padding:8px;background:none;border:none}
+        .bar{width:25px;height:3px;background:var(--primary-color);transition:all 0.3s ease;border-radius:2px}
+        
+        /* Hero Critical Styles */
+        .hero-section{padding-top:100px;min-height:80vh;display:flex;align-items:center}
+        .hero-container{max-width:1200px;margin:0 auto;padding:0 2rem;display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
+        .hero-image{aspect-ratio:3/2;display:flex;align-items:center;justify-content:center}
+        .hero-image img{width:100%;height:100%;object-fit:cover;border-radius:12px}
+        .btn{display:inline-block;padding:12px 24px;border:none;border-radius:8px;text-decoration:none;font-weight:700;font-size:1.1rem;transition:var(--transition);cursor:pointer}
+        .btn-primary{background:var(--primary-color);color:var(--white)}
+        .btn-secondary{background:transparent;color:var(--primary-color);border:2px solid var(--primary-color)}
+        
+        /* Mobile Navigation - Prevent layout shifts */
+        @media (max-width: 768px) {
+            .nav-container{padding:0.75rem 1rem;min-height:70px}
+            .nav-menu{display:none;position:absolute;top:100%;left:0;width:100%;background:var(--white);flex-direction:column;box-shadow:0 4px 12px rgba(0,0,0,0.1);padding:1rem;border-top:1px solid #e5e7eb}
+            .nav-menu.active{display:flex}
+            .nav-item{width:100%}
+            .nav-link{padding:1rem;justify-content:flex-start;min-height:auto;width:100%;border-radius:0}
+            .hamburger{display:flex}
+            .hero-container{grid-template-columns:1fr;text-align:center;padding-top:80px}
+            .hero-section{padding-top:80px}
+        }
+    </style>
+    
+    <!-- Critical CSS - Non-blocking load (minified) -->
+    <link rel="stylesheet" href="css/main.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="css/main.min.css"></noscript>
+    
+    <!-- Page-specific CSS for LTC Services Grid -->
+    <style>
+        /* LTC Services Grid - Match Pharmacy Care at Home Dimensions */
+        @media (min-width: 768px) {
+            .services-section .services-grid {
+                grid-template-columns: repeat(2, 1fr) !important;
+                gap: 2rem !important;
+                margin: 2rem 0 !important;
+                max-width: 1200px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .services-section .service-card {
+                background: var(--white) !important;
+                padding: 2rem !important;
+                border-radius: 15px !important;
+                box-shadow: 0 4px 15px rgba(0,0,0,0.1) !important;
+                transition: all 0.3s ease-out !important;
+                cursor: pointer !important;
+                will-change: transform, box-shadow !important;
+            }
+            
+            .services-section .service-card:hover {
+                transform: translateY(-5px) !important;
+                box-shadow: 0 10px 30px rgba(0,0,0,0.2) !important;
+            }
+        }
+        
+        @media (max-width: 767px) {
+            .services-section .services-grid {
+                grid-template-columns: 1fr !important;
+                gap: 2rem !important;
+                margin: 2rem 0 !important;
+            }
+        }
+        
+        /* Step Number Circles - Darker Orange */
+        .step-number {
+            background: #e67e22 !important;
+            color: white !important;
+            width: 50px !important;
+            height: 50px !important;
+            border-radius: 50% !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            font-weight: bold !important;
+            font-size: 1.2rem !important;
+            flex-shrink: 0 !important;
+            margin-right: 1.5rem !important;
+        }
+        
+        .step {
+            display: flex !important;
+            align-items: flex-start !important;
+            margin-bottom: 2rem !important;
+        }
+        
+        /* Benefits Section - Consistent Spacing */
+        .benefits-section {
+            padding: 4rem 0 !important;
+        }
+        
+        .benefits-section h2 {
+            margin-bottom: 1rem !important;
+        }
+        
+        .benefits-section .section-subtitle {
+            margin-bottom: 2rem !important;
+        }
+        
+        .benefits-grid {
+            display: grid !important;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+            gap: 1.5rem !important;
+            margin-top: 2rem !important;
+        }
+        
+        .benefit-item {
+            padding: 1.5rem !important;
+            margin-bottom: 0 !important;
+        }
+        
+        .benefit-item h3 {
+            margin-bottom: 0.75rem !important;
+            font-size: 1.25rem !important;
+        }
+        
+        .benefit-item p {
+            margin-bottom: 0 !important;
+            line-height: 1.5 !important;
+        }
+        
+        /* FAQ Toggle Buttons - Darker Orange */
+        .faq-toggle {
+            background: #e67e22 !important;
+            color: white !important;
+            width: 30px !important;
+            height: 30px !important;
+            border-radius: 50% !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            font-weight: bold !important;
+            font-size: 1.2rem !important;
+            flex-shrink: 0 !important;
+            border: none !important;
+            transition: all 0.3s ease !important;
+        }
+        
+        .faq-toggle:hover {
+            background: #d35400 !important;
+            transform: scale(1.1) !important;
+        }
+        
+        .faq-item.active .faq-toggle {
+            background: #d35400 !important;
+            transform: rotate(45deg) !important;
+        }
+        
+        /* Hero Feature Icons - Darker Orange */
+        .feature-icon {
+            background: #e67e22 !important;
+            color: white !important;
+            width: 24px !important;
+            height: 24px !important;
+            border-radius: 50% !important;
+            display: inline-flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            font-weight: bold !important;
+            font-size: 0.9rem !important;
+            margin-right: 0.75rem !important;
+            flex-shrink: 0 !important;
+        }
+        
+        .hero-feature {
+            display: flex !important;
+            align-items: center !important;
+            margin-bottom: 0.75rem !important;
+        }
+    </style>
+    
+    <!-- Non-critical CSS - Load asynchronously -->
+    <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="css/style.css"></noscript>
+    
+    <link rel="stylesheet" href="css/hero-fullscreen.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="css/hero-fullscreen.css"></noscript>
+    
+    <link rel="stylesheet" href="css/wellpharma-theme.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="css/wellpharma-theme.min.css"></noscript>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <!-- Structured Data for Long Term Care Pharmacy -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MedicalBusiness",
+        "name": "WellPharma Pharmacy - Long Term Care Services",
+        "description": "Specialized long-term care pharmacy services for assisted living facilities and senior communities in Maryland",
+        "url": "https://wellpharmapharmacy.com/long-term-care.html",
+        "telephone": "(410) 698-9068",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "9818 Liberty Rd Ste B",
+            "addressLocality": "Randallstown",
+            "addressRegion": "MD",
+            "postalCode": "21133",
+            "addressCountry": "US"
+        },
+        "serviceArea": [
+            "Maryland",
+            "Baltimore County",
+            "Randallstown",
+            "Pikesville",
+            "Owings Mills",
+            "Reisterstown"
+        ],
+        "medicalSpecialty": [
+            "Long Term Care Pharmacy",
+            "Geriatric Pharmacy",
+            "Medication Therapy Management",
+            "Clinical Pharmacy Services"
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header site-header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo site-branding">
+                    <a href="index.html">
+                        <picture>
+                            <source srcset="Image.webp/wellpharma-logo240.webp" type="image/webp">
+                            <img src="images/wellpharma-logo.png" alt="WellPharma Pharmacy Logo" class="logo" width="120" height="60" decoding="async">
+                        </picture>
+                    </a>
+                </div>
+                
+                <ul class="nav-menu" id="primary-menu">
+                    <li class="nav-item dropdown">
+                        <a href="#prescriptions" class="nav-link">Prescriptions <span class="dropdown-arrow">▼</span></a>
+                        <div class="dropdown-menu">
+                            <a href="https://app.formdr.com/practice/NDUzNjE=/form/eg8P_60baYvMleMIRDy3ux7YtPT4GAAY" class="dropdown-link" target="_blank">Refill</a>
+                            <a href="https://app.formdr.com/practice/NDUzNjE=/form/t8T5m2GJfxhERNOEJgdxFg19xks4_Se2" class="dropdown-link" target="_blank">Transfer</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="index.html#birth-control" class="nav-link">Birth Control <span class="dropdown-arrow">▼</span></a>
+                        <div class="dropdown-menu">
+                            <a href="index.html#consultation" class="dropdown-link">Consultation</a>
+                            <a href="index.html#how-it-works" class="dropdown-link">How It Works</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#services" class="nav-link">Services <span class="dropdown-arrow">▼</span></a>
+                        <div class="dropdown-menu">
+                            <a href="index.html#immunizations-card" class="dropdown-link">Immunizations</a>
+                            <a href="index.html#testing-card" class="dropdown-link">Testing</a>
+                            <a href="hormone-kits.html" class="dropdown-link">Hormone Kits</a>
+                            <a href="pharmacy-care-at-home.html" class="dropdown-link">Pharmacy Care at Home</a>
+                            <a href="long-term-care.html" class="dropdown-link">Long Term Care</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#shop" class="nav-link">Shop <span class="dropdown-arrow">▼</span></a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-link coming-soon">Supplements <span class="coming-soon-badge">Coming Soon</span></a>
+                            <a href="#" class="dropdown-link coming-soon">Wellness <span class="coming-soon-badge">Coming Soon</span></a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="index.html#blog-section" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="index.html#about" class="nav-link">About</a></li>
+                </ul>
+                
+                <div class="hamburger menu-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1>Long Term Care Pharmacy Services for Assisted Living Facilities in Maryland</h1>
+                    <p class="hero-description">Comprehensive HIPAA-compliant pharmacy services designed specifically for assisted living facilities, senior communities, and long-term care providers throughout Maryland.</p>
+                    
+                    <div class="hero-features">
+                        <div class="hero-feature">
+                            <span class="feature-icon">✓</span>
+                            <span>24/7 Pharmacist Support</span>
+                        </div>
+                        <div class="hero-feature">
+                            <span class="feature-icon">✓</span>
+                            <span>HIPAA-Compliant Services</span>
+                        </div>
+                        <div class="hero-feature">
+                            <span class="feature-icon">✓</span>
+                            <span>Medication Therapy Management</span>
+                        </div>
+                        <div class="hero-feature">
+                            <span class="feature-icon">✓</span>
+                            <span>Maryland State Licensed</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">Partner With Us</a>
+                        <a href="tel:+14106989068" class="btn btn-secondary">Call (410) 698-9068</a>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <picture>
+                        <source srcset="Image.webp/Long term care.webp" type="image/webp">
+                        <img src="images/Long term care.jpg" alt="Long Term Care Services - Healthcare professional assisting senior patient" fetchpriority="high" loading="eager" width="600" height="400">
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trust Badges Section -->
+        <section id="trust-badges" class="trust-badges-section section-light">
+            <div class="container">
+                <h2>Licensed & Specialized in Geriatric Care</h2>
+                <p class="section-subtitle">Trusted by assisted living facilities throughout Maryland for comprehensive pharmacy services</p>
+                
+                <div class="trust-badges-grid">
+                    <div class="trust-badge">
+                        <div class="badge-icon"></div>
+                        <h3>Maryland Board of Pharmacy Licensed</h3>
+                        <p>Fully licensed and compliant with all Maryland pharmacy regulations and COMAR requirements</p>
+                    </div>
+                    
+                    <div class="trust-badge">
+                        <div class="badge-icon"></div>
+                        <h3>HIPAA Compliant</h3>
+                        <p>Complete HIPAA compliance with comprehensive Business Associate Agreements for all facilities</p>
+                    </div>
+                    
+                    <div class="trust-badge">
+                        <div class="badge-icon"></div>
+                        <h3>Geriatric Care Specialists</h3>
+                        <p>Specialized training and expertise in geriatric pharmacy and senior medication management</p>
+                    </div>
+                    
+                    <div class="trust-badge">
+                        <div class="badge-icon"></div>
+                        <h3>24/7 Emergency Support</h3>
+                        <p>Round-the-clock pharmacist consultation and emergency medication delivery services</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Grid Section -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2>Comprehensive Long Term Care Pharmacy Services</h2>
+                <p class="section-subtitle">Complete pharmaceutical care solutions tailored for assisted living and senior care facilities</p>
+                
+                <div class="services-grid">
+                    <div class="service-card ltc-service">
+                        <div class="service-icon"></div>
+                        <h3>Medication Management & Packaging</h3>
+                        <ul>
+                            <li>Unit-dose and blister pack packaging systems</li>
+                            <li>Medication Administration Record (MAR) preparation</li>
+                            <li>Automated prescription synchronization</li>
+                            <li>Controlled substance management and disposal</li>
+                            <li>Emergency medication kit management</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card ltc-service">
+                        <div class="service-icon"></div>
+                        <h3>Clinical Pharmacy Services</h3>
+                        <ul>
+                            <li>Medication Therapy Management (MTM)</li>
+                            <li>Consultant pharmacist services and reviews</li>
+                            <li>Drug interaction screening and optimization</li>
+                            <li>Clinical intervention documentation</li>
+                            <li>Therapeutic monitoring and adjustments</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card ltc-service">
+                        <div class="service-icon"></div>
+                        <h3>Delivery & Technology Integration</h3>
+                        <ul>
+                            <li>Scheduled and emergency delivery services</li>
+                            <li>Electronic medication administration record (eMAR) integration</li>
+                            <li>Secure electronic health information transmission</li>
+                            <li>Real-time medication tracking and reporting</li>
+                            <li>Automated refill and reorder systems</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card ltc-service">
+                        <div class="service-icon"></div>
+                        <h3>Staff Training & Compliance Support</h3>
+                        <ul>
+                            <li>Staff medication administration training</li>
+                            <li>Regulatory compliance support and documentation</li>
+                            <li>Quality assurance program participation</li>
+                            <li>Medication error reporting and prevention</li>
+                            <li>On-site vaccination services and training</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-it-works" class="how-it-works-section section-light">
+            <div class="container">
+                <h2>How Our Long Term Care Partnership Works</h2>
+                <p class="section-subtitle">A simple 3-step process to get your facility comprehensive pharmacy services</p>
+                
+                <div class="steps-container">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Initial Consultation & Assessment</h3>
+                            <p>We evaluate your facility's needs, current medication management processes, and regulatory requirements. We'll discuss service options, technology integration, and create a customized pharmacy service plan.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Agreement & System Integration</h3>
+                            <p>Execute Business Associate Agreement for HIPAA compliance, integrate with your eMAR/EMR systems, set up medication packaging preferences, and establish delivery schedules and emergency procedures.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Ongoing Support & Management</h3>
+                            <p>Begin comprehensive pharmacy services including medication dispensing, clinical reviews, staff training, 24/7 pharmacist support, and continuous quality assurance monitoring.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section id="benefits" class="benefits-section">
+            <div class="container">
+                <h2>Why Choose WellPharma for Long Term Care Services</h2>
+                <p class="section-subtitle">Proven expertise in geriatric care and long-term care pharmacy management</p>
+                
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <h3>Maryland Expertise</h3>
+                        <p>Deep understanding of Maryland regulations including COMAR 10.34.36 requirements for assisted living pharmacy services and state-specific compliance needs.</p>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <h3>Rapid Response Times</h3>
+                        <p>Emergency medication delivery within 4 hours, 24/7 pharmacist consultation, and immediate response to medication recalls and adverse events.</p>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <h3>Cost-Effective Solutions</h3>
+                        <p>Streamlined medication management reduces waste, prevents costly hospital readmissions, and optimizes therapeutic outcomes for residents.</p>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <h3>Seamless Integration</h3>
+                        <p>Advanced technology integration with existing eMAR systems, automated documentation, and real-time medication tracking capabilities.</p>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <h3>Quality Assurance</h3>
+                        <p>Comprehensive quality management program participation, clinical intervention documentation, and quarterly performance reports.</p>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <h3>Dedicated Support Team</h3>
+                        <p>Assigned account manager, clinical pharmacist, and support staff who understand your facility's unique needs and resident population.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq-section section-light">
+            <div class="container">
+                <h2>Long Term Care Pharmacy Services - Frequently Asked Questions</h2>
+                <p class="section-subtitle">Common questions about our specialized pharmacy services for assisted living facilities</p>
+                
+                <div class="faq-categories">
+                    <!-- Service Overview FAQs -->
+                    <div class="faq-category">
+                        <h3>Service Overview</h3>
+                        <div class="faq-items">
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    What long-term care pharmacy services does WellPharma provide?
+                                    <span class="faq-toggle">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>We provide comprehensive pharmacy services including prescription dispensing, medication packaging (blister packs and unit-dose), MAR preparation, medication therapy management, consultant pharmacist services, emergency medication kits, controlled substance management, on-site vaccinations, and staff training.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    Do you serve all types of long-term care facilities?
+                                    <span class="faq-toggle">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>Yes, we serve assisted living facilities, memory care units, senior communities, nursing homes, and other long-term care providers throughout Maryland. Our services are customized to meet the specific needs and regulations for each facility type.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    Are your services HIPAA compliant?
+                                    <span class="faq-toggle">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>Absolutely. We maintain full HIPAA compliance and execute comprehensive Business Associate Agreements with all facilities. We also comply with Maryland privacy laws including the Confidentiality of Medical Records Act and upcoming Maryland Online Data Privacy Act.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Technology & Integration FAQs -->
+                    <div class="faq-category">
+                        <h3>Technology & Integration</h3>
+                        <div class="faq-items">
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    Can you integrate with our existing eMAR system?
+                                    <span class="faq-toggle">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>Yes, we maintain secure electronic interfaces with most eMAR and EMR systems used by assisted living facilities. All electronic transmissions are encrypted using industry-standard encryption, and we maintain backup systems to ensure continuity of services.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    How do you handle medication administration records (MARs)?
+                                    <span class="faq-toggle">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>We prepare and maintain comprehensive MARs that comply with Maryland COMAR regulations. Our electronic systems integrate with your facility's documentation, and we provide both electronic and paper backup records as needed.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Clinical Services FAQs -->
+                    <div class="faq-category">
+                        <h3>Clinical Services</h3>
+                        <div class="faq-items">
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    What is included in your Medication Therapy Management services?
+                                    <span class="faq-toggle">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>Our MTM services include comprehensive medication reviews, drug interaction screening, therapeutic optimization, clinical intervention documentation, and coordination with prescribers. We provide medication regimen reviews for new admissions within 72 hours and conduct regular reviews as agreed.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    Do you provide consultant pharmacist services?
+                                    <span class="faq-toggle">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>Yes, our licensed consultant pharmacists conduct regular facility visits, comprehensive medication reviews, participate in quality assurance programs as required by COMAR 10.34.36, and provide clinical recommendations to optimize resident care.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Emergency & Support FAQs -->
+                    <div class="faq-category">
+                        <h3>Emergency & Support Services</h3>
+                        <div class="faq-items">
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    What emergency services do you provide?
+                                    <span class="faq-toggle">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>We provide 24/7/365 on-call pharmacist consultation, emergency medication delivery within 4 hours, emergency medication kit management, and immediate response to drug recalls. Our pharmacists are available around the clock for clinical consultations.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    How do you handle controlled substances?
+                                    <span class="faq-toggle">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>We maintain DEA-compliant procedures for controlled substance dispensing, storage, and documentation. We provide controlled substance destruction services with proper witness documentation and support facility diversion prevention programs. All controlled substances are reported to Maryland's PDMP within 24 hours.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    What staff training do you provide?
+                                    <span class="faq-toggle">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>We provide comprehensive staff training on medication administration, proper storage procedures, error prevention, regulatory compliance, and emergency protocols. When providing vaccination services, we ensure staff maintain required certifications per Maryland requirements.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="cta" class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Partner with WellPharma for Long Term Care Services?</h2>
+                    <p>Contact us today to discuss how our comprehensive pharmacy services can enhance care quality and regulatory compliance at your assisted living facility.</p>
+                    
+                    <div class="cta-benefits">
+                        <div class="cta-benefit">
+                            <span class="benefit-icon"></span>
+                            <span>Free Consultation</span>
+                        </div>
+                        <div class="cta-benefit">
+                            <span class="benefit-icon"></span>
+                            <span>Custom Service Plans</span>
+                        </div>
+                        <div class="cta-benefit">
+                            <span class="benefit-icon"></span>
+                            <span>Rapid Implementation</span>
+                        </div>
+                    </div>
+                    
+                    <div class="cta-buttons">
+                        <a href="tel:+14106989068" class="btn btn-primary">Call (410) 698-9068</a>
+                        <a href="mailto:info@wellpharmapharmacy.com" class="btn btn-secondary">Email Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section footer-about">
+                    <h3>Wellpharma Pharmacy</h3>
+                    <p>Your trusted independent pharmacy serving Maryland with personalized healthcare services since 2022.</p>
+                    <div class="footer-contact">
+                        <p>📞 <a href="tel:(410) 698-9068">(410) 698-9068</a></p>
+                        <p>📧 <a href="mailto:info@wellpharmapharmacy.com">info@wellpharmapharmacy.com</a></p>
+                        <p>📍 9818 Liberty Road Ste B, Randallstown, MD 21133</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="index.html#refill">Prescription Refill</a></li>
+                        <li><a href="index.html#birth-control">Birth Control</a></li>
+                        <li><a href="index.html#immunization">Immunizations</a></li>
+                        <li><a href="index.html#compounding">Compounding</a></li>
+                        <li><a href="pharmacy-care-at-home.html">Pharmacy Care at Home</a></li>
+                        <li><a href="long-term-care.html">Long Term Care</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="index.html#faq">FAQ</a></li>
+                        <li><a href="index.html#delivery">Delivery Info</a></li>
+                        <li><a href="index.html#hours">Hours</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Health Resources</h3>
+                    <ul>
+                        <li><a href="index.html#blog">Health Blog</a></li>
+                        <li><a href="https://www.cdc.gov/vaccines/" target="_blank">CDC Vaccine Info</a></li>
+                        <li><a href="https://www.fda.gov/drugs/drug-safety-and-availability" target="_blank">Drug Safety Info</a></li>
+                        <li><a href="#medication-guides">Medication Guides</a></li>
+                        <li><a href="#health-resources">Health Resources</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p>© 2025 Wellpharma Pharmacy. All rights reserved.</p>
+                    <ul class="legal-links">
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                        <li><a href="#hipaa">HIPAA Notice</a></li>
+                    </ul>
+                </div>
+                <p class="license-info">
+                    <strong>Licensed by:</strong> Maryland Board of Pharmacy | <strong>NPI:</strong> 1003585373
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript - Optimized Loading -->
+    <script src="js/wellpharma.js" defer></script>
+</body>
+</html>

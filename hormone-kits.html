@@ -48,8 +48,8 @@
         /* Hero Section */
         .hero-section{padding:120px 2rem 80px;background:linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%)}
         .hero-container{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
-        .hero-content h1{color:var(--white);margin-bottom:1rem;font-size:2.8rem;font-weight:700;line-height:1.2}
-        .hero-content p{margin-bottom:1rem;font-size:1.2rem;color:var(--white)}
+        .hero-content h1{color:var(--text-color);margin-bottom:1rem;font-size:2.8rem;font-weight:700;line-height:1.2}
+        .hero-content p{margin-bottom:1rem;font-size:1.2rem;color:var(--text-color)}
         .hero-image{aspect-ratio:3/2;display:flex;align-items:center;justify-content:center}
         .hero-image img{width:100%;height:100%;object-fit:cover;border-radius:12px}
         .btn{display:inline-block;padding:12px 24px;border:none;border-radius:8px;text-decoration:none;font-weight:700;font-size:1.1rem;transition:var(--transition);cursor:pointer;text-align:center}
@@ -79,12 +79,12 @@
         .features-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;margin:3rem 0}
         .feature-card{background:var(--white);border:1px solid #e5e5e5;border-radius:12px;padding:2rem;box-shadow:0 2px 10px rgba(0,0,0,0.08);transition:var(--transition);display:flex;flex-direction:column;text-align:center}
         .feature-card:hover{transform:translateY(-5px);box-shadow:0 4px 20px rgba(0,0,0,0.12)}
-        .feature-icon{width:80px;height:80px;margin:0 auto 1.5rem;background:linear-gradient(135deg, #667eea 0%, #764ba2 100%);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:2rem}
+        .feature-icon{width:120px;height:120px;margin:0 auto 1.5rem;background:#f0f0f0;border:2px solid #ddd;border-radius:8px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+        .feature-icon img{width:100%;height:100%;object-fit:cover;border-radius:6px}
         .feature-card h3{color:#2563eb;margin-bottom:1rem;font-size:1.3rem}
         .feature-card p{color:#666;margin-bottom:1.5rem;font-size:0.95rem;line-height:1.5}
-        .feature-list{list-style:none;padding:0;margin:0 0 1.5rem 0;text-align:left}
-        .feature-list li{position:relative;padding-left:1.8rem;margin-bottom:0.8rem;color:#555;font-size:0.9rem;line-height:1.4}
-        .feature-list li:before{content:"✓";position:absolute;left:0;color:var(--primary-color);font-weight:bold;font-size:1.1rem}
+        .feature-list{list-style:disc;padding-left:1.5rem;margin:0 0 1.5rem 0;text-align:left}
+        .feature-list li{margin-bottom:0.8rem;color:#555;font-size:0.9rem;line-height:1.4}
         .price{font-size:2.5rem;color:#ff6b6b;font-weight:bold;text-align:center;margin:1.5rem 0 1rem}
         .btn-feature{background:#2563eb;color:var(--white);padding:12px 30px;border-radius:25px;display:inline-block;text-decoration:none;font-weight:600;transition:all 0.3s;margin-top:auto}
         .btn-feature:hover{background:#1d4ed8;transform:translateY(-2px)}
@@ -92,7 +92,7 @@
         /* Steps Section */
         .steps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;margin:3rem 0}
         .step-card{text-align:center;padding:2rem}
-        .step-number{width:60px;height:60px;margin:0 auto 1.5rem;background:#ff6b6b;color:var(--white);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.8rem;font-weight:bold}
+        .step-number{width:60px;height:60px;margin:0 auto 1.5rem;background:#e67e22 !important;color:var(--white) !important;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.8rem;font-weight:bold}
         .step-card h3{color:#2563eb;margin-bottom:1rem;font-size:1.3rem;font-weight:600}
         .step-card p{color:#666;line-height:1.6;font-size:0.95rem}
         
@@ -105,7 +105,7 @@
         .benefit-card p{color:#666;line-height:1.5;font-size:0.9rem}
         
         /* CTA Section */
-        .cta-section{background:var(--secondary-color);color:var(--white);text-align:center}
+        .cta-section{background:linear-gradient(135deg, rgb(77, 123, 107) 0%, rgb(144, 173, 114) 50%, rgb(154, 189, 177) 100%);color:var(--white);text-align:center}
         .cta-section h2{color:var(--white);margin-bottom:1rem}
         .cta-section p{font-size:1.1rem;margin-bottom:2rem;color:var(--white)}
         .btn-white{background:var(--white);color:var(--primary-color)}
@@ -117,8 +117,9 @@
         .faq-question{padding:1.5rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;transition:background 0.3s}
         .faq-question:hover{background:var(--light-bg)}
         .faq-question h3{margin:0;color:var(--primary-color);font-size:1.1rem}
-        .faq-toggle{font-size:1.5rem;color:var(--primary-color);font-weight:300;transition:transform 0.3s}
-        .faq-question.active .faq-toggle{transform:rotate(45deg)}
+        .faq-toggle{background:#e67e22 !important;color:white !important;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:1.2rem;flex-shrink:0;border:none;transition:all 0.3s ease}
+        .faq-toggle:hover{background:#d35400;transform:scale(1.1)}
+        .faq-question.active .faq-toggle{background:#d35400;transform:rotate(45deg)}
         .faq-answer{max-height:0;overflow:hidden;transition:max-height 0.3s ease}
         .faq-answer p{padding:0 1.5rem 1.5rem;margin:0;color:var(--text-color);line-height:1.6}
         
@@ -209,8 +210,8 @@
             
             <div class="hero-image">
                 <picture>
-                    <source srcset="Image.webp/hormone-kits.webp" type="image/webp">
-                    <img src="images/hormone-kits.jpg" alt="Hormone Test Kits - Professional At-Home Testing" loading="eager" width="600" height="400">
+                    <source srcset="Image.webp/hormone testing.webp" type="image/webp">
+                    <img src="images/hormone testing.png" alt="Professional Hormone Testing - Laboratory test tubes with hormone names" loading="eager" width="600" height="400">
                 </picture>
             </div>
         </div>
@@ -252,7 +253,12 @@
             
             <div class="features-grid">
                 <div class="feature-card animate-on-scroll">
-                    <div class="feature-icon">💉</div>
+                    <div class="feature-icon">
+                        <picture>
+                            <source srcset="Image.webp/Saliva kit.webp" type="image/webp">
+                            <img src="images/Saliva kit.png" alt="ZRT Saliva Hormone Test Kit" loading="lazy">
+                        </picture>
+                    </div>
                     <h3>ZRT Saliva Hormone Test Kit</h3>
                     <p>Comprehensive saliva hormone panel measuring key reproductive and stress hormones</p>
                     <ul class="feature-list">
@@ -262,12 +268,16 @@
                         <li>Easy at-home saliva collection</li>
                         <li>7-10 day turnaround time</li>
                     </ul>
-                    <div class="price">$299</div>
-                    <a href="#" class="btn btn-feature">Learn More</a>
+                    <a href="#" class="btn btn-feature">Order Now</a>
                 </div>
                 
                 <div class="feature-card animate-on-scroll">
-                    <div class="feature-icon">⚡</div>
+                    <div class="feature-icon">
+                        <picture>
+                            <source srcset="Image.webp/Adrenal Stress.webp" type="image/webp">
+                            <img src="images/Adrenal Stress.png" alt="Adrenal Stress Test Kit" loading="lazy">
+                        </picture>
+                    </div>
                     <h3>Adrenal Stress Test Kit</h3>
                     <p>ZRT Laboratory adrenal function assessment for stress and energy optimization</p>
                     <ul class="feature-list">
@@ -277,12 +287,16 @@
                         <li>Stress resilience evaluation</li>
                         <li>Fatigue and sleep assessment</li>
                     </ul>
-                    <div class="price">$199</div>
-                    <a href="#" class="btn btn-feature">Learn More</a>
+                    <a href="#" class="btn btn-feature">Order Now</a>
                 </div>
                 
                 <div class="feature-card animate-on-scroll">
-                    <div class="feature-icon">🦋</div>
+                    <div class="feature-icon">
+                        <picture>
+                            <source srcset="Image.webp/Thyroidfunction.webp" type="image/webp">
+                            <img src="images/Thyroidfunction.png" alt="Thyroid Function Test Kit" loading="lazy">
+                        </picture>
+                    </div>
                     <h3>Thyroid Function Test Kit</h3>
                     <p>Complete thyroid panel including TSH, T3, T4, and thyroid antibodies</p>
                     <ul class="feature-list">
@@ -292,12 +306,13 @@
                         <li>Finger stick blood collection</li>
                         <li>Metabolism assessment</li>
                     </ul>
-                    <div class="price">$249</div>
-                    <a href="#" class="btn btn-feature">Learn More</a>
+                    <a href="#" class="btn btn-feature">Order Now</a>
                 </div>
                 
                 <div class="feature-card animate-on-scroll">
-                    <div class="feature-icon">🌱</div>
+                    <div class="feature-icon">
+                        <img src="images/gi-microbiome-test.jpg" alt="GI Microbiome Test Kit" loading="lazy">
+                    </div>
                     <h3>GI Microbiome Test Kit</h3>
                     <p>Designs for Health comprehensive digestive health and microbiome analysis</p>
                     <ul class="feature-list">
@@ -307,8 +322,7 @@
                         <li>Digestive enzyme function</li>
                         <li>Inflammation markers</li>
                     </ul>
-                    <div class="price">$399</div>
-                    <a href="#" class="btn btn-feature">Learn More</a>
+                    <a href="#" class="btn btn-feature">Order Now</a>
                 </div>
             </div>
         </div>
@@ -451,11 +465,6 @@
             <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
                 <a href="tel:+14106989068" class="btn btn-white">Call (410) 698-9068</a>
                 <a href="index.html#contact" class="btn btn-secondary">Contact Us</a>
-            </div>
-            
-            <div style="margin-top: 2rem; font-size: 0.9rem; opacity: 0.9;">
-                <p><strong>Location:</strong> 9818 Liberty Rd Ste B, Randallstown, MD 21133</p>
-                <p><strong>Hours:</strong> Monday - Friday: 10:00 AM - 6:00 PM</p>
             </div>
         </div>
     </section>

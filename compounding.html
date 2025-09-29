@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Custom Compounding Pharmacy Services - WellPharma Pharmacy | Personalized Medications in Randallstown, MD</title>
+    <meta name="description" content="Expert custom compounding pharmacy in Randallstown, MD. Personalized medications, hormone replacement therapy, pediatric formulations, allergen-free compounds, and pain management solutions.">
+    
+    <!-- Critical Resource Preloads - WebP with fallbacks -->
+    <link rel="preload" href="Image.webp/wellpharma-logo240.webp" as="image">
+    
+    <!-- Preload Critical Fonts - Break loading chain -->
+    <link rel="preload" href="https://fonts.gstatic.com/s/opensans/v40/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVIGxA.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <!-- DNS Prefetch for External Resources -->
+    <link rel="dns-prefetch" href="//www.google.com">
+    <link rel="dns-prefetch" href="//maps.googleapis.com">
+    
+    <!-- Google Fonts - Non-blocking Loading with faster fallback -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap&font-display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap&font-display=swap" rel="stylesheet"></noscript>
+    
+    <!-- Critical CSS - Inline for immediate rendering -->
+    <style>
+        :root{--primary-color:rgb(77,123,107);--secondary-color:rgb(144,173,114);--text-color:#2e2e2e;--white:#ffffff;--light-bg:rgb(235,243,237);--transition:all 0.3s ease-out}
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Open Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;font-size:17px;font-weight:500;line-height:1.6;color:var(--text-color);background:var(--white)}
+        
+        /* Critical Navigation Styles - Complete to prevent layout shifts */
+        .header{position:fixed;top:0;width:100%;background:var(--white);z-index:1000;box-shadow:0 2px 10px rgba(0,0,0,0.1);min-height:80px}
+        .nav{padding:0;height:100%}
+        .nav-container{display:flex;justify-content:space-between;align-items:center;padding:1rem 2rem;max-width:1200px;margin:0 auto;min-height:80px}
+        .nav-logo{display:flex;align-items:center}
+        .logo{height:60px;width:auto;display:block}
+        .nav-menu{display:flex;list-style:none;margin:0;padding:0;gap:0.5rem;align-items:center;height:100%}
+        .nav-item{position:relative;height:auto}
+        .nav-link{display:flex;align-items:center;padding:0.75rem 1rem;color:var(--text-color);text-decoration:none;font-weight:600;font-size:1rem;line-height:1.5;border-radius:6px;white-space:nowrap;min-height:44px;box-sizing:border-box}
+        .nav-link:hover{background:var(--light-bg);color:var(--primary-color)}
+        .dropdown-arrow{font-size:0.75rem;margin-left:0.5rem;transition:transform 0.2s ease;display:inline-block;width:10px;text-align:center}
+        .dropdown-menu{position:absolute;top:100%;left:0;background:var(--white);border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.1);padding:0.5rem;min-width:200px;opacity:0;visibility:hidden;transform:translateY(-10px);transition:all 0.2s ease;z-index:1001}
+        .dropdown:hover .dropdown-menu{opacity:1;visibility:visible;transform:translateY(0)}
+        .dropdown-link{display:block;padding:0.5rem 1rem;color:var(--text-color);text-decoration:none;font-size:0.95rem;border-radius:4px;line-height:1.4;white-space:nowrap}
+        .dropdown-link:hover{background:var(--light-bg);color:var(--primary-color)}
+        .hamburger{display:none;flex-direction:column;cursor:pointer;gap:4px;padding:8px;background:none;border:none}
+        .bar{width:25px;height:3px;background:var(--primary-color);transition:all 0.3s ease;border-radius:2px}
+        
+        /* Hero Critical Styles */
+        .hero-section{padding-top:100px;min-height:80vh;display:flex;align-items:center}
+        .hero-container{max-width:1200px;margin:0 auto;padding:0 2rem;display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
+        .hero-image{aspect-ratio:3/2;display:flex;align-items:center;justify-content:center}
+        .hero-image img{width:100%;height:100%;object-fit:cover;border-radius:12px}
+        .btn{display:inline-block;padding:12px 24px;border:none;border-radius:8px;text-decoration:none;font-weight:700;font-size:1.1rem;transition:var(--transition);cursor:pointer}
+        .btn-primary{background:var(--primary-color);color:var(--white)}
+        .btn-secondary{background:transparent;color:var(--primary-color);border:2px solid var(--primary-color)}
+        
+        /* Mobile Navigation - Prevent layout shifts */
+        @media (max-width: 768px) {
+            .nav-container{padding:0.75rem 1rem;min-height:70px}
+            .nav-menu{display:none;position:absolute;top:100%;left:0;width:100%;background:var(--white);flex-direction:column;box-shadow:0 4px 12px rgba(0,0,0,0.1);padding:1rem;border-top:1px solid #e5e7eb}
+            .nav-menu.active{display:flex}
+            .nav-item{width:100%}
+            .nav-link{padding:1rem;justify-content:flex-start;min-height:auto;width:100%;border-radius:0}
+            .hamburger{display:flex}
+            .hero-container{grid-template-columns:1fr;text-align:center;padding-top:80px}
+            .hero-section{padding-top:80px}
+        }
+    </style>
+    
+    <!-- Critical CSS - Non-blocking load (minified) -->
+    <link rel="stylesheet" href="css/main.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="css/main.min.css"></noscript>
+    
+    <!-- Page-specific CSS for Compounding -->
+    <style>
+        /* Hero Feature Icons - Darker Orange */
+        .feature-icon {
+            background: #e67e22 !important;
+            color: white !important;
+            width: 24px !important;
+            height: 24px !important;
+            border-radius: 50% !important;
+            display: inline-flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            font-weight: bold !important;
+            font-size: 0.9rem !important;
+            margin-right: 0.75rem !important;
+            flex-shrink: 0 !important;
+        }
+        
+        .hero-feature {
+            display: flex !important;
+            align-items: center !important;
+            margin-bottom: 0.75rem !important;
+        }
+        
+        /* Compounding Services Grid - Match Long Term Care Layout */
+        @media (min-width: 768px) {
+            .services-section .services-grid {
+                grid-template-columns: repeat(2, 1fr) !important;
+                gap: 2rem !important;
+                margin: 2rem 0 !important;
+                max-width: 1200px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .services-section .service-card {
+                background: var(--white) !important;
+                padding: 2rem !important;
+                border-radius: 15px !important;
+                box-shadow: 0 4px 15px rgba(0,0,0,0.1) !important;
+                transition: all 0.3s ease-out !important;
+                cursor: pointer !important;
+                will-change: transform, box-shadow !important;
+            }
+            
+            .services-section .service-card:hover {
+                transform: translateY(-5px) !important;
+                box-shadow: 0 10px 30px rgba(0,0,0,0.2) !important;
+            }
+        }
+        
+        @media (max-width: 767px) {
+            .services-section .services-grid {
+                grid-template-columns: 1fr !important;
+                gap: 2rem !important;
+                margin: 2rem 0 !important;
+            }
+        }
+        
+        /* Step Number Circles - Darker Orange */
+        .step-number {
+            background: #e67e22 !important;
+            color: white !important;
+            width: 50px !important;
+            height: 50px !important;
+            border-radius: 50% !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            font-weight: bold !important;
+            font-size: 1.2rem !important;
+            flex-shrink: 0 !important;
+            margin-right: 1.5rem !important;
+        }
+        
+        .step {
+            display: flex !important;
+            align-items: flex-start !important;
+            margin-bottom: 2rem !important;
+        }
+        
+        /* FAQ Toggle Buttons - Darker Orange */
+        .faq-toggle {
+            background: #e67e22 !important;
+            color: white !important;
+            width: 30px !important;
+            height: 30px !important;
+            border-radius: 50% !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            font-weight: bold !important;
+            font-size: 1.2rem !important;
+            flex-shrink: 0 !important;
+            border: none !important;
+            transition: all 0.3s ease !important;
+        }
+        
+        .faq-toggle:hover {
+            background: #d35400 !important;
+            transform: scale(1.1) !important;
+        }
+        
+        .faq-item.active .faq-toggle {
+            background: #d35400 !important;
+            transform: rotate(45deg) !important;
+        }
+        
+        /* Benefits Section - Match Long Term Care Spacing */
+        .benefits-section {
+            padding: 4rem 0 !important;
+        }
+        
+        .benefits-section h2 {
+            margin-bottom: 1rem !important;
+        }
+        
+        .benefits-section .section-subtitle {
+            margin-bottom: 2rem !important;
+        }
+        
+        .benefits-grid {
+            display: grid !important;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+            gap: 1.5rem !important;
+            margin-top: 2rem !important;
+        }
+        
+        .benefit-item {
+            padding: 1.5rem !important;
+            margin-bottom: 0 !important;
+        }
+        
+        .benefit-item h3 {
+            margin-bottom: 0.75rem !important;
+            font-size: 1.25rem !important;
+        }
+        
+        .benefit-item p {
+            margin-bottom: 0 !important;
+            line-height: 1.5 !important;
+        }
+    </style>
+    
+    <!-- Non-critical CSS - Load asynchronously -->
+    <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="css/style.css"></noscript>
+    
+    <link rel="stylesheet" href="css/hero-fullscreen.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="css/hero-fullscreen.css"></noscript>
+    
+    <link rel="stylesheet" href="css/wellpharma-theme.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="css/wellpharma-theme.min.css"></noscript>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <!-- Structured Data for Compounding Pharmacy -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Pharmacy",
+        "name": "WellPharma Pharmacy - Custom Compounding Services",
+        "description": "Expert custom compounding pharmacy specializing in personalized medications, hormone therapy, and allergen-free formulations",
+        "url": "https://wellpharmapharmacy.com/compounding.html",
+        "telephone": "(410) 698-9068",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "9818 Liberty Rd Ste B",
+            "addressLocality": "Randallstown",
+            "addressRegion": "MD",
+            "postalCode": "21133",
+            "addressCountry": "US"
+        },
+        "serviceArea": [
+            "Maryland",
+            "Baltimore County",
+            "Randallstown",
+            "Pikesville",
+            "Owings Mills",
+            "Reisterstown"
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Compounding Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Custom Medication Formulations",
+                        "description": "Personalized medications tailored to specific patient needs"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Hormone Replacement Therapy",
+                        "description": "Custom HRT formulations in various strengths and delivery methods"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Allergen-Free Medications",
+                        "description": "Medications compounded without common allergens like gluten and dyes"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header site-header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo site-branding">
+                    <a href="index.html">
+                        <picture>
+                            <source srcset="Image.webp/wellpharma-logo240.webp" type="image/webp">
+                            <img src="images/wellpharma-logo.png" alt="WellPharma Pharmacy Logo" class="logo" width="120" height="60" decoding="async">
+                        </picture>
+                    </a>
+                </div>
+                
+                <ul class="nav-menu" id="primary-menu">
+                    <li class="nav-item dropdown">
+                        <a href="#prescriptions" class="nav-link">Prescriptions <span class="dropdown-arrow">▼</span></a>
+                        <div class="dropdown-menu">
+                            <a href="https://app.formdr.com/practice/NDUzNjE=/form/eg8P_60baYvMleMIRDy3ux7YtPT4GAAY" class="dropdown-link" target="_blank">Refill</a>
+                            <a href="https://app.formdr.com/practice/NDUzNjE=/form/t8T5m2GJfxhERNOEJgdxFg19xks4_Se2" class="dropdown-link" target="_blank">Transfer</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="index.html#birth-control" class="nav-link">Birth Control <span class="dropdown-arrow">▼</span></a>
+                        <div class="dropdown-menu">
+                            <a href="index.html#consultation" class="dropdown-link">Consultation</a>
+                            <a href="index.html#how-it-works" class="dropdown-link">How It Works</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#services" class="nav-link">Services <span class="dropdown-arrow">▼</span></a>
+                        <div class="dropdown-menu">
+                            <a href="index.html#immunizations-card" class="dropdown-link">Immunizations</a>
+                            <a href="index.html#testing-card" class="dropdown-link">Testing</a>
+                            <a href="hormone-kits.html" class="dropdown-link">Hormone Kits</a>
+                            <a href="pharmacy-care-at-home.html" class="dropdown-link">Pharmacy Care at Home</a>
+                            <a href="long-term-care.html" class="dropdown-link">Long Term Care</a>
+                            <a href="compounding.html" class="dropdown-link">Compounding</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#shop" class="nav-link">Shop <span class="dropdown-arrow">▼</span></a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-link coming-soon">Supplements <span class="coming-soon-badge">Coming Soon</span></a>
+                            <a href="#" class="dropdown-link coming-soon">Wellness <span class="coming-soon-badge">Coming Soon</span></a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="index.html#blog-section" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="index.html#about" class="nav-link">About</a></li>
+                </ul>
+                
+                <div class="hamburger menu-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1>Custom Compounding Pharmacy Services in Randallstown, MD</h1>
+                    <p class="hero-description">Personalized medications tailored to your unique needs. From hormone replacement therapy to allergen-free formulations, we create custom solutions when standard medications don't fit.</p>
+                    
+                    <div class="hero-features">
+                        <div class="hero-feature">
+                            <span class="feature-icon">✓</span>
+                            <span>Custom Formulations</span>
+                        </div>
+                        <div class="hero-feature">
+                            <span class="feature-icon">✓</span>
+                            <span>Allergen-Free Options</span>
+                        </div>
+                        <div class="hero-feature">
+                            <span class="feature-icon">✓</span>
+                            <span>Hormone Replacement Therapy</span>
+                        </div>
+                        <div class="hero-feature">
+                            <span class="feature-icon">✓</span>
+                            <span>Pediatric & Veterinary</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">Get Custom Medication</a>
+                        <a href="tel:+14106989068" class="btn btn-secondary">Call (410) 698-9068</a>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <picture>
+                        <source srcset="Image.webp/custom compounding.webp" type="image/webp">
+                        <img src="images/custom compounding.png" alt="Custom Compounding Laboratory - Professional pharmacist preparing personalized medications" fetchpriority="high" loading="eager" width="600" height="400">
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trust Badges Section -->
+        <section id="trust-badges" class="trust-badges-section section-light">
+            <div class="container">
+                <h2>Expert Compounding with Precision & Care</h2>
+                <p class="section-subtitle">Trusted by patients and healthcare providers for safe, effective custom medications</p>
+                
+                <div class="trust-badges-grid">
+                    <div class="trust-badge">
+                        <div class="badge-icon"></div>
+                        <h3>State-of-the-Art Laboratory</h3>
+                        <p>Advanced compounding equipment and sterile preparation areas for the highest quality medications</p>
+                    </div>
+                    
+                    <div class="trust-badge">
+                        <div class="badge-icon"></div>
+                        <h3>Licensed Pharmacist Oversight</h3>
+                        <p>Every compound prepared under direct supervision of our experienced, licensed pharmacist</p>
+                    </div>
+                    
+                    <div class="trust-badge">
+                        <div class="badge-icon"></div>
+                        <h3>Precise Custom Dosing</h3>
+                        <p>Exact strengths and combinations tailored to your specific prescription requirements</p>
+                    </div>
+                    
+                    <div class="trust-badge">
+                        <div class="badge-icon"></div>
+                        <h3>Quality Assured</h3>
+                        <p>Rigorous testing and quality control measures ensure safety and potency of every preparation</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Grid Section -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2>Comprehensive Custom Compounding Services</h2>
+                <p class="section-subtitle">Specialized pharmaceutical solutions when standard medications aren't the right fit</p>
+                
+                <div class="services-grid">
+                    <div class="service-card compounding-service">
+                        <div class="service-icon"></div>
+                        <h3>Personalized Medications</h3>
+                        <ul>
+                            <li>Custom strength formulations</li>
+                            <li>Combination medications in single dose</li>
+                            <li>Alternative dosage forms (creams, gels, lozenges)</li>
+                            <li>Flavor customization for children</li>
+                            <li>Capsule to liquid conversions</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card compounding-service">
+                        <div class="service-icon"></div>
+                        <h3>Allergen-Free Formulations</h3>
+                        <ul>
+                            <li>Gluten-free medications</li>
+                            <li>Lactose-free formulations</li>
+                            <li>Dye-free and preservative-free options</li>
+                            <li>Sugar-free preparations for diabetics</li>
+                            <li>Hypoallergenic base ingredients</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card compounding-service">
+                        <div class="service-icon"></div>
+                        <h3>Hormone Replacement Therapy</h3>
+                        <ul>
+                            <li>Bio-identical hormone preparations</li>
+                            <li>Custom estrogen/progesterone combinations</li>
+                            <li>Testosterone therapy formulations</li>
+                            <li>Thyroid hormone preparations</li>
+                            <li>Multiple delivery methods available</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card compounding-service">
+                        <div class="service-icon"></div>
+                        <h3>Specialized Applications</h3>
+                        <ul>
+                            <li>Pain management creams and gels</li>
+                            <li>Low Dose Naltrexone (LDN) formulations</li>
+                            <li>Pediatric formulations and dosing</li>
+                            <li>Veterinary medications</li>
+                            <li>Dermatology preparations</li>
+                            <li>Wound care and scar treatment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-it-works" class="how-it-works-section section-light">
+            <div class="container">
+                <h2>How Our Custom Compounding Process Works</h2>
+                <p class="section-subtitle">Simple steps to get your personalized medication solution</p>
+                
+                <div class="steps-container">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Prescription Review & Consultation</h3>
+                            <p>Bring your prescription and discuss your specific needs with our pharmacist. We'll review your medical history, allergies, and preferred medication format to design the perfect solution.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Custom Formulation Preparation</h3>
+                            <p>Our licensed pharmacist carefully compounds your medication using high-quality ingredients and precise measurements. We follow strict quality control procedures to ensure safety and efficacy.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Quality Testing & Delivery</h3>
+                            <p>Every compound undergoes final quality checks before packaging. Pick up your custom medication or take advantage of our free local delivery service with detailed instructions for use.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section id="benefits" class="benefits-section">
+            <div class="container">
+                <h2>Why Choose WellPharma for Custom Compounding</h2>
+                <p class="section-subtitle">The advantages of personalized pharmaceutical care</p>
+                
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <h3>Perfect Fit for You</h3>
+                        <p>When standard medications don't work due to allergies, dosing issues, or unavailable combinations, compounding creates exactly what you need.</p>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <h3>Child-Friendly Options</h3>
+                        <p>Make medication time easier with custom flavors, appropriate dosing, and kid-friendly formats that ensure compliance and safety.</p>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <h3>Cost-Effective Solutions</h3>
+                        <p>Combine multiple medications into one dose, reduce waste with exact quantities, and avoid expensive brand alternatives.</p>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <h3>Discontinued Medication Access</h3>
+                        <p>Continue your treatment when medications are discontinued by manufacturers with identical custom formulations.</p>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <h3>Quick Turnaround</h3>
+                        <p>Most compounds ready within 24-48 hours, with emergency preparations available same-day when needed.</p>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <h3>Healthcare Provider Collaboration</h3>
+                        <p>We work directly with your doctor to ensure optimal therapeutic outcomes and appropriate monitoring.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq-section section-light">
+            <div class="container">
+                <h2>Custom Compounding - Frequently Asked Questions</h2>
+                <p class="section-subtitle">Everything you need to know about personalized medications</p>
+                
+                <div class="faq-categories">
+                    <!-- General Compounding FAQs -->
+                    <div class="faq-category">
+                        <h3>Understanding Compounding</h3>
+                        <div class="faq-items">
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    What is pharmaceutical compounding?
+                                    <span class="faq-toggle">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>Pharmaceutical compounding is the art and science of preparing personalized medications for patients. It involves combining, mixing, or altering ingredients to create a medication tailored to meet the unique needs of an individual patient when commercially available medications don't fit their requirements.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    When might I need a compounded medication?
+                                    <span class="faq-toggle">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>You might need compounding if you have allergies to ingredients in commercial medications, need a different strength than available, require a different dosage form (like liquid instead of pills), need multiple medications combined, or if your medication has been discontinued by the manufacturer.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    Are compounded medications FDA approved?
+                                    <span class="faq-toggle">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>Compounded medications are regulated by state boards of pharmacy rather than the FDA. However, we use only FDA-approved ingredients and follow strict quality standards. Our compounding practices comply with USP (United States Pharmacopeia) guidelines and Maryland Board of Pharmacy regulations.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Specific Services FAQs -->
+                    <div class="faq-category">
+                        <h3>Our Compounding Services</h3>
+                        <div class="faq-items">
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    Do you compound hormone replacement therapy?
+                                    <span class="faq-toggle">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>Yes, we specialize in bio-identical hormone replacement therapy compounds including estrogen, progesterone, and testosterone preparations. We can create custom formulations in various strengths and delivery methods (creams, gels, capsules) based on your doctor's prescription and your individual hormone levels.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    Can you make allergen-free medications?
+                                    <span class="faq-toggle">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>Absolutely! We can compound medications without common allergens including gluten, lactose, dyes, preservatives, and other additives. This is especially beneficial for patients with multiple allergies or sensitivities to ingredients in commercial medications.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    Do you make medications for children and pets?
+                                    <span class="faq-toggle">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>Yes, we provide both pediatric and veterinary compounding services. For children, we can create pleasant-tasting liquid formulations, appropriate dosing, and easy-to-administer formats. For pets, we can compound medications in flavors and formats that make administration easier while ensuring accurate dosing.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Process & Pricing FAQs -->
+                    <div class="faq-category">
+                        <h3>Process & Pricing</h3>
+                        <div class="faq-items">
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    How long does it take to prepare a compound?
+                                    <span class="faq-toggle">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>Most compounds are ready within 24-48 hours. Simple formulations may be available same-day, while more complex preparations might take 2-3 days. We'll provide you with an accurate timeline when you bring in your prescription.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    Does insurance cover compounded medications?
+                                    <span class="faq-toggle">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>Many insurance plans do cover compounded medications, especially when medically necessary. Coverage varies by plan and indication. We'll check your insurance benefits and work with your provider to maximize coverage. HSA and FSA cards are also accepted.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    How much do compounded medications cost?
+                                    <span class="faq-toggle">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>Pricing varies based on ingredients, complexity, and quantity. We provide transparent pricing before preparation and work with your insurance to minimize out-of-pocket costs. Many patients find compounding cost-effective when it eliminates the need for multiple medications or provides a solution not available commercially.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="cta" class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Experience Personalized Medication Solutions?</h2>
+                    <p>Contact WellPharma today to discuss how custom compounding can solve your unique medication challenges.</p>
+                    
+                    <div class="cta-benefits">
+                        <div class="cta-benefit">
+                            <span class="benefit-icon"></span>
+                            <span>Free Consultation</span>
+                        </div>
+                        <div class="cta-benefit">
+                            <span class="benefit-icon"></span>
+                            <span>Fast Turnaround</span>
+                        </div>
+                        <div class="cta-benefit">
+                            <span class="benefit-icon"></span>
+                            <span>Free Local Delivery</span>
+                        </div>
+                    </div>
+                    
+                    <div class="cta-buttons">
+                        <a href="tel:+14106989068" class="btn btn-primary">Call (410) 698-9068</a>
+                        <a href="mailto:info@wellpharmapharmacy.com" class="btn btn-secondary">Email Us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section footer-about">
+                    <h3>Wellpharma Pharmacy</h3>
+                    <p>Your trusted independent pharmacy serving Maryland with personalized healthcare services since 2022.</p>
+                    <div class="footer-contact">
+                        <p>📞 <a href="tel:(410) 698-9068">(410) 698-9068</a></p>
+                        <p>📧 <a href="mailto:info@wellpharmapharmacy.com">info@wellpharmapharmacy.com</a></p>
+                        <p>📍 9818 Liberty Road Ste B, Randallstown, MD 21133</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="index.html#refill">Prescription Refill</a></li>
+                        <li><a href="index.html#birth-control">Birth Control</a></li>
+                        <li><a href="index.html#immunization">Immunizations</a></li>
+                        <li><a href="compounding.html">Compounding</a></li>
+                        <li><a href="pharmacy-care-at-home.html">Pharmacy Care at Home</a></li>
+                        <li><a href="long-term-care.html">Long Term Care</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="index.html#faq">FAQ</a></li>
+                        <li><a href="index.html#delivery">Delivery Info</a></li>
+                        <li><a href="index.html#hours">Hours</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Health Resources</h3>
+                    <ul>
+                        <li><a href="index.html#blog">Health Blog</a></li>
+                        <li><a href="https://www.cdc.gov/vaccines/" target="_blank">CDC Vaccine Info</a></li>
+                        <li><a href="https://www.fda.gov/drugs/drug-safety-and-availability" target="_blank">Drug Safety Info</a></li>
+                        <li><a href="#medication-guides">Medication Guides</a></li>
+                        <li><a href="#health-resources">Health Resources</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p>© 2025 Wellpharma Pharmacy. All rights reserved.</p>
+                    <ul class="legal-links">
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                        <li><a href="#hipaa">HIPAA Notice</a></li>
+                    </ul>
+                </div>
+                <p class="license-info">
+                    <strong>Licensed by:</strong> Maryland Board of Pharmacy | <strong>NPI:</strong> 1003585373
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript - Optimized Loading -->
+    <script src="js/wellpharma.js" defer></script>
+</body>
+</html>
