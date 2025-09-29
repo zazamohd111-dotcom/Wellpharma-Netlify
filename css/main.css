@@ -192,6 +192,7 @@ ul, ol {
     padding: 1rem 0;
     margin: 0;
     border-top: 1px solid rgba(0,0,0,0.05);
+    z-index: 999;
 }
 
 .nav-menu.active {
@@ -239,7 +240,7 @@ ul, ol {
     padding: 0.5rem 0;
     margin-left: 1.5rem;
     border-left: 2px solid var(--green-100);
-    background: var(--green-50);
+    background: transparent;
     border-radius: 6px;
     margin-top: 0.5rem;
 }
@@ -251,17 +252,18 @@ ul, ol {
 .dropdown-link {
     display: block;
     padding: 0.625rem 1rem;
-    color: var(--text-light);
+    color: var(--text-color);
     text-decoration: none;
     font-size: 0.95rem;
     font-weight: 500;
     transition: var(--transition-fast);
     border-radius: 4px;
     margin: 0.125rem 0.5rem;
+    background: white;
 }
 
 .dropdown-link:hover {
-    background: white;
+    background: var(--green-50);
     color: var(--green-700);
 }
 
@@ -276,7 +278,6 @@ ul, ol {
 }
 
 .dropdown-link.coming-soon {
-    opacity: 0.7;
     cursor: default;
 }
 
