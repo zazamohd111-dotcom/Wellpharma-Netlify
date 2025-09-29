@@ -865,6 +865,27 @@ ul, ol {
     background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
 }
 
+/* New category pills using same gradient colors */
+.category-bmi {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.category-bp-monitor {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.category-pill-id {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.category-med-review {
+    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+}
+
+.category-risk-test {
+    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+}
+
 .category-pill:hover {
     transform: translateY(-5px) scale(1.05);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
