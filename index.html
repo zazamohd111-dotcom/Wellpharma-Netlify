@@ -71,13 +71,22 @@
         /* Mobile Navigation - Prevent layout shifts */
         @media (max-width: 768px) {
             .nav-container{padding:0.75rem 1rem;min-height:70px}
-            .nav-menu{display:none;position:absolute;top:100%;left:0;width:100%;background:var(--white);flex-direction:column;box-shadow:0 4px 12px rgba(0,0,0,0.1);padding:1rem;border-top:1px solid #e5e7eb}
-            .nav-menu.active{display:flex}
-            .nav-item{width:100%}
-            .nav-link{padding:1rem;justify-content:flex-start;min-height:auto;width:100%;border-radius:0}
+            .nav-menu{display:none;position:absolute;top:100%;left:0;width:100%;background:#ffffff;flex-direction:column;box-shadow:0 4px 15px rgba(0,0,0,0.15);padding:1rem;border-top:2px solid #d0e8d4}
+            .nav-menu.active{display:flex;background:#ffffff !important}
+            .nav-item{width:100%;background:#f8faf8;margin:0.25rem 0;border-radius:6px;border:1px solid #e5e5e5}
+            .nav-link{padding:1rem;justify-content:space-between;min-height:auto;width:100%;border-radius:6px;background:transparent}
+            .nav-item:not(.dropdown){background:#f0f6f2 !important;border:1px solid #d0e8d4}
+            .nav-item:not(.dropdown) .nav-link{font-weight:600}
             .hamburger{display:flex}
             .hero-container{grid-template-columns:1fr;text-align:center;padding-top:80px}
             .hero-section{padding-top:80px}
+
+            /* Mobile Dropdown Fix */
+            .dropdown .dropdown-menu{display:none !important}
+            .dropdown.active .dropdown-menu{display:block !important;position:static !important;opacity:1 !important;visibility:visible !important;transform:none !important;background:#e8f5ea !important;margin-top:0.5rem;margin-left:1rem;padding:0.75rem;border-radius:8px;box-shadow:0 3px 10px rgba(0,0,0,0.15);border:1px solid #d0e8d4}
+            .dropdown.active .dropdown-link{background:var(--white) !important;padding:0.625rem 1rem !important;margin:0.25rem 0 !important;border-radius:6px;display:block !important;box-shadow:0 2px 4px rgba(0,0,0,0.08);border:1px solid #e5e5e5}
+            .dropdown.active .dropdown-link:hover{background:#f5f5f5 !important;transform:translateX(5px);border-color:#d0e8d4}
+            .dropdown.active .dropdown-arrow{transform:rotate(180deg)}
         }
     </style>
     
@@ -313,8 +322,8 @@
                     
                     <div id="pharmacy-care-at-home-card" class="service-card">
                         <picture>
-                            <source srcset="Image.webp/pharmacy care at home.webp" type="image/webp">
-                            <img src="images/pharmacy care at home.jpg" alt="Pharmacy Care at Home Services" loading="lazy" decoding="async" width="300" height="200">
+                            <source srcset="Image.webp/pharmacy-care-at-home2.webp" type="image/webp">
+                            <img src="images/pharmacy-care-at-home2.jpg" alt="Pharmacy Care at Home Services" loading="lazy" decoding="async" width="300" height="200">
                         </picture>
                         <h3>Pharmacy Care at Home</h3>
                         <p>CMS-approved Medicare services helping seniors age safely at home.</p>
@@ -530,7 +539,7 @@
                 
                 <!-- Category Pills -->
                 <div class="blog-categories">
-                    <a href="https://www.calculator.net/bmi-calculator.html" class="category-pill category-bmi" target="_blank">
+                    <a href="https://www.cdc.gov/bmi/adult-calculator/index.html" class="category-pill category-bmi" target="_blank">
                         <span class="category-title">BMI Check</span>
                         <span class="category-subtitle">Calculator</span>
                     </a>

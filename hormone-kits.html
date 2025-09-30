@@ -42,6 +42,12 @@
         .nav-item{position:relative;height:auto}
         .nav-link{display:flex;align-items:center;padding:0.75rem 1rem;color:var(--text-color);text-decoration:none;font-weight:600;font-size:1rem;line-height:1.5;border-radius:6px;white-space:nowrap;min-height:44px;box-sizing:border-box}
         .nav-link:hover{background:var(--light-bg);color:var(--primary-color)}
+        .dropdown{position:relative}
+        .dropdown-arrow{font-size:0.75rem;margin-left:0.5rem;transition:transform 0.2s ease;display:inline-block;width:10px;text-align:center;color:var(--text-color)}
+        .dropdown-menu{position:absolute;top:100%;left:0;background:var(--white);border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.1);padding:0.5rem;min-width:220px;opacity:0;visibility:hidden;transform:translateY(-10px);transition:all 0.2s ease;z-index:1001;border:1px solid rgba(0,0,0,0.08);display:block !important}
+        .dropdown:hover .dropdown-menu{opacity:1 !important;visibility:visible !important;transform:translateY(0) !important}
+        .dropdown-link{display:block !important;padding:0.625rem 1rem !important;color:var(--text-color) !important;text-decoration:none;font-size:0.95rem;border-radius:4px;line-height:1.4;white-space:nowrap;background:transparent !important;margin:0 !important;border-left:none !important}
+        .dropdown-link:hover{background:var(--light-bg) !important;color:var(--primary-color) !important}
         .hamburger{display:none;flex-direction:column;cursor:pointer;gap:4px;padding:8px;background:none;border:none}
         .bar{width:25px;height:3px;background:var(--primary-color);transition:all 0.3s ease;border-radius:2px}
         
@@ -57,6 +63,8 @@
         .btn-primary:hover{background:#ff5252;transform:translateY(-1px)}
         .btn-secondary{background:transparent;color:var(--white);border:2px solid var(--white)}
         .btn-secondary:hover{background:var(--white);color:var(--primary-color)}
+        .cta-section .btn-secondary{background:var(--white);color:var(--primary-color) !important;border:none;font-weight:700}
+        .cta-section .btn-secondary:hover{background:#f9f9f9;color:var(--primary-color) !important;transform:translateY(-1px)}
         
         /* Trust Badges */
         .trust-badges{padding:2rem;background:var(--white);border-bottom:1px solid #e5e5e5}
@@ -100,7 +108,7 @@
         .benefits-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2rem;margin:3rem 0}
         .benefit-card{text-align:center;padding:1.5rem}
         .benefit-icon{width:80px;height:80px;margin:0 auto 1.5rem;background:var(--primary-color);border-radius:50%;display:flex;align-items:center;justify-content:center}
-        .benefit-icon span{font-size:2.5rem}
+        .benefit-icon span{color:var(--white);font-family:'Roboto',sans-serif}
         .benefit-card h3{color:#2563eb;margin-bottom:1rem;font-size:1.1rem;font-weight:600}
         .benefit-card p{color:#666;line-height:1.5;font-size:0.9rem}
         
@@ -143,10 +151,19 @@
         
         /* Mobile Styles */
         @media (max-width: 768px) {
-            .nav-menu{display:none}
+            body.menu-open{overflow:hidden}
+            .nav-menu{position:fixed;top:80px;left:-100%;width:80%;height:auto;max-height:60vh;background:var(--white);flex-direction:column;justify-content:flex-start;padding:1.5rem;overflow-y:auto;transition:left 0.3s ease;z-index:999;box-shadow:2px 0 15px rgba(0,0,0,0.15);border-radius:0 12px 12px 0}
+            .nav-menu.active{left:0;display:flex}
+            .nav-item{width:100%;margin:0.25rem 0}
+            .nav-link{width:100%;justify-content:space-between;padding:0.75rem 1rem}
             .hamburger{display:flex}
-            .hero-container{grid-template-columns:1fr;text-align:center}
-            .hero-content h1{font-size:2.2rem}
+            .hero-section{padding:120px 0 60px}
+            .hero-container{grid-template-columns:1fr;text-align:center;padding:0 1.5rem}
+            .hero-content h1{font-size:2.2rem;padding:0 0.5rem}
+            .hero-content p{padding:0 0.5rem}
+            .hero-cta{display:flex;flex-direction:column;gap:1rem;margin:1.5rem -1.5rem 0;padding:0 1rem}
+            .hero-cta .btn{width:calc(100% - 1rem);margin:0 0.5rem;padding:16px 24px;display:block;text-align:center;border-radius:8px}
+            .hero-image{padding:0 1.5rem}
             .section h2{font-size:1.8rem}
             .features-grid{grid-template-columns:1fr}
             .steps-grid{grid-template-columns:1fr}
@@ -154,6 +171,12 @@
             .badges-grid{gap:1rem;font-size:0.85rem}
             .badge-item{flex-direction:column;text-align:center}
             .badge-text{font-size:0.8rem}
+            /* Mobile Dropdown Fix */
+            .dropdown .dropdown-menu{display:none !important}
+            .dropdown.active .dropdown-menu{display:block !important;position:static !important;opacity:1 !important;visibility:visible !important;transform:none !important;background:#f8f8f8 !important;margin-top:0.5rem;margin-left:1rem;padding:0.75rem;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.08);border:1px solid #e5e5e5}
+            .dropdown.active .dropdown-link{background:var(--white) !important;padding:0.625rem 1rem !important;margin:0.25rem 0 !important;border-radius:6px;display:block !important;box-shadow:0 1px 3px rgba(0,0,0,0.05)}
+            .dropdown.active .dropdown-link:hover{background:#f0f0f0 !important;transform:translateX(5px)}
+            .dropdown.active .dropdown-arrow{transform:rotate(180deg)}
         }
     </style>
     
@@ -180,7 +203,18 @@
                 
                 <ul class="nav-menu">
                     <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="index.html#services" class="nav-link">Services</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">Services <span class="dropdown-arrow">▼</span></a>
+                        <div class="dropdown-menu">
+                            <a href="index.html#refill" class="dropdown-link">Prescription Refill</a>
+                            <a href="index.html#transfer" class="dropdown-link">Transfer Prescription</a>
+                            <a href="index.html#immunizations" class="dropdown-link">Immunizations</a>
+                            <a href="index.html#testing" class="dropdown-link">Testing Services</a>
+                            <a href="compounding.html" class="dropdown-link">Compounding</a>
+                            <a href="pharmacy-care-at-home.html" class="dropdown-link">Pharmacy Care at Home</a>
+                            <a href="long-term-care.html" class="dropdown-link">Long Term Care</a>
+                        </div>
+                    </li>
                     <li class="nav-item"><a href="index.html#birth-control" class="nav-link">Birth Control</a></li>
                     <li class="nav-item"><a href="index.html#about" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact</a></li>
@@ -293,8 +327,8 @@
                 <div class="feature-card animate-on-scroll">
                     <div class="feature-icon">
                         <picture>
-                            <source srcset="Image.webp/Thyroidfunction.webp" type="image/webp">
-                            <img src="images/Thyroidfunction.png" alt="Thyroid Function Test Kit" loading="lazy">
+                            <source srcset="Image.webp/Thyroidfunctiontestkit.webp" type="image/webp">
+                            <img src="images/Thyroidfunctiontestkit.png" alt="Thyroid Function Test Kit" loading="lazy">
                         </picture>
                     </div>
                     <h3>Thyroid Function Test Kit</h3>
@@ -312,8 +346,8 @@
                 <div class="feature-card animate-on-scroll">
                     <div class="feature-icon">
                         <picture>
-                            <source srcset="Image.webp/testing-services.webp" type="image/webp">
-                            <img src="images/testing-services.jpg" alt="GI Microbiome Test Kit" loading="lazy">
+                            <source srcset="Image.webp/Gi microbiome test kit.webp" type="image/webp">
+                            <img src="images/Gi microbiome test kit.png" alt="GI Microbiome Test Kit" loading="lazy">
                         </picture>
                     </div>
                     <h3>GI Microbiome Test Kit</h3>
@@ -368,31 +402,31 @@
             <div class="benefits-grid">
                 <div class="benefit-card animate-on-scroll">
                     <div class="benefit-icon">
-                        <span>👥</span>
+                        <span style="font-size: 1.8rem; font-weight: bold;">Rx</span>
                     </div>
                     <h3>Licensed Pharmacist Support</h3>
                     <p>Dr. Zahraa Babiker, PharmD provides personalized consultation and interpretation of your hormone test results.</p>
                 </div>
-                
+
                 <div class="benefit-card animate-on-scroll">
                     <div class="benefit-icon">
-                        <span>🔬</span>
+                        <span style="font-size: 2rem; font-weight: bold;">LAB</span>
                     </div>
                     <h3>CLIA-Certified Laboratory</h3>
                     <p>All testing performed by ZRT Laboratory and Designs for Health - industry leaders in functional medicine testing.</p>
                 </div>
-                
+
                 <div class="benefit-card animate-on-scroll">
                     <div class="benefit-icon">
-                        <span>🔒</span>
+                        <span style="font-size: 2.2rem; font-weight: bold;">✓</span>
                     </div>
                     <h3>Complete Privacy</h3>
                     <p>Discreet packaging, confidential results, and HIPAA-compliant handling of all your health information.</p>
                 </div>
-                
+
                 <div class="benefit-card animate-on-scroll">
                     <div class="benefit-icon">
-                        <span>🏪</span>
+                        <span style="font-size: 2.2rem; font-weight: bold;">MD</span>
                     </div>
                     <h3>Local Randallstown Support</h3>
                     <p>Community-based pharmacy with in-person consultations available. Supporting Maryland families since 2022.</p>
@@ -542,12 +576,69 @@
             // Mobile menu toggle
             const hamburger = document.querySelector('.hamburger');
             const navMenu = document.querySelector('.nav-menu');
-            
+            const body = document.body;
+
             if (hamburger && navMenu) {
                 hamburger.addEventListener('click', function() {
                     navMenu.classList.toggle('active');
+                    body.classList.toggle('menu-open');
+                });
+
+                // Close menu when clicking outside
+                document.addEventListener('click', function(e) {
+                    if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {
+                        navMenu.classList.remove('active');
+                        body.classList.remove('menu-open');
+                    }
+                });
+
+                // Close menu when clicking on a link
+                navMenu.querySelectorAll('.nav-link').forEach(link => {
+                    if (!link.parentElement.classList.contains('dropdown')) {
+                        link.addEventListener('click', function() {
+                            navMenu.classList.remove('active');
+                            body.classList.remove('menu-open');
+                        });
+                    }
                 });
             }
+
+            // Mobile dropdown toggle
+            const dropdownToggle = document.querySelector('.nav-item.dropdown .nav-link');
+            if (dropdownToggle) {
+                dropdownToggle.addEventListener('click', function(e) {
+                    if (window.innerWidth <= 768) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        const dropdown = this.parentElement;
+                        const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+
+                        // Toggle current dropdown
+                        dropdown.classList.toggle('active');
+
+                        // If closing, ensure menu items don't overlap
+                        if (!dropdown.classList.contains('active')) {
+                            dropdownMenu.style.display = 'none';
+                            setTimeout(() => {
+                                dropdownMenu.style.display = '';
+                            }, 300);
+                        }
+                    }
+                });
+            }
+
+            // Close dropdown links when clicked
+            const dropdownLinks = document.querySelectorAll('.dropdown-link');
+            dropdownLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    const dropdown = this.closest('.dropdown');
+                    if (dropdown) {
+                        dropdown.classList.remove('active');
+                    }
+                    navMenu.classList.remove('active');
+                    body.classList.remove('menu-open');
+                });
+            });
 
             // Smooth scrolling for internal links
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {

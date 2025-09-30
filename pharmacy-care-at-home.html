@@ -42,13 +42,17 @@
         .nav-item{position:relative;height:auto}
         .nav-link{display:flex;align-items:center;padding:0.75rem 1rem;color:var(--text-color);text-decoration:none;font-weight:600;font-size:1rem;line-height:1.5;border-radius:6px;white-space:nowrap;min-height:44px;box-sizing:border-box}
         .nav-link:hover{background:var(--light-bg);color:var(--primary-color)}
-        .dropdown-arrow{font-size:0.75rem;margin-left:0.5rem;transition:transform 0.2s ease;display:inline-block;width:10px;text-align:center}
-        .dropdown-menu{position:absolute;top:100%;left:0;background:var(--white);border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.1);padding:0.5rem;min-width:200px;opacity:0;visibility:hidden;transform:translateY(-10px);transition:all 0.2s ease;z-index:1001}
-        .dropdown:hover .dropdown-menu{opacity:1;visibility:visible;transform:translateY(0)}
-        .dropdown-link{display:block;padding:0.5rem 1rem;color:var(--text-color);text-decoration:none;font-size:0.95rem;border-radius:4px;line-height:1.4;white-space:nowrap}
-        .dropdown-link:hover{background:var(--light-bg);color:var(--primary-color)}
-        .hamburger{display:none;flex-direction:column;cursor:pointer;gap:4px;padding:8px;background:none;border:none}
+        .dropdown{position:relative}
+        .dropdown-arrow{font-size:0.75rem;margin-left:0.5rem;transition:transform 0.2s ease;display:inline-block;width:10px;text-align:center;color:var(--text-color)}
+        .dropdown-menu{position:absolute;top:100%;left:0;background:var(--white);border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.1);padding:0.5rem;min-width:220px;opacity:0;visibility:hidden;transform:translateY(-10px);transition:all 0.2s ease;z-index:1001;border:1px solid rgba(0,0,0,0.08);display:block !important}
+        .dropdown:hover .dropdown-menu{opacity:1 !important;visibility:visible !important;transform:translateY(0) !important}
+        .dropdown-link{display:block !important;padding:0.625rem 1rem !important;color:var(--text-color) !important;text-decoration:none;font-size:0.95rem;border-radius:4px;line-height:1.4;white-space:nowrap;background:transparent !important;margin:0 !important;border-left:none !important}
+        .dropdown-link:hover{background:var(--light-bg) !important;color:var(--primary-color) !important}
+        .hamburger{display:none;flex-direction:column;cursor:pointer;gap:4px;padding:8px;background:none;border:none;position:relative;z-index:1001}
         .bar{width:25px;height:3px;background:var(--primary-color);transition:all 0.3s ease;border-radius:2px}
+        .hamburger.active .bar:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
+        .hamburger.active .bar:nth-child(2){opacity:0}
+        .hamburger.active .bar:nth-child(3){transform:rotate(-45deg) translate(7px,-6px)}
         
         /* Hero Section */
         .hero-section{padding:120px 2rem 80px;background:var(--light-bg)}
@@ -131,13 +135,25 @@
         
         /* Mobile Styles */
         @media (max-width: 768px) {
-            .nav-menu{display:none}
+            body.menu-open{overflow:hidden}
+            .nav-menu{position:fixed;top:80px;left:-100%;width:80%;height:auto;max-height:60vh;background:var(--white);flex-direction:column;justify-content:flex-start;padding:1.5rem;overflow-y:auto;transition:left 0.3s ease;z-index:999;box-shadow:2px 0 15px rgba(0,0,0,0.15);border-radius:0 12px 12px 0}
+            .nav-menu.active{left:0;display:flex}
+            .nav-item{width:100%;margin:0.25rem 0}
+            .nav-link{width:100%;justify-content:space-between;padding:0.75rem 1rem}
             .hamburger{display:flex}
             .hero-container{grid-template-columns:1fr;text-align:center}
             .hero-content h1{font-size:2.2rem}
+            .hero-cta{display:flex;flex-direction:column;gap:1rem;width:100%;padding:0 2rem;margin-top:1.5rem}
+            .hero-cta .cta-button-primary, .hero-cta .cta-button-secondary{width:100%;display:block;text-align:center;padding:16px 24px;border-radius:8px}
             .section h2{font-size:1.8rem}
             .feature-grid{grid-template-columns:1fr}
             .eligibility-grid{grid-template-columns:1fr}
+            /* Mobile Dropdown Fix */
+            .dropdown .dropdown-menu{display:none !important}
+            .dropdown.active .dropdown-menu{display:block !important;position:static !important;opacity:1 !important;visibility:visible !important;transform:none !important;background:#f8f8f8 !important;margin-top:0.5rem;margin-left:1rem;padding:0.75rem;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.08);border:1px solid #e5e5e5}
+            .dropdown.active .dropdown-link{background:var(--white) !important;padding:0.625rem 1rem !important;margin:0.25rem 0 !important;border-radius:6px;display:block !important;box-shadow:0 1px 3px rgba(0,0,0,0.05)}
+            .dropdown.active .dropdown-link:hover{background:#f0f0f0 !important;transform:translateX(5px)}
+            .dropdown.active .dropdown-arrow{transform:rotate(180deg)}
         }
     </style>
     
@@ -172,7 +188,8 @@
                             <a href="index.html#immunizations" class="dropdown-link">Immunizations</a>
                             <a href="index.html#testing" class="dropdown-link">Testing Services</a>
                             <a href="hormone-kits.html" class="dropdown-link">Hormone Test Kits</a>
-                            <a href="pharmacy-care-at-home.html" class="dropdown-link">Pharmacy Care at Home</a>
+                            <a href="compounding.html" class="dropdown-link">Compounding</a>
+                            <a href="long-term-care.html" class="dropdown-link">Long Term Care</a>
                         </div>
                     </li>
                     <li class="nav-item"><a href="index.html#birth-control" class="nav-link">Birth Control</a></li>
@@ -444,10 +461,67 @@
             // Mobile menu toggle
             const hamburger = document.querySelector('.hamburger');
             const navMenu = document.querySelector('.nav-menu');
-            
+            const body = document.body;
+
             if (hamburger && navMenu) {
                 hamburger.addEventListener('click', function() {
                     navMenu.classList.toggle('active');
+                    body.classList.toggle('menu-open');
+                });
+
+                // Close menu when clicking outside
+                document.addEventListener('click', function(e) {
+                    if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {
+                        navMenu.classList.remove('active');
+                        body.classList.remove('menu-open');
+                    }
+                });
+
+                // Close menu when clicking on a link
+                navMenu.querySelectorAll('.nav-link').forEach(link => {
+                    if (!link.parentElement.classList.contains('dropdown')) {
+                        link.addEventListener('click', function() {
+                            navMenu.classList.remove('active');
+                            body.classList.remove('menu-open');
+                        });
+                    }
+                });
+            }
+
+            // Mobile dropdown toggle
+            const dropdownToggle = document.querySelector('.nav-item.dropdown .nav-link');
+            if (dropdownToggle) {
+                dropdownToggle.addEventListener('click', function(e) {
+                    if (window.innerWidth <= 768) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        const dropdown = this.parentElement;
+                        const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+
+                        // Toggle current dropdown
+                        dropdown.classList.toggle('active');
+
+                        // If closing, ensure menu items don't overlap
+                        if (!dropdown.classList.contains('active')) {
+                            dropdownMenu.style.display = 'none';
+                            setTimeout(() => {
+                                dropdownMenu.style.display = '';
+                            }, 300);
+                        }
+                    }
+                });
+            }
+
+            // Close dropdown links when clicked
+            const dropdownLinks = document.querySelectorAll('.dropdown-link');
+            dropdownLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    const dropdown = this.closest('.dropdown');
+                    if (dropdown) {
+                        dropdown.classList.remove('active');
+                    }
+                    navMenu.classList.remove('active');
+                    body.classList.remove('menu-open');
                 });
             }
 
