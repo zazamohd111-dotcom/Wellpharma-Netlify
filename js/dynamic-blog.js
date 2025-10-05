@@ -37,10 +37,10 @@ class DynamicBlogLoader {
             },
             {
                 id: 2,
-                title: "Custom compounding: Personalized medications for your needs",
-                image: "images/blog-compounding.png",
-                alt: "Custom compounding: Personalized medications for your needs",
-                link: "#compounding"
+                title: "GLP-1 Medications (Ozempic/Wegovy): Essential Supplements and Testing for Success",
+                image: "images/glp1 medication.jpg",
+                alt: "GLP-1 Medications (Ozempic/Wegovy): Essential Supplements and Testing for Success",
+                link: "glp1-medications.html"
             },
             {
                 id: 3,

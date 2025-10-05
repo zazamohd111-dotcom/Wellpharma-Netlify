@@ -19,31 +19,31 @@ class BlogManager {
             this.blogs = [
                 {
                     id: 1,
-                    title: "Pill organizers: Your guide to medication management",
+                    title: "Pill Organization for Aging in Place: Your Guide to Safe Medication Management",
                     image: "images/blog-pill-organizers.jpg",
-                    alt: "Pill organizers: Your guide to medication management",
-                    link: "#pill-organizers"
+                    alt: "Pill Organization for Aging in Place: Your Guide to Safe Medication Management",
+                    link: "pill-organizers.html"
                 },
                 {
                     id: 2,
-                    title: "Custom compounding: Personalized medications for your needs",
-                    image: "images/blog-compounding.png",
-                    alt: "Custom compounding: Personalized medications for your needs",
-                    link: "#compounding"
+                    title: "GLP-1 Medications (Ozempic/Wegovy): Essential Supplements and Testing for Success",
+                    image: "images/glp1 medication.jpg",
+                    alt: "GLP-1 Medications (Ozempic/Wegovy): Essential Supplements and Testing for Success",
+                    link: "glp1-medications.html"
                 },
                 {
                     id: 3,
-                    title: "Your complete guide to birth control options",
+                    title: "Birth Control Options and Side Effects: Get Prescriptions at Your Pharmacy",
                     image: "images/blog-birth-control.jpg",
-                    alt: "Your complete guide to birth control options",
-                    link: "#birth-control"
+                    alt: "Birth Control Options and Side Effects: Get Prescriptions at Your Pharmacy",
+                    link: "birth-control.html"
                 },
                 {
                     id: 4,
-                    title: "Essential vaccines: What adults need to know",
+                    title: "What Vaccines Do Adults Need? 2025 Flu & COVID Guide",
                     image: "images/blog-vaccines.jpg",
-                    alt: "Essential vaccines: What adults need to know",
-                    link: "#vaccines"
+                    alt: "What Vaccines Do Adults Need? 2025 Flu & COVID Guide",
+                    link: "vaccines.html"
                 }
             ];
             this.saveBlogs();

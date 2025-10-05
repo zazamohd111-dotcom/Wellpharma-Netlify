@@ -1,24 +1,24 @@
 {
   "blogs": [
     {
-      "title": "Pill organizers: Your guide to medication management",
+      "title": "Pill Organization for Aging in Place: Your Guide to Safe Medication Management",
       "image": "images/blog-pill-organizers.jpg",
-      "link": "#pill-organizers"
+      "link": "pill-organizers.html"
     },
     {
-      "title": "Custom compounding: Personalized medications for your needs",
-      "image": "images/blog-compounding.png",
-      "link": "#compounding"
+      "title": "GLP-1 Medications (Ozempic/Wegovy): Essential Supplements and Testing for Success",
+      "image": "images/glp1 medication.jpg",
+      "link": "glp1-medications.html"
     },
     {
-      "title": "Your complete guide to birth control options",
+      "title": "Birth Control Options and Side Effects: Get Prescriptions at Your Pharmacy",
       "image": "images/blog-birth-control.jpg",
-      "link": "#birth-control"
+      "link": "birth-control.html"
     },
     {
-      "title": "Essential vaccines: What adults need to know",
+      "title": "What Vaccines Do Adults Need? 2025 Flu & COVID Guide",
       "image": "images/blog-vaccines.jpg",
-      "link": "#vaccines"
+      "link": "vaccines.html"
     }
   ]
 }
