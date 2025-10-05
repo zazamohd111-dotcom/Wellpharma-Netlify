@@ -44,17 +44,17 @@ class DynamicBlogLoader {
             },
             {
                 id: 3,
-                title: "Your complete guide to birth control options",
+                title: "Birth Control Options and Side Effects: Get Prescriptions at Your Pharmacy",
                 image: "images/blog-birth-control.jpg",
-                alt: "Your complete guide to birth control options",
-                link: "#birth-control"
+                alt: "Birth Control Options and Side Effects: Get Prescriptions at Your Pharmacy",
+                link: "birth-control.html"
             },
             {
                 id: 4,
-                title: "Essential vaccines: What adults need to know",
+                title: "What Vaccines Do Adults Need? 2025 Flu & COVID Guide",
                 image: "images/blog-vaccines.jpg",
-                alt: "Essential vaccines: What adults need to know",
-                link: "#vaccines"
+                alt: "What Vaccines Do Adults Need? 2025 Flu & COVID Guide",
+                link: "vaccines.html"
             }
         ];
     }
