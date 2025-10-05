@@ -30,10 +30,10 @@ class DynamicBlogLoader {
         return [
             {
                 id: 1,
-                title: "Pill organizers: Your guide to medication management",
+                title: "Pill Organization for Aging in Place: Your Guide to Safe Medication Management",
                 image: "images/blog-pill-organizers.jpg",
-                alt: "Pill organizers: Your guide to medication management",
-                link: "#pill-organizers"
+                alt: "Pill Organization for Aging in Place: Your Guide to Safe Medication Management",
+                link: "pill-organizers.html"
             },
             {
                 id: 2,
