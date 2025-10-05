@@ -99,7 +99,7 @@ class DynamicBlogLoader {
                 id: 5,
                 title: "Risk Test",
                 subtitle: "Pre-Diabetes",
-                link: "https://www.cdc.gov/diabetes/risk-test/index.html",
+                link: "https://www.cdc.gov/diabetes/risk-factors/?CDC_AAref_Val=https://www.cdc.gov/diabetes/basics/risk-factors.html",
                 class: "category-hormone-testing"
             }
         ];

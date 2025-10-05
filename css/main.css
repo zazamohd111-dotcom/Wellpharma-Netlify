@@ -468,7 +468,7 @@ ul, ol {
 }
 
 .hero-content h1 {
-    font-size: 3rem;
+    font-size: 52px;
     line-height: 1.2;
     margin-bottom: var(--spacing-md);
     color: var(--green-900);
@@ -482,7 +482,7 @@ ul, ol {
 }
 
 .hero-subtitle-custom {
-    font-size: 45px;
+    font-size: 43px;
 }
 
 .hero-features {
