@@ -481,6 +481,10 @@ ul, ol {
     margin-bottom: var(--spacing-lg);
 }
 
+.hero-subtitle-custom {
+    font-size: 45px;
+}
+
 .hero-features {
     display: flex;
     flex-direction: column;
@@ -1778,7 +1782,11 @@ ul, ol {
     .hero-content h1 {
         font-size: 2rem;
     }
-    
+
+    .hero-subtitle-custom {
+        font-size: 28px;
+    }
+
     .hero-description, .hero-subtitle {
         font-size: 1rem;
     }

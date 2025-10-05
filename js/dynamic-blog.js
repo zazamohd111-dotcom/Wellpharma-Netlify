@@ -69,37 +69,37 @@ class DynamicBlogLoader {
         return [
             {
                 id: 1,
-                title: "Compounding",
-                subtitle: "Custom Medications",
-                link: "#compounding",
+                title: "BMI Check",
+                subtitle: "Calculator",
+                link: "https://www.cdc.gov/bmi/adult-calculator/index.html",
                 class: "category-compounding"
             },
             {
                 id: 2,
-                title: "Hormonal Imbalance",
-                subtitle: "Women's health",
-                link: "#hormonal-imbalance",
+                title: "BP Monitor",
+                subtitle: "BP",
+                link: "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings",
                 class: "category-hormonal-imbalance"
             },
             {
                 id: 3,
-                title: "Pill Identifier",
-                subtitle: "Identify Your Pills",
+                title: "Pill ID",
+                subtitle: "Pill Identifier",
                 link: "https://www.drugs.com/imprints.php",
                 class: "category-weight-loss"
             },
             {
                 id: 4,
-                title: "Diabetes Prevention",
-                subtitle: "Community Health",
-                link: "#diabetes-prevention",
+                title: "Med Review",
+                subtitle: "Drug Saftey Check",
+                link: "https://www.acbcalc.com/",
                 class: "category-diabetes-prevention"
             },
             {
                 id: 5,
-                title: "Hormone Testing",
-                subtitle: "Health Analysis",
-                link: "#hormone-testing",
+                title: "Risk Test",
+                subtitle: "Pre-Diabetes",
+                link: "https://www.cdc.gov/diabetes/risk-test/index.html",
                 class: "category-hormone-testing"
             }
         ];
