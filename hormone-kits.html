@@ -107,9 +107,10 @@
         /* Benefits Section */
         .benefits-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2rem;margin:3rem 0}
         .benefit-card{text-align:center;padding:1.5rem}
-        .benefit-icon{width:80px;height:80px;margin:0 auto 1.5rem;background:var(--primary-color);border-radius:50%;display:flex;align-items:center;justify-content:center}
-        .benefit-icon span{color:var(--white);font-family:'Roboto',sans-serif}
-        .benefit-card h3{color:#2563eb;margin-bottom:1rem;font-size:1.1rem;font-weight:600}
+        .benefit-icon{width:80px;height:80px;margin:0 auto 1.5rem;background:var(--white);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(0,0,0,0.1)}
+        .benefit-icon span{color:#3498db;font-family:'Roboto',sans-serif}
+        .benefit-icon i{color:#3498db}
+        .benefit-card h3{color:var(--primary-color);margin-bottom:1rem;font-size:1.1rem;font-weight:600}
         .benefit-card p{color:#666;line-height:1.5;font-size:0.9rem}
         
         /* CTA Section */
@@ -183,7 +184,10 @@
     <!-- Non-critical CSS -->
     <link rel="stylesheet" href="css/main.min.css" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="css/main.min.css"></noscript>
-    
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
@@ -208,8 +212,8 @@
                         <div class="dropdown-menu">
                             <a href="index.html#refill" class="dropdown-link">Prescription Refill</a>
                             <a href="index.html#transfer" class="dropdown-link">Transfer Prescription</a>
-                            <a href="index.html#immunizations" class="dropdown-link">Immunizations</a>
-                            <a href="index.html#testing" class="dropdown-link">Testing Services</a>
+                            <a href="immunization.html" class="dropdown-link">Vaccines</a>
+                            <a href="https://pharmacy.imagemovermd.com/v1/web-workflow/117/self-registration.html" class="dropdown-link" target="_blank">Testing Services</a>
                             <a href="compounding.html" class="dropdown-link">Compounding</a>
                             <a href="pharmacy-care-at-home.html" class="dropdown-link">Pharmacy Care at Home</a>
                             <a href="long-term-care.html" class="dropdown-link">Long Term Care</a>
@@ -402,7 +406,7 @@
             <div class="benefits-grid">
                 <div class="benefit-card animate-on-scroll">
                     <div class="benefit-icon">
-                        <span style="font-size: 1.8rem; font-weight: bold;">Rx</span>
+                        <i class="fas fa-user-md" style="font-size: 2.5rem;"></i>
                     </div>
                     <h3>Licensed Pharmacist Support</h3>
                     <p>Dr. Zahraa Babiker, PharmD provides personalized consultation and interpretation of your hormone test results.</p>
@@ -410,7 +414,7 @@
 
                 <div class="benefit-card animate-on-scroll">
                     <div class="benefit-icon">
-                        <span style="font-size: 2rem; font-weight: bold;">LAB</span>
+                        <i class="fas fa-flask" style="font-size: 2.5rem;"></i>
                     </div>
                     <h3>CLIA-Certified Laboratory</h3>
                     <p>All testing performed by ZRT Laboratory and Designs for Health - industry leaders in functional medicine testing.</p>
@@ -418,7 +422,7 @@
 
                 <div class="benefit-card animate-on-scroll">
                     <div class="benefit-icon">
-                        <span style="font-size: 2.2rem; font-weight: bold;">✓</span>
+                        <i class="fas fa-shield-alt" style="font-size: 2.5rem;"></i>
                     </div>
                     <h3>Complete Privacy</h3>
                     <p>Discreet packaging, confidential results, and HIPAA-compliant handling of all your health information.</p>
@@ -426,7 +430,7 @@
 
                 <div class="benefit-card animate-on-scroll">
                     <div class="benefit-icon">
-                        <span style="font-size: 2.2rem; font-weight: bold;">MD</span>
+                        <i class="fas fa-map-marker-alt" style="font-size: 2.5rem;"></i>
                     </div>
                     <h3>Local Randallstown Support</h3>
                     <p>Community-based pharmacy with in-person consultations available. Supporting Maryland families since 2022.</p>
