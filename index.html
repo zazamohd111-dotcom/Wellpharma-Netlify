@@ -7,11 +7,11 @@
     <title>Wellpharma Pharmacy - Prescription Services & Healthcare in Randallstown, MD</title>
     <meta name="description" content="Your trusted independent pharmacy in Randallstown, MD. Same-day birth control prescribing, compounding services, immunizations, and free delivery. Call (410) 698-9068.">
 
-    <!-- Netlify Identity Widget for CMS -->
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <!-- Netlify Identity Widget for CMS - Load asynchronously -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
 
     <!-- Critical Resource Preloads - WebP with fallbacks -->
-    <link rel="preload" href="Image.webp/pharmacy-interior696w.webp" as="image" fetchpriority="high">
+    <link rel="preload" href="Image.webp/pharmacy-interior800w.webp" as="image" fetchpriority="high">
     <link rel="preload" href="Image.webp/wellpharma-logo240.webp" as="image">
     
     <!-- Preload Critical Fonts - Break loading chain -->
@@ -383,8 +383,9 @@
         }
     </style>
 
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Font Awesome Icons - Load asynchronously -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"></noscript>
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
@@ -495,9 +496,9 @@
                 
                 <div class="hero-image">
                     <picture>
-                        <source srcset="Image.webp/pharmacy-interior696w.webp 696w, Image.webp/pharmacy-interio600wr.webp 600w, Image.webp/pharmacy-interior800w.webp 800w, Image.webp/pharmacy-interior1200w.webp 1200w" type="image/webp">
-                        <source srcset="Image.jpg/pharmacy-interior600w.jpg 600w, Image.jpg/pharmacy-interior800w.jpg 800w, Image.jpg/pharmacy-interio1200wr.jpg 1200w" type="image/jpeg">
-                        <img src="images/pharmacy-interior.jpg" alt="WellPharma Pharmacy Interior - Modern, Clean Pharmacy in Randallstown MD" fetchpriority="high" loading="eager" decoding="sync" width="600" height="400" sizes="(max-width: 768px) 100vw, 50vw">
+                        <source srcset="Image.webp/pharmacy-interior348.webp 348w, Image.webp/pharmacy-interior800w.webp 800w, Image.webp/pharmacy-interior1200w.webp 1200w" type="image/webp" sizes="(max-width: 480px) 348px, (max-width: 768px) 100vw, 50vw">
+                        <source srcset="Image.jpg/pharmacy-interior600w.jpg 600w, Image.jpg/pharmacy-interior800w.jpg 800w, Image.jpg/pharmacy-interio1200wr.jpg 1200w" type="image/jpeg" sizes="(max-width: 480px) 348px, (max-width: 768px) 100vw, 50vw">
+                        <img src="images/pharmacy-interior.jpg" alt="WellPharma Pharmacy Interior - Modern, Clean Pharmacy in Randallstown MD" fetchpriority="high" loading="eager" decoding="sync" width="600" height="400" sizes="(max-width: 480px) 348px, (max-width: 768px) 100vw, 50vw">
                     </picture>
                 </div>
             </div>
@@ -520,8 +521,8 @@
                     
                     <div class="content-right">
                         <picture>
-                            <source srcset="Image.webp/birth-control-consultation744.webp" type="image/webp">
-                            <img src="images/birth-control-consultation.jpg" alt="Birth Control Consultation with Pharmacist at WellPharma" fetchpriority="high" decoding="async" width="500" height="375">
+                            <source srcset="Image.webp/birth-control-consultation744.webp" type="image/webp" sizes="(max-width: 768px) 372px, 500px">
+                            <img src="images/birth-control-consultation.jpg" alt="Birth Control Consultation with Pharmacist at WellPharma" fetchpriority="high" decoding="async" width="500" height="375" sizes="(max-width: 768px) 372px, 500px">
                         </picture>
                     </div>
                 </div>
@@ -565,8 +566,8 @@
                 <div class="services-grid">
                     <div id="refill-prescription-card" class="service-card">
                         <picture>
-                            <source srcset="Image.webp/refill-prescription660.webp" type="image/webp">
-                            <img src="images/refill-prescription.jpg" alt="Refill Prescription Service" loading="lazy" decoding="async" width="300" height="200">
+                            <source srcset="Image.webp/refill-prescription660.webp" type="image/webp" sizes="330px">
+                            <img src="images/refill-prescription.jpg" alt="Refill Prescription Service" loading="lazy" decoding="async" width="300" height="200" sizes="330px">
                         </picture>
                         <h3>Refill Prescription</h3>
                         <p>Quick and easy prescription refills online or by phone</p>
@@ -575,8 +576,8 @@
                     
                     <div id="transfer-prescription-card" class="service-card">
                         <picture>
-                            <source srcset="Image.webp/transfer-prescription660.webp" type="image/webp">
-                            <img src="images/transfer-prescription.jpg" alt="Transfer Prescription Service" loading="lazy" decoding="async" width="300" height="200">
+                            <source srcset="Image.webp/transfer-prescription660.webp" type="image/webp" sizes="330px">
+                            <img src="images/transfer-prescription.jpg" alt="Transfer Prescription Service" loading="lazy" decoding="async" width="300" height="200" sizes="330px">
                         </picture>
                         <h3>Transfer Prescription</h3>
                         <p>Transfer your prescriptions from another pharmacy</p>
@@ -585,18 +586,18 @@
                     
                     <div id="immunizations-card" class="service-card">
                         <picture>
-                            <source srcset="Image.webp/immunizations660.webp" type="image/webp">
-                            <img src="images/immunizations.jpg" alt="Vaccines Service" loading="lazy" decoding="async" width="300" height="200">
+                            <source srcset="Image.webp/immunizations660.webp" type="image/webp" sizes="330px">
+                            <img src="images/immunizations.jpg" alt="Vaccines Service" loading="lazy" decoding="async" width="300" height="200" sizes="330px">
                         </picture>
                         <h3>Get Vaccinated</h3>
                         <p>Flu shots, COVID vaccines, and travel immunizations</p>
-                        <a href="immunization.html" class="service-link health-btn">Learn More</a>
+                        <a href="immunization.html" class="service-link health-btn">Vaccines Info</a>
                     </div>
                     
                     <div id="testing-card" class="service-card">
                         <picture>
-                            <source srcset="Image.webp/testing-services.webp" type="image/webp">
-                            <img src="images/testing-services.jpg" alt="Testing Services" loading="lazy" decoding="async">
+                            <source srcset="Image.webp/testing-services.webp" type="image/webp" sizes="330px">
+                            <img src="images/testing-services.jpg" alt="Testing Services" loading="lazy" decoding="async" width="300" height="200" sizes="330px">
                         </picture>
                         <h3>Testing</h3>
                         <p>Strep tests, COVID & flu tests available for quick diagnosis</p>
@@ -605,8 +606,8 @@
                     
                     <div id="hormone-kits-card" class="service-card">
                         <picture>
-                            <source srcset="Image.webp/hormone-kits.webp" type="image/webp">
-                            <img src="images/hormone-kits.jpg" alt="Hormone Test Kits" loading="lazy" decoding="async">
+                            <source srcset="Image.webp/hormone-kits.webp" type="image/webp" sizes="330px">
+                            <img src="images/hormone-kits.jpg" alt="Hormone Test Kits" loading="lazy" decoding="async" width="300" height="200" sizes="330px">
                         </picture>
                         <h3>Hormone Kits</h3>
                         <p>Professional at-home hormone testing from ZRT Labs and Designs for Health</p>
@@ -615,12 +616,12 @@
                     
                     <div id="pharmacy-care-at-home-card" class="service-card">
                         <picture>
-                            <source srcset="Image.webp/pharmacy-care-at-home2.webp" type="image/webp">
-                            <img src="images/pharmacy-care-at-home2.jpg" alt="Pharmacy Care at Home Services" loading="lazy" decoding="async" width="300" height="200">
+                            <source srcset="Image.webp/pharmacy-care-at-home2.webp" type="image/webp" sizes="330px">
+                            <img src="images/pharmacy-care-at-home2.jpg" alt="Pharmacy Care at Home Services" loading="lazy" decoding="async" width="300" height="200" sizes="330px">
                         </picture>
                         <h3>Pharmacy Care at Home</h3>
                         <p>CMS-approved Medicare services helping seniors age safely at home.</p>
-                        <a href="pharmacy-care-at-home.html" class="service-link order-btn">Learn More</a>
+                        <a href="pharmacy-care-at-home.html" class="service-link order-btn">Senior Care</a>
                     </div>
                 </div>
             </div>
