@@ -1,8 +1,19 @@
+# Redirect home page variations to homepage
+/home /index.html 301
+
+# Redirect about and contact to homepage sections
+/about /index.html#about 301
+/contact /index.html#contact 301
+
+# Redirect privacy policy to homepage footer (or create dedicated page if needed)
+/privacy-policy /index.html#contact 301
+
 # Redirect services page to homepage services section
 /services /index.html#services 301
 /services.html /index.html#services 301
 
-# Redirect old/incorrect blog posts to main compounding page
+# Redirect old/incorrect blog posts to main compounding page or homepage
+/post/taking-a-new-medication-here-s-what-you-should-know /index.html 301
 /post/5-reasons-to-choose-your-local-community-pharmacy /compounding.html 301
 /posts/5-reasons-to-choose-your-local-community-pharmacy /compounding.html 301
 /blog/5-reasons-to-choose-your-local-community-pharmacy /compounding.html 301
