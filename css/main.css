@@ -1528,6 +1528,49 @@ ul, ol {
     color: rgba(255,255,255,0.8);
 }
 
+/* Footer Social Media */
+.footer-social {
+    margin-top: 1.5rem;
+}
+
+.footer-social h4 {
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    background: var(--green-400);
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.social-icons svg {
+    width: 20px;
+    height: 20px;
+}
+
 .footer-bottom {
     padding-top: 2rem;
     border-top: 1px solid rgba(255,255,255,0.1);
