@@ -1,0 +1,26 @@
+# robots.txt for WellPharma Pharmacy
+
+User-agent: *
+Allow: /
+
+# Disallow admin pages from being indexed
+Disallow: /admin/
+Disallow: /admin.html
+Disallow: /admin-enhanced.html
+Disallow: /auto-update.html
+Disallow: /sync-categories.html
+
+# Allow all service pages
+Allow: /birth-control.html
+Allow: /compounding.html
+Allow: /glp1-medications.html
+Allow: /hormone-kits.html
+Allow: /immunization.html
+Allow: /long-term-care.html
+Allow: /pharmacy-care-at-home.html
+Allow: /pill-organizers.html
+Allow: /testing.html
+Allow: /vaccines.html
+
+# Sitemap location
+Sitemap: https://www.wellpharmapharmacy.com/sitemap.xml
