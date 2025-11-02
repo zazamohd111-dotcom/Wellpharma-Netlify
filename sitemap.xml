@@ -8,6 +8,14 @@
     <priority>1.0</priority>
   </url>
 
+  <!-- Supplements Store -->
+  <url>
+    <loc>https://www.wellpharmapharmacy.com/supplements.html</loc>
+    <lastmod>2025-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- Blog Pages -->
   <url>
     <loc>https://www.wellpharmapharmacy.com/blog.html</loc>
