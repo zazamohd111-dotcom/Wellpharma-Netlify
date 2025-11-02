@@ -12,12 +12,16 @@
 /services /index.html#services 301
 /services.html /index.html#services 301
 
+# Redirect blog to new blog page
+/blog /blog.html 301
+
 # Redirect old/incorrect blog posts to main compounding page or homepage
 /post/taking-a-new-medication-here-s-what-you-should-know /index.html 301
 /post/5-reasons-to-choose-your-local-community-pharmacy /compounding.html 301
+/post/* /blog.html 301
 /posts/5-reasons-to-choose-your-local-community-pharmacy /compounding.html 301
+/posts/* /blog.html 301
 /blog/5-reasons-to-choose-your-local-community-pharmacy /compounding.html 301
-/5-reasons-to-choose-your-local-community-pharmacy /compounding.html 301
 
 # Redirect any aurora pharmacy references to WellPharma
 /aurora* /index.html 301
