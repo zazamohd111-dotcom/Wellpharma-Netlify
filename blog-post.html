@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K36QPF39');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-46RZZWDTDH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-46RZZWDTDH');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title id="pageTitle">Blog Post | WellPharma Pharmacy</title>
+    <meta name="description" id="pageDescription" content="Read health and pharmacy insights from WellPharma Pharmacy in Randallstown, MD.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Marked.js for Markdown parsing -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <style>
+        /* Blog Post Styles */
+        .blog-header {
+            background: linear-gradient(135deg, rgb(77,123,107) 0%, rgb(144,173,114) 100%);
+            color: white;
+            padding: 120px 2rem 4rem;
+            text-align: center;
+        }
+
+        .blog-category {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .blog-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .blog-meta {
+            font-size: 1rem;
+            opacity: 0.95;
+            margin-bottom: 0.5rem;
+        }
+
+        .blog-meta span {
+            margin: 0 1rem;
+        }
+
+        .blog-featured-image {
+            max-width: 1000px;
+            margin: -3rem auto 3rem;
+            padding: 0 2rem;
+        }
+
+        .blog-featured-image img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+        }
+
+        .blog-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+            line-height: 1.8;
+        }
+
+        .blog-content h2 {
+            color: rgb(77,123,107);
+            font-size: 2rem;
+            margin: 2.5rem 0 1rem;
+            font-weight: 700;
+        }
+
+        .blog-content h3 {
+            color: rgb(77,123,107);
+            font-size: 1.5rem;
+            margin: 2rem 0 1rem;
+            font-weight: 600;
+        }
+
+        .blog-content p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        .blog-content ul,
+        .blog-content ol {
+            margin: 1.5rem 0;
+            padding-left: 2rem;
+        }
+
+        .blog-content li {
+            margin-bottom: 0.75rem;
+            font-size: 1.1rem;
+        }
+
+        .blog-content strong {
+            font-weight: 700;
+            color: rgb(77,123,107);
+        }
+
+        .blog-content blockquote {
+            border-left: 4px solid rgb(77,123,107);
+            padding-left: 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: #555;
+        }
+
+        .blog-content img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin: 2rem 0;
+        }
+
+        .blog-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+        }
+
+        .blog-content th,
+        .blog-content td {
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .blog-content th {
+            background: rgb(77,123,107);
+            color: white;
+            font-weight: 600;
+        }
+
+        .blog-tags {
+            max-width: 800px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            background: rgb(235,243,237);
+            color: rgb(77,123,107);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        .blog-footer {
+            max-width: 800px;
+            margin: 4rem auto;
+            padding: 2rem;
+            background: rgb(235,243,237);
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .blog-footer h3 {
+            color: rgb(77,123,107);
+            margin-bottom: 1rem;
+        }
+
+        .blog-cta {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 1.5rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary {
+            background: rgb(77,123,107);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: rgb(60,100,90);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: rgb(77,123,107);
+            border: 2px solid rgb(77,123,107);
+        }
+
+        .btn-secondary:hover {
+            background: rgb(77,123,107);
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .blog-title {
+                font-size: 1.8rem;
+            }
+
+            .blog-featured-image {
+                margin: -2rem auto 2rem;
+            }
+
+            .blog-cta {
+                flex-direction: column;
+            }
+        }
+    </style>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K36QPF39"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Header -->
+    <header class="header site-header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo site-branding">
+                    <a href="index.html">
+                        <picture>
+                            <source srcset="Image.webp/wellpharma-logo240.webp" type="image/webp">
+                            <img src="images/wellpharma-logo.png" alt="WellPharma Pharmacy Logo" class="logo" width="120" height="60">
+                        </picture>
+                    </a>
+                </div>
+
+                <ul class="nav-menu" id="primary-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="index.html#services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="index.html#about" class="nav-link">About</a></li>
+                </ul>
+
+                <div class="hamburger menu-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Blog Header -->
+        <section class="blog-header">
+            <div id="blogHeaderContent">
+                <span class="blog-category" id="postCategory">Loading...</span>
+                <h1 class="blog-title" id="postTitle">Loading post...</h1>
+                <div class="blog-meta">
+                    <span id="postDate">...</span>
+                    <span>•</span>
+                    <span id="postAuthor">...</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Image -->
+        <div class="blog-featured-image" id="featuredImageContainer">
+            <!-- Image will be loaded here -->
+        </div>
+
+        <!-- Blog Content -->
+        <article class="blog-content" id="blogContent">
+            <p>Loading article content...</p>
+        </article>
+
+        <!-- Tags -->
+        <div class="blog-tags" id="blogTags">
+            <!-- Tags will be loaded here -->
+        </div>
+
+        <!-- Blog Footer CTA -->
+        <section class="blog-footer">
+            <h3>Have Questions? We're Here to Help!</h3>
+            <p>Visit us in Randallstown or call to speak with our pharmacist about your health needs.</p>
+            <div class="blog-cta">
+                <a href="index.html#contact" class="btn btn-primary">Contact Us</a>
+                <a href="tel:+14106989068" class="btn btn-secondary">Call (410) 698-9068</a>
+            </div>
+        </section>
+
+        <!-- Back to Blog -->
+        <div style="text-align: center; margin: 3rem 0;">
+            <a href="blog.html" class="btn btn-secondary">← Back to Blog</a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section footer-about">
+                    <h3>Wellpharma Pharmacy</h3>
+                    <p>Your trusted independent pharmacy serving Randallstown, MD with personalized healthcare services since 2022.</p>
+                    <div class="footer-contact">
+                        <p>📞 <a href="tel:(410) 698-9068">(410) 698-9068</a></p>
+                        <p>📧 <a href="mailto:info@wellpharmapharmacy.com">info@wellpharmapharmacy.com</a></p>
+                        <p>📍 9818 Liberty Road Ste B, Randallstown, MD 21133</p>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="index.html#refill">Prescription Refill</a></li>
+                        <li><a href="index.html#birth-control">Birth Control</a></li>
+                        <li><a href="immunization.html">Immunizations</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2025 Wellpharma Pharmacy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/wellpharma.js"></script>
+    <script src="js/blog-post-loader.js"></script>
+</body>
+</html>
