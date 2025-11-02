@@ -173,6 +173,78 @@
             color: var(--primary-color);
         }
 
+        .product-showcase {
+            background: var(--light-bg);
+            padding: 4rem 2rem;
+        }
+
+        .product-showcase-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 3rem;
+            max-width: 1000px;
+            margin: 2rem auto 0;
+        }
+
+        .product-showcase-item {
+            background: var(--white);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: block;
+        }
+
+        .product-showcase-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+        }
+
+        .product-showcase-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .product-showcase-info {
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .product-showcase-info h3 {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .product-showcase-info p {
+            color: var(--text-light);
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+
+        .product-showcase-cta {
+            display: inline-block;
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 0.8rem 1.5rem;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .product-showcase-item:hover .product-showcase-cta {
+            background: #2d5016;
+        }
+
+        @media (max-width: 768px) {
+            .product-showcase-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+        }
+
         .content-section {
             padding: 4rem 2rem;
             max-width: 1200px;
@@ -632,6 +704,41 @@
             </div>
         </div>
     </div>
+
+    <!-- Product Showcase -->
+    <section class="product-showcase">
+        <div class="section-header">
+            <h2>Choose Your Pack</h2>
+            <p>Start your journey or maintain your results</p>
+        </div>
+        <div class="product-showcase-grid">
+            <!-- Starter Pack -->
+            <a href="https://shops.wellpharmapharmacy.com/products/calocurb%C2%AE-clinical-starter-pack" target="_blank" class="product-showcase-item">
+                <picture>
+                    <source srcset="Image.webp/calocurb-starter.webp" type="image/webp">
+                    <img src="images/calocurb-starter.png" alt="Calocurb CLINICAL Starter Pack" class="product-showcase-image">
+                </picture>
+                <div class="product-showcase-info">
+                    <h3>Starter Pack</h3>
+                    <p>30-day onboarding protocol with higher initial dose</p>
+                    <span class="product-showcase-cta">Shop Starter Pack →</span>
+                </div>
+            </a>
+
+            <!-- Maintenance Pack -->
+            <a href="https://shops.wellpharmapharmacy.com/products/calocurb%C2%AE-clinical-maintenance-pack" target="_blank" class="product-showcase-item">
+                <picture>
+                    <source srcset="Image.webp/calocurb-maintenance.webp" type="image/webp">
+                    <img src="images/calocurb-maintenance.png" alt="Calocurb CLINICAL Maintenance Pack" class="product-showcase-image">
+                </picture>
+                <div class="product-showcase-info">
+                    <h3>Maintenance Pack</h3>
+                    <p>For sustained appetite control after completing starter</p>
+                    <span class="product-showcase-cta">Shop Maintenance Pack →</span>
+                </div>
+            </a>
+        </div>
+    </section>
 
     <!-- The Science Section -->
     <section class="content-section">
