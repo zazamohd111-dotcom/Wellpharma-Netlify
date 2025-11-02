@@ -1,16 +1,61 @@
 # robots.txt for WellPharma Pharmacy
+# Optimized for AI crawler access and LLM indexing
 
+# Default rule - Allow all bots
 User-agent: *
 Allow: /
 
-# Disallow admin pages from being indexed
+# Disallow admin/internal pages from being indexed
 Disallow: /admin/
 Disallow: /admin.html
 Disallow: /admin-enhanced.html
 Disallow: /auto-update.html
 Disallow: /sync-categories.html
+Disallow: /_data/
 
-# Allow all service pages
+# Explicitly allow AI crawlers (OpenAI GPT)
+User-agent: GPTBot
+Allow: /
+
+# Explicitly allow ChatGPT user agent
+User-agent: ChatGPT-User
+Allow: /
+
+# Explicitly allow Anthropic Claude crawler
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+# Explicitly allow Google's AI training crawler
+User-agent: Google-Extended
+Allow: /
+
+# Explicitly allow Common Crawl bot
+User-agent: CCBot
+Allow: /
+
+# Explicitly allow Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Explicitly allow Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# Explicitly allow Meta AI
+User-agent: FacebookBot
+Allow: /
+
+# Explicitly allow Bing AI
+User-agent: Bingbot
+Allow: /
+
+# Allow all service pages (explicit for AI clarity)
+Allow: /index.html
+Allow: /blog.html
+Allow: /blog-post.html
 Allow: /birth-control.html
 Allow: /compounding.html
 Allow: /glp1-medications.html
@@ -22,5 +67,6 @@ Allow: /pill-organizers.html
 Allow: /testing.html
 Allow: /vaccines.html
 
-# Sitemap location
+# Sitemap locations
+Sitemap: https://golden-kataifi-90edfd.netlify.app/sitemap.xml
 Sitemap: https://www.wellpharmapharmacy.com/sitemap.xml
