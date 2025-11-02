@@ -58,7 +58,12 @@
         }
 
         .calocurb-hero {
-            background: linear-gradient(135deg, #2d5016 0%, #4a7c29 100%);
+            background-image:
+                linear-gradient(rgba(45, 80, 22, 0.4), rgba(74, 124, 41, 0.4)),
+                url('Image.webp/calocurb-hero.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             color: var(--white);
             padding: 140px 2rem 4rem;
             text-align: center;
@@ -66,11 +71,25 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            position: relative;
+        }
+
+        /* Fallback for browsers that don't support WebP */
+        .no-webp .calocurb-hero {
+            background-image:
+                linear-gradient(rgba(45, 80, 22, 0.4), rgba(74, 124, 41, 0.4)),
+                url('images/calocurb-hero.png');
         }
 
         .calocurb-hero-content {
-            max-width: 900px;
+            width: 100%;
+            max-width: 1400px;
             margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            padding-top: 20rem;
         }
 
         .calocurb-hero h1 {
@@ -90,17 +109,16 @@
 
         .hero-cta-buttons {
             display: flex;
-            gap: 1rem;
-            justify-content: center;
+            gap: 0.75rem;
+            justify-content: flex-end;
             flex-wrap: wrap;
-            margin-top: 2rem;
         }
 
         .btn-shop {
             background: var(--white);
             color: #2d5016;
-            padding: 1.2rem 2.5rem;
-            font-size: 1.2rem;
+            padding: 0.9rem 1.8rem;
+            font-size: 1rem;
             font-weight: 700;
             text-decoration: none;
             border-radius: 8px;
@@ -117,8 +135,8 @@
         .btn-consult {
             background: transparent;
             color: var(--white);
-            padding: 1.2rem 2.5rem;
-            font-size: 1.2rem;
+            padding: 0.9rem 1.8rem;
+            font-size: 1rem;
             font-weight: 700;
             text-decoration: none;
             border-radius: 8px;
@@ -482,6 +500,14 @@
         }
 
         @media (max-width: 768px) {
+            .calocurb-hero-content {
+                justify-content: center;
+            }
+
+            .hero-cta-buttons {
+                justify-content: center;
+            }
+
             .calocurb-hero h1 {
                 font-size: 2rem;
             }
@@ -582,8 +608,6 @@
     <!-- Hero Section -->
     <div class="calocurb-hero">
         <div class="calocurb-hero-content">
-            <h1>Natural GLP-1 Activation for Appetite Control<br>No Injections Required</h1>
-            <p class="subtitle">Struggling with constant hunger and cravings? Calocurb® CLINICAL naturally activates your body's satiety hormones — the same hormones targeted by prescription medications like Ozempic and Wegovy, but without needles, prescriptions, or harsh side effects.</p>
             <div class="hero-cta-buttons">
                 <a href="https://shops.wellpharmapharmacy.com" target="_blank" class="btn-shop">Shop Calocurb Now</a>
                 <a href="tel:+14106989068" class="btn-consult">Call (410) 698-9068</a>
