@@ -222,151 +222,159 @@
             transform: translateX(5px);
         }
 
-        /* Community Section */
+        /* Community Section - Centered Podcast Layout */
         .community-section {
-            padding: 4rem 0;
+            padding: 5rem 0;
+            background: linear-gradient(180deg, var(--white) 0%, var(--light-bg) 100%);
+        }
+
+        .community-grid-centered {
+            display: flex;
+            justify-content: center;
+            margin-top: 3rem;
+        }
+
+        .community-card-featured {
+            max-width: 900px;
+            width: 100%;
             background: var(--white);
-        }
-
-        .community-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-            gap: 3rem;
-            margin-top: 2rem;
-        }
-
-        .community-card {
-            background: var(--light-bg);
-            padding: 2.5rem;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            padding: 3.5rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(77,123,107,0.15);
             position: relative;
+            border: 1px solid rgba(77,123,107,0.1);
         }
 
-
-        .community-card h3 {
-            color: var(--primary-color);
-            margin-bottom: 1rem;
-            font-size: 1.75rem;
+        .podcast-badge-wrapper {
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
         }
 
         .coming-soon-badge {
             display: inline-block;
-            background: var(--secondary-color);
+            background: linear-gradient(135deg, var(--secondary-color) 0%, rgb(120, 160, 90) 100%);
             color: var(--white);
-            padding: 0.25rem 0.75rem;
-            border-radius: 20px;
-            font-size: 0.75rem;
+            padding: 0.5rem 1.25rem;
+            border-radius: 25px;
+            font-size: 0.85rem;
             font-weight: 700;
             text-transform: uppercase;
-            margin-left: 0.5rem;
-            letter-spacing: 0.5px;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 12px rgba(144,173,114,0.3);
         }
 
-        .community-card p {
-            color: #666;
-            line-height: 1.7;
-            margin-bottom: 1.5rem;
-        }
-
-        /* Newsletter Form */
-        .newsletter-form {
+        .podcast-preview-centered {
             display: flex;
-            gap: 0.5rem;
-            margin-top: 1.5rem;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 2rem;
         }
 
-        .newsletter-form input {
-            flex: 1;
-            padding: 0.75rem 1rem;
-            border: 2px solid #ddd;
-            border-radius: 8px;
-            font-size: 1rem;
-            transition: border-color 0.3s ease;
-        }
-
-        .newsletter-form input:focus {
-            outline: none;
-            border-color: var(--primary-color);
-        }
-
-        .newsletter-form input:disabled {
-            background: #f5f5f5;
-            cursor: not-allowed;
-        }
-
-        .newsletter-form button {
-            padding: 0.75rem 1.5rem;
-            white-space: nowrap;
-        }
-
-        .newsletter-form button:disabled {
-            opacity: 0.6;
-            cursor: not-allowed;
-        }
-
-        .form-note {
-            font-size: 0.85rem;
-            color: #888;
-            margin-top: 0.75rem;
-            font-style: italic;
-        }
-
-        /* Podcast Preview */
-        .podcast-preview {
-            display: flex;
-            gap: 1.5rem;
-            margin-top: 1.5rem;
-        }
-
-        .podcast-cover-placeholder {
-            width: 150px;
-            height: 150px;
-            background: var(--white);
-            border-radius: 8px;
+        .podcast-cover-placeholder-large {
+            width: 200px;
+            height: 200px;
+            background: linear-gradient(135deg, var(--light-bg) 0%, rgba(77,123,107,0.1) 100%);
+            border-radius: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            flex-shrink: 0;
+            box-shadow: 0 8px 24px rgba(77,123,107,0.2);
+            border: 3px solid var(--white);
+            position: relative;
+            overflow: hidden;
         }
 
-        .podcast-cover-placeholder p {
-            font-size: 0.95rem;
-            color: #888;
+        .podcast-cover-placeholder-large::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, transparent 0%, rgba(255,255,255,0.3) 100%);
+        }
+
+        .podcast-cover-placeholder-large svg {
+            margin-bottom: 0.5rem;
+            filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
+        }
+
+        .podcast-cover-placeholder-large p {
+            font-size: 0.9rem;
+            color: var(--primary-color);
             margin: 0;
-            text-align: center;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
 
-        .podcast-info {
-            flex: 1;
+        .podcast-info-centered {
+            max-width: 700px;
         }
 
-        .podcast-info p {
-            margin-bottom: 0.75rem;
+        .podcast-info-centered h3 {
+            color: var(--primary-color);
+            font-size: 2.25rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            line-height: 1.2;
         }
 
-        .podcast-info ul {
+        .podcast-description {
+            color: #555;
+            font-size: 1.15rem;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+        }
+
+        .podcast-topics {
+            background: var(--light-bg);
+            padding: 2rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            text-align: left;
+        }
+
+        .podcast-topics p {
+            color: var(--primary-color);
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        .podcast-topics ul {
             list-style: none;
             padding: 0;
             margin: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
         }
 
-        .podcast-info ul li {
-            padding-left: 1.5rem;
+        .podcast-topics ul li {
+            padding-left: 1.75rem;
             position: relative;
-            margin-bottom: 0.5rem;
             color: #666;
-            font-size: 0.95rem;
+            font-size: 1rem;
+            line-height: 1.6;
         }
 
-        .podcast-info ul li:before {
-            content: "▸";
+        .podcast-topics ul li:before {
+            content: "🎙️";
             position: absolute;
             left: 0;
-            color: var(--primary-color);
-            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .podcast-notify {
+            color: var(--secondary-color);
+            font-weight: 600;
+            font-size: 1.05rem;
+            font-style: italic;
+            margin: 0;
         }
 
         /* Mobile Responsive */
@@ -376,27 +384,32 @@
                 gap: 1.5rem;
             }
 
-            .community-grid {
+            .community-card-featured {
+                padding: 2rem;
+                border-radius: 16px;
+            }
+
+            .podcast-badge-wrapper {
+                position: static;
+                text-align: center;
+                margin-bottom: 1.5rem;
+            }
+
+            .podcast-cover-placeholder-large {
+                width: 160px;
+                height: 160px;
+            }
+
+            .podcast-info-centered h3 {
+                font-size: 1.75rem;
+            }
+
+            .podcast-description {
+                font-size: 1rem;
+            }
+
+            .podcast-topics ul {
                 grid-template-columns: 1fr;
-                gap: 2rem;
-            }
-
-            .podcast-preview {
-                flex-direction: column;
-            }
-
-            .podcast-cover-placeholder {
-                width: 120px;
-                height: 120px;
-                margin: 0 auto;
-            }
-
-            .newsletter-form {
-                flex-direction: column;
-            }
-
-            .newsletter-form button {
-                width: 100%;
             }
         }
     </style>
@@ -691,39 +704,36 @@
         <!-- Join Our Health Community Section -->
         <section id="community" class="community-section">
             <div class="container">
-                <h2>Join Our Health Community</h2>
-                <p class="section-subtitle">Stay informed with expert pharmacy insights, health tips, and wellness advice</p>
+                <h2>Coming Soon: Baltimore Health Beat</h2>
+                <p class="section-subtitle">Your trusted podcast for medication management, health tips, and expert healthcare conversations</p>
 
-                <div class="community-grid">
-                    <!-- Newsletter Signup -->
-                    <div class="community-card newsletter-card">
-                        <h3>Newsletter</h3>
-                        <span class="coming-soon-badge">Coming Soon</span>
-                        <p>Get weekly health tips, medication updates, and exclusive pharmacy insights delivered to your inbox.</p>
-                        <form class="newsletter-form">
-                            <input type="email" placeholder="Enter your email" required disabled>
-                            <button type="submit" class="btn btn-primary" disabled>Notify Me</button>
-                        </form>
-                        <p class="form-note">Be the first to know when we launch!</p>
-                    </div>
-
+                <div class="community-grid-centered">
                     <!-- Podcast Preview -->
-                    <div class="community-card podcast-card">
-                        <h3>Baltimore Health Beat</h3>
-                        <span class="coming-soon-badge">Coming Soon</span>
-                        <p>Your trusted source for medication management, health tips, and conversations with healthcare experts.</p>
-                        <div class="podcast-preview">
-                            <div class="podcast-cover-placeholder">
+                    <div class="community-card-featured podcast-card">
+                        <div class="podcast-badge-wrapper">
+                            <span class="coming-soon-badge">Coming Soon</span>
+                        </div>
+                        <div class="podcast-preview-centered">
+                            <div class="podcast-cover-placeholder-large">
+                                <svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 14C13.66 14 15 12.66 15 11V5C15 3.34 13.66 2 12 2C10.34 2 9 3.34 9 5V11C9 12.66 10.34 14 12 14Z" fill="rgb(77,123,107)"/>
+                                    <path d="M17 11C17 14.31 14.31 17 11 17C7.69 17 5 14.31 5 11H3C3 15.42 6.58 19 11 19V22H13V19C17.42 19 21 15.42 21 11H17Z" fill="rgb(144,173,114)"/>
+                                </svg>
                                 <p>Podcast Cover</p>
                             </div>
-                            <div class="podcast-info">
-                                <p><strong>Topics we'll cover:</strong></p>
-                                <ul>
-                                    <li>Medication safety & management</li>
-                                    <li>Preventive health & wellness</li>
-                                    <li>Expert healthcare interviews</li>
-                                    <li>Community health topics</li>
-                                </ul>
+                            <div class="podcast-info-centered">
+                                <h3>Baltimore Health Beat</h3>
+                                <p class="podcast-description">Join Dr. Zahraa Babiker, PharmD, as she shares expert insights on medication safety, wellness strategies, and interviews with healthcare professionals serving the Baltimore community.</p>
+                                <div class="podcast-topics">
+                                    <p><strong>Upcoming Topics:</strong></p>
+                                    <ul>
+                                        <li>Medication safety & management</li>
+                                        <li>Preventive health & wellness</li>
+                                        <li>Expert healthcare interviews</li>
+                                        <li>Community health topics</li>
+                                    </ul>
+                                </div>
+                                <p class="podcast-notify">Be the first to know when we launch! Follow us on social media for updates.</p>
                             </div>
                         </div>
                     </div>
