@@ -58,7 +58,12 @@
         }
 
         .supplements-hero {
-            background: linear-gradient(135deg, #2d5016 0%, #4a7c29 100%);
+            background-image:
+                linear-gradient(rgba(45, 80, 22, 0.4), rgba(74, 124, 41, 0.4)),
+                url('Image.webp/supplement-hero.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             color: var(--white, white);
             padding: 140px 2rem 4rem;
             text-align: center;
@@ -66,11 +71,25 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            position: relative;
+        }
+
+        /* Fallback for browsers that don't support WebP */
+        .no-webp .supplements-hero {
+            background-image:
+                linear-gradient(rgba(45, 80, 22, 0.4), rgba(74, 124, 41, 0.4)),
+                url('images/supplement-hero.png');
         }
 
         .supplements-hero-content {
-            max-width: 900px;
+            width: 100%;
+            max-width: 1400px;
             margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            padding-top: 20rem;
         }
 
         .supplements-hero h1 {
@@ -90,17 +109,16 @@
 
         .hero-cta-buttons {
             display: flex;
-            gap: 1rem;
-            justify-content: center;
+            gap: 0.75rem;
+            justify-content: flex-end;
             flex-wrap: wrap;
-            margin-top: 2rem;
         }
 
         .btn-shop {
             background: white;
             color: #2d5016;
-            padding: 1.2rem 2.5rem;
-            font-size: 1.2rem;
+            padding: 0.9rem 1.8rem;
+            font-size: 1rem;
             font-weight: 700;
             text-decoration: none;
             border-radius: 8px;
@@ -117,8 +135,8 @@
         .btn-consult {
             background: transparent;
             color: white;
-            padding: 1.2rem 2.5rem;
-            font-size: 1.2rem;
+            padding: 0.9rem 1.8rem;
+            font-size: 1rem;
             font-weight: 700;
             text-decoration: none;
             border-radius: 8px;
@@ -473,7 +491,76 @@
             padding: 1.5rem;
         }
 
+        .featured-product-banner {
+            background: linear-gradient(135deg, #2d5016 0%, #4a7c29 100%);
+            padding: 3rem 2rem;
+        }
+
+        .featured-product-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .featured-product-text h3 {
+            color: var(--white);
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .featured-product-text p {
+            color: var(--white);
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+
+        .featured-badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #000;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .featured-cta {
+            display: inline-block;
+            background: var(--white);
+            color: #2d5016;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s ease;
+        }
+
+        .featured-cta:hover {
+            background: #f0f0f0;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
         @media (max-width: 768px) {
+            .featured-product-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .supplements-hero-content {
+                justify-content: center;
+            }
+
+            .hero-cta-buttons {
+                justify-content: center;
+            }
+
             .supplements-hero h1 {
                 font-size: 2rem;
             }
@@ -550,8 +637,6 @@
     <!-- Hero Section -->
     <div class="supplements-hero">
         <div class="supplements-hero-content">
-            <h1>Professional-Grade Supplements<br>Recommended by Your Pharmacist</h1>
-            <p class="subtitle">Evidence-based Ortho Molecular Products and pharmaceutical-grade supplements trusted by healthcare professionals</p>
             <div class="hero-cta-buttons">
                 <a href="https://shops.wellpharmapharmacy.com" target="_blank" class="btn-shop">Shop Supplements</a>
                 <a href="tel:+14106989068" class="btn-consult">Call (410) 698-9068</a>
@@ -573,6 +658,26 @@
             </div>
             <div class="trust-badge">
                 <div class="trust-badge-text">Professional Quality</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Product: Calocurb -->
+    <div class="featured-product-banner">
+        <div class="featured-product-content">
+            <div class="featured-product-text">
+                <span class="featured-badge">NEW LAUNCH</span>
+                <h3>Calocurb® CLINICAL - Natural GLP-1 Activation</h3>
+                <p>Control appetite naturally without injections. Clinically studied Amarasate® extract activates your body's own satiety hormones (GLP-1, CCK, PYY) — the same hormones targeted by prescription medications like Ozempic, but plant-based and practitioner-exclusive.</p>
+                <a href="calocurb.html" class="featured-cta">Learn More →</a>
+            </div>
+            <div class="featured-product-text">
+                <ul style="color: white; font-size: 1.1rem; line-height: 2;">
+                    <li>✓ No needles or prescriptions required</li>
+                    <li>✓ Effects felt within 30 min - 2 hours</li>
+                    <li>✓ Plant-based with favorable safety profile</li>
+                    <li>✓ From Ortho Molecular Products</li>
+                </ul>
             </div>
         </div>
     </div>
