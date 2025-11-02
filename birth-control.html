@@ -172,6 +172,47 @@
             color: white;
         }
 
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            border: 2px solid white;
+        }
+
+        .cta-btn-primary {
+            background: white;
+            color: #2d5016;
+        }
+
+        .cta-btn-primary:hover {
+            background: #f0f0f0;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        .cta-btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .cta-btn-secondary:hover {
+            background: rgba(255,255,255,0.1);
+            transform: translateY(-2px);
+        }
+
         .option-card {
             background: rgb(235,243,237);
             padding: 1.5rem;
@@ -471,6 +512,15 @@
         <div class="myth-buster">
             <p>❌ <strong>Myth:</strong> "Birth control causes infertility"<br>
             ✅ <strong>Truth:</strong> Your fertility returns quickly after stopping birth control</p>
+        </div>
+
+        <div class="cta-box">
+            <h2>Ready to Get Started?</h2>
+            <p>Get your birth control prescription today - same-day service available!</p>
+            <div class="cta-buttons">
+                <a href="tel:+14106989068" class="cta-btn cta-btn-primary">📞 Call Now</a>
+                <a href="https://pharmacy.imagemovermd.com/v1/web-workflow/117/self-registration.html" target="_blank" class="cta-btn cta-btn-secondary">📅 Schedule Appointment</a>
+            </div>
         </div>
 
         <div class="cta-box">
