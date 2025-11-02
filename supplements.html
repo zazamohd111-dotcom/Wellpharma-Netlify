@@ -52,9 +52,14 @@
 
     <style>
         /* Supplements Page Specific Styles */
+        .nav-link.active-link {
+            color: var(--primary-color) !important;
+            font-weight: 700;
+        }
+
         .supplements-hero {
             background: linear-gradient(135deg, #2d5016 0%, #4a7c29 100%);
-            color: white;
+            color: var(--white, white);
             padding: 140px 2rem 4rem;
             text-align: center;
             min-height: 60vh;
@@ -73,12 +78,14 @@
             font-weight: 700;
             margin-bottom: 1rem;
             line-height: 1.2;
+            color: white;
         }
 
         .supplements-hero .subtitle {
             font-size: 1.3rem;
             margin-bottom: 2rem;
             opacity: 0.95;
+            color: white;
         }
 
         .hero-cta-buttons {
@@ -150,52 +157,12 @@
 
         .trust-badge-text {
             font-weight: 600;
-            color: rgb(77,123,107);
+            color: var(--primary-color);
         }
 
-        .pharmacist-section {
-            background: rgb(235,243,237);
+        .education-section {
+            background: var(--light-bg);
             padding: 4rem 2rem;
-        }
-
-        .pharmacist-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: 300px 1fr;
-            gap: 3rem;
-            align-items: center;
-        }
-
-        .pharmacist-image {
-            width: 100%;
-            border-radius: 12px;
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-        }
-
-        .pharmacist-image-placeholder {
-            width: 100%;
-            aspect-ratio: 3/4;
-            background: linear-gradient(135deg, rgb(77,123,107) 0%, rgb(144,173,114) 100%);
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 4rem;
-        }
-
-        .pharmacist-text h2 {
-            color: rgb(77,123,107);
-            font-size: 2.2rem;
-            margin-bottom: 1rem;
-        }
-
-        .pharmacist-text .credentials {
-            color: #2d5016;
-            font-weight: 600;
-            margin-bottom: 1rem;
-            font-size: 1.1rem;
         }
 
         .product-categories {
@@ -211,13 +178,13 @@
 
         .section-header h2 {
             font-size: 2.5rem;
-            color: rgb(77,123,107);
+            color: var(--primary-color);
             margin-bottom: 0.5rem;
         }
 
         .section-header p {
             font-size: 1.2rem;
-            color: #64748b;
+            color: var(--text-light);
         }
 
         .categories-grid {
@@ -240,7 +207,7 @@
         .category-card:hover {
             transform: translateY(-8px);
             box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
-            border-color: rgb(144,173,114);
+            border-color: var(--secondary-color);
         }
 
         .category-icon {
@@ -249,13 +216,13 @@
         }
 
         .category-card h3 {
-            color: rgb(77,123,107);
+            color: var(--primary-color);
             font-size: 1.5rem;
             margin-bottom: 0.5rem;
         }
 
         .category-card p {
-            color: #64748b;
+            color: var(--text-light);
             margin-bottom: 1rem;
         }
 
@@ -266,7 +233,7 @@
         }
 
         .featured-products {
-            background: rgb(235,243,237);
+            background: var(--light-bg);
             padding: 4rem 2rem;
         }
 
@@ -330,8 +297,8 @@
         }
 
         .product-cta {
-            background: rgb(77,123,107);
-            color: white;
+            background: var(--primary-color);
+            color: var(--white);
             padding: 0.8rem 1.5rem;
             text-decoration: none;
             border-radius: 6px;
@@ -350,35 +317,63 @@
             margin: 0 auto;
         }
 
-        .benefits-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
+        .comparison-table-wrapper {
+            overflow-x: auto;
             margin-top: 2rem;
         }
 
-        .benefit-item {
-            text-align: center;
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            border-radius: 8px;
+            overflow: hidden;
         }
 
-        .benefit-icon {
-            font-size: 3rem;
-            color: rgb(77,123,107);
-            margin-bottom: 1rem;
+        .comparison-table thead {
+            background: var(--primary-color);
+            color: var(--white);
         }
 
-        .benefit-item h3 {
-            color: #2e2e2e;
-            margin-bottom: 0.5rem;
+        .comparison-table th {
+            padding: 1.5rem;
+            text-align: left;
+            font-weight: 700;
+            font-size: 1.1rem;
         }
 
-        .benefit-item p {
-            color: #64748b;
+        .comparison-table td {
+            padding: 1.25rem 1.5rem;
+            border-bottom: 1px solid #e5e7eb;
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .comparison-table tbody tr:nth-child(even) {
+            background: var(--light-bg);
+        }
+
+        .comparison-table tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        .comparison-table tbody tr td:first-child {
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        @media (max-width: 768px) {
+            .comparison-table th,
+            .comparison-table td {
+                padding: 1rem;
+                font-size: 0.9rem;
+            }
         }
 
         .cta-section {
             background: linear-gradient(135deg, #2d5016 0%, #4a7c29 100%);
-            color: white;
+            color: var(--white);
             padding: 4rem 2rem;
             text-align: center;
         }
@@ -386,12 +381,96 @@
         .cta-section h2 {
             font-size: 2.5rem;
             margin-bottom: 1rem;
+            color: var(--white);
         }
 
         .cta-section p {
             font-size: 1.2rem;
             margin-bottom: 2rem;
-            opacity: 0.95;
+            opacity: 1;
+            color: var(--white);
+        }
+
+        .cta-contact-info {
+            max-width: 800px;
+            margin: 2rem auto 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            text-align: center;
+        }
+
+        .cta-contact-item {
+            color: var(--white);
+        }
+
+        .cta-contact-item a {
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .cta-contact-item a:hover {
+            text-decoration: underline;
+        }
+
+        .faq-section {
+            padding: 4rem 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+        }
+
+        .faq-item {
+            margin-bottom: 1rem;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin: 0;
+            padding: 1.5rem;
+            cursor: pointer;
+            background: var(--light-bg);
+            transition: background 0.3s ease;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            user-select: none;
+        }
+
+        .faq-question:hover {
+            background: var(--green-100);
+        }
+
+        .faq-question::after {
+            content: '+';
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            transition: transform 0.3s ease;
+        }
+
+        .faq-question.active::after {
+            content: '−';
+        }
+
+        .faq-answer {
+            color: var(--text-light);
+            line-height: 1.6;
+            padding: 0 1.5rem;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, padding 0.3s ease;
+        }
+
+        .faq-answer.active {
+            max-height: 500px;
+            padding: 1.5rem;
         }
 
         @media (max-width: 768px) {
@@ -401,16 +480,6 @@
 
             .supplements-hero .subtitle {
                 font-size: 1.1rem;
-            }
-
-            .pharmacist-content {
-                grid-template-columns: 1fr;
-                text-align: center;
-            }
-
-            .pharmacist-image-placeholder {
-                max-width: 250px;
-                margin: 0 auto;
             }
 
             .btn-shop,
@@ -463,7 +532,7 @@
                 <ul class="nav-menu" id="primary-menu">
                     <li class="nav-item"><a href="index.html#home" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="index.html#services" class="nav-link">Services</a></li>
-                    <li class="nav-item"><a href="supplements.html" class="nav-link" style="color: rgb(77,123,107); font-weight: 700;">Supplements</a></li>
+                    <li class="nav-item"><a href="supplements.html" class="nav-link active-link">Supplements</a></li>
                     <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
                     <li class="nav-item"><a href="index.html#about" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact</a></li>
@@ -484,8 +553,8 @@
             <h1>Professional-Grade Supplements<br>Recommended by Your Pharmacist</h1>
             <p class="subtitle">Evidence-based Ortho Molecular Products and pharmaceutical-grade supplements trusted by healthcare professionals</p>
             <div class="hero-cta-buttons">
-                <a href="https://shops.wellpharmapharmacy.com" target="_blank" class="btn-shop">🛒 Shop Supplements</a>
-                <a href="tel:+14106989068" class="btn-consult">📞 Consult a Pharmacist</a>
+                <a href="https://shops.wellpharmapharmacy.com" target="_blank" class="btn-shop">Shop Supplements</a>
+                <a href="tel:+14106989068" class="btn-consult">Call (410) 698-9068</a>
             </div>
         </div>
     </div>
@@ -494,36 +563,60 @@
     <div class="trust-badges">
         <div class="trust-badges-grid">
             <div class="trust-badge">
-                <div class="trust-badge-icon">✓</div>
                 <div class="trust-badge-text">Pharmaceutical Grade</div>
             </div>
             <div class="trust-badge">
-                <div class="trust-badge-icon">🔬</div>
                 <div class="trust-badge-text">Evidence-Based</div>
             </div>
             <div class="trust-badge">
-                <div class="trust-badge-icon">👨‍⚕️</div>
                 <div class="trust-badge-text">Pharmacist Recommended</div>
             </div>
             <div class="trust-badge">
-                <div class="trust-badge-icon">🏆</div>
                 <div class="trust-badge-text">Professional Quality</div>
             </div>
         </div>
     </div>
 
-    <!-- Pharmacist Section -->
-    <section class="pharmacist-section">
-        <div class="pharmacist-content">
-            <div class="pharmacist-image-placeholder">
-                👩‍⚕️
-            </div>
-            <div class="pharmacist-text">
-                <h2>Expertly Curated by Dr. Zahraa Babiker</h2>
-                <p class="credentials">Doctor of Pharmacy (PharmD) | Licensed Pharmacist</p>
-                <p>Not all supplements are created equal. As a licensed pharmacist, I personally select only pharmaceutical-grade products backed by clinical research. Every supplement in our store meets the highest standards for purity, potency, and effectiveness.</p>
-                <p><strong>Why trust matters:</strong> Over-the-counter supplements often contain fillers, inconsistent dosages, or inferior ingredients. Our professional-grade Ortho Molecular Products are manufactured to pharmaceutical standards and third-party tested for quality.</p>
-            </div>
+    <!-- Education Section -->
+    <section class="education-section">
+        <div class="section-header">
+            <h2>Professional-Grade vs. Retail Supplements: What's the Difference?</h2>
+        </div>
+        <div class="comparison-table-wrapper">
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Professional-Grade (Ortho Molecular)</th>
+                        <th>Retail Store Brands</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Therapeutic dosages based on research</td>
+                        <td>Minimal dosages to meet label claims</td>
+                    </tr>
+                    <tr>
+                        <td>Highest bioavailability forms (e.g., methylated B vitamins)</td>
+                        <td>Often cheaper, less absorbable forms</td>
+                    </tr>
+                    <tr>
+                        <td>Rigorous third-party testing</td>
+                        <td>Variable quality control</td>
+                    </tr>
+                    <tr>
+                        <td>Formulated for clinical outcomes</td>
+                        <td>Formulated for mass market appeal</td>
+                    </tr>
+                    <tr>
+                        <td>Only available through practitioners</td>
+                        <td>Available anywhere</td>
+                    </tr>
+                    <tr>
+                        <td>No fillers, artificial colors, or unnecessary additives</td>
+                        <td>May contain fillers and binders</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </section>
 
@@ -535,37 +628,31 @@
         </div>
         <div class="categories-grid">
             <div class="category-card" onclick="window.open('https://shops.wellpharmapharmacy.com', '_blank')">
-                <div class="category-icon">🦠</div>
                 <h3>Immune Support</h3>
                 <p>Boost your body's natural defenses with evidence-based immune supplements</p>
                 <a href="https://shops.wellpharmapharmacy.com" target="_blank" class="category-link">Shop Immune Support →</a>
             </div>
             <div class="category-card" onclick="window.open('https://shops.wellpharmapharmacy.com', '_blank')">
-                <div class="category-icon">🌿</div>
                 <h3>Digestive Health</h3>
                 <p>Probiotics and digestive enzymes for optimal gut health</p>
                 <a href="https://shops.wellpharmapharmacy.com" target="_blank" class="category-link">Shop Digestive Health →</a>
             </div>
             <div class="category-card" onclick="window.open('https://shops.wellpharmapharmacy.com', '_blank')">
-                <div class="category-icon">💪</div>
                 <h3>Energy & Vitality</h3>
                 <p>B-vitamins, CoQ10, and mitochondrial support</p>
                 <a href="https://shops.wellpharmapharmacy.com" target="_blank" class="category-link">Shop Energy Support →</a>
             </div>
             <div class="category-card" onclick="window.open('https://shops.wellpharmapharmacy.com', '_blank')">
-                <div class="category-icon">🧠</div>
                 <h3>Brain Health</h3>
                 <p>Cognitive support and neuroprotective nutrients</p>
                 <a href="https://shops.wellpharmapharmacy.com" target="_blank" class="category-link">Shop Brain Health →</a>
             </div>
             <div class="category-card" onclick="window.open('https://shops.wellpharmapharmacy.com', '_blank')">
-                <div class="category-icon">❤️</div>
                 <h3>Heart Health</h3>
                 <p>Omega-3s, CoQ10, and cardiovascular support</p>
                 <a href="https://shops.wellpharmapharmacy.com" target="_blank" class="category-link">Shop Heart Health →</a>
             </div>
             <div class="category-card" onclick="window.open('https://shops.wellpharmapharmacy.com', '_blank')">
-                <div class="category-icon">🦴</div>
                 <h3>Bone & Joint</h3>
                 <p>Calcium, Vitamin D, and joint support formulas</p>
                 <a href="https://shops.wellpharmapharmacy.com" target="_blank" class="category-link">Shop Bone & Joint →</a>
@@ -581,7 +668,6 @@
         </div>
         <div class="products-grid">
             <div class="product-card">
-                <div class="product-image">💊</div>
                 <div class="product-content">
                     <span class="product-badge">Best Seller</span>
                     <h3 class="product-name">Ortho Biotic</h3>
@@ -590,7 +676,6 @@
                 </div>
             </div>
             <div class="product-card">
-                <div class="product-image">🌱</div>
                 <div class="product-content">
                     <span class="product-badge">Popular</span>
                     <h3 class="product-name">Natural D-Hist</h3>
@@ -599,7 +684,6 @@
                 </div>
             </div>
             <div class="product-card">
-                <div class="product-image">☀️</div>
                 <div class="product-content">
                     <span class="product-badge">Essential</span>
                     <h3 class="product-name">Vitamin D3 5000 IU</h3>
@@ -610,43 +694,55 @@
         </div>
     </section>
 
-    <!-- Why Choose Section -->
-    <section class="why-choose">
+    <!-- FAQ Section -->
+    <section class="faq-section">
         <div class="section-header">
-            <h2>Why Choose WellPharma Supplements?</h2>
-            <p>The difference between pharmacy-grade and store-bought supplements</p>
+            <h2>Frequently Asked Questions</h2>
         </div>
-        <div class="benefits-grid">
-            <div class="benefit-item">
-                <div class="benefit-icon">🔬</div>
-                <h3>Third-Party Tested</h3>
-                <p>Every product verified for purity and potency</p>
-            </div>
-            <div class="benefit-item">
-                <div class="benefit-icon">🏥</div>
-                <h3>Pharmacist Guidance</h3>
-                <p>Free consultations to find the right supplements</p>
-            </div>
-            <div class="benefit-item">
-                <div class="benefit-icon">📚</div>
-                <h3>Science-Backed</h3>
-                <p>Formulations based on clinical research</p>
-            </div>
-            <div class="benefit-item">
-                <div class="benefit-icon">✨</div>
-                <h3>Premium Ingredients</h3>
-                <p>Bioavailable forms for maximum absorption</p>
-            </div>
+        <div class="faq-item">
+            <div class="faq-question">Do I need a prescription to purchase Ortho Molecular Products?</div>
+            <div class="faq-answer">No prescription is needed! However, these professional-grade supplements are exclusively available through licensed healthcare practitioners like pharmacists, not retail stores.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Why can't I find these at my local drugstore?</div>
+            <div class="faq-answer">Ortho Molecular Products maintains the integrity of their professional-grade line by only partnering with licensed healthcare providers who can offer expert guidance.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">How are these different from the vitamins at CVS or Walgreens?</div>
+            <div class="faq-answer">Professional-grade supplements use superior raw materials, therapeutic dosages, and undergo rigorous testing that far exceeds retail supplement standards.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Can Dr. Babiker help me choose the right supplements?</div>
+            <div class="faq-answer">Absolutely! Contact us for a personalized consultation. We can review your health goals and medications to recommend the most appropriate products.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">How long does shipping take?</div>
+            <div class="faq-answer">Most orders ship within 1-2 business days and arrive within 3-5 business days.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Do you accept insurance?</div>
+            <div class="faq-answer">Supplements are typically not covered by insurance, but we offer competitive pricing and occasional promotions.</div>
         </div>
     </section>
 
     <!-- Final CTA -->
     <section class="cta-section">
-        <h2>Ready to Experience Professional-Grade Supplements?</h2>
-        <p>Shop now or schedule a free consultation with Dr. Babiker</p>
+        <h2>Ready to Experience Professional-Grade Nutrition?</h2>
+        <p>Shop Ortho Molecular Products with confidence, knowing you're getting pharmacist-verified, evidence-based supplements delivered right to your door.</p>
         <div class="hero-cta-buttons">
-            <a href="https://shops.wellpharmapharmacy.com" target="_blank" class="btn-shop">Start Shopping</a>
+            <a href="https://shops.wellpharmapharmacy.com" target="_blank" class="btn-shop">Start Shopping Now</a>
             <a href="tel:+14106989068" class="btn-consult">Call (410) 698-9068</a>
+        </div>
+        <div class="cta-contact-info">
+            <div class="cta-contact-item">
+                Call us: <a href="tel:+14106989068">(410) 698-9068</a>
+            </div>
+            <div class="cta-contact-item">
+                Email: <a href="mailto:info@wellpharmapharmacy.com">info@wellpharmapharmacy.com</a>
+            </div>
+            <div class="cta-contact-item">
+                Visit us: 9818 Liberty Rd, Suite B, Randallstown, MD 21133
+            </div>
         </div>
     </section>
 
@@ -658,9 +754,9 @@
                     <h3 itemprop="name">Wellpharma Pharmacy</h3>
                     <p itemprop="description">Your trusted independent pharmacy serving Randallstown, MD with personalized healthcare services since 2022.</p>
                     <div class="footer-contact" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-                        <p>📞 <a href="tel:+14106989068" itemprop="telephone">(410) 698-9068</a></p>
-                        <p>📧 <a href="mailto:info@wellpharmapharmacy.com" itemprop="email">info@wellpharmapharmacy.com</a></p>
-                        <p>📍 <span itemprop="streetAddress">9818 Liberty Road Ste B</span>, <span itemprop="addressLocality">Randallstown</span>, <span itemprop="addressRegion">MD</span> <span itemprop="postalCode">21133</span></p>
+                        <p><a href="tel:+14106989068" itemprop="telephone">(410) 698-9068</a></p>
+                        <p><a href="mailto:info@wellpharmapharmacy.com" itemprop="email">info@wellpharmapharmacy.com</a></p>
+                        <p><span itemprop="streetAddress">9818 Liberty Road Ste B</span>, <span itemprop="addressLocality">Randallstown</span>, <span itemprop="addressRegion">MD</span> <span itemprop="postalCode">21133</span></p>
                     </div>
                 </div>
 
@@ -714,5 +810,33 @@
 
     <!-- JavaScript for mobile menu -->
     <script src="js/main.js"></script>
+
+    <!-- FAQ Accordion JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const answer = this.nextElementSibling;
+                    const isActive = this.classList.contains('active');
+
+                    // Close all FAQs
+                    document.querySelectorAll('.faq-question').forEach(q => {
+                        q.classList.remove('active');
+                    });
+                    document.querySelectorAll('.faq-answer').forEach(a => {
+                        a.classList.remove('active');
+                    });
+
+                    // If this FAQ wasn't active, open it
+                    if (!isActive) {
+                        this.classList.add('active');
+                        answer.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
