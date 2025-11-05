@@ -59,12 +59,25 @@
 
     <!-- Custom Styles for Service Areas Page -->
     <style>
+        /* Global Overflow Fix */
+        html {
+            overflow-x: hidden;
+        }
+
+        body {
+            overflow-x: hidden;
+            width: 100%;
+            max-width: 100vw;
+        }
+
         /* Service Areas Specific Styles */
         .service-areas-hero {
             background: linear-gradient(135deg, rgb(77, 123, 107) 0%, rgb(144, 173, 114) 50%, rgb(154, 189, 177) 100%);
             padding: 120px 0 80px;
             position: relative;
             overflow: hidden;
+            width: 100%;
+            max-width: 100vw;
         }
 
         .service-areas-hero::before {
@@ -91,6 +104,7 @@
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 2rem;
+            width: 100%;
         }
 
         .service-areas-hero .hero-content h1 {
@@ -111,11 +125,14 @@
 
         .service-areas-hero .hero-image {
             width: 100%;
+            max-width: 100%;
             position: relative;
+            overflow: hidden;
         }
 
         .service-areas-hero .hero-image img {
             width: 100%;
+            max-width: 100%;
             height: auto;
             border-radius: 16px;
             box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
@@ -126,6 +143,9 @@
         .counties-section {
             padding: 80px 0;
             background: var(--white);
+            width: 100%;
+            max-width: 100vw;
+            overflow-x: hidden;
         }
 
         .counties-grid {
@@ -133,6 +153,8 @@
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 2.5rem;
             margin-top: 3rem;
+            width: 100%;
+            max-width: 100%;
         }
 
         .county-card {
@@ -193,6 +215,9 @@
         .why-choose-section {
             padding: 80px 0;
             background: var(--light-bg);
+            width: 100%;
+            max-width: 100vw;
+            overflow-x: hidden;
         }
 
         .services-highlights {
@@ -200,6 +225,8 @@
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
             margin-top: 3rem;
+            width: 100%;
+            max-width: 100%;
         }
 
         .service-highlight {
@@ -238,6 +265,9 @@
         .location-info-section {
             padding: 80px 0;
             background: white;
+            width: 100%;
+            max-width: 100vw;
+            overflow-x: hidden;
         }
 
         .location-grid {
@@ -246,6 +276,8 @@
             gap: 3rem;
             margin-top: 3rem;
             align-items: start;
+            width: 100%;
+            max-width: 100%;
         }
 
         .location-details {
@@ -367,19 +399,23 @@
 
         /* Responsive Design */
         @media (max-width: 768px) {
+            .service-areas-hero {
+                padding: 100px 1rem 60px;
+            }
+
             .service-areas-hero .hero-container {
                 grid-template-columns: 1fr;
                 gap: 2rem;
-                padding: 0 1.5rem;
+                padding: 0 1rem;
             }
 
             .service-areas-hero .hero-content h1 {
-                font-size: 2rem;
+                font-size: 1.8rem;
                 text-align: center;
             }
 
             .service-areas-hero .subtitle {
-                font-size: 1.05rem;
+                font-size: 1rem;
                 text-align: center;
             }
 
@@ -387,9 +423,31 @@
                 order: -1;
             }
 
+            .counties-section {
+                padding: 60px 1rem;
+            }
+
             .counties-grid {
                 grid-template-columns: 1fr;
                 gap: 1.5rem;
+                grid-template-columns: 1fr !important;
+            }
+
+            .county-card {
+                padding: 1.5rem;
+            }
+
+            .why-choose-section {
+                padding: 60px 1rem;
+            }
+
+            .services-highlights {
+                grid-template-columns: 1fr !important;
+                gap: 1.5rem;
+            }
+
+            .location-info-section {
+                padding: 60px 1rem;
             }
 
             .location-grid {
@@ -399,6 +457,10 @@
 
             .map-placeholder {
                 height: 350px;
+            }
+
+            .cta-section {
+                padding: 60px 1rem;
             }
 
             .cta-section h2 {
