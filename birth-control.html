@@ -317,7 +317,13 @@
                             <a href="long-term-care.html" class="dropdown-link">Long Term Care</a>
                         </div>
                     </li>
-                    <li class="nav-item"><a href="supplements.html" class="nav-link">Shop</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#shop" class="nav-link">Shop <span class="dropdown-arrow">▼</span></a>
+                        <div class="dropdown-menu">
+                            <a href="supplements.html" class="dropdown-link">Supplements</a>
+                            <a href="calocurb.html" class="dropdown-link">New Arrivals</a>
+                        </div>
+                    </li>
                     <li class="nav-item"><a href="birth-control.html" class="nav-link">Birth Control</a></li>
                     <li class="nav-item"><a href="index.html#about" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact</a></li>
@@ -653,15 +659,22 @@
                 });
             }
 
-            // Mobile dropdown toggle
-            const dropdownToggle = document.querySelector('.nav-item.dropdown .nav-link');
-            if (dropdownToggle) {
+            // Mobile dropdown toggle - Handle ALL dropdowns
+            const dropdownToggles = document.querySelectorAll('.nav-item.dropdown .nav-link');
+            dropdownToggles.forEach(dropdownToggle => {
                 dropdownToggle.addEventListener('click', function(e) {
                     if (window.innerWidth <= 768) {
                         e.preventDefault();
                         e.stopPropagation();
                         const dropdown = this.parentElement;
                         const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+
+                        // Close other dropdowns
+                        document.querySelectorAll('.nav-item.dropdown').forEach(otherDropdown => {
+                            if (otherDropdown !== dropdown && otherDropdown.classList.contains('active')) {
+                                otherDropdown.classList.remove('active');
+                            }
+                        });
 
                         // Toggle current dropdown
                         dropdown.classList.toggle('active');
@@ -675,7 +688,7 @@
                         }
                     }
                 });
-            }
+            });
 
             // Close dropdown links when clicked
             const dropdownLinks = document.querySelectorAll('.dropdown-link');
