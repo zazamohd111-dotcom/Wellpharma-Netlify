@@ -168,7 +168,7 @@
         .animate-on-scroll.animated{opacity:1;transform:translateY(0)}
         .feature-card.animate-on-scroll.animated{animation:popGrow 0.6s ease-out}
         .eligibility-column.animate-on-scroll.animated{animation:popGrow 0.6s ease-out}
-        
+
         @keyframes popGrow {
             0% {
                 transform: translateY(0) scale(1);
@@ -180,6 +180,15 @@
                 transform: translateY(-5px) scale(1.05);
             }
         }
+
+        /* FAQ Styles */
+        .faq-category{margin-bottom:2rem}
+        .faq-items{display:flex;flex-direction:column;gap:1rem}
+        .faq-item{background:var(--white);border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08)}
+        .faq-question{width:100%;text-align:left;background:var(--white);border:none;padding:1.25rem 1.5rem;font-size:1.1rem;font-weight:600;color:var(--primary-color);cursor:pointer;display:flex;justify-content:space-between;align-items:center;transition:background 0.2s ease}
+        .faq-question:hover{background:var(--light-bg)}
+        .faq-toggle{font-size:1.5rem;font-weight:400;color:var(--primary-color);transition:transform 0.2s ease}
+        .faq-answer{display:none;padding:0 1.5rem 1.25rem 1.5rem;background:var(--white);font-size:1rem;line-height:1.7;color:var(--text-color)}
         
         /* Mobile Styles */
         @media (max-width: 768px) {
@@ -618,6 +627,7 @@
 
             if (hamburger && navMenu) {
                 hamburger.addEventListener('click', function() {
+                    hamburger.classList.toggle('active');
                     navMenu.classList.toggle('active');
                     body.classList.toggle('menu-open');
                 });
@@ -625,6 +635,7 @@
                 // Close menu when clicking outside
                 document.addEventListener('click', function(e) {
                     if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {
+                        hamburger.classList.remove('active');
                         navMenu.classList.remove('active');
                         body.classList.remove('menu-open');
                     }
@@ -634,6 +645,7 @@
                 navMenu.querySelectorAll('.nav-link').forEach(link => {
                     if (!link.parentElement.classList.contains('dropdown')) {
                         link.addEventListener('click', function() {
+                            hamburger.classList.remove('active');
                             navMenu.classList.remove('active');
                             body.classList.remove('menu-open');
                         });
@@ -673,6 +685,7 @@
                     if (dropdown) {
                         dropdown.classList.remove('active');
                     }
+                    if (hamburger) hamburger.classList.remove('active');
                     navMenu.classList.remove('active');
                     body.classList.remove('menu-open');
                 });
@@ -729,6 +742,25 @@
             
             // Feature card hover effects are now handled by CSS
             console.log('Feature card hover effects loaded via CSS');
+
+            // FAQ toggle functionality
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const faqItem = this.closest('.faq-item');
+                    const answer = faqItem.querySelector('.faq-answer');
+                    const toggle = this.querySelector('.faq-toggle');
+
+                    // Toggle the answer visibility
+                    if (answer.style.display === 'block') {
+                        answer.style.display = 'none';
+                        toggle.textContent = '+';
+                    } else {
+                        answer.style.display = 'block';
+                        toggle.textContent = '−';
+                    }
+                });
+            });
         });
         window.addEventListener('load', function() {
             const loader = document.getElementById('pageLoader');
