@@ -248,6 +248,76 @@
             transform: translateX(5px);
         }
 
+        /* Virtual Assistants Section */
+        .virtual-assistants-section {
+            padding: 5rem 0;
+            background: var(--white);
+        }
+
+        .virtual-assistants-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .assistant-card {
+            background: var(--white);
+            padding: 2.5rem;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .assistant-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 30px rgba(77,123,107,0.15);
+            border-color: var(--primary-color);
+        }
+
+        .assistant-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 15px rgba(77,123,107,0.2);
+        }
+
+        .assistant-icon i {
+            font-size: 2rem;
+            color: var(--white);
+        }
+
+        .assistant-card h3 {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .assistant-card p {
+            color: #666;
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+
+        .assistant-card .btn {
+            margin-top: auto;
+            width: 100%;
+            text-align: center;
+        }
+
         /* Community Section - Centered Podcast Layout */
         .community-section {
             padding: 5rem 0;
@@ -408,6 +478,15 @@
             .quick-access-grid {
                 grid-template-columns: 1fr;
                 gap: 1.5rem;
+            }
+
+            .virtual-assistants-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .assistant-card {
+                padding: 2rem;
             }
 
             .community-card-featured {
@@ -974,6 +1053,43 @@
                         <p>Same-day prescriptions available</p>
                         <span class="quick-access-arrow">→</span>
                     </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chat With Our Virtual Assistants Section -->
+        <section id="virtual-assistants" class="virtual-assistants-section">
+            <div class="container">
+                <h2>Chat With Our Virtual Assistants</h2>
+                <p class="section-subtitle">Get instant answers to your health questions from our AI-powered assistants</p>
+
+                <div class="virtual-assistants-grid">
+                    <div class="assistant-card">
+                        <div class="assistant-icon">
+                            <i class="fas fa-comment-medical"></i>
+                        </div>
+                        <h3>WellPharma Wellness Assistant</h3>
+                        <p>Get answers to general pharmacy questions and learn about our services</p>
+                        <a href="https://chatgpt.com/g/g-6915da729de08191af8f8991dea2eeea-wellpharma-wellness-assistant" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Chat with our Wellness Assistant</a>
+                    </div>
+
+                    <div class="assistant-card">
+                        <div class="assistant-icon">
+                            <i class="fas fa-syringe"></i>
+                        </div>
+                        <h3>Vicky the Vaccine Guide</h3>
+                        <p>Learn which vaccines you need and get personalized vaccine education</p>
+                        <a href="https://chatgpt.com/g/g-6915da330bf88191823148efc7b7c899-vicky-vaccine-counsoler-gpt" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Ask Vicky about vaccines</a>
+                    </div>
+
+                    <div class="assistant-card">
+                        <div class="assistant-icon">
+                            <i class="fas fa-pills"></i>
+                        </div>
+                        <h3>Bella the Birth Control Guide</h3>
+                        <p>Get private answers about birth control options and recommendations</p>
+                        <a href="https://chatgpt.com/g/g-6915dd5758c881919993ae77dc7cb44a-bella-birth-control-counslor-gpt" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Chat with Bella about birth control</a>
+                    </div>
                 </div>
             </div>
         </section>

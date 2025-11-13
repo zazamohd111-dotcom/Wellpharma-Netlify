@@ -135,6 +135,103 @@
 
     <!-- Page-specific CSS for Immunization -->
     <style>
+        /* Vicky Callout Section */
+        .vicky-callout-section {
+            padding: 3rem 0;
+            background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+        }
+
+        .vicky-callout-box {
+            background: var(--white);
+            border-radius: 16px;
+            padding: 2.5rem;
+            box-shadow: 0 8px 30px rgba(77,123,107,0.15);
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            gap: 2rem;
+            align-items: center;
+            border: 2px solid var(--primary-color);
+        }
+
+        .vicky-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .vicky-icon-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 0.25rem;
+        }
+
+        .vicky-icon i {
+            font-size: 1.8rem;
+            color: var(--white);
+        }
+
+        .vicky-name {
+            color: var(--white);
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .vicky-content h3 {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .vicky-content p {
+            color: #666;
+            font-size: 1rem;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .vicky-button .btn {
+            white-space: nowrap;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .vicky-button .btn i {
+            font-size: 1.2rem;
+        }
+
+        @media (max-width: 768px) {
+            .vicky-callout-box {
+                grid-template-columns: 1fr;
+                text-align: center;
+                padding: 2rem;
+                gap: 1.5rem;
+            }
+
+            .vicky-icon {
+                margin: 0 auto;
+            }
+
+            .vicky-button {
+                width: 100%;
+            }
+
+            .vicky-button .btn {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+
         /* Hero Feature Icons - Blue Medical Theme */
         .feature-icon {
             background: #3498db !important;
@@ -749,6 +846,29 @@
                         <source srcset="Image.webp/immunization.webp" type="image/webp">
                         <img src="images/immunization.jpg" alt="Professional pharmacist administering vaccine - WellPharma Immunization Services" fetchpriority="high" loading="eager" width="600" height="400">
                     </picture>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vicky Vaccine Guide Callout -->
+        <section class="vicky-callout-section">
+            <div class="container">
+                <div class="vicky-callout-box">
+                    <div class="vicky-icon">
+                        <div class="vicky-icon-content">
+                            <i class="fas fa-robot"></i>
+                            <span class="vicky-name">Vicky</span>
+                        </div>
+                    </div>
+                    <div class="vicky-content">
+                        <h3>Not sure which vaccines you may need?</h3>
+                        <p>Click here to chat with Vicky, our Vaccine Guide. Get personalized vaccine recommendations based on your age, health conditions, and travel plans.</p>
+                    </div>
+                    <div class="vicky-button">
+                        <a href="https://chatgpt.com/g/g-6915da330bf88191823148efc7b7c899-vicky-vaccine-counsoler-gpt" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-comments"></i> Chat with Vicky
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>

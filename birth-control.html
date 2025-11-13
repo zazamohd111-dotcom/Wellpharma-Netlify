@@ -123,7 +123,89 @@
         .btn-primary:hover{background:rgb(65,103,90);transform:translateY(-1px)}
         .btn-secondary{background:transparent;color:var(--primary-color);border:2px solid var(--primary-color)}
         .btn-secondary:hover{background:var(--primary-color);color:var(--white)}
-        
+
+        /* Bella Callout Section */
+        .bella-callout-section {
+            padding: 3rem 1rem;
+            background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%);
+            overflow-x: hidden;
+            width: 100%;
+            max-width: 100vw;
+        }
+
+        .bella-callout-box {
+            background: var(--white);
+            border-radius: 16px;
+            padding: 2.5rem;
+            box-shadow: 0 8px 30px rgba(77,123,107,0.15);
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            gap: 2rem;
+            align-items: center;
+            border: 2px solid var(--primary-color);
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .bella-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #ec407a, #d81b60);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .bella-icon-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 0.25rem;
+        }
+
+        .bella-icon i {
+            font-size: 1.8rem;
+            color: var(--white);
+        }
+
+        .bella-name {
+            color: var(--white);
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .bella-content h3 {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .bella-content p {
+            color: #666;
+            font-size: 1rem;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .bella-button .btn {
+            white-space: nowrap;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .bella-button .btn i {
+            font-size: 1.2rem;
+        }
+
         /* Content Sections */
         .section{padding:4rem 2rem;overflow-x:hidden;width:100%;max-width:100vw}
         .section-light{background:var(--light-bg)}
@@ -212,6 +294,36 @@
             .content-left, .content-right{margin-bottom:2rem}
             .feature-grid{grid-template-columns:1fr;gap:1.5rem}
             .eligibility-grid{grid-template-columns:1fr}
+            .bella-callout-section {
+                padding: 2rem 1rem;
+            }
+            .bella-callout-box {
+                grid-template-columns: 1fr;
+                text-align: center;
+                padding: 1.5rem;
+                gap: 1.5rem;
+            }
+            .bella-icon {
+                margin: 0 auto;
+            }
+            .bella-content h3 {
+                font-size: 1.3rem;
+            }
+            .bella-content p {
+                font-size: 0.95rem;
+            }
+            .bella-button {
+                width: 100%;
+            }
+            .bella-button .btn {
+                width: 100%;
+                justify-content: center;
+                white-space: normal;
+                text-align: center;
+                padding: 14px 16px;
+                font-size: 1rem;
+                line-height: 1.4;
+            }
             /* Mobile Dropdown Fix */
             .dropdown .dropdown-menu{display:none !important}
             .dropdown.active .dropdown-menu{display:block !important;position:static !important;opacity:1 !important;visibility:visible !important;transform:none !important;background:#f8f8f8 !important;margin-top:0.5rem;margin-left:1rem;padding:0.75rem;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.08);border:1px solid #e5e5e5}
@@ -352,6 +464,29 @@
                     <source srcset="Image.webp/birth-control-consultation744.webp" type="image/webp">
                     <img src="images/birth-control-consultation.jpg" alt="Birth Control Consultation with Pharmacist at WellPharma" loading="eager" width="600" height="400">
                 </picture>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bella Birth Control Guide Callout -->
+    <section class="bella-callout-section">
+        <div class="container">
+            <div class="bella-callout-box">
+                <div class="bella-icon">
+                    <div class="bella-icon-content">
+                        <i class="fas fa-robot"></i>
+                        <span class="bella-name">Bella</span>
+                    </div>
+                </div>
+                <div class="bella-content">
+                    <h3>Have questions about your birth control options?</h3>
+                    <p>Chat privately with Bella, our Birth Control Guide. Get personalized information about different contraceptive methods, side effects, and find the right option for you.</p>
+                </div>
+                <div class="bella-button">
+                    <a href="https://chatgpt.com/g/g-6915dd5758c881919993ae77dc7cb44a-bella-birth-control-counslor-gpt" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-comments"></i> Chat with Bella about birth control
+                    </a>
+                </div>
             </div>
         </div>
     </section>
