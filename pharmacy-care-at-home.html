@@ -741,26 +741,34 @@
                 });
             }
 
-            // Mobile dropdown toggle - Handle all dropdowns
-            const dropdownToggles = document.querySelectorAll('.nav-item.dropdown .nav-link');
-            dropdownToggles.forEach(toggle => {
-                toggle.addEventListener('click', function(e) {
+            // Mobile dropdown toggle
+            const dropdownToggle = document.querySelector('.nav-item.dropdown .nav-link');
+            console.log('Dropdown toggle found:', dropdownToggle);
+            if (dropdownToggle) {
+                dropdownToggle.addEventListener('click', function(e) {
+                    console.log('Dropdown clicked, window width:', window.innerWidth);
                     if (window.innerWidth <= 768) {
                         e.preventDefault();
+                        e.stopPropagation();
                         const dropdown = this.parentElement;
-
-                        // Close other dropdowns
-                        document.querySelectorAll('.nav-item.dropdown').forEach(otherDropdown => {
-                            if (otherDropdown !== dropdown) {
-                                otherDropdown.classList.remove('active');
-                            }
-                        });
+                        const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+                        console.log('Toggling dropdown active state');
 
                         // Toggle current dropdown
                         dropdown.classList.toggle('active');
+
+                        // If closing, ensure menu items don't overlap
+                        if (!dropdown.classList.contains('active')) {
+                            dropdownMenu.style.display = 'none';
+                            setTimeout(() => {
+                                dropdownMenu.style.display = '';
+                            }, 300);
+                        }
                     }
                 });
-            });
+            } else {
+                console.error('Dropdown toggle not found!');
+            }
 
             // Close dropdown links when clicked
             const dropdownLinks = document.querySelectorAll('.dropdown-link');
