@@ -273,6 +273,103 @@
             margin-bottom: 0 !important;
             line-height: 1.5 !important;
         }
+
+        /* CompoundCare Callout Section */
+        .compoundcare-callout-section {
+            padding: 3rem 0;
+            background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+        }
+
+        .compoundcare-callout-box {
+            background: var(--white);
+            border-radius: 16px;
+            padding: 2.5rem;
+            box-shadow: 0 8px 30px rgba(77,123,107,0.15);
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            gap: 2rem;
+            align-items: center;
+            border: 2px solid var(--primary-color);
+        }
+
+        .compoundcare-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .compoundcare-icon-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 0.25rem;
+        }
+
+        .compoundcare-icon i {
+            font-size: 1.8rem;
+            color: var(--white);
+        }
+
+        .compoundcare-name {
+            color: var(--white);
+            font-size: 0.65rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .compoundcare-content h3 {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .compoundcare-content p {
+            color: #666;
+            font-size: 1rem;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .compoundcare-button .btn {
+            white-space: nowrap;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .compoundcare-button .btn i {
+            font-size: 1.2rem;
+        }
+
+        @media (max-width: 768px) {
+            .compoundcare-callout-box {
+                grid-template-columns: 1fr;
+                text-align: center;
+                padding: 2rem;
+                gap: 1.5rem;
+            }
+
+            .compoundcare-icon {
+                margin: 0 auto;
+            }
+
+            .compoundcare-button {
+                width: 100%;
+            }
+
+            .compoundcare-button .btn {
+                width: 100%;
+                justify-content: center;
+            }
+        }
     </style>
     
     <!-- Non-critical CSS - Load asynchronously -->
@@ -635,6 +732,29 @@
                     <div class="benefit-item">
                         <h3>Healthcare Provider Collaboration</h3>
                         <p>We work directly with your doctor to ensure optimal therapeutic outcomes and appropriate monitoring.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CompoundCare Virtual Assistant Callout -->
+        <section class="compoundcare-callout-section">
+            <div class="container">
+                <div class="compoundcare-callout-box">
+                    <div class="compoundcare-icon">
+                        <div class="compoundcare-icon-content">
+                            <i class="fas fa-robot"></i>
+                            <span class="compoundcare-name">CompoundCare</span>
+                        </div>
+                    </div>
+                    <div class="compoundcare-content">
+                        <h3>Have questions about custom medications, BHRT, LDN, pediatric formulations, or allergen-friendly solutions?</h3>
+                        <p>Our virtual assistant can explain the process and help you know what to expect.</p>
+                    </div>
+                    <div class="compoundcare-button">
+                        <a href="https://chatgpt.com/g/g-691693dea98881918e9e1d6c8688a298-compoundcare" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-comments"></i> Chat with CompoundCare
+                        </a>
                     </div>
                 </div>
             </div>
