@@ -202,6 +202,103 @@
             .dropdown.active .dropdown-link:hover{background:#f0f0f0 !important;transform:translateX(5px)}
             .dropdown.active .dropdown-arrow{transform:rotate(180deg)}
         }
+
+        /* Nana Callout Section */
+        .nana-callout-section {
+            padding: 3rem 0;
+            background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+        }
+
+        .nana-callout-box {
+            background: var(--white);
+            border-radius: 16px;
+            padding: 2.5rem;
+            box-shadow: 0 8px 30px rgba(77,123,107,0.15);
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            gap: 2rem;
+            align-items: center;
+            border: 2px solid var(--primary-color);
+        }
+
+        .nana-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .nana-icon-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 0.25rem;
+        }
+
+        .nana-icon i {
+            font-size: 1.8rem;
+            color: var(--white);
+        }
+
+        .nana-name {
+            color: var(--white);
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .nana-content h3 {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .nana-content p {
+            color: #666;
+            font-size: 1rem;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .nana-button .btn {
+            white-space: nowrap;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .nana-button .btn i {
+            font-size: 1.2rem;
+        }
+
+        @media (max-width: 768px) {
+            .nana-callout-box {
+                grid-template-columns: 1fr;
+                text-align: center;
+                padding: 2rem;
+                gap: 1.5rem;
+            }
+
+            .nana-icon {
+                margin: 0 auto;
+            }
+
+            .nana-button {
+                width: 100%;
+            }
+
+            .nana-button .btn {
+                width: 100%;
+                justify-content: center;
+            }
+        }
     </style>
     
     <!-- Non-critical CSS -->
@@ -333,6 +430,29 @@
                     <source srcset="Image.webp/Pharmacy LTC2.webp" type="image/webp">
                     <img src="images/Pharmacy LTC2.jpg" alt="Happy seniors receiving pharmacy care at home services" loading="eager" width="600" height="400">
                 </picture>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nana PharmacyCare Companion Callout -->
+    <section class="nana-callout-section">
+        <div class="container">
+            <div class="nana-callout-box">
+                <div class="nana-icon">
+                    <div class="nana-icon-content">
+                        <i class="fas fa-robot"></i>
+                        <span class="nana-name">Nana</span>
+                    </div>
+                </div>
+                <div class="nana-content">
+                    <h3>Questions about our Pharmacy Care at Home program?</h3>
+                    <p>If you or a loved one needs help staying on top of medications, managing chronic conditions, or safely aging at home, our virtual assistant can guide you through the basics of the Pharmacy Care at Home program.</p>
+                </div>
+                <div class="nana-button">
+                    <a href="https://chatgpt.com/g/g-69169a8c73d881919c360e5a2bcb0a0d-nana-pharmacycare-companion" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-comments"></i> Chat with Nana
+                    </a>
+                </div>
             </div>
         </div>
     </section>
