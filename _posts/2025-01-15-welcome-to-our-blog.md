@@ -3,13 +3,14 @@ title: Welcome to the WellPharma Pharmacy Blog
 date: 2025-01-15T10:00:00.000Z
 author: Dr. Zahraa Babiker
 image: /images/pharmacy-interior.jpg
-excerpt: Welcome to the WellPharma Pharmacy blog! We're excited to share expert health tips, medication advice, and wellness insights to help you live your healthiest life.
+excerpt: Welcome to the WellPharma Pharmacy blog! We're excited to share expert
+  health tips, medication advice, and wellness insights to help you live your
+  healthiest life.
 category: Pharmacy News
 tags:
-  - Welcome
   - Pharmacy News
   - Health Tips
-featured: true
+featured: false
 ---
 
 Welcome to the WellPharma Pharmacy blog! We're thrilled to launch this new resource where we'll share expert health tips, medication advice, and wellness insights tailored to our Randallstown community.
