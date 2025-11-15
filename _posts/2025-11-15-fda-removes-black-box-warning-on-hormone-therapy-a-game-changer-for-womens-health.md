@@ -128,7 +128,7 @@ If you're a woman in Randallstown, Baltimore County, or the greater Maryland are
 
 **1. Get Baseline Hormone Testing**
 
-Understanding your current hormone levels is the first step to personalized treatment. At WellPharma Pharmacy, we offer professional hormone testing kits from ZRT Labs and Designs for Health. These at-home test kits measure:
+Understanding your current hormone levels is the first step to personalized treatment. At WellPharma Pharmacy, we offer [professional hormone testing kits](https://www.wellpharmapharmacy.com/hormone-kits) from ZRT Labs and Designs for Health. These at-home test kits measure:
 
 * Estrogen levels
 * Progesterone levels
