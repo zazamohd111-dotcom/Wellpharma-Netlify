@@ -6,7 +6,7 @@ image: /images/pharmacy-interior.jpg
 excerpt: Welcome to the WellPharma Pharmacy blog! We're excited to share expert
   health tips, medication advice, and wellness insights to help you live your
   healthiest life.
-category: Pharmacy News
+category: Medication Tips
 tags:
   - Pharmacy News
   - Health Tips
