@@ -55,7 +55,7 @@ Allow: /
 # Allow all service pages (explicit for AI clarity)
 Allow: /index.html
 Allow: /blog.html
-Allow: /blog-post.html
+Allow: /blog/
 Allow: /birth-control.html
 Allow: /compounding.html
 Allow: /glp1-medications.html

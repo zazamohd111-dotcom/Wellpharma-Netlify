@@ -1,0 +1,13 @@
+{
+  "name": "wellpharma-website",
+  "version": "1.0.0",
+  "description": "WellPharma Pharmacy Website",
+  "scripts": {
+    "build": "node scripts/build-blog.js",
+    "serve": "python -m http.server 8000"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.3",
+    "marked": "^9.1.0"
+  }
+}

@@ -39,7 +39,7 @@
                         <span class="blog-card-date">${formatDate(post.date)}</span>
                         <span class="blog-card-author">${post.author}</span>
                     </div>
-                    <a href="blog-post.html?slug=${post.slug}" class="read-more">
+                    <a href="/blog/${post.slug}.html" class="read-more">
                         Read More →
                     </a>
                 </div>
@@ -76,7 +76,7 @@
     async function loadPosts() {
         try {
             // Try to load from a generated JSON file (created by Netlify build)
-            const response = await fetch('/_posts/posts.json');
+            const response = await fetch('/api/posts.json');
             if (response.ok) {
                 const data = await response.json();
                 allPosts = data.posts;

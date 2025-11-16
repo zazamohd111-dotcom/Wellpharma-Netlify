@@ -25,26 +25,31 @@
 - Maintain existing color schemes unless specifically requested to change
 - Test locally before committing changes
 
-## How to Update Blogs/Categories Without Claude
+## How to Update Blogs
 
-### Using the Admin Panel:
-1. Open `admin-enhanced.html` in your browser
-2. Add/edit blogs or categories
-3. Click "Copy Code" button
-4. Open `index.html` in a text editor
-5. Search for `<!-- Blog Cards -->` or `<!-- Category Pills -->`
-6. Replace the section with copied code
-7. Save the file
+### Using Netlify CMS (Recommended):
+1. Go to https://golden-kataifi-90edfd.netlify.app/admin
+2. Login with your Netlify Identity account
+3. Click "Blog Articles" → "New Blog Article"
+4. Write and publish your post
+5. Netlify automatically builds and deploys changes
 
-### Deploy Changes:
-```bash
-git add index.html
-git commit -m "Update blogs/categories"
-git push origin master
-```
+### Blog System Architecture:
+- **Markdown posts** stored in `_posts/` folder
+- **Build script** (`scripts/build-blog.js`) converts markdown to HTML
+- **Generated files**:
+  - Individual blog pages in `/blog/` folder
+  - JSON feed at `/api/posts.json`
+- **Dynamic loading** on homepage and blog.html via JavaScript
 
-### Blog HTML Location in index.html:
-Look for: `<!-- Blog Cards -->` around line 470-520
+### Manual Blog Updates:
+1. Create markdown file in `_posts/` folder
+2. Run `npm run build` to generate HTML files
+3. Commit and push all changes
+
+### Homepage Blog Carousel:
+- Automatically shows latest 4 posts from `/api/posts.json`
+- Static fallback content if build hasn't run yet
 
 ### Category HTML Location in index.html:
 Look for: `<!-- Category Pills -->` around line 528-550

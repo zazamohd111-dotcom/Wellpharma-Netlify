@@ -6,19 +6,26 @@ Your website now has a complete blog system powered by Netlify CMS! Here's what'
 
 ### New Pages
 - **blog.html** - Main blog archive page showing all posts
-- **blog-post.html** - Template for individual blog articles
+- **/blog/[slug].html** - Individual blog article pages (auto-generated)
 - **/admin** - Netlify CMS admin interface for writing posts
 
 ### Files Created
 ```
 _posts/                          # Blog posts stored here (markdown files)
 ├── 2025-01-15-welcome-to-our-blog.md
+├── 2025-11-15-fda-removes-black-box-warning...md
 blog.html                        # Blog archive/listing page
-blog-post.html                   # Individual post template
+blog/                           # Individual blog post HTML files (auto-generated)
+├── welcome-to-our-blog.html
+├── fda-removes-black-box-warning...html
+api/posts.json                  # JSON feed of all posts (auto-generated)
 js/blog-loader.js               # Loads posts on blog.html
-js/blog-post-loader.js          # Loads individual posts
-admin/config.yml                # Updated with blog collection
-images/blog/                     # Folder for blog images
+js/homepage-blog-loader.js      # Loads latest posts on homepage
+admin/config.yml                # Netlify CMS configuration
+scripts/build-blog.js           # Build script for converting markdown to HTML
+package.json                    # Node.js dependencies
+netlify.toml                    # Netlify build configuration
+images/blog/                    # Folder for blog images
 ```
 
 ## 📝 How to Write Your First Blog Post
@@ -140,15 +147,18 @@ To use the /admin CMS, you need to enable Netlify Identity:
 
 1. **You write** a post via /admin (or manually in _posts/)
 2. **Netlify CMS commits** it to GitHub automatically
-3. **Netlify deploys** the changes within 2-3 minutes
-4. **Visitors see** your new post on blog.html
-5. **No manual HTML editing** needed!
+3. **Netlify runs build script** to convert markdown to HTML
+4. **Blog posts are auto-generated** as individual HTML pages
+5. **Homepage updates** with latest 4 posts automatically
+6. **Visitors see** your new post on blog.html and homepage
+7. **No manual HTML editing** needed!
 
 ## 🔗 URLs
 
 - Blog Archive: `https://your-site.netlify.app/blog.html`
-- Individual Posts: `https://your-site.netlify.app/blog-post.html?slug=post-name`
+- Individual Posts: `https://your-site.netlify.app/blog/post-slug.html`
 - Admin CMS: `https://your-site.netlify.app/admin`
+- API Feed: `https://your-site.netlify.app/api/posts.json`
 
 ## 💡 Blog Content Ideas
 
