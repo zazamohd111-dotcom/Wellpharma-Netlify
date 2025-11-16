@@ -1932,6 +1932,7 @@ ul, ol {
 .latest-news-section {
     padding: 4rem 0;
     background: var(--light-bg);
+    overflow: hidden; /* Prevent any overflow */
 }
 
 .latest-news-section h2 {
@@ -1969,18 +1970,32 @@ ul, ol {
     box-shadow: var(--shadow-hover);
 }
 
+/* Force image container height */
+#latest-news .news-card-image,
+.latest-news-section .news-card-image,
+.news-grid .news-card-image,
 .news-card-image {
-    position: relative;
+    position: relative !important;
     height: 200px !important;
     max-height: 200px !important;
-    overflow: hidden;
+    min-height: 200px !important;
+    overflow: hidden !important;
+    display: block !important;
 }
 
+/* Force image sizing */
+#latest-news .news-card-image img,
+.latest-news-section .news-card-image img,
+.news-grid .news-card-image img,
 .news-card-image img {
-    width: 100%;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
     height: 100% !important;
     object-fit: cover !important;
-    display: block;
+    display: block !important;
+    max-width: 100% !important;
 }
 
 .news-category {
