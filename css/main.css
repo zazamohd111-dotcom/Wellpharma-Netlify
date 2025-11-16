@@ -1951,8 +1951,9 @@ ul, ol {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
-    max-width: 1200px;
+    max-width: 900px; /* Reduced for 2 posts */
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .news-card {
@@ -1970,14 +1971,16 @@ ul, ol {
 
 .news-card-image {
     position: relative;
-    height: 200px;
+    height: 200px !important;
+    max-height: 200px !important;
     overflow: hidden;
 }
 
 .news-card-image img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block;
 }
 
 .news-category {

@@ -8,8 +8,8 @@
             const response = await fetch('/api/posts.json');
             if (response.ok) {
                 const data = await response.json();
-                // Get latest 3 posts for the news section
-                const posts = data.posts.slice(0, 3);
+                // Get latest 2 posts for the news section (optimized for mobile)
+                const posts = data.posts.slice(0, 2);
 
                 if (posts.length > 0) {
                     // Clear loading message
