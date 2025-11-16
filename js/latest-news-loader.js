@@ -19,8 +19,10 @@
                     posts.forEach(post => {
                         const newsCard = document.createElement('article');
                         newsCard.className = 'news-card';
+                        // Detect if desktop (min-width: 769px) for image height
+                        const imageHeight = window.innerWidth >= 769 ? '250px' : '200px';
                         newsCard.innerHTML = `
-                            <div class="news-card-image" style="height: 200px !important; max-height: 200px !important; overflow: hidden; position: relative;">
+                            <div class="news-card-image" style="height: ${imageHeight} !important; max-height: ${imageHeight} !important; overflow: hidden; position: relative;">
                                 <img src="${post.image}" alt="${post.title}" loading="lazy" style="width: 100%; height: 100% !important; object-fit: cover !important; display: block;">
                                 <span class="news-category">${post.category}</span>
                             </div>

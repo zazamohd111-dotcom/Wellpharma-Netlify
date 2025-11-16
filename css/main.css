@@ -1970,7 +1970,7 @@ ul, ol {
     box-shadow: var(--shadow-hover);
 }
 
-/* Force image container height */
+/* Force image container height - Mobile first (200px) */
 #latest-news .news-card-image,
 .latest-news-section .news-card-image,
 .news-grid .news-card-image,
@@ -1981,6 +1981,18 @@ ul, ol {
     min-height: 200px !important;
     overflow: hidden !important;
     display: block !important;
+}
+
+/* Desktop: Increase height to show more of the image */
+@media (min-width: 769px) {
+    #latest-news .news-card-image,
+    .latest-news-section .news-card-image,
+    .news-grid .news-card-image,
+    .news-card-image {
+        height: 250px !important;
+        max-height: 250px !important;
+        min-height: 250px !important;
+    }
 }
 
 /* Force image sizing */
