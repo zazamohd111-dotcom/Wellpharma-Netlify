@@ -1,7 +1,7 @@
 ---
 title: "FDA Removes Black Box Warning on Hormone Therapy: A Game-Changer for
   Women's Health"
-date: 2025-11-15T23:20:00.000Z
+date: 2025-11-15T17:00:00.000Z
 author: Dr. Zahraa Babiker
 image: /images/blog/medium-shot-women-hanging-out.jpg
 excerpt: After 22 years, the FDA just removed the black box warnings from
