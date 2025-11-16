@@ -708,7 +708,7 @@
     <!-- Page-specific JavaScript -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Mobile menu toggle
+            // Mobile menu toggle - Define variables at the top scope
             const hamburger = document.querySelector('.hamburger');
             const navMenu = document.querySelector('.nav-menu');
             const body = document.body;
@@ -749,18 +749,9 @@
                         e.preventDefault();
                         e.stopPropagation();
                         const dropdown = this.parentElement;
-                        const dropdownMenu = dropdown.querySelector('.dropdown-menu');
 
                         // Toggle current dropdown
                         dropdown.classList.toggle('active');
-
-                        // If closing, ensure menu items don't overlap
-                        if (!dropdown.classList.contains('active')) {
-                            dropdownMenu.style.display = 'none';
-                            setTimeout(() => {
-                                dropdownMenu.style.display = '';
-                            }, 300);
-                        }
                     }
                 });
             }
@@ -773,11 +764,10 @@
                     if (dropdown) {
                         dropdown.classList.remove('active');
                     }
-                    const navMenuClose = document.querySelector('.nav-menu');
-                    const hamburgerClose = document.querySelector('.hamburger');
-                    if (navMenuClose) navMenuClose.classList.remove('active');
-                    if (hamburgerClose) hamburgerClose.classList.remove('active');
-                    document.body.classList.remove('menu-open');
+                    // Use the already defined variables
+                    if (navMenu) navMenu.classList.remove('active');
+                    if (hamburger) hamburger.classList.remove('active');
+                    if (body) body.classList.remove('menu-open');
                 });
             });
 
