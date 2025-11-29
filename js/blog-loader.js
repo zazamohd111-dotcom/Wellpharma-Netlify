@@ -79,7 +79,12 @@
             const response = await fetch('/api/posts.json');
             if (response.ok) {
                 const data = await response.json();
-                allPosts = data.posts;
+                // Filter out future-dated posts (scheduled posts)
+                const now = new Date();
+                allPosts = data.posts.filter(post => {
+                    const postDate = new Date(post.date);
+                    return postDate <= now;
+                });
                 renderPosts(allPosts);
             } else {
                 // If no posts.json exists, show sample posts

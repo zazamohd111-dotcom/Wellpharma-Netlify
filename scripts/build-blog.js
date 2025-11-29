@@ -26,6 +26,7 @@ if (!fs.existsSync(blogPagesDir)) {
 const files = fs.readdirSync(postsDir).filter(file => file.endsWith('.md'));
 
 const posts = [];
+const now = new Date();
 
 files.forEach(file => {
   const filePath = path.join(postsDir, file);
@@ -54,7 +55,15 @@ files.forEach(file => {
     content: htmlContent
   };
 
+  // Always add to posts array (for JSON), but only create HTML if post date is in the past
   posts.push(post);
+
+  // Skip creating individual HTML file for future-dated posts
+  const postDate = new Date(post.date);
+  if (postDate > now) {
+    console.log(`⏰ Skipping future post: ${post.title} (scheduled for ${post.date})`);
+    return;
+  }
 
   // Create individual blog post HTML file
   const blogPostHtml = `<!DOCTYPE html>
