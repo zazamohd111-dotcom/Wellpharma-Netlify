@@ -202,9 +202,9 @@ The key is personalization. Your age, time since menopause, symptoms, medical hi
 
 ## Take the Next Step in Managing Your Menopause Symptoms
 
-Understanding your hormone levels is the first step toward effective symptom management. **Our comprehensive hormone testing kit** provides the insights you need to have informed conversations with your healthcare provider about whether HRT is right for you.
+Understanding your hormone levels is the first step toward effective symptom management.[ **Our comprehensive hormone testing kit**](https://www.wellpharmapharmacy.com/hormone-kits) provides the insights you need to have informed conversations with your healthcare provider about whether HRT is right for you.
 
-**\[Order Your Hormone Test Kit Today →]**
+**[\[Order Your Hormone Test Kit Today →]](https://www.wellpharmapharmacy.com/hormone-kits)**
 
 *As a pharmacist with specialized training in women's health, I'm here to help you navigate your menopause journey with confidence. Have questions about HRT? Drop them in the comments below.*
 
