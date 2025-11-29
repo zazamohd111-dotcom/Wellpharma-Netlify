@@ -3,7 +3,7 @@ title: "Understanding Hormone Replacement Therapy: Benefits, Risks, and Who's a
   Candidate - A Pharmacist's Guide"
 date: 2025-12-03T12:00:29.825Z
 author: Dr. Zahraa Babiker
-image: /images/blog/medium-shot-women-hanging-out.jpg
+image: /images/blog/expressive-senior-woman-posing.jpg
 excerpt: Discover the truth about hormone replacement therapy (HRT) for
   menopause. Learn about HRT benefits, risks, who's a candidate, and how to make
   an informed decision with expert pharmacist guidance.
