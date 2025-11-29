@@ -296,6 +296,8 @@ Remember, every woman's menopause journey is different. What works beautifully f
 
 **Ready to take the next step?** [Discover your unique hormone profile with comprehensive testing](#) and create a targeted strategy that addresses your specific needs. Understanding your body's biochemistry takes the guesswork out of supplementation and puts you in control of your menopause experience.
 
+**Disclaimer:** This article is for educational purposes only and does not constitute medical advice. Always consult with your healthcare provider before starting, stopping, or changing any medication or treatment plan.
+
 **References:**
 
 * 2024 magnesium sleep study findings
