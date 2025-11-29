@@ -1,7 +1,7 @@
 ---
 title: "Understanding Hormone Replacement Therapy: Benefits, Risks, and Who's a
   Candidate - A Pharmacist's Guide"
-date: 2025-12-03T12:00:31.956Z
+date: 2025-12-03T12:00:29.825Z
 author: Dr. Zahraa Babiker
 image: /images/blog/medium-shot-women-hanging-out.jpg
 excerpt: Discover the truth about hormone replacement therapy (HRT) for
