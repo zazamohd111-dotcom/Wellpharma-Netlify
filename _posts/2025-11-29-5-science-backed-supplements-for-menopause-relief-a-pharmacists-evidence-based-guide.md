@@ -3,7 +3,7 @@ title: " 5 Science-Backed Supplements for Menopause Relief: A Pharmacist's
   Evidence-Based Guide"
 date: 2025-12-24T12:00:03.058Z
 author: Dr. Zahraa Babiker
-image: /images/blog/medium-shot-women-hanging-out.jpg
+image: /images/blog/pexels-cottonbro-5867733.jpg
 excerpt: Discover the 5 best supplements for menopause backed by 2024 research.
   A pharmacist reveals which vitamins and minerals actually work for hot
   flashes, sleep, mood, and bone health

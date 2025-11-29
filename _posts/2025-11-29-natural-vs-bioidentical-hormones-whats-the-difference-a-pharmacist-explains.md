@@ -3,7 +3,7 @@ title: "Natural vs. Bioidentical Hormones: What's the Difference? A Pharmacist
   Explains"
 date: 2025-12-10T12:00:17.960Z
 author: Dr. Zahraa Babiker
-image: /images/blog/medium-shot-women-hanging-out.jpg
+image: /images/blog/gemini_generated_image_e6ou04e6ou04e6ou.png
 excerpt: " Confused about bioidentical vs natural hormones? Learn the truth
   about bioidentical hormone therapy, compounded hormones, and FDA-approved
   options from a pharmacist specializing in women's health."
