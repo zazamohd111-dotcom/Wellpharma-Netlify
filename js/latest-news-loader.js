@@ -8,8 +8,16 @@
             const response = await fetch('/api/posts.json');
             if (response.ok) {
                 const data = await response.json();
-                // Get latest 2 posts for the news section (optimized for mobile)
-                const posts = data.posts.slice(0, 2);
+
+                // Filter out future-dated posts (scheduled posts)
+                const now = new Date();
+                const publishedPosts = data.posts.filter(post => {
+                    const postDate = new Date(post.date);
+                    return postDate <= now;
+                });
+
+                // Get latest 2 published posts for the news section (optimized for mobile)
+                const posts = publishedPosts.slice(0, 2);
 
                 if (posts.length > 0) {
                     // Clear loading message
