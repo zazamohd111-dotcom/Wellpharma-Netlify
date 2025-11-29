@@ -315,7 +315,7 @@ If you're considering hormone therapy:
 4. **Ask about bioidentical progesterone (Prometrium)** instead of synthetic progestins
 5. **Work with knowledgeable providers** who understand the differences between hormone types
 
-**Ready to understand your hormone levels? \[Order your comprehensive hormone testing kit today →]**
+> **Ready to understand your hormone levels?[ \[Order your comprehensive hormone testing kit today →]](https://www.wellpharmapharmacy.com/hormone-kits)**
 
 *Have questions about bioidentical hormones? As a pharmacist specializing in women's health, I'm here to help. Drop your questions in the comments below!*
 
