@@ -526,7 +526,7 @@ Understanding your hormone levels is the critical first step in creating an effe
 * Information to discuss with your healthcare provider
 * Foundation for personalized treatment decisions
 
-**\[Order Your Hormone Testing Kit Today →]**
+**[\[Order Your Hormone Testing Kit Today →]](https://www.wellpharmapharmacy.com/hormone-kits)**
 
 *Questions about managing your menopause symptoms? As a pharmacist specializing in women's hormones, I'm here to help. Share your experiences or questions in the comments below!*
 
