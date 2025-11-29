@@ -2,7 +2,7 @@
 title: How to Reduce Medication Errors in Assisted Living by 75%
 date: 2025-12-31T12:00:14.448Z
 author: Dr. Zahraa Babiker
-image: /images/blog/front-view-smiley-female-physician-offering-bottle-medicine.jpg
+image: /images/blog/pexels-shvetsa-3683086.jpg
 excerpt: Medication errors affect 27% of assisted living residents. Learn how
   pharmacy consultant services reduce errors by 75% and protect Maryland
   seniors.
