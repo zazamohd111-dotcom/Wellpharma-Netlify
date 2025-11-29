@@ -273,6 +273,31 @@
             align-items: center !important;
             margin-bottom: 0.75rem !important;
         }
+
+        /* FAQ Answer Styles */
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+
+        .faq-item.active .faq-answer {
+            padding-top: 1rem;
+        }
+
+        .faq-question {
+            width: 100%;
+            text-align: left;
+            background: none;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
     </style>
     
     <!-- Non-critical CSS - Load asynchronously -->
@@ -455,7 +480,7 @@
                     </div>
                     
                     <div class="hero-cta">
-                        <a href="#contact" class="btn btn-primary">Partner With Us</a>
+                        <a href="#cta" class="btn btn-primary">Partner With Us</a>
                         <a href="tel:+14106989068" class="btn btn-secondary">Call (410) 698-9068</a>
                     </div>
                 </div>
@@ -539,7 +564,6 @@
                         <h3>Delivery & Technology Integration</h3>
                         <ul>
                             <li>Scheduled and emergency delivery services</li>
-                            <li>Electronic medication administration record (eMAR) integration</li>
                             <li>Secure electronic health information transmission</li>
                             <li>Real-time medication tracking and reporting</li>
                             <li>Automated refill and reorder systems</li>
@@ -684,21 +708,11 @@
                         <div class="faq-items">
                             <div class="faq-item">
                                 <button class="faq-question">
-                                    Can you integrate with our existing eMAR system?
-                                    <span class="faq-toggle">+</span>
-                                </button>
-                                <div class="faq-answer">
-                                    <p>Yes, we maintain secure electronic interfaces with most eMAR and EMR systems used by assisted living facilities. All electronic transmissions are encrypted using industry-standard encryption, and we maintain backup systems to ensure continuity of services.</p>
-                                </div>
-                            </div>
-                            
-                            <div class="faq-item">
-                                <button class="faq-question">
                                     How do you handle medication administration records (MARs)?
                                     <span class="faq-toggle">+</span>
                                 </button>
                                 <div class="faq-answer">
-                                    <p>We prepare and maintain comprehensive MARs that comply with Maryland COMAR regulations. Our electronic systems integrate with your facility's documentation, and we provide both electronic and paper backup records as needed.</p>
+                                    <p>We prepare and maintain comprehensive MARs that comply with Maryland COMAR regulations. We provide paper-based MARs with clear, organized documentation to support your facility's medication administration processes.</p>
                                 </div>
                             </div>
                         </div>
@@ -952,6 +966,28 @@
                     }
                     navMenu.classList.remove('active');
                     body.classList.remove('menu-open');
+                });
+            });
+
+            // FAQ Toggle Functionality
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const faqItem = this.closest('.faq-item');
+                    const faqAnswer = faqItem.querySelector('.faq-answer');
+                    const toggle = this.querySelector('.faq-toggle');
+
+                    // Toggle active class
+                    faqItem.classList.toggle('active');
+
+                    // Toggle answer visibility
+                    if (faqItem.classList.contains('active')) {
+                        faqAnswer.style.maxHeight = faqAnswer.scrollHeight + 'px';
+                        toggle.textContent = '−';
+                    } else {
+                        faqAnswer.style.maxHeight = '0';
+                        toggle.textContent = '+';
+                    }
                 });
             });
         });
