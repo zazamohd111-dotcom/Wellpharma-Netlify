@@ -2,7 +2,7 @@
 title: "Managing Menopause Symptoms: A Pharmacist's Comprehensive Guide to Relief"
 date: 2025-12-17T12:00:52.124Z
 author: Dr. Zahraa Babiker
-image: /images/blog/medium-shot-women-hanging-out.jpg
+image: /images/blog/portrait-female-pharmacist-working-drugstore.jpg
 excerpt: Struggling with menopause symptoms? Discover evidence-based solutions
   for hot flashes, night sweats, brain fog, mood changes, and more from a
   pharmacist specializing in women's health.
