@@ -1,0 +1,8 @@
+name,address,city,zipCode,phone,hours,features,services,website,description
+CVS Pharmacy,"8801 Liberty Rd, Randallstown, MD 21133",Randallstown,21133,(410) 521-5678,Mon-Sun: 8am-10pm,"24 Hour Pharmacy|Drive-Thru|Photo Services",24h,#,Chain pharmacy with extended hours and drive-thru service.
+Walgreens Pharmacy,"3820 Brenbrook Dr, Randallstown, MD 21133",Randallstown,21133,(410) 655-4321,Mon-Sun: 9am-9pm,"Immunizations|Photo Services|Health Products",immunizations,#,National pharmacy chain with health and wellness products.
+Rite Aid Pharmacy,"9000 Liberty Rd, Windsor Mill, MD 21244",Windsor Mill,21244,(410) 298-1234,Mon-Sun: 8am-9pm,"Drive-Thru|Immunizations|Health Screening",immunizations,#,Community pharmacy with drive-thru and health services.
+Giant Pharmacy,"8801 Wabash Ave, Owings Mills, MD 21117",Owings Mills,21117,(410) 363-8888,"Mon-Sat: 9am-7pm, Sun: 10am-5pm","Immunizations|Free Consultations",immunizations,#,Grocery store pharmacy offering convenient prescription services.
+Park Heights Pharmacy,"5501 Park Heights Ave, Baltimore, MD 21215",Baltimore,21215,(410) 542-7890,"Mon-Fri: 9am-6pm, Sat: 9am-3pm","Free Delivery|Compounding|Medication Therapy Management","delivery|compounding",#,Independent pharmacy serving the Park Heights community.
+Care First Pharmacy,"1234 West North Ave, Baltimore, MD 21216",Baltimore,21216,(410) 225-5555,"Mon-Fri: 9am-7pm, Sat: 9am-4pm","Free Delivery|Immunizations|Health Screenings","delivery|immunizations",#,Community-focused pharmacy with personalized care.
+

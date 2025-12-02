@@ -1,0 +1,1990 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drug-Induced Nutrient Depletion Calculator | WellPharma</title>
+    <meta name="description" content="Check which nutrients your medications may be depleting. Get personalized supplement recommendations.">
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K36QPF39');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-46RZZWDTDH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-46RZZWDTDH');
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --teal-primary: #2c5f4e;
+            --teal-light: #4a8c6f;
+            --teal-bg: #e8f4f0;
+            --teal-lightest: #f0f8f5;
+            --white: #ffffff;
+            --text-dark: #1a1a1a;
+            --text-medium: #4a5568;
+            --text-light: #718096;
+            --success-green: #00b894;
+            --warning-orange: #ff6b35;
+            --accent-blue: #0984e3;
+            --border-color: #e2e8f0;
+            --shadow-sm: 0 2px 8px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 16px rgba(0,0,0,0.1);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.12);
+            --radius: 12px;
+            --radius-sm: 8px;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, var(--teal-lightest) 100%);
+            color: var(--text-dark);
+            line-height: 1.6;
+            padding: clamp(0.5rem, 2vw, 1.5rem);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--white);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-lg);
+            overflow: hidden;
+        }
+
+        /* Header */
+        .header {
+            background: 
+                linear-gradient(135deg, rgba(44, 95, 78, 0.4) 0%, rgba(74, 140, 111, 0.4) 100%),
+                url('../image.jpg/Nutrient-hero- background.jpg') center/cover no-repeat;
+            color: var(--white);
+            padding: clamp(2rem, 5vw, 3rem) clamp(1.5rem, 4vw, 2.5rem);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.1);
+            z-index: 0;
+        }
+
+        .header > * {
+            position: relative;
+            z-index: 2;
+        }
+
+        .header h1 {
+            font-size: clamp(1.75rem, 5vw, 2.5rem);
+            font-weight: 800;
+            margin-bottom: 0.75rem;
+            color: var(--white);
+            text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .header p {
+            font-size: clamp(1rem, 2.5vw, 1.2rem);
+            color: var(--white);
+            max-width: 600px;
+            margin: 0 auto;
+            text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+            font-weight: 700;
+        }
+
+        .geo-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(255,255,255,0.25);
+            backdrop-filter: blur(10px);
+            padding: 0.625rem 1.25rem;
+            border-radius: 50px;
+            margin-top: 1.5rem;
+            font-size: clamp(0.85rem, 2vw, 0.95rem);
+            font-weight: 600;
+            color: var(--white);
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+
+        /* Content */
+        .content {
+            padding: clamp(1.5rem, 4vw, 2.5rem);
+        }
+
+        /* Search Section */
+        .search-section {
+            margin-bottom: 2rem;
+        }
+
+        .search-label {
+            display: block;
+            font-weight: 700;
+            margin-bottom: 0.875rem;
+            color: var(--text-dark);
+            font-size: clamp(1rem, 2.5vw, 1.15rem);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .search-wrapper {
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 1.125rem 1.125rem 1.125rem 3.5rem;
+            border: 2px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            font-size: clamp(1rem, 2.5vw, 1.1rem);
+            transition: all 0.3s;
+            font-family: inherit;
+            background: var(--white);
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--teal-primary);
+            box-shadow: 0 0 0 4px rgba(44, 95, 78, 0.1);
+            background: var(--white);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 1.25rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-light);
+            font-size: 1.25rem;
+        }
+
+        .autocomplete-dropdown {
+            position: absolute;
+            top: calc(100% + 4px);
+            left: 0;
+            right: 0;
+            background: var(--white);
+            border: 2px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            max-height: 320px;
+            overflow-y: auto;
+            z-index: 1000;
+            display: none;
+            box-shadow: var(--shadow-md);
+        }
+
+        .autocomplete-dropdown.show {
+            display: block;
+        }
+
+        .autocomplete-item {
+            padding: 1rem 1.25rem 1rem 3.5rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .autocomplete-item:last-child {
+            border-bottom: none;
+        }
+
+        .autocomplete-item:hover,
+        .autocomplete-item.selected {
+            background: var(--teal-lightest);
+        }
+
+        .autocomplete-item .drug-name {
+            font-weight: 600;
+            color: var(--text-dark);
+            font-size: clamp(0.95rem, 2.5vw, 1.05rem);
+            margin-bottom: 0.25rem;
+        }
+
+        .autocomplete-item .drug-class {
+            font-size: clamp(0.8rem, 2vw, 0.9rem);
+            color: var(--text-medium);
+        }
+
+        /* Results Section */
+        .results-section {
+            display: none;
+        }
+
+        .results-section.show {
+            display: block;
+        }
+
+        .result-card {
+            background: linear-gradient(135deg, var(--teal-lightest) 0%, var(--white) 100%);
+            border-radius: var(--radius);
+            padding: clamp(1.5rem, 4vw, 2.5rem);
+            margin-bottom: 2rem;
+            border: 1px solid var(--border-color);
+        }
+
+        .result-header {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .result-drug {
+            font-size: clamp(1.5rem, 4vw, 2rem);
+            font-weight: 800;
+            color: var(--teal-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .result-class {
+            font-size: clamp(0.95rem, 2.5vw, 1.1rem);
+            color: var(--text-medium);
+            font-weight: 500;
+        }
+
+        /* Depleted Nutrients */
+        .depleted-section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 1rem;
+            font-size: clamp(1.1rem, 3vw, 1.3rem);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .section-title i {
+            color: var(--warning-orange);
+            font-size: 1.5rem;
+        }
+
+        .nutrients-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+        }
+
+        .nutrient-badge {
+            background: var(--white);
+            color: var(--teal-primary);
+            padding: 0.625rem 1.25rem;
+            border-radius: 50px;
+            font-size: clamp(0.85rem, 2vw, 0.95rem);
+            font-weight: 600;
+            border: 2px solid var(--teal-primary);
+            box-shadow: var(--shadow-sm);
+            transition: all 0.2s;
+        }
+
+        .nutrient-badge:hover {
+            background: var(--teal-primary);
+            color: var(--white);
+            transform: translateY(-2px);
+        }
+
+        /* Products Section */
+        .products-section {
+            margin-top: 2rem;
+        }
+
+        .products-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .select-all {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .select-all input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            accent-color: var(--teal-primary);
+        }
+
+        .select-all label {
+            font-weight: 600;
+            color: var(--text-dark);
+            cursor: pointer;
+            font-size: clamp(0.9rem, 2vw, 1rem);
+        }
+
+        .bundle-button {
+            background: linear-gradient(135deg, var(--success-green) 0%, #00a085 100%);
+            color: var(--white);
+            padding: 0.875rem 2rem;
+            border-radius: var(--radius-sm);
+            font-weight: 700;
+            font-size: clamp(0.95rem, 2.5vw, 1.1rem);
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: var(--shadow-md);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .bundle-button:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .bundle-button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .product-card {
+            background: var(--white);
+            border: 2px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            padding: 1.25rem;
+            margin-bottom: 1rem;
+            transition: all 0.3s;
+            display: flex;
+            align-items: start;
+            gap: 1rem;
+        }
+
+        .product-card:hover {
+            border-color: var(--teal-primary);
+            box-shadow: var(--shadow-md);
+            transform: translateY(-2px);
+        }
+
+        .product-card.selected {
+            border-color: var(--teal-primary);
+            background: var(--teal-lightest);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .product-checkbox {
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            accent-color: var(--teal-primary);
+            margin-top: 0.25rem;
+            flex-shrink: 0;
+        }
+
+        .product-info {
+            flex: 1;
+        }
+
+        .product-name {
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 0.5rem;
+            font-size: clamp(1rem, 2.5vw, 1.15rem);
+        }
+
+        .product-code {
+            font-size: clamp(0.85rem, 2vw, 0.9rem);
+            color: var(--text-medium);
+            font-family: 'Courier New', monospace;
+            background: var(--teal-lightest);
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            display: inline-block;
+            margin-bottom: 0.75rem;
+        }
+
+        .product-actions {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        .buy-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: var(--teal-primary);
+            color: var(--white);
+            padding: 0.75rem 1.5rem;
+            border-radius: var(--radius-sm);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: clamp(0.9rem, 2.5vw, 1rem);
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .buy-button:hover {
+            background: var(--teal-light);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-sm);
+        }
+
+        /* Email Capture */
+        .email-capture {
+            background: linear-gradient(135deg, var(--teal-lightest) 0%, var(--white) 100%);
+            border-radius: var(--radius);
+            padding: clamp(1.5rem, 4vw, 2rem);
+            margin-top: 2rem;
+            text-align: center;
+            border: 2px solid var(--border-color);
+        }
+
+        .email-capture h3 {
+            font-size: clamp(1.1rem, 3vw, 1.3rem);
+            margin-bottom: 0.75rem;
+            color: var(--text-dark);
+            font-weight: 700;
+        }
+
+        .email-capture p {
+            color: var(--text-medium);
+            margin-bottom: 1.25rem;
+            font-size: clamp(0.9rem, 2vw, 1rem);
+        }
+
+        .email-form {
+            display: flex;
+            gap: 0.75rem;
+            max-width: 500px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+
+        .email-input {
+            flex: 1;
+            min-width: 200px;
+            padding: 0.875rem 1.25rem;
+            border: 2px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            font-size: clamp(0.95rem, 2.5vw, 1rem);
+            font-family: inherit;
+            transition: all 0.3s;
+        }
+
+        .email-input:focus {
+            outline: none;
+            border-color: var(--teal-primary);
+            box-shadow: 0 0 0 4px rgba(44, 95, 78, 0.1);
+        }
+
+        .email-submit {
+            background: var(--teal-primary);
+            color: var(--white);
+            padding: 0.875rem 2rem;
+            border: none;
+            border-radius: var(--radius-sm);
+            font-weight: 700;
+            font-size: clamp(0.95rem, 2.5vw, 1rem);
+            cursor: pointer;
+            transition: all 0.3s;
+            white-space: nowrap;
+        }
+
+        .email-submit:hover {
+            background: var(--teal-light);
+            transform: translateY(-2px);
+        }
+
+        .email-submit.success {
+            background: var(--success-green);
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: clamp(3rem, 8vw, 5rem) clamp(1.5rem, 4vw, 2.5rem);
+            color: var(--text-light);
+        }
+
+        .empty-state-icon {
+            font-size: clamp(3rem, 8vw, 5rem);
+            margin-bottom: 1.5rem;
+            opacity: 0.3;
+            color: var(--text-light);
+        }
+
+        .empty-state-icon i {
+            display: block;
+        }
+
+        .empty-state h3 {
+            font-size: clamp(1.25rem, 4vw, 1.75rem);
+            margin-bottom: 0.75rem;
+            color: var(--text-dark);
+            font-weight: 700;
+        }
+
+        .empty-state p {
+            font-size: clamp(1rem, 2.5vw, 1.15rem);
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-light);
+        }
+
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid var(--teal-lightest);
+            border-top: 4px solid var(--teal-primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            body {
+                padding: 0.5rem;
+            }
+
+            .header {
+                padding: 2rem 1.5rem;
+            }
+
+            .content {
+                padding: 1.5rem 1rem;
+            }
+
+            .email-form {
+                flex-direction: column;
+            }
+
+            .email-input,
+            .email-submit {
+                width: 100%;
+            }
+
+            .product-card {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .product-actions {
+                flex-direction: column;
+            }
+
+            .buy-button {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .products-header {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .bundle-button {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+
+        /* Bundle Modal */
+        .bundle-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 10000;
+            overflow-y: auto;
+            padding: 2rem 1rem;
+        }
+
+        .bundle-modal.show {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .bundle-modal-content {
+            background: var(--white);
+            border-radius: var(--radius);
+            padding: clamp(1.5rem, 4vw, 2.5rem);
+            max-width: 700px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: var(--shadow-lg);
+            position: relative;
+        }
+
+        .bundle-modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .bundle-modal-header h2 {
+            font-size: clamp(1.3rem, 3vw, 1.75rem);
+            font-weight: 800;
+            color: var(--teal-primary);
+        }
+
+        .bundle-modal-close {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--text-light);
+            cursor: pointer;
+            padding: 0.5rem;
+            line-height: 1;
+            transition: color 0.2s;
+        }
+
+        .bundle-modal-close:hover {
+            color: var(--text-dark);
+        }
+
+        .bundle-products-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .bundle-product-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem;
+            background: var(--teal-lightest);
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border-color);
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .bundle-product-info {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .bundle-product-name {
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 0.25rem;
+            font-size: clamp(0.95rem, 2.5vw, 1.05rem);
+        }
+
+        .bundle-product-code {
+            font-size: clamp(0.8rem, 2vw, 0.85rem);
+            color: var(--text-medium);
+            font-family: 'Courier New', monospace;
+        }
+
+        .bundle-product-buy {
+            background: var(--teal-primary);
+            color: var(--white);
+            padding: 0.75rem 1.5rem;
+            border-radius: var(--radius-sm);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: clamp(0.9rem, 2.5vw, 1rem);
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        .bundle-product-buy:hover {
+            background: var(--teal-light);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .bundle-modal-footer {
+            text-align: center;
+            padding-top: 1.5rem;
+            border-top: 2px solid var(--border-color);
+        }
+
+        .bundle-modal-footer p {
+            color: var(--text-medium);
+            font-size: clamp(0.9rem, 2vw, 1rem);
+            margin-bottom: 1rem;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K36QPF39"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="container">
+        <div class="header">
+            <h1>Drug-Induced Nutrient Depletion Calculator</h1>
+            <p>Discover which nutrients your medications may be depleting and get personalized supplement recommendations</p>
+            <div class="geo-badge" id="geoBadge">
+                <span class="spinner" style="width: 16px; height: 16px; border-width: 2px; display: inline-block;"></span>
+                Checking location...
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="search-section">
+                <label class="search-label" for="drugSearch">
+                    <i class="fas fa-search"></i>
+                    Search for your medication:
+                </label>
+                <div class="search-wrapper">
+                    <i class="fas fa-pills search-icon"></i>
+                    <input 
+                        type="text" 
+                        id="drugSearch" 
+                        class="search-input" 
+                        placeholder="Type medication name(s) - separate multiple with commas (e.g., Metformin, Omeprazole)"
+                        autocomplete="off"
+                    >
+                    <div class="autocomplete-dropdown" id="autocomplete"></div>
+                </div>
+            </div>
+
+            <div class="results-section" id="resultsSection">
+                <div id="resultsContent"></div>
+
+                <div class="email-capture">
+                    <h3><i class="fas fa-envelope"></i> Get Your Personalized Report</h3>
+                    <p>Email yourself this nutrient depletion analysis for future reference</p>
+                    <form class="email-form" id="emailForm">
+                        <input 
+                            type="email" 
+                            class="email-input" 
+                            placeholder="your.email@example.com"
+                            required
+                            id="emailInput"
+                        >
+                        <button type="submit" class="email-submit">Send Report</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="empty-state" id="emptyState">
+                <div class="empty-state-icon"><i class="fas fa-pills"></i></div>
+                <h3>Ready to Check Your Medications?</h3>
+                <p>Type the name of your medication above to see which nutrients may be depleted and get personalized supplement recommendations</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bundle Modal -->
+    <div class="bundle-modal" id="bundleModal">
+        <div class="bundle-modal-content">
+            <div class="bundle-modal-header">
+                <h2>Selected Supplements</h2>
+                <button class="bundle-modal-close" id="closeBundleModal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="bundle-products-list" id="bundleProductsList">
+                <!-- Products will be inserted here -->
+            </div>
+            <div class="bundle-modal-footer">
+                <p><i class="fas fa-info-circle"></i> Click each "Buy Now" button to purchase. You can return to this page after each purchase.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Designs for Health Dispensary URL
+        const DISPENSARY_URL = 'https://www.designsforhealth.com/u/zahraababikermohammed';
+
+        // Manual URL overrides for products that don't follow the standard pattern
+        // Add any special cases here if auto-generation doesn't work
+        const urlOverrides = {
+            'BI2090': 'https://www.designsforhealth.com/u/zahraababikermohammed/products/ultra-b12#B12090',
+            // Add more overrides here as needed
+        };
+
+        // Auto-generate product URLs based on product name and code
+        // Converts product name to URL slug: "Vitamin D Supreme 30" -> "vitamin-d-supreme"
+        function generateProductUrl(productCode, productName) {
+            // Check for manual override first
+            if (urlOverrides[productCode]) {
+                return urlOverrides[productCode];
+            }
+
+            // Remove numbers and common suffixes for base product name
+            // "Vitamin D Supreme 30" -> "Vitamin D Supreme" -> "vitamin-d-supreme"
+            let baseName = productName
+                .replace(/\s+\d+\s*$/, '')      // Remove trailing numbers (e.g., "30", "60", "100")
+                .replace(/\s*\([^)]*\)\s*$/, '') // Remove trailing parentheses
+                .trim();
+
+            // Convert product name to URL-friendly slug
+            const slug = baseName
+                .toLowerCase()
+                .replace(/\s+/g, '-')           // Replace spaces with hyphens
+                .replace(/[^a-z0-9-]/g, '')      // Remove special characters
+                .replace(/-+/g, '-')              // Replace multiple hyphens with single
+                .replace(/^-|-$/g, '');          // Remove leading/trailing hyphens
+            
+            return `${DISPENSARY_URL}/products/${slug}#${productCode}`;
+        }
+
+        // Get product URL - auto-generates based on product name and code
+        function getProductUrl(productCode, productName) {
+            return generateProductUrl(productCode, productName);
+        }
+
+        // Drug-Induced Nutrient Depletion Database (same as before)
+        const depletions = [
+            // Analgesics
+            {
+                drug_name: 'Acetaminophen',
+                search_terms: 'acetaminophen,tylenol,paracetamol',
+                drug_class: 'Analgesic',
+                depleted_nutrients: ['Glutathione', 'Vitamin E', 'Folate'],
+                recommended_products: [
+                    { code: 'LPOGLT', name: 'Liposomal Glutathione' },
+                    { code: 'SAG060', name: 'S-Acetyl Glutathione Synergy' },
+                    { code: 'GLT050', name: 'L-Glutathione Power' },
+                    { code: 'NACl20', name: 'N-Acetyl-L-Cysteine' },
+                    { code: 'ANTS60', name: 'Annatto-E Synergy' },
+                    { code: 'ANTISL', name: 'Annatto-E 150' },
+                    { code: 'BI2090', name: 'Ultra B12-Folate' },
+                    { code: 'TRIF60', name: 'Trifolamin' }
+                ]
+            },
+            {
+                drug_name: 'Ibuprofen',
+                search_terms: 'ibuprofen,advil,motrin,nuprin',
+                drug_class: 'NSAID',
+                depleted_nutrients: ['Glutathione', 'Vitamin E', 'Folate'],
+                recommended_products: [
+                    { code: 'LPOGLT', name: 'Liposomal Glutathione' },
+                    { code: 'ANTS60', name: 'Annatto-E Synergy' },
+                    { code: 'BI2090', name: 'Ultra B12-Folate' }
+                ]
+            },
+            {
+                drug_name: 'Meloxicam',
+                search_terms: 'meloxicam,mobic',
+                drug_class: 'NSAID',
+                depleted_nutrients: ['Glutathione', 'Vitamin E', 'Folate'],
+                recommended_products: [
+                    { code: 'LPOGLT', name: 'Liposomal Glutathione' },
+                    { code: 'ANTS60', name: 'Annatto-E Synergy' }
+                ]
+            },
+            {
+                drug_name: 'Hydrocodone',
+                search_terms: 'hydrocodone,vicodin,norco',
+                drug_class: 'Opioid',
+                depleted_nutrients: ['Glutathione', 'Vitamin E', 'Folate'],
+                recommended_products: [
+                    { code: 'LPOGLT', name: 'Liposomal Glutathione' },
+                    { code: 'BI2090', name: 'Ultra B12-Folate' }
+                ]
+            },
+            {
+                drug_name: 'Tramadol',
+                search_terms: 'tramadol,ultram',
+                drug_class: 'Opioid',
+                depleted_nutrients: ['Glutathione', 'Vitamin E', 'Folate'],
+                recommended_products: [
+                    { code: 'LPOGLT', name: 'Liposomal Glutathione' },
+                    { code: 'BI2090', name: 'Ultra B12-Folate' }
+                ]
+            },
+            // Antacids
+            {
+                drug_name: 'Omeprazole',
+                search_terms: 'omeprazole,prilosec',
+                drug_class: 'Proton Pump Inhibitor (PPI)',
+                depleted_nutrients: ['Magnesium', 'Vitamin B12', 'Calcium', 'Vitamin C', 'Zinc', 'Iron', 'Beta-carotene'],
+                recommended_products: [
+                    { code: 'TRIC60', name: 'Tricobalamin' },
+                    { code: 'BI2090', name: 'Ultra B12-Folate' },
+                    { code: 'ZNP090', name: 'Zinc Supreme' },
+                    { code: 'CAM021', name: 'Cal/Mag 2:1' },
+                    { code: 'STC090', name: 'Stellar C' },
+                    { code: 'LPOVTC', name: 'Liposomal Vitamin C' },
+                    { code: 'FEC120', name: 'Ferrochell' }
+                ]
+            },
+            {
+                drug_name: 'Pantoprazole',
+                search_terms: 'pantoprazole,protonix',
+                drug_class: 'Proton Pump Inhibitor (PPI)',
+                depleted_nutrients: ['Magnesium', 'Vitamin B12', 'Calcium', 'Vitamin C', 'Zinc', 'Iron'],
+                recommended_products: [
+                    { code: 'TRIC60', name: 'Tricobalamin' },
+                    { code: 'ZNP090', name: 'Zinc Supreme' },
+                    { code: 'CAM021', name: 'Cal/Mag 2:1' }
+                ]
+            },
+            {
+                drug_name: 'Ranitidine',
+                search_terms: 'ranitidine,zantac',
+                drug_class: 'H2 Antagonist',
+                depleted_nutrients: ['Vitamin B12', 'Calcium', 'Folate', 'Iron', 'Zinc', 'Chromium'],
+                recommended_products: [
+                    { code: 'TRIC60', name: 'Tricobalamin' },
+                    { code: 'BI2090', name: 'Ultra B12-Folate' },
+                    { code: 'CAM021', name: 'Cal/Mag 2:1' }
+                ]
+            },
+            // Anti-anxiety
+            {
+                drug_name: 'Alprazolam',
+                search_terms: 'alprazolam,xanax',
+                drug_class: 'Benzodiazepine',
+                depleted_nutrients: ['Vitamin K', 'Zinc', 'Copper'],
+                recommended_products: [
+                    { code: 'ZNP090', name: 'Zinc Supreme' },
+                    { code: 'CM1090', name: 'Complete Mineral Complex' },
+                    { code: 'CCM120', name: 'DFH Complete Multi with Copper' }
+                ]
+            },
+            {
+                drug_name: 'Clonazepam',
+                search_terms: 'clonazepam,klonopin',
+                drug_class: 'Benzodiazepine',
+                depleted_nutrients: ['Vitamin K', 'Zinc', 'Copper'],
+                recommended_products: [
+                    { code: 'ZNP090', name: 'Zinc Supreme' },
+                    { code: 'CM1090', name: 'Complete Mineral Complex' }
+                ]
+            },
+            // Antibiotics
+            {
+                drug_name: 'Amoxicillin',
+                search_terms: 'amoxicillin,amoxil',
+                drug_class: 'Antibiotic',
+                depleted_nutrients: ['Beneficial intestinal bacteria', 'Vitamin K', 'Potassium', 'B vitamins', 'Zinc', 'Magnesium', 'Calcium', 'Folate', 'Iron'],
+                recommended_products: [
+                    { code: 'FLM060', name: 'FloraMyces' },
+                    { code: 'KPC120', name: 'K+2 Potassium' },
+                    { code: 'TRIK060', name: 'Tri-K' },
+                    { code: 'PBM100', name: 'Probiom 100' },
+                    { code: 'PBM250', name: 'Probiom 250' },
+                    { code: 'CCM120', name: 'DFH Complete Multi with Copper' }
+                ]
+            },
+            {
+                drug_name: 'Azithromycin',
+                search_terms: 'azithromycin,zithromax,z-pak',
+                drug_class: 'Antibiotic',
+                depleted_nutrients: ['Beneficial intestinal bacteria', 'Vitamin K', 'B vitamins'],
+                recommended_products: [
+                    { code: 'FLM060', name: 'FloraMyces' },
+                    { code: 'PBM100', name: 'Probiom 100' },
+                    { code: 'PBM250', name: 'Probiom 250' }
+                ]
+            },
+            {
+                drug_name: 'Doxycycline',
+                search_terms: 'doxycycline,vibramycin',
+                drug_class: 'Antibiotic',
+                depleted_nutrients: ['Beneficial intestinal bacteria', 'B vitamins', 'Zinc', 'Magnesium'],
+                recommended_products: [
+                    { code: 'FLM060', name: 'FloraMyces' },
+                    { code: 'ZNP090', name: 'Zinc Supreme' },
+                    { code: 'PBM100', name: 'Probiom 100' }
+                ]
+            },
+            {
+                drug_name: 'Metronidazole',
+                search_terms: 'metronidazole,flagyl',
+                drug_class: 'Antibiotic',
+                depleted_nutrients: ['Beneficial intestinal bacteria', 'Vitamin K', 'B vitamins'],
+                recommended_products: [
+                    { code: 'FLM060', name: 'FloraMyces' },
+                    { code: 'PBM250', name: 'Probiom 250' }
+                ]
+            },
+            // Anticonvulsants
+            {
+                drug_name: 'Gabapentin',
+                search_terms: 'gabapentin,neurontin',
+                drug_class: 'Anticonvulsant',
+                depleted_nutrients: ['Vitamin D', 'Vitamin K'],
+                recommended_products: [
+                    { code: 'VDS030', name: 'Vitamin D Supreme 30' },
+                    { code: 'VDS060', name: 'Vitamin D Supreme 60' },
+                    { code: 'VDS180', name: 'Vitamin D Supreme 180' }
+                ]
+            },
+            // Anti-inflammatory
+            {
+                drug_name: 'Prednisone',
+                search_terms: 'prednisone,deltasone',
+                drug_class: 'Corticosteroid',
+                depleted_nutrients: ['Calcium', 'Chromium', 'Magnesium', 'Potassium', 'Vitamin D', 'Vitamin C', 'Vitamin A'],
+                recommended_products: [
+                    { code: 'CMC120', name: 'Calcium Malate' },
+                    { code: 'CAM011', name: 'Cal/Mag 1:1' },
+                    { code: 'CAM021', name: 'Cal/Mag 2:1' },
+                    { code: 'VDS060', name: 'Vitamin D Supreme 60' },
+                    { code: 'CHR090', name: 'Chromium Synergy' },
+                    { code: 'KPC120', name: 'K+2 Potassium' },
+                    { code: 'STC090', name: 'Stellar C' },
+                    { code: 'ADK060', name: 'ADK Eval' }
+                ]
+            },
+            {
+                drug_name: 'Dexamethasone',
+                search_terms: 'dexamethasone,decadron',
+                drug_class: 'Corticosteroid',
+                depleted_nutrients: ['Calcium', 'Vitamin D', 'Magnesium', 'Potassium'],
+                recommended_products: [
+                    { code: 'CAM021', name: 'Cal/Mag 2:1' },
+                    { code: 'VDS060', name: 'Vitamin D Supreme 60' },
+                    { code: 'KPC120', name: 'K+2 Potassium' }
+                ]
+            },
+            // Antidepressants
+            {
+                drug_name: 'Sertraline',
+                search_terms: 'sertraline,zoloft',
+                drug_class: 'SSRI',
+                depleted_nutrients: ['Calcium', 'Vitamin D', 'CoQ10', 'B vitamins (B2/B6/folate/B12)', 'Melatonin'],
+                recommended_products: [
+                    { code: 'VDS060', name: 'Vitamin D Supreme 60' },
+                    { code: 'CMC120', name: 'Calcium Malate' },
+                    { code: 'COQ100', name: 'CoQnol 100' },
+                    { code: 'COQ200', name: 'CoQnol 200' },
+                    { code: 'BSP120', name: 'B-Supreme' },
+                    { code: 'MEL060', name: 'Melatonin' }
+                ]
+            },
+            {
+                drug_name: 'Fluoxetine',
+                search_terms: 'fluoxetine,prozac',
+                drug_class: 'SSRI',
+                depleted_nutrients: ['Calcium', 'Vitamin D', 'CoQ10', 'B vitamins', 'Melatonin'],
+                recommended_products: [
+                    { code: 'VDS060', name: 'Vitamin D Supreme 60' },
+                    { code: 'COQ100', name: 'CoQnol 100' },
+                    { code: 'BSP120', name: 'B-Supreme' },
+                    { code: 'MEL060', name: 'Melatonin' }
+                ]
+            },
+            {
+                drug_name: 'Citalopram',
+                search_terms: 'citalopram,celexa',
+                drug_class: 'SSRI',
+                depleted_nutrients: ['Calcium', 'Vitamin D', 'CoQ10', 'B vitamins'],
+                recommended_products: [
+                    { code: 'VDS060', name: 'Vitamin D Supreme 60' },
+                    { code: 'COQ100', name: 'CoQnol 100' },
+                    { code: 'BSP120', name: 'B-Supreme' }
+                ]
+            },
+            {
+                drug_name: 'Escitalopram',
+                search_terms: 'escitalopram,lexapro',
+                drug_class: 'SSRI',
+                depleted_nutrients: ['Calcium', 'Vitamin D', 'CoQ10', 'B vitamins'],
+                recommended_products: [
+                    { code: 'VDS060', name: 'Vitamin D Supreme 60' },
+                    { code: 'COQ100', name: 'CoQnol 100' }
+                ]
+            },
+            {
+                drug_name: 'Duloxetine',
+                search_terms: 'duloxetine,cymbalta',
+                drug_class: 'SNRI',
+                depleted_nutrients: ['Calcium', 'Vitamin D', 'CoQ10', 'B vitamins', 'Melatonin'],
+                recommended_products: [
+                    { code: 'VDS060', name: 'Vitamin D Supreme 60' },
+                    { code: 'COQ100', name: 'CoQnol 100' },
+                    { code: 'MEL060', name: 'Melatonin' }
+                ]
+            },
+            {
+                drug_name: 'Venlafaxine',
+                search_terms: 'venlafaxine,effexor',
+                drug_class: 'SNRI',
+                depleted_nutrients: ['Calcium', 'Vitamin D', 'CoQ10', 'Melatonin'],
+                recommended_products: [
+                    { code: 'VDS060', name: 'Vitamin D Supreme 60' },
+                    { code: 'COQ100', name: 'CoQnol 100' },
+                    { code: 'MEL060', name: 'Melatonin' }
+                ]
+            },
+            {
+                drug_name: 'Trazodone',
+                search_terms: 'trazodone,desyrel',
+                drug_class: 'Antidepressant',
+                depleted_nutrients: ['Calcium', 'Vitamin D', 'CoQ10', 'B vitamins'],
+                recommended_products: [
+                    { code: 'VDS060', name: 'Vitamin D Supreme 60' },
+                    { code: 'COQ100', name: 'CoQnol 100' }
+                ]
+            },
+            // Anti-diabetics
+            {
+                drug_name: 'Metformin',
+                search_terms: 'metformin,glucophage,fortamet',
+                drug_class: 'Biguanide',
+                depleted_nutrients: ['B12', 'Folate', 'Calcium', 'Vitamin D'],
+                recommended_products: [
+                    { code: 'BI2090', name: 'Ultra B12-Folate' },
+                    { code: 'TRIF60', name: 'Trifolamin' },
+                    { code: 'VDS060', name: 'Vitamin D Supreme 60' },
+                    { code: 'CMC120', name: 'Calcium Malate' }
+                ]
+            },
+            {
+                drug_name: 'Glipizide',
+                search_terms: 'glipizide,glucotrol',
+                drug_class: 'Sulfonylurea',
+                depleted_nutrients: ['Coenzyme Q10', 'Magnesium'],
+                recommended_products: [
+                    { code: 'COQ100', name: 'CoQnol 100' },
+                    { code: 'COQ200', name: 'CoQnol 200' }
+                ]
+            },
+            {
+                drug_name: 'Insulin',
+                search_terms: 'insulin,humalog,novolog,lantus',
+                drug_class: 'Anti-diabetic',
+                depleted_nutrients: ['Coenzyme Q10', 'Magnesium'],
+                recommended_products: [
+                    { code: 'COQ100', name: 'CoQnol 100' },
+                    { code: 'COQ200', name: 'CoQnol 200' }
+                ]
+            },
+            // Anti-hyperlipidemic (Statins)
+            {
+                drug_name: 'Atorvastatin',
+                search_terms: 'atorvastatin,lipitor',
+                drug_class: 'HMG-CoA Reductase Inhibitor (Statin)',
+                depleted_nutrients: ['Coenzyme Q10', 'Vitamin D', 'Vitamin E', 'Beta carotene'],
+                recommended_products: [
+                    { code: 'COQ100', name: 'CoQnol 100' },
+                    { code: 'COQ200', name: 'CoQnol 200' },
+                    { code: 'VDS060', name: 'Vitamin D Supreme 60' },
+                    { code: 'ANTS60', name: 'Annatto-E Synergy' }
+                ]
+            },
+            {
+                drug_name: 'Simvastatin',
+                search_terms: 'simvastatin,zocor',
+                drug_class: 'HMG-CoA Reductase Inhibitor (Statin)',
+                depleted_nutrients: ['Coenzyme Q10', 'Vitamin D', 'Vitamin E'],
+                recommended_products: [
+                    { code: 'COQ100', name: 'CoQnol 100' },
+                    { code: 'COQ200', name: 'CoQnol 200' },
+                    { code: 'VDS060', name: 'Vitamin D Supreme 60' }
+                ]
+            },
+            {
+                drug_name: 'Rosuvastatin',
+                search_terms: 'rosuvastatin,crestor',
+                drug_class: 'HMG-CoA Reductase Inhibitor (Statin)',
+                depleted_nutrients: ['Coenzyme Q10', 'Vitamin D', 'Vitamin E'],
+                recommended_products: [
+                    { code: 'COQ100', name: 'CoQnol 100' },
+                    { code: 'COQ200', name: 'CoQnol 200' },
+                    { code: 'VDS060', name: 'Vitamin D Supreme 60' }
+                ]
+            },
+            {
+                drug_name: 'Pravastatin',
+                search_terms: 'pravastatin,pravachol',
+                drug_class: 'HMG-CoA Reductase Inhibitor (Statin)',
+                depleted_nutrients: ['Coenzyme Q10', 'Vitamin D'],
+                recommended_products: [
+                    { code: 'COQ100', name: 'CoQnol 100' },
+                    { code: 'COQ200', name: 'CoQnol 200' },
+                    { code: 'VDS060', name: 'Vitamin D Supreme 60' }
+                ]
+            },
+            // Blood Pressure Medications
+            {
+                drug_name: 'Lisinopril',
+                search_terms: 'lisinopril,prinivil,zestril',
+                drug_class: 'ACE Inhibitor',
+                depleted_nutrients: ['Zinc'],
+                recommended_products: [
+                    { code: 'ZNP090', name: 'Zinc Supreme' }
+                ]
+            },
+            {
+                drug_name: 'Losartan',
+                search_terms: 'losartan,cozaar',
+                drug_class: 'Angiotensin II Receptor Blocker',
+                depleted_nutrients: ['Zinc'],
+                recommended_products: [
+                    { code: 'ZNP090', name: 'Zinc Supreme' }
+                ]
+            },
+            {
+                drug_name: 'Amlodipine',
+                search_terms: 'amlodipine,norvasc',
+                drug_class: 'Calcium Channel Blocker',
+                depleted_nutrients: ['Coenzyme Q10'],
+                recommended_products: [
+                    { code: 'COQ100', name: 'CoQnol 100' },
+                    { code: 'COQ200', name: 'CoQnol 200' }
+                ]
+            },
+            {
+                drug_name: 'Atenolol',
+                search_terms: 'atenolol,tenormin',
+                drug_class: 'Beta Blocker',
+                depleted_nutrients: ['Coenzyme Q10', 'Vitamin C'],
+                recommended_products: [
+                    { code: 'COQ100', name: 'CoQnol 100' },
+                    { code: 'COQ200', name: 'CoQnol 200' },
+                    { code: 'STC090', name: 'Stellar C' },
+                    { code: 'LPOVTC', name: 'Liposomal Vitamin C' }
+                ]
+            },
+            {
+                drug_name: 'Metoprolol',
+                search_terms: 'metoprolol,toprol,lopressor',
+                drug_class: 'Beta Blocker',
+                depleted_nutrients: ['Coenzyme Q10', 'Vitamin C'],
+                recommended_products: [
+                    { code: 'COQ100', name: 'CoQnol 100' },
+                    { code: 'STC090', name: 'Stellar C' }
+                ]
+            },
+            {
+                drug_name: 'Hydrochlorothiazide',
+                search_terms: 'hydrochlorothiazide,hctz,microzide',
+                drug_class: 'Thiazide Diuretic',
+                depleted_nutrients: ['Potassium', 'Calcium', 'Magnesium', 'Thiamine', 'Vitamin B6', 'Folate', 'Zinc', 'Coenzyme Q10'],
+                recommended_products: [
+                    { code: 'COQ100', name: 'CoQnol 100' },
+                    { code: 'COQ200', name: 'CoQnol 200' },
+                    { code: 'BSP120', name: 'B-Supreme' },
+                    { code: 'KPC120', name: 'K+2 Potassium' },
+                    { code: 'CM1090', name: 'Complete Mineral Complex' },
+                    { code: 'ZNP090', name: 'Zinc Supreme' }
+                ]
+            },
+            {
+                drug_name: 'Furosemide',
+                search_terms: 'furosemide,lasix',
+                drug_class: 'Loop Diuretic',
+                depleted_nutrients: ['Potassium', 'Magnesium', 'Calcium', 'Zinc'],
+                recommended_products: [
+                    { code: 'KPC120', name: 'K+2 Potassium' },
+                    { code: 'CM1090', name: 'Complete Mineral Complex' },
+                    { code: 'ZNP090', name: 'Zinc Supreme' }
+                ]
+            },
+            // Antiplatelet
+            {
+                drug_name: 'Aspirin',
+                search_terms: 'aspirin,acetylsalicylic acid,bayer',
+                drug_class: 'Salicylate',
+                depleted_nutrients: ['Iron', 'Vitamin C', 'Vitamin B12', 'Folate'],
+                recommended_products: [
+                    { code: 'STC090', name: 'Stellar C' },
+                    { code: 'LPOVTC', name: 'Liposomal Vitamin C' },
+                    { code: 'BI2090', name: 'Ultra B12-Folate' },
+                    { code: 'FEC120', name: 'Ferrochell' }
+                ]
+            },
+            {
+                drug_name: 'Warfarin',
+                search_terms: 'warfarin,coumadin',
+                drug_class: 'Vitamin K Antagonist',
+                depleted_nutrients: ['Coenzyme Q10'],
+                recommended_products: [
+                    { code: 'COQ100', name: 'CoQnol 100' },
+                    { code: 'COQ200', name: 'CoQnol 200' }
+                ]
+            },
+            // Antirheumatics
+            {
+                drug_name: 'Methotrexate',
+                search_terms: 'methotrexate,trexall',
+                drug_class: 'Antirheumatic',
+                depleted_nutrients: ['Folate'],
+                recommended_products: [
+                    { code: 'BI2090', name: 'Ultra B12-Folate' },
+                    { code: 'TRIF60', name: 'Trifolamin' }
+                ]
+            },
+            // Bisphosphonates
+            {
+                drug_name: 'Alendronate',
+                search_terms: 'alendronate,fosamax',
+                drug_class: 'Bisphosphonate',
+                depleted_nutrients: ['Calcium', 'Iron', 'Magnesium', 'Zinc'],
+                recommended_products: [
+                    { code: 'TRMGDY', name: 'TriMag Supreme' },
+                    { code: 'TRK060', name: 'Tri-K' },
+                    { code: 'VDS060', name: 'Vitamin D Supreme 60' },
+                    { code: 'CAM021', name: 'Cal/Mag 2:1' }
+                ]
+            },
+            // Bronchodilator
+            {
+                drug_name: 'Albuterol',
+                search_terms: 'albuterol,ventolin,proair,proventil',
+                drug_class: 'Beta-2 Agonist',
+                depleted_nutrients: ['Calcium', 'Vitamin D'],
+                recommended_products: [
+                    { code: 'VDS060', name: 'Vitamin D Supreme 60' },
+                    { code: 'CMC120', name: 'Calcium Malate' }
+                ]
+            },
+            // GLP-1 Agonists
+            {
+                drug_name: 'Semaglutide',
+                search_terms: 'semaglutide,ozempic,wegovy,rybelsus',
+                drug_class: 'GLP-1 Agonist',
+                depleted_nutrients: ['CoQ10'],
+                recommended_products: [
+                    { code: 'COQ100', name: 'CoQnol 100' },
+                    { code: 'COQ200', name: 'CoQnol 200' }
+                ]
+            },
+            {
+                drug_name: 'Liraglutide',
+                search_terms: 'liraglutide,victoza,saxenda',
+                drug_class: 'GLP-1 Agonist',
+                depleted_nutrients: ['CoQ10'],
+                recommended_products: [
+                    { code: 'COQ100', name: 'CoQnol 100' },
+                    { code: 'COQ200', name: 'CoQnol 200' }
+                ]
+            },
+            {
+                drug_name: 'Dulaglutide',
+                search_terms: 'dulaglutide,trulicity',
+                drug_class: 'GLP-1 Agonist',
+                depleted_nutrients: ['CoQ10'],
+                recommended_products: [
+                    { code: 'COQ100', name: 'CoQnol 100' },
+                    { code: 'COQ200', name: 'CoQnol 200' }
+                ]
+            },
+            {
+                drug_name: 'Exenatide',
+                search_terms: 'exenatide,byetta,bydureon',
+                drug_class: 'GLP-1 Agonist',
+                depleted_nutrients: ['CoQ10'],
+                recommended_products: [
+                    { code: 'COQ100', name: 'CoQnol 100' },
+                    { code: 'COQ200', name: 'CoQnol 200' }
+                ]
+            },
+            // Hormones
+            {
+                drug_name: 'Birth Control',
+                search_terms: 'birth control,oral contraceptive,ocp,pill,yaz,yasmin,ortho tri-cyclen,loestrin',
+                drug_class: 'Oral Contraceptive',
+                depleted_nutrients: ['Vitamin B6', 'Vitamin B12', 'Folate', 'Calcium', 'Magnesium', 'Vitamin C', 'Vitamin E'],
+                recommended_products: [
+                    { code: 'V6B4OZ', name: 'Vitamin B-6 Liquid' },
+                    { code: 'BSP120', name: 'B-Supreme' },
+                    { code: 'LPOBSP', name: 'Liposomal B Supreme' },
+                    { code: 'ZNP090', name: 'Zinc Supreme' },
+                    { code: 'TRIF60', name: 'Trifolamin' },
+                    { code: 'MGC120', name: 'Magnesium Glycinate Complex' },
+                    { code: 'STC090', name: 'Stellar C' },
+                    { code: 'ANTS60', name: 'Annatto-E Synergy' }
+                ]
+            },
+            {
+                drug_name: 'Estradiol',
+                search_terms: 'estradiol,estrace,climara,vivelle',
+                drug_class: 'Bioidentical Hormone',
+                depleted_nutrients: ['Folate', 'Magnesium', 'Vitamin B6', 'Vitamin C', 'Zinc'],
+                recommended_products: [
+                    { code: 'MGC120', name: 'Magnesium Glycinate Complex' },
+                    { code: 'TRIF60', name: 'Trifolamin' },
+                    { code: 'BSP120', name: 'B-Supreme' },
+                    { code: 'ZNP090', name: 'Zinc Supreme' },
+                    { code: 'STC090', name: 'Stellar C' }
+                ]
+            },
+            // Inotropic agents
+            {
+                drug_name: 'Digoxin',
+                search_terms: 'digoxin,lanoxin',
+                drug_class: 'Cardiac Glycoside',
+                depleted_nutrients: ['Magnesium'],
+                recommended_products: [
+                    { code: 'TRMGDY', name: 'TriMag Supreme' },
+                    { code: 'MGC120', name: 'Magnesium Glycinate Complex' }
+                ]
+            },
+            // Laxatives
+            {
+                drug_name: 'Bisacodyl',
+                search_terms: 'bisacodyl,dulcolax',
+                drug_class: 'Laxative',
+                depleted_nutrients: ['Calcium', 'Potassium', 'Vitamin D'],
+                recommended_products: [
+                    { code: 'VDS060', name: 'Vitamin D Supreme 60' },
+                    { code: 'CMC120', name: 'Calcium Malate' },
+                    { code: 'KPC120', name: 'K+2 Potassium' }
+                ]
+            }
+        ];
+
+        // DOM Elements
+        const drugSearch = document.getElementById('drugSearch');
+        const autocomplete = document.getElementById('autocomplete');
+        const resultsSection = document.getElementById('resultsSection');
+        const resultsContent = document.getElementById('resultsContent');
+        const emptyState = document.getElementById('emptyState');
+        const geoBadge = document.getElementById('geoBadge');
+        const emailForm = document.getElementById('emailForm');
+
+        let selectedIndex = -1;
+        let filteredDrugs = [];
+        let currentDrugs = [];
+
+        // Geo-location check
+        async function checkGeoLocation() {
+            try {
+                const response = await fetch('https://ipapi.co/json/');
+                const data = await response.json();
+                
+                // Always show generic message for consistency
+                geoBadge.innerHTML = '<i class="fas fa-check-circle"></i> Fast Shipping Nationwide';
+            } catch (error) {
+                console.error('Geo-location check failed:', error);
+                geoBadge.innerHTML = '<i class="fas fa-check-circle"></i> Fast Shipping Nationwide';
+            }
+        }
+
+        // Search function
+        function searchDrugs(query) {
+            if (!query || query.length < 2) {
+                return [];
+            }
+
+            // Handle multiple medications separated by commas
+            const searchTerms = query.split(',').map(term => term.trim()).filter(term => term.length > 0);
+            const foundDrugs = [];
+
+            searchTerms.forEach(term => {
+                const lowerTerm = term.toLowerCase();
+                const matches = depletions.filter(drug => {
+                    const nameMatch = drug.drug_name.toLowerCase().includes(lowerTerm);
+                    const searchTermsMatch = drug.search_terms.toLowerCase().includes(lowerTerm);
+                    const classMatch = drug.drug_class.toLowerCase().includes(lowerTerm);
+                    return nameMatch || searchTermsMatch || classMatch;
+                });
+                
+                // Add first match for each search term (most relevant)
+                if (matches.length > 0) {
+                    foundDrugs.push(matches[0]);
+                }
+            });
+
+            // Remove duplicates
+            const uniqueDrugs = [];
+            const seen = new Set();
+            foundDrugs.forEach(drug => {
+                if (!seen.has(drug.drug_name)) {
+                    seen.add(drug.drug_name);
+                    uniqueDrugs.push(drug);
+                }
+            });
+
+            return uniqueDrugs;
+        }
+
+        // Combine multiple drugs into one result
+        function combineDrugs(drugs) {
+            if (drugs.length === 0) return null;
+            if (drugs.length === 1) return drugs[0];
+
+            // Combine all depleted nutrients (deduplicate)
+            const allNutrients = new Set();
+            drugs.forEach(drug => {
+                drug.depleted_nutrients.forEach(nutrient => allNutrients.add(nutrient));
+            });
+
+            // Combine all products (deduplicate by code, track which drugs recommend each)
+            const productMap = new Map();
+            drugs.forEach(drug => {
+                drug.recommended_products.forEach(product => {
+                    if (!productMap.has(product.code)) {
+                        productMap.set(product.code, {
+                            ...product,
+                            recommendedFor: [drug.drug_name]
+                        });
+                    } else {
+                        const existing = productMap.get(product.code);
+                        if (!existing.recommendedFor.includes(drug.drug_name)) {
+                            existing.recommendedFor.push(drug.drug_name);
+                        }
+                    }
+                });
+            });
+
+            return {
+                drug_name: drugs.map(d => d.drug_name).join(' + '),
+                drug_class: 'Multiple Medications',
+                depleted_nutrients: Array.from(allNutrients).sort(),
+                recommended_products: Array.from(productMap.values())
+            };
+        }
+
+        // Display autocomplete
+        function showAutocomplete(drugs) {
+            if (drugs.length === 0) {
+                autocomplete.classList.remove('show');
+                return;
+            }
+
+            autocomplete.innerHTML = drugs.slice(0, 8).map((drug, index) => `
+                <div class="autocomplete-item" data-index="${index}">
+                    <div class="drug-name">${drug.drug_name}</div>
+                    <div class="drug-class">${drug.drug_class}</div>
+                </div>
+            `).join('');
+
+            autocomplete.classList.add('show');
+            selectedIndex = -1;
+        }
+
+        // Get selected products
+        function getSelectedProducts() {
+            const checkboxes = resultsContent.querySelectorAll('.product-checkbox:checked');
+            return Array.from(checkboxes).map(cb => cb.dataset.code);
+        }
+
+        // Show bundle modal with selected products
+        function showBundleModal(selectedCodes, recommendedProducts) {
+            const modal = document.getElementById('bundleModal');
+            const productsList = document.getElementById('bundleProductsList');
+            
+            // Find product info for each selected code
+            const productsToShow = selectedCodes.map(code => {
+                return recommendedProducts.find(p => p.code === code);
+            }).filter(p => p !== undefined);
+            
+            // Clear previous content
+            productsList.innerHTML = '';
+            
+            // Add each product to the modal
+            productsToShow.forEach((product) => {
+                const url = getProductUrl(product.code, product.name);
+                const productItem = document.createElement('div');
+                productItem.className = 'bundle-product-item';
+                productItem.innerHTML = `
+                    <div class="bundle-product-info">
+                        <div class="bundle-product-name">${product.name}</div>
+                        <div class="bundle-product-code">Product Code: ${product.code}</div>
+                    </div>
+                    <a href="${url}" target="_blank" class="bundle-product-buy" onclick="trackEvent('bundle_product_clicked', {'product_code': '${product.code}', 'product_name': '${product.name.replace(/'/g, "\\'")}', 'bundle_size': ${productsToShow.length}});">
+                        <i class="fas fa-shopping-bag"></i> Buy Now
+                    </a>
+                `;
+                productsList.appendChild(productItem);
+            });
+            
+            
+            // Show modal
+            modal.classList.add('show');
+            document.body.style.overflow = 'hidden'; // Prevent background scrolling
+        }
+
+
+        // Close bundle modal
+        function closeBundleModal() {
+            const modal = document.getElementById('bundleModal');
+            modal.classList.remove('show');
+            document.body.style.overflow = ''; // Restore scrolling
+        }
+
+        // Update bundle button state
+        function updateBundleButton() {
+            const bundleBtn = resultsContent.querySelector('.bundle-button');
+            if (!bundleBtn) return;
+            
+            const selected = getSelectedProducts();
+            bundleBtn.disabled = selected.length === 0;
+            
+            if (selected.length > 0) {
+                bundleBtn.innerHTML = `<i class="fas fa-shopping-cart"></i> Buy Selected (${selected.length})`;
+            } else {
+                bundleBtn.innerHTML = `<i class="fas fa-shopping-cart"></i> Select Products to Bundle`;
+            }
+        }
+
+        // Display results
+        // Analytics tracking functions (global for onclick handlers)
+        window.trackEvent = function(eventName, eventParams) {
+            // Google Analytics 4
+            if (typeof gtag !== 'undefined') {
+                gtag('event', eventName, eventParams);
+            }
+            // Google Tag Manager
+            if (typeof dataLayer !== 'undefined') {
+                dataLayer.push({
+                    'event': eventName,
+                    ...eventParams
+                });
+            }
+            console.log('Analytics Event:', eventName, eventParams);
+        };
+
+        function displayResults(drugs) {
+            // Handle both single drug and multiple drugs
+            const combinedDrug = Array.isArray(drugs) ? combineDrugs(drugs) : drugs;
+            if (!combinedDrug) return;
+            
+            currentDrugs = Array.isArray(drugs) ? drugs : [drugs];
+            emptyState.style.display = 'none';
+            resultsSection.classList.add('show');
+
+            // Track medication search
+            const medicationNames = currentDrugs.map(d => d.drug_name).join(', ');
+            const isMultiple = currentDrugs.length > 1;
+            
+            trackEvent('medication_searched', {
+                'medication_name': medicationNames,
+                'medication_count': currentDrugs.length,
+                'is_multiple': isMultiple,
+                'depleted_nutrients_count': combinedDrug.depleted_nutrients.length,
+                'recommended_products_count': combinedDrug.recommended_products.length
+            });
+
+            const nutrientsHTML = combinedDrug.depleted_nutrients.map(nutrient => 
+                `<span class="nutrient-badge">${nutrient}</span>`
+            ).join('');
+
+            const productsHTML = combinedDrug.recommended_products.map((product, index) => {
+                const buyUrl = getProductUrl(product.code, product.name);
+                const recommendedForText = product.recommendedFor && product.recommendedFor.length > 1
+                    ? `<div style="font-size: 0.85rem; color: var(--text-medium); margin-top: 0.25rem; font-style: italic;">Recommended for: ${product.recommendedFor.join(', ')}</div>`
+                    : '';
+                
+                return `
+                    <div class="product-card" data-product-code="${product.code}">
+                        <input 
+                            type="checkbox" 
+                            class="product-checkbox" 
+                            id="product-${index}"
+                            data-code="${product.code}"
+                            data-name="${product.name}"
+                        >
+                        <div class="product-info">
+                            <div class="product-name">${product.name}</div>
+                            <div class="product-code">Product Code: ${product.code}</div>
+                            ${recommendedForText}
+                            <div class="product-actions">
+                                <a href="${buyUrl}" target="_blank" class="buy-button" onclick="trackEvent('product_clicked', {'product_code': '${product.code}', 'product_name': '${product.name.replace(/'/g, "\\'")}', 'medication': '${combinedDrug.drug_name.replace(/'/g, "\\'")}'});">
+                                    <i class="fas fa-shopping-bag"></i> Buy This One
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            const medicationsList = currentDrugs.length > 1 
+                ? currentDrugs.map(d => `${d.drug_name} (${d.drug_class})`).join('<br>')
+                : `${combinedDrug.drug_name} (${combinedDrug.drug_class})`;
+
+            resultsContent.innerHTML = `
+                <div class="result-card">
+                    <div class="result-header">
+                        <div class="result-drug">${combinedDrug.drug_name}</div>
+                        <div class="result-class">${combinedDrug.drug_class}</div>
+                        ${currentDrugs.length > 1 ? `<div style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-medium);">${medicationsList}</div>` : ''}
+                    </div>
+
+                    <div class="depleted-section">
+                        <div class="section-title">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            Nutrients That May Be Depleted:
+                        </div>
+                        <div class="nutrients-list">
+                            ${nutrientsHTML}
+                        </div>
+                    </div>
+
+                    <div class="products-section">
+                        <div class="products-header">
+                            <div class="section-title" style="margin-bottom: 0;">
+                                <i class="fas fa-pills"></i>
+                                Recommended Supplements:
+                            </div>
+                            <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+                                <div class="select-all">
+                                    <input type="checkbox" id="selectAll">
+                                    <label for="selectAll">Select All</label>
+                                </div>
+                                <button class="bundle-button" disabled>
+                                    <i class="fas fa-shopping-cart"></i> Select Products to Bundle
+                                </button>
+                            </div>
+                        </div>
+                        ${productsHTML}
+                    </div>
+                </div>
+            `;
+
+            // Add event listeners
+            const checkboxes = resultsContent.querySelectorAll('.product-checkbox');
+            checkboxes.forEach(cb => {
+                cb.addEventListener('change', function() {
+                    const card = this.closest('.product-card');
+                    card.classList.toggle('selected', this.checked);
+                    updateBundleButton();
+                });
+            });
+
+            // Select all functionality
+            const selectAll = resultsContent.querySelector('#selectAll');
+            selectAll.addEventListener('change', function() {
+                checkboxes.forEach(cb => {
+                    cb.checked = this.checked;
+                    const card = cb.closest('.product-card');
+                    card.classList.toggle('selected', this.checked);
+                });
+                updateBundleButton();
+            });
+
+            // Bundle button click - show modal
+            const bundleBtn = resultsContent.querySelector('.bundle-button');
+            bundleBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                const selectedCodes = getSelectedProducts();
+                if (selectedCodes.length > 0) {
+                    // Track bundle selection
+                    trackEvent('bundle_selected', {
+                        'bundle_size': selectedCodes.length,
+                        'product_codes': selectedCodes.join(','),
+                        'medication': combinedDrug.drug_name
+                    });
+                    showBundleModal(selectedCodes, combinedDrug.recommended_products);
+                }
+            });
+
+            // Scroll to results
+            resultsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        // Event Listeners
+        drugSearch.addEventListener('input', (e) => {
+            const query = e.target.value.trim();
+            
+            if (query.length < 2) {
+                autocomplete.classList.remove('show');
+                emptyState.style.display = 'block';
+                resultsSection.classList.remove('show');
+                return;
+            }
+
+            // Check if query contains comma (multiple medications)
+            if (query.includes(',')) {
+                // Multiple medications - search and display results immediately
+                const foundDrugs = searchDrugs(query);
+                if (foundDrugs.length > 0) {
+                    autocomplete.classList.remove('show');
+                    displayResults(foundDrugs);
+                } else {
+                    autocomplete.classList.remove('show');
+                    emptyState.style.display = 'block';
+                    resultsSection.classList.remove('show');
+                }
+            } else {
+                // Single medication - show autocomplete
+                filteredDrugs = searchDrugs(query);
+                showAutocomplete(filteredDrugs);
+            }
+        });
+
+        drugSearch.addEventListener('keydown', (e) => {
+            const items = autocomplete.querySelectorAll('.autocomplete-item');
+            
+            if (e.key === 'ArrowDown') {
+                e.preventDefault();
+                selectedIndex = Math.min(selectedIndex + 1, items.length - 1);
+                items.forEach((item, i) => {
+                    item.classList.toggle('selected', i === selectedIndex);
+                });
+            } else if (e.key === 'ArrowUp') {
+                e.preventDefault();
+                selectedIndex = Math.max(selectedIndex - 1, -1);
+                items.forEach((item, i) => {
+                    item.classList.toggle('selected', i === selectedIndex);
+                });
+            } else if (e.key === 'Enter') {
+                e.preventDefault();
+                // Check if input contains comma (multiple medications)
+                const inputValue = e.target.value.trim();
+                if (inputValue.includes(',')) {
+                    // Multiple medications - search for all
+                    const foundDrugs = searchDrugs(inputValue);
+                    if (foundDrugs.length > 0) {
+                        displayResults(foundDrugs);
+                        autocomplete.classList.remove('show');
+                    }
+                } else {
+                    // Single medication - use autocomplete selection
+                    if (selectedIndex >= 0 && filteredDrugs[selectedIndex]) {
+                        displayResults([filteredDrugs[selectedIndex]]);
+                        autocomplete.classList.remove('show');
+                        drugSearch.value = filteredDrugs[selectedIndex].drug_name;
+                    } else if (filteredDrugs.length > 0) {
+                        displayResults([filteredDrugs[0]]);
+                        autocomplete.classList.remove('show');
+                        drugSearch.value = filteredDrugs[0].drug_name;
+                    }
+                }
+            } else if (e.key === 'Escape') {
+                autocomplete.classList.remove('show');
+            }
+        });
+
+        // Click on autocomplete item
+        autocomplete.addEventListener('click', (e) => {
+            const item = e.target.closest('.autocomplete-item');
+            if (item) {
+                const index = parseInt(item.dataset.index);
+                displayResults([filteredDrugs[index]]);
+                autocomplete.classList.remove('show');
+                drugSearch.value = filteredDrugs[index].drug_name;
+            }
+        });
+
+        // Click outside to close autocomplete
+        document.addEventListener('click', (e) => {
+            if (!drugSearch.contains(e.target) && !autocomplete.contains(e.target)) {
+                autocomplete.classList.remove('show');
+            }
+        });
+
+        // Email form submission
+        emailForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const email = document.getElementById('emailInput').value;
+            
+            // Track email capture
+            const medicationNames = currentDrugs.length > 0 
+                ? currentDrugs.map(d => d.drug_name).join(', ')
+                : 'none';
+            
+            trackEvent('email_captured', {
+                'email_domain': email.split('@')[1] || 'unknown',
+                'medication': medicationNames,
+                'medication_count': currentDrugs.length,
+                'selected_products_count': getSelectedProducts().length
+            });
+            
+            // Log to console (will add n8n webhook later)
+            console.log('Email captured:', email);
+            console.log('Drug searched:', drugSearch.value);
+            if (currentDrugs.length > 0) {
+                console.log('Medications:', currentDrugs.map(d => d.drug_name).join(', '));
+                console.log('Selected products:', getSelectedProducts());
+            }
+            
+            // Show success message
+            const submitBtn = emailForm.querySelector('.email-submit');
+            const originalText = submitBtn.textContent;
+            submitBtn.textContent = '✓ Sent!';
+            submitBtn.classList.add('success');
+            
+            setTimeout(() => {
+                submitBtn.textContent = originalText;
+                submitBtn.classList.remove('success');
+                emailForm.reset();
+            }, 2000);
+        });
+
+        // Bundle Modal Event Listeners
+        const bundleModal = document.getElementById('bundleModal');
+        const closeBundleModalBtn = document.getElementById('closeBundleModal');
+
+        // Close modal button
+        if (closeBundleModalBtn) {
+            closeBundleModalBtn.addEventListener('click', closeBundleModal);
+        }
+
+        // Close modal when clicking outside
+        if (bundleModal) {
+            bundleModal.addEventListener('click', (e) => {
+                if (e.target === bundleModal) {
+                    closeBundleModal();
+                }
+            });
+        }
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && bundleModal.classList.contains('show')) {
+                closeBundleModal();
+            }
+        });
+
+        // Track page view
+        trackEvent('calculator_page_view', {
+            'page_path': window.location.pathname,
+            'page_title': 'Nutrient Depletion Calculator'
+        });
+
+        // Initialize
+        checkGeoLocation();
+    </script>
+</body>
+</html>

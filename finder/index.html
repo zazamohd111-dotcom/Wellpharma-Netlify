@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy Finder - Find Local Pharmacies in Baltimore County | WellPharma Directory</title>
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K36QPF39');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-46RZZWDTDH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-46RZZWDTDH');
+    </script>
+    <meta name="description" content="Find 392+ pharmacies in Baltimore County, MD. Search by zip code or city. Compare locations, hours, ratings, and services. Learn how prescription medications may deplete vital nutrients.">
+    <meta name="keywords" content="pharmacy near me, Baltimore County pharmacies, Maryland pharmacy directory, find pharmacy by zip code, Randallstown pharmacy, pharmacy locator, prescription medications, nutrient depletion">
+    
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="US-MD">
+    <meta name="geo.placename" content="Baltimore County">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Baltimore County Pharmacy Directory - Find 392+ Local Pharmacies">
+    <meta property="og:description" content="Comprehensive directory of pharmacies in Baltimore County. Search by zip code or city to find pharmacies near you.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.wellpharmapharmacy.com/finder/">
+    <meta property="og:site_name" content="WellPharma Pharmacy">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Baltimore County Pharmacy Directory">
+    <meta name="twitter:description" content="Find 392+ pharmacies in Baltimore County. Search by location, compare ratings and services.">
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://www.wellpharmapharmacy.com/finder/">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #2c5f4e;
+            --secondary: #4a8c6f;
+            --accent-orange: #ff6b35;
+            --accent-green: #00b894;
+            --text-dark: #2d3436;
+            --text-light: #636e72;
+            --bg-light: #f8f9fa;
+            --white: #ffffff;
+            --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+            --shadow-md: 0 4px 16px rgba(0,0,0,0.12);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.15);
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            color: var(--text-dark);
+            background: var(--bg-light);
+            line-height: 1.6;
+        }
+
+        /* Header */
+        .header {
+            background: var(--white);
+            padding: 1.5rem 2rem;
+            box-shadow: var(--shadow-sm);
+            position: sticky;
+            top: 0;
+            z-index: 999;
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .logo i {
+            color: var(--accent-green);
+            margin-right: 0.5rem;
+        }
+
+        .nav-link {
+            color: var(--text-light);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-link:hover {
+            color: var(--primary);
+        }
+
+        /* Sticky Sidebar Banner - Desktop */
+        .sticky-sidebar {
+            position: fixed;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 320px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: var(--white);
+            padding: 2rem;
+            border-radius: 12px 0 0 12px;
+            box-shadow: var(--shadow-lg);
+            z-index: 998;
+            animation: slideInRight 0.6s ease-out;
+        }
+
+        @keyframes slideInRight {
+            from {
+                transform: translateY(-50%) translateX(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(-50%) translateX(0);
+                opacity: 1;
+            }
+        }
+
+        .sticky-sidebar h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            line-height: 1.3;
+        }
+
+        .sticky-sidebar p {
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+            opacity: 0.95;
+            line-height: 1.5;
+        }
+
+        .sticky-sidebar .warning-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        .cta-button {
+            display: block;
+            width: 100%;
+            background: var(--accent-orange);
+            color: var(--white);
+            padding: 1rem 1.5rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 700;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
+        }
+
+        .cta-button:hover {
+            background: #ff8c5a;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 107, 53, 0.6);
+        }
+
+        /* Sticky Top Banner - Mobile */
+        .sticky-top-banner {
+            display: none;
+            position: sticky;
+            top: 72px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: var(--white);
+            padding: 1.25rem;
+            text-align: center;
+            box-shadow: var(--shadow-md);
+            z-index: 997;
+        }
+
+        .sticky-top-banner h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .sticky-top-banner p {
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            opacity: 0.95;
+        }
+
+        /* Main Content */
+        .main-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: var(--text-light);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Search Section */
+        .search-section {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: var(--shadow-md);
+            margin-bottom: 3rem;
+        }
+
+        .search-box {
+            position: relative;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .search-box i {
+            position: absolute;
+            left: 1.25rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-light);
+            font-size: 1.2rem;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 1.25rem 1.25rem 1.25rem 3.5rem;
+            border: 2px solid #e1e8ed;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-family: 'Inter', sans-serif;
+            transition: all 0.3s;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 4px rgba(44, 95, 78, 0.1);
+        }
+
+        .search-hint {
+            text-align: center;
+            margin-top: 1rem;
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        /* Results Header */
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .results-header h2 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .results-count {
+            color: var(--text-light);
+            font-size: 1rem;
+        }
+
+        /* Pharmacy Grid */
+        .pharmacy-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        /* Pharmacy Card */
+        .pharmacy-card {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 1.75rem;
+            box-shadow: var(--shadow-sm);
+            transition: all 0.3s;
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .pharmacy-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .pharmacy-name {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .featured-badge {
+            display: inline-block;
+            background: var(--accent-green);
+            color: var(--white);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+
+        .pharmacy-info {
+            margin-bottom: 1.25rem;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-dark);
+            font-size: 0.95rem;
+        }
+
+        .info-item i {
+            color: var(--primary);
+            width: 18px;
+            margin-top: 0.2rem;
+            flex-shrink: 0;
+        }
+
+        .info-item a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .info-item a:hover {
+            text-decoration: underline;
+        }
+
+        .rating-stars {
+            color: #ffa500;
+            font-size: 0.9rem;
+        }
+
+        .rating-stars .rating-number {
+            color: var(--text-dark);
+            font-weight: 600;
+            margin-left: 0.25rem;
+        }
+
+        .pharmacy-actions {
+            display: flex;
+            gap: 0.75rem;
+        }
+
+        .action-btn {
+            flex: 1;
+            padding: 0.875rem 1rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .action-btn.primary {
+            background: var(--primary);
+            color: var(--white);
+        }
+
+        .action-btn.primary:hover {
+            background: var(--secondary);
+            transform: translateY(-2px);
+        }
+
+        .action-btn.secondary {
+            background: transparent;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+        }
+
+        .action-btn.secondary:hover {
+            background: var(--primary);
+            color: var(--white);
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 4rem 2rem;
+            grid-column: 1 / -1;
+        }
+
+        .empty-state i {
+            font-size: 4rem;
+            color: var(--text-light);
+            opacity: 0.5;
+            margin-bottom: 1.5rem;
+        }
+
+        .empty-state h3 {
+            font-size: 1.5rem;
+            color: var(--text-dark);
+            margin-bottom: 0.75rem;
+        }
+
+        .empty-state p {
+            color: var(--text-light);
+            font-size: 1rem;
+        }
+
+        /* Loading State */
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            grid-column: 1 / -1;
+        }
+
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid rgba(44, 95, 78, 0.1);
+            border-top: 4px solid var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--white);
+            padding: 2rem;
+            text-align: center;
+            color: var(--text-light);
+            margin-top: 4rem;
+            box-shadow: 0 -2px 8px rgba(0,0,0,0.05);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .sticky-sidebar {
+                display: none;
+            }
+
+            .sticky-top-banner {
+                display: block;
+            }
+
+            .pharmacy-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .main-content {
+                padding: 2rem 1.5rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .pharmacy-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .results-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+
+            .pharmacy-actions {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K36QPF39"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <a href="../index.html" class="logo">
+                <i class="fas fa-pills"></i>WellPharma
+            </a>
+            <a href="../index.html" class="nav-link">Back to Home</a>
+        </div>
+    </header>
+
+    <!-- Sticky Sidebar - Desktop Only -->
+    <div class="sticky-sidebar">
+        <div class="warning-icon">⚠️</div>
+        <h3>Taking Prescription Medication?</h3>
+        <p>Common drugs (like statins or birth control) can deplete your body of vital nutrients. Don't guess.</p>
+        <a href="../Nutrient-Calculator/" class="cta-button" onclick="trackEvent('calculator_cta_clicked', {'source': 'finder_sidebar', 'location': 'desktop'});">
+            <i class="fas fa-calculator"></i> Check My Nutrient Depletion
+        </a>
+    </div>
+
+    <!-- Sticky Top Banner - Mobile Only -->
+    <div class="sticky-top-banner">
+        <h3>⚠️ Taking Prescription Medication?</h3>
+        <p>Common drugs can deplete vital nutrients. Don't guess.</p>
+        <a href="../Nutrient-Calculator/" class="cta-button" onclick="trackEvent('calculator_cta_clicked', {'source': 'finder_banner', 'location': 'mobile'});">
+            Check My Nutrient Depletion
+        </a>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1><i class="fas fa-map-marker-alt"></i> Find Local Pharmacies</h1>
+            <p>Search 392 pharmacies across Baltimore County by zip code or city</p>
+        </section>
+
+        <!-- Search Section -->
+        <section class="search-section">
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    class="search-input" 
+                    placeholder="Search by zip code or city (e.g., 21133 or Baltimore)"
+                    autocomplete="off"
+                >
+            </div>
+            <p class="search-hint">
+                <i class="fas fa-info-circle"></i> Results update as you type
+            </p>
+        </section>
+
+        <!-- Results Section -->
+        <section class="results-section">
+            <div class="results-header">
+                <h2>Pharmacy Results</h2>
+                <span class="results-count" id="resultsCount">Enter a location to search</span>
+            </div>
+
+            <!-- Pharmacy Grid -->
+            <div class="pharmacy-grid" id="pharmacyGrid">
+                <!-- Empty State -->
+                <div class="empty-state">
+                    <i class="fas fa-search-location"></i>
+                    <h3>Ready to Search?</h3>
+                    <p>Type a zip code or city above to find pharmacies near you</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 WellPharma Pharmacy. Community pharmacy directory. <a href="../index.html" style="color: var(--primary); font-weight: 600;">Visit WellPharma</a></p>
+    </footer>
+
+    <!-- JSON-LD Schema Markup for SEO -->
+    <script type="application/ld+json" id="schemaMarkup">
+    </script>
+    
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.wellpharmapharmacy.com/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Pharmacy Finder",
+                "item": "https://www.wellpharmapharmacy.com/finder/"
+            }
+        ]
+    }
+    </script>
+    
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "WellPharma Pharmacy",
+        "url": "https://www.wellpharmapharmacy.com",
+        "logo": "https://www.wellpharmapharmacy.com/Image.webp/wellpharma-logo240.webp",
+        "description": "Independent pharmacy in Randallstown, MD offering personalized care, free delivery, compounding, immunizations, and hormone testing services.",
+        "telephone": "(410) 698-9068",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "3622 Offutt Rd",
+            "addressLocality": "Randallstown",
+            "addressRegion": "MD",
+            "postalCode": "21133",
+            "addressCountry": "US"
+        },
+        "sameAs": [
+            "https://www.facebook.com/wellpharmapharmacy",
+            "https://www.instagram.com/wellpharmapharmacy"
+        ]
+    }
+    </script>
+
+    <!-- JavaScript -->
+    <script>
+        // Featured pharmacy (WellPharma)
+        const featuredPharmacy = {
+            id: 1,
+            name: "WellPharma Pharmacy",
+            address: "3622 Offutt Rd, Randallstown, MD 21133",
+            phone: "(410) 698-9068",
+            city: "Randallstown",
+            zipCode: "21133",
+            rating: 5.0,
+            map_url: "https://www.google.com/maps/search/?api=1&query=3622+Offutt+Rd,+Randallstown,+MD+21133",
+            website: "https://www.wellpharmapharmacy.com",
+            isFeatured: true
+        };
+
+        let allPharmacies = [featuredPharmacy];
+        let filteredPharmacies = [];
+
+        // DOM Elements
+        const searchInput = document.getElementById('searchInput');
+        const pharmacyGrid = document.getElementById('pharmacyGrid');
+        const resultsCount = document.getElementById('resultsCount');
+
+        // Load pharmacies from JSON
+        async function loadPharmacies() {
+            try {
+                const response = await fetch('pharmacies.json');
+                const data = await response.json();
+                
+                // Add data to array (WellPharma already first)
+                allPharmacies = [featuredPharmacy, ...data];
+                
+                console.log(`✅ Loaded ${allPharmacies.length} pharmacies (1 featured + ${data.length} from JSON)`);
+            } catch (error) {
+                console.error('Error loading pharmacies:', error);
+                // Will work with just WellPharma if JSON fails
+            }
+        }
+
+        // Real-time search as user types
+        searchInput.addEventListener('input', function() {
+            const query = this.value.trim().toLowerCase();
+            
+            if (!query) {
+                showEmptyState();
+                return;
+            }
+
+            // Filter pharmacies
+            filteredPharmacies = allPharmacies.filter(pharmacy => {
+                const matchesZip = pharmacy.zipCode && pharmacy.zipCode.includes(query);
+                const matchesCity = pharmacy.city && pharmacy.city.toLowerCase().includes(query);
+                const matchesName = pharmacy.name && pharmacy.name.toLowerCase().includes(query);
+                return matchesZip || matchesCity || matchesName;
+            });
+
+            if (filteredPharmacies.length === 0) {
+                showNoResults(query);
+            } else {
+                displayPharmacies(filteredPharmacies);
+            }
+        });
+
+        // Display pharmacies in grid
+        function displayPharmacies(pharmacies) {
+            resultsCount.textContent = `Found ${pharmacies.length} ${pharmacies.length === 1 ? 'pharmacy' : 'pharmacies'}`;
+            
+            pharmacyGrid.innerHTML = '';
+            
+            pharmacies.forEach(pharmacy => {
+                const card = createPharmacyCard(pharmacy);
+                pharmacyGrid.appendChild(card);
+            });
+        }
+
+        // Create pharmacy card element
+        function createPharmacyCard(pharmacy) {
+            const card = document.createElement('div');
+            card.className = 'pharmacy-card';
+            
+            const badge = pharmacy.isFeatured 
+                ? '<div class="featured-badge">⭐ Recommended</div>' 
+                : '';
+            
+            const ratingHTML = pharmacy.rating 
+                ? `<div class="info-item">
+                       <i class="fas fa-star"></i>
+                       <span class="rating-stars">
+                           ${generateStars(pharmacy.rating)}
+                           <span class="rating-number">${pharmacy.rating}</span>
+                       </span>
+                   </div>`
+                : '';
+
+            const mapUrl = pharmacy.map_url || 
+                `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(pharmacy.address)}`;
+            
+            card.innerHTML = `
+                ${badge}
+                <h3 class="pharmacy-name">${pharmacy.name}</h3>
+                
+                <div class="pharmacy-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>${pharmacy.address}</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:${pharmacy.phone.replace(/[^0-9]/g, '')}">${pharmacy.phone}</a>
+                    </div>
+                    ${ratingHTML}
+                </div>
+                
+                <div class="pharmacy-actions">
+                    <a href="${mapUrl}" target="_blank" class="action-btn primary">
+                        <i class="fas fa-directions"></i>
+                        Get Directions
+                    </a>
+                    <a href="tel:${pharmacy.phone.replace(/[^0-9]/g, '')}" class="action-btn secondary">
+                        <i class="fas fa-phone"></i>
+                        Call Now
+                    </a>
+                </div>
+            `;
+            
+            return card;
+        }
+
+        // Generate star rating display
+        function generateStars(rating) {
+            const fullStars = Math.floor(rating);
+            const hasHalfStar = rating % 1 >= 0.5;
+            let stars = '';
+            
+            for (let i = 0; i < fullStars; i++) {
+                stars += '<i class="fas fa-star"></i>';
+            }
+            
+            if (hasHalfStar) {
+                stars += '<i class="fas fa-star-half-alt"></i>';
+            }
+            
+            const emptyStars = 5 - Math.ceil(rating);
+            for (let i = 0; i < emptyStars; i++) {
+                stars += '<i class="far fa-star"></i>';
+            }
+            
+            return stars;
+        }
+
+        // Show empty state
+        function showEmptyState() {
+            pharmacyGrid.innerHTML = `
+                <div class="empty-state">
+                    <i class="fas fa-search-location"></i>
+                    <h3>Ready to Search?</h3>
+                    <p>Type a zip code or city above to find pharmacies near you</p>
+                </div>
+            `;
+            resultsCount.textContent = 'Enter a location to search';
+        }
+
+        // Show no results
+        function showNoResults(query) {
+            pharmacyGrid.innerHTML = `
+                <div class="empty-state">
+                    <i class="fas fa-search"></i>
+                    <h3>No Pharmacies Found</h3>
+                    <p>No results for "${query}". Try a different zip code or city.</p>
+                </div>
+            `;
+            resultsCount.textContent = 'No results';
+        }
+
+        // Show loading state
+        function showLoading() {
+            pharmacyGrid.innerHTML = `
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Loading pharmacies...</p>
+                </div>
+            `;
+        }
+
+        // Generate JSON-LD Schema Markup for SEO
+        function generateSchemaMarkup() {
+            const schemaData = {
+                "@context": "https://schema.org",
+                "@type": "ItemList",
+                "name": "Baltimore County Pharmacy Directory",
+                "description": "Comprehensive directory of pharmacies in Baltimore County, Maryland",
+                "url": window.location.href,
+                "numberOfItems": allPharmacies.length,
+                
+                // WellPharma as the MAIN ENTITY (gets page authority)
+                "mainEntity": {
+                    "@type": "Pharmacy",
+                    "@id": "https://www.wellpharmapharmacy.com",
+                    "name": "WellPharma Pharmacy",
+                    "url": "https://www.wellpharmapharmacy.com",
+                    "telephone": "(410) 698-9068",
+                    "priceRange": "$$",
+                    "image": "https://www.wellpharmapharmacy.com/images/pharmacy-interior.jpg",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "streetAddress": "3622 Offutt Rd",
+                        "addressLocality": "Randallstown",
+                        "addressRegion": "MD",
+                        "postalCode": "21133",
+                        "addressCountry": "US"
+                    },
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": "39.3634",
+                        "longitude": "-76.7918"
+                    },
+                    "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": "5.0",
+                        "bestRating": "5",
+                        "worstRating": "1",
+                        "ratingCount": "50"
+                    },
+                    "openingHoursSpecification": [
+                        {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                            "opens": "09:00",
+                            "closes": "18:00"
+                        },
+                        {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": "Saturday",
+                            "opens": "09:00",
+                            "closes": "14:00"
+                        }
+                    ],
+                    "hasOfferCatalog": {
+                        "@type": "OfferCatalog",
+                        "name": "Pharmacy Services",
+                        "itemListElement": [
+                            {
+                                "@type": "Offer",
+                                "itemOffered": {
+                                    "@type": "Service",
+                                    "name": "Free Prescription Delivery"
+                                }
+                            },
+                            {
+                                "@type": "Offer",
+                                "itemOffered": {
+                                    "@type": "Service",
+                                    "name": "Compounding Services"
+                                }
+                            },
+                            {
+                                "@type": "Offer",
+                                "itemOffered": {
+                                    "@type": "Service",
+                                    "name": "Immunizations"
+                                }
+                            },
+                            {
+                                "@type": "Offer",
+                                "itemOffered": {
+                                    "@type": "Service",
+                                    "name": "Birth Control Prescribing"
+                                }
+                            },
+                            {
+                                "@type": "Offer",
+                                "itemOffered": {
+                                    "@type": "Service",
+                                    "name": "Hormone Testing"
+                                }
+                            }
+                        ]
+                    }
+                },
+                
+                // All pharmacies in the directory
+                "itemListElement": allPharmacies.map((pharmacy, index) => {
+                    // Parse address
+                    const addressParts = pharmacy.address.split(',').map(p => p.trim());
+                    let streetAddress = addressParts[0] || '';
+                    let city = pharmacy.city || (addressParts[1] || '');
+                    let stateZip = addressParts[addressParts.length - 1] || '';
+                    let zipCode = pharmacy.zipCode || stateZip.match(/\d{5}/)?.[0] || '';
+                    
+                    const businessSchema = {
+                        "@type": "ListItem",
+                        "position": index + 1,
+                        "item": {
+                            "@type": "Pharmacy",
+                            "name": pharmacy.name,
+                            "telephone": pharmacy.phone || "N/A",
+                            "address": {
+                                "@type": "PostalAddress",
+                                "streetAddress": streetAddress,
+                                "addressLocality": city,
+                                "addressRegion": "MD",
+                                "postalCode": zipCode,
+                                "addressCountry": "US"
+                            }
+                        }
+                    };
+                    
+                    // Add URL if available
+                    if (pharmacy.website && pharmacy.website !== '#') {
+                        businessSchema.item.url = pharmacy.website;
+                    }
+                    
+                    // Add map URL
+                    if (pharmacy.map_url) {
+                        businessSchema.item.hasMap = pharmacy.map_url;
+                    }
+                    
+                    // Add rating if available
+                    if (pharmacy.rating) {
+                        businessSchema.item.aggregateRating = {
+                            "@type": "AggregateRating",
+                            "ratingValue": pharmacy.rating.toString(),
+                            "bestRating": "5",
+                            "worstRating": "1"
+                        };
+                    }
+                    
+                    return businessSchema;
+                })
+            };
+            
+            // Inject the schema into the page
+            const schemaScript = document.getElementById('schemaMarkup');
+            schemaScript.textContent = JSON.stringify(schemaData, null, 2);
+            
+            console.log('✅ Generated JSON-LD Schema for', allPharmacies.length, 'pharmacies');
+            console.log('🎯 Main Entity: WellPharma Pharmacy (receives page authority)');
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', async function() {
+            showLoading();
+            await loadPharmacies();
+            
+            // Generate Schema Markup after pharmacies are loaded
+            generateSchemaMarkup();
+            
+            showEmptyState();
+            
+            // Auto-focus search input
+            searchInput.focus();
+        });
+    </script>
+</body>
+</html>
+

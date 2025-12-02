@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K36QPF39');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-46RZZWDTDH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-46RZZWDTDH');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pharmacy Finder - Find Local Pharmacies Near You | WellPharma Directory</title>
+    <meta name="description" content="Find local pharmacies near you. Search by zip code or city to discover pharmacy locations, hours, and services in your area. Powered by WellPharma.">
+    <meta name="keywords" content="pharmacy finder, pharmacy near me, local pharmacy, pharmacy directory, find pharmacy by zip code, pharmacy locator">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Pharmacy Finder - Find Local Pharmacies Near You">
+    <meta property="og:description" content="Search for local pharmacies by zip code or city. Find pharmacy locations, hours, and services in your area.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.wellpharmapharmacy.com/finder/">
+    <meta property="og:image" content="https://www.wellpharmapharmacy.com/images/pharmacy-interior.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.wellpharmapharmacy.com/finder/">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        :root {
+            --primary-color: rgb(77, 123, 107);
+            --secondary-color: rgb(144, 173, 114);
+            --text-color: #2e2e2e;
+            --white: #ffffff;
+            --light-bg: rgb(235, 243, 237);
+            --border-color: #e0e0e0;
+            --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.15);
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: var(--text-color);
+            background: var(--white);
+        }
+
+        /* Sticky Banner */
+        .sticky-banner {
+            position: sticky;
+            top: 0;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: var(--white);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1.5rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+            z-index: 1000;
+            flex-wrap: wrap;
+        }
+
+        .sticky-banner p {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        .sticky-banner .cta-button {
+            background: var(--white);
+            color: var(--primary-color);
+            padding: 0.75rem 2rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .sticky-banner .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Header */
+        .header {
+            background: var(--white);
+            padding: 2rem 2rem 1rem;
+            text-align: center;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .header h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .header p {
+            color: var(--text-color);
+            font-size: 1.1rem;
+            opacity: 0.8;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: var(--primary-color);
+            text-decoration: none;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            transition: var(--transition);
+        }
+
+        .back-link:hover {
+            color: var(--secondary-color);
+        }
+
+        /* Search Section */
+        .search-section {
+            max-width: 800px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        .search-container {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+        }
+
+        .search-form {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .search-input-wrapper {
+            flex: 1;
+            min-width: 250px;
+            position: relative;
+        }
+
+        .search-input-wrapper i {
+            position: absolute;
+            left: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--primary-color);
+            font-size: 1.2rem;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 1rem 1rem 1rem 3rem;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: var(--transition);
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(77, 123, 107, 0.1);
+        }
+
+        .search-button {
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 1rem 2.5rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .search-button:hover {
+            background: var(--secondary-color);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        /* Filters */
+        .filters {
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .filters h3 {
+            color: var(--primary-color);
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .filter-options {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-checkbox {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .filter-checkbox input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+            accent-color: var(--primary-color);
+        }
+
+        .filter-checkbox label {
+            cursor: pointer;
+            font-size: 0.95rem;
+        }
+
+        /* Results Section */
+        .results-section {
+            max-width: 1400px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .results-header h2 {
+            color: var(--primary-color);
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+
+        .results-count {
+            color: var(--text-color);
+            opacity: 0.7;
+        }
+
+        /* Pharmacy Grid */
+        .pharmacy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .pharmacy-card {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border: 1px solid var(--border-color);
+        }
+
+        .pharmacy-card:hover {
+            box-shadow: var(--shadow-hover);
+            transform: translateY(-4px);
+        }
+
+        .pharmacy-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+        }
+
+        .pharmacy-name {
+            color: var(--primary-color);
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 0.3rem;
+        }
+
+        .pharmacy-badge {
+            background: var(--light-bg);
+            color: var(--primary-color);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .pharmacy-badge.featured {
+            background: var(--primary-color);
+            color: var(--white);
+        }
+
+        .info-item .fa-star {
+            color: #ffa500;
+        }
+
+        .pharmacy-info {
+            margin-bottom: 1rem;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: start;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-color);
+            font-size: 0.95rem;
+        }
+
+        .info-item i {
+            color: var(--primary-color);
+            width: 20px;
+            margin-top: 0.2rem;
+        }
+
+        .pharmacy-features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-tag {
+            background: var(--light-bg);
+            color: var(--primary-color);
+            padding: 0.3rem 0.75rem;
+            border-radius: 15px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .pharmacy-actions {
+            display: flex;
+            gap: 0.75rem;
+            margin-top: 1.5rem;
+        }
+
+        .action-button {
+            flex: 1;
+            padding: 0.75rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .action-button.primary {
+            background: var(--primary-color);
+            color: var(--white);
+        }
+
+        .action-button.primary:hover {
+            background: var(--secondary-color);
+        }
+
+        .action-button.secondary {
+            background: transparent;
+            color: var(--primary-color);
+            border: 2px solid var(--primary-color);
+        }
+
+        .action-button.secondary:hover {
+            background: var(--primary-color);
+            color: var(--white);
+        }
+
+        /* Loading State */
+        .loading {
+            text-align: center;
+            padding: 3rem;
+        }
+
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid var(--light-bg);
+            border-top: 4px solid var(--primary-color);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+
+        .empty-state i {
+            font-size: 4rem;
+            color: var(--border-color);
+            margin-bottom: 1rem;
+        }
+
+        .empty-state h3 {
+            color: var(--text-color);
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .empty-state p {
+            color: var(--text-color);
+            opacity: 0.7;
+        }
+
+        /* Footer */
+        .finder-footer {
+            background: var(--light-bg);
+            padding: 2rem;
+            text-align: center;
+            margin-top: 4rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .finder-footer p {
+            color: var(--text-color);
+            opacity: 0.8;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .sticky-banner {
+                padding: 1rem;
+                flex-direction: column;
+                text-align: center;
+                gap: 0.75rem;
+            }
+
+            .sticky-banner p {
+                font-size: 0.95rem;
+            }
+
+            .search-form {
+                flex-direction: column;
+            }
+
+            .search-button {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .pharmacy-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .results-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K36QPF39"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Sticky Promotional Banner -->
+    <div class="sticky-banner">
+        <p><i class="fas fa-star"></i> Looking for a better pharmacy experience? Switch to WellPharma!</p>
+        <a href="../transfer-prescription.html" class="cta-button">Transfer Your Prescription <i class="fas fa-arrow-right"></i></a>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="../index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to WellPharma Home</a>
+        <h1><i class="fas fa-map-marker-alt"></i> Pharmacy Finder</h1>
+        <p>Find local pharmacies in your area - Search by zip code or city</p>
+    </header>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="search-container">
+            <form class="search-form" id="searchForm">
+                <div class="search-input-wrapper">
+                    <i class="fas fa-map-pin"></i>
+                    <input 
+                        type="text" 
+                        id="searchInput" 
+                        class="search-input" 
+                        placeholder="Enter zip code or city (e.g., 21133 or Randallstown)"
+                        required
+                    >
+                </div>
+                <button type="submit" class="search-button">
+                    <i class="fas fa-search"></i>
+                    Search
+                </button>
+            </form>
+
+            <!-- Filters -->
+            <div class="filters">
+                <h3><i class="fas fa-filter"></i> Filter by Services</h3>
+                <div class="filter-options">
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="filter24h" value="24h">
+                        <label for="filter24h">24 Hour Pharmacy</label>
+                    </div>
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="filterDelivery" value="delivery">
+                        <label for="filterDelivery">Free Delivery</label>
+                    </div>
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="filterCompounding" value="compounding">
+                        <label for="filterCompounding">Compounding</label>
+                    </div>
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="filterImmunizations" value="immunizations">
+                        <label for="filterImmunizations">Immunizations</label>
+                    </div>
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="filterBirthControl" value="birthcontrol">
+                        <label for="filterBirthControl">Birth Control Prescribing</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results-section">
+        <div class="results-header">
+            <h2>Pharmacy Results</h2>
+            <span class="results-count" id="resultsCount">Enter a location to search</span>
+        </div>
+
+        <!-- Pharmacy Grid -->
+        <div class="pharmacy-grid" id="pharmacyGrid">
+            <!-- Empty State (shown by default) -->
+            <div class="empty-state" id="emptyState" style="grid-column: 1 / -1;">
+                <i class="fas fa-search-location"></i>
+                <h3>Ready to Find Pharmacies?</h3>
+                <p>Enter your zip code or city above to discover pharmacies in your area</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="finder-footer">
+        <p>&copy; 2025 WellPharma Pharmacy. Pharmacy listings are community-sourced. <a href="../index.html" style="color: var(--primary-color); font-weight: 600;">Visit WellPharma</a></p>
+    </footer>
+
+    <script src="finder.js"></script>
+</body>
+</html>
+

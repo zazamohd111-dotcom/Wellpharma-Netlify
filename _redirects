@@ -25,3 +25,7 @@
 
 # Redirect any aurora pharmacy references to WellPharma
 /aurora* /index.html 301
+
+# Calculator routes
+/calculator /Nutrient-Calculator/ 301
+/nutrient-calculator /Nutrient-Calculator/ 301

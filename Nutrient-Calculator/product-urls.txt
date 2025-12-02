@@ -1,0 +1,12 @@
+# Product URL Mapping
+# Format: PRODUCT_CODE=full-url
+# Example: VDS030=https://www.designsforhealth.com/u/zahraababikermohammed/products/vitamin-d-supreme#VDS030
+
+VDS030=https://www.designsforhealth.com/u/zahraababikermohammed/products/vitamin-d-supreme#VDS030
+VDS060=https://www.designsforhealth.com/u/zahraababikermohammed/products/vitamin-d-supreme#VDS060
+VDS180=https://www.designsforhealth.com/u/zahraababikermohammed/products/vitamin-d-supreme#VDS180
+
+# Add more URLs below in the same format:
+# COQ100=https://www.designsforhealth.com/u/zahraababikermohammed/products/coqnol#COQ100
+# COQ200=https://www.designsforhealth.com/u/zahraababikermohammed/products/coqnol#COQ200
+
