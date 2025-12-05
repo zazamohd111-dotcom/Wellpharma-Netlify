@@ -19,15 +19,17 @@ function trackEvent(eventName, eventParams) {
 // Featured pharmacy (WellPharma) - always shown first
 const featuredPharmacy = {
     id: 1,
-    name: "WellPharma Pharmacy",
-    address: "3622 Offutt Rd, Randallstown, MD 21133",
+    name: "Wellpharma Pharmacy (Retail & Compounding)",
+    address: "9818 Liberty Rd STE B, Randallstown, MD 21133",
     phone: "(410) 698-9068",
     hours: "Mon-Fri: 9am-6pm, Sat: 9am-2pm",
     city: "Randallstown",
     zipCode: "21133",
+    rating: 5,
     features: ["Free Delivery", "Compounding", "Immunizations", "Birth Control Prescribing", "Hormone Testing"],
     services: ["delivery", "compounding", "immunizations", "birthcontrol"],
-    website: "https://www.wellpharmapharmacy.com",
+    website: "http://www.wellpharmapharmacy.com/",
+    map_url: "https://www.google.com/maps/search/?api=1&query=Wellpharma%20Pharmacy%20(Retail%20%26%20Compounding)&query_place_id=ChIJO76KkzkZyIkRUG_s30VnhC8",
     isFeatured: true,
     description: "Your trusted independent pharmacy offering personalized care and same-day services."
 };
@@ -46,6 +48,12 @@ async function loadPharmaciesFromJSON() {
         jsonData.forEach(pharmacy => {
             // Skip entries with invalid data
             if (!pharmacy.name || !pharmacy.address) return;
+            
+            // Skip the featured Wellpharma Pharmacy (Retail & Compounding) to avoid duplicates
+            if (pharmacy.name === 'Wellpharma Pharmacy (Retail & Compounding)' || 
+                pharmacy.name === 'WellPharma Pharmacy') {
+                return;
+            }
             
             // Determine features based on pharmacy name
             const features = determineFeatures(pharmacy.name, pharmacy.address);
@@ -382,7 +390,7 @@ function trackPharmacyClick(pharmacyName, action) {
     trackEvent('pharmacy_interaction', {
         'pharmacy_name': pharmacyName,
         'action': action,
-        'is_wellpharma': pharmacyName === 'WellPharma Pharmacy'
+        'is_wellpharma': pharmacyName === 'Wellpharma Pharmacy (Retail & Compounding)'
     });
 }
 

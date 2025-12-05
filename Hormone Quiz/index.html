@@ -1,0 +1,1301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hormone Imbalance Symptom Checker | WellPharma</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --wellpharma-red: #E35B6F;
+            --wellpharma-red-dark: #d14a5e;
+            --bg-cream: #FFFCF9;
+            --text-dark: #2C2C2C;
+            --text-light: #666666;
+            --border-light: #E8E8E8;
+            --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.08);
+            --shadow-medium: 0 8px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--bg-cream);
+            color: var(--text-dark);
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(32px, 5vw, 48px);
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+
+        .subtitle {
+            font-size: clamp(16px, 2.5vw, 18px);
+            color: var(--text-light);
+            font-weight: 400;
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: var(--shadow-soft);
+            transition: opacity 0.4s ease, transform 0.4s ease;
+            position: relative;
+        }
+
+        .card.hidden {
+            opacity: 0;
+            transform: translateY(20px);
+            pointer-events: none;
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 0;
+        }
+
+        .progress-pill {
+            display: inline-block;
+            background: rgba(227, 91, 111, 0.1);
+            color: var(--wellpharma-red);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+
+        .step-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(24px, 4vw, 32px);
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 10px;
+        }
+
+        .step-description {
+            color: var(--text-light);
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            font-weight: 500;
+            color: var(--text-dark);
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 14px 18px;
+            border: 2px solid var(--border-light);
+            border-radius: 10px;
+            font-size: 16px;
+            font-family: 'Inter', sans-serif;
+            color: var(--text-dark);
+            background: white;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        input:focus,
+        select:focus,
+        textarea:focus {
+            outline: none;
+            border-color: var(--wellpharma-red);
+            box-shadow: 0 0 0 3px rgba(227, 91, 111, 0.1);
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .checkbox-group {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            padding: 15px;
+            border: 2px solid var(--border-light);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .checkbox-item:hover {
+            border-color: var(--wellpharma-red);
+            background: rgba(227, 91, 111, 0.02);
+        }
+
+        .checkbox-item input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            accent-color: var(--wellpharma-red);
+            flex-shrink: 0;
+            order: 2;
+            border-radius: 50%;
+            appearance: none;
+            -webkit-appearance: none;
+            border: 2px solid var(--border-light);
+            background: white;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .checkbox-item input[type="checkbox"]:checked {
+            background: var(--wellpharma-red);
+            border-color: var(--wellpharma-red);
+        }
+
+        .checkbox-item input[type="checkbox"]:checked::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 6px;
+            height: 6px;
+            background: white;
+            border-radius: 50%;
+        }
+
+        .checkbox-item label {
+            margin: 0;
+            cursor: pointer;
+            flex: 1;
+            font-weight: 400;
+            order: 1;
+            text-align: left;
+        }
+
+        .radio-group {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .radio-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            padding: 15px;
+            border: 2px solid var(--border-light);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .radio-item:hover {
+            border-color: var(--wellpharma-red);
+            background: rgba(227, 91, 111, 0.02);
+        }
+
+        .radio-item input[type="radio"] {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            accent-color: var(--wellpharma-red);
+            flex-shrink: 0;
+            order: 2;
+        }
+
+        .radio-item label {
+            margin: 0;
+            cursor: pointer;
+            flex: 1;
+            font-weight: 400;
+            order: 1;
+            text-align: left;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 16px 32px;
+            background: var(--wellpharma-red);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 17px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'Inter', sans-serif;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background: var(--wellpharma-red-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(227, 91, 111, 0.3);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-secondary {
+            background: white;
+            color: var(--wellpharma-red);
+            border: 2px solid var(--wellpharma-red);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(227, 91, 111, 0.05);
+        }
+
+        .loading-screen {
+            text-align: center;
+            padding: 60px 40px;
+        }
+
+        .loading-animation {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 30px;
+            position: relative;
+        }
+
+        .heart {
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+
+        .heart::before,
+        .heart::after {
+            content: '';
+            width: 30px;
+            height: 48px;
+            position: absolute;
+            left: 30px;
+            top: 0;
+            background: var(--wellpharma-red);
+            border-radius: 30px 30px 0 0;
+            transform: rotate(-45deg);
+            transform-origin: 0 100%;
+        }
+
+        .heart::after {
+            left: 0;
+            transform: rotate(45deg);
+            transform-origin: 100% 100%;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+            50% {
+                transform: translate(-50%, -50%) scale(1.1);
+                opacity: 0.8;
+            }
+        }
+
+        .loading-text {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            color: var(--text-dark);
+            margin-bottom: 10px;
+        }
+
+        .loading-subtext {
+            color: var(--text-light);
+            font-size: 16px;
+        }
+
+        .results-card {
+            text-align: center;
+        }
+
+        .results-header {
+            margin-bottom: 30px;
+        }
+
+        .results-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(28px, 4vw, 36px);
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 15px;
+        }
+
+        .validation-section {
+            text-align: left;
+            background: rgba(227, 91, 111, 0.05);
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border-left: 4px solid var(--wellpharma-red);
+        }
+
+        .validation-text {
+            font-size: 16px;
+            line-height: 1.8;
+            color: var(--text-dark);
+        }
+
+        .prescription-pad {
+            background: white;
+            border: 2px dashed var(--wellpharma-red);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .prescription-label {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-light);
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .product-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--wellpharma-red);
+        }
+
+        .trust-footer {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid var(--border-light);
+            color: var(--text-light);
+            font-size: 14px;
+        }
+
+        .error-message {
+            background: #fee;
+            color: #c33;
+            padding: 12px 18px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 4px solid #c33;
+            font-size: 14px;
+        }
+
+        /* Welcome Page Styles */
+        .welcome-card {
+            text-align: center;
+        }
+
+        .logo-container {
+            margin-bottom: 40px;
+        }
+
+        .logo-container img {
+            max-width: 180px;
+            height: auto;
+        }
+
+        .welcome-heading {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(36px, 5vw, 48px);
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 20px;
+            line-height: 1.3;
+        }
+
+        .welcome-heading .highlight {
+            font-weight: 700;
+        }
+
+        .welcome-text {
+            font-size: clamp(16px, 2.5vw, 18px);
+            color: var(--text-light);
+            line-height: 1.8;
+            margin-bottom: 30px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .promise-box {
+            background: rgba(227, 91, 111, 0.05);
+            border: 2px solid rgba(227, 91, 111, 0.3);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 30px 0;
+            text-align: left;
+            max-width: 550px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .promise-label {
+            font-weight: 600;
+            color: var(--wellpharma-red);
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .promise-text {
+            color: var(--text-dark);
+            font-size: 15px;
+            line-height: 1.7;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: var(--text-light);
+            font-size: 14px;
+        }
+
+        /* Intensity Slider Styles */
+        .symptom-intensity-section {
+            background: rgba(227, 91, 111, 0.03);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+        }
+
+        .symptom-title {
+            font-weight: 600;
+            color: var(--wellpharma-red);
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .intensity-container {
+            margin-bottom: 20px;
+        }
+
+        .intensity-label-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .intensity-label {
+            font-weight: 500;
+            color: var(--text-dark);
+            font-size: 14px;
+        }
+
+        .intensity-value {
+            font-weight: 600;
+            color: var(--wellpharma-red);
+            font-size: 16px;
+        }
+
+        .intensity-slider {
+            width: 100%;
+            height: 6px;
+            border-radius: 3px;
+            background: var(--border-light);
+            outline: none;
+            -webkit-appearance: none;
+            appearance: none;
+            margin-bottom: 8px;
+        }
+
+        .intensity-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: var(--wellpharma-red);
+            cursor: pointer;
+            box-shadow: 0 2px 6px rgba(227, 91, 111, 0.3);
+        }
+
+        .intensity-slider::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: var(--wellpharma-red);
+            cursor: pointer;
+            border: none;
+            box-shadow: 0 2px 6px rgba(227, 91, 111, 0.3);
+        }
+
+        .intensity-labels {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: var(--text-light);
+        }
+
+        .duration-container {
+            margin-top: 15px;
+        }
+
+        .duration-label {
+            font-weight: 500;
+            color: var(--text-dark);
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+
+        .duration-select {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid var(--border-light);
+            border-radius: 10px;
+            font-size: 15px;
+            font-family: 'Inter', sans-serif;
+            color: var(--text-dark);
+            background: white;
+            cursor: pointer;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .duration-select:focus {
+            outline: none;
+            border-color: var(--wellpharma-red);
+            box-shadow: 0 0 0 3px rgba(227, 91, 111, 0.1);
+        }
+
+        /* Card-style Radio Buttons */
+        .card-radio-group {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 15px;
+        }
+
+        .card-radio-item {
+            display: flex;
+            align-items: center;
+            padding: 15px 18px;
+            border: 2px solid var(--border-light);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: white;
+        }
+
+        .card-radio-item:hover {
+            border-color: var(--wellpharma-red);
+            background: rgba(227, 91, 111, 0.02);
+        }
+
+        .card-radio-item input[type="radio"] {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            accent-color: var(--wellpharma-red);
+            margin-right: 12px;
+            flex-shrink: 0;
+        }
+
+        .card-radio-item input[type="radio"]:checked + label {
+            color: var(--wellpharma-red);
+            font-weight: 500;
+        }
+
+        .card-radio-item.selected,
+        .card-radio-item:has(input[type="radio"]:checked) {
+            border-color: var(--wellpharma-red);
+            background: rgba(227, 91, 111, 0.05);
+        }
+
+        .card-radio-item label {
+            margin: 0;
+            cursor: pointer;
+            flex: 1;
+            font-weight: 400;
+            font-size: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px 10px;
+            }
+
+            .card {
+                padding: 30px 20px;
+            }
+
+            .checkbox-item,
+            .radio-item {
+                padding: 12px;
+            }
+
+            .logo-container img {
+                max-width: 150px;
+            }
+
+            .promise-box {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Welcome Page -->
+        <div class="card welcome-card" id="step0">
+            <div class="logo-container">
+                <img src="../images/wellpharma-logo.png" alt="WellPharma Pharmacy" />
+            </div>
+            
+            <h1 class="welcome-heading">
+                Let's get you feeling like <span class="highlight">yourself</span> again.
+            </h1>
+            
+            <p class="welcome-text">
+                Symptoms like fatigue, mood swings, or weight gain aren't just 'part of aging.' They are messages from your body.
+            </p>
+            
+            <div class="promise-box">
+                <div class="promise-label">Our Promise:</div>
+                <div class="promise-text">
+                    This free assessment uses clinical logic to help you understand your hormones. We focus on natural remedies first.
+                </div>
+            </div>
+            
+            <button class="btn" onclick="nextStep(0)">Start My Assessment</button>
+        </div>
+
+        <!-- Step 1: Symptoms -->
+        <div class="card hidden" id="step1">
+            <div class="progress-pill">Step 1 of 5</div>
+            <h2 class="step-title">What symptoms are you experiencing?</h2>
+            <p class="step-description">Select all that apply to you</p>
+            
+            <div class="checkbox-group">
+                <div class="checkbox-item">
+                    <input type="checkbox" id="symptom1" name="symptoms" value="Irregular periods">
+                    <label for="symptom1">Irregular periods</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="symptom2" name="symptoms" value="Hot flashes">
+                    <label for="symptom2">Hot flashes</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="symptom3" name="symptoms" value="Night sweats">
+                    <label for="symptom3">Night sweats</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="symptom4" name="symptoms" value="Mood swings">
+                    <label for="symptom4">Mood swings</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="symptom5" name="symptoms" value="Fatigue">
+                    <label for="symptom5">Fatigue</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="symptom6" name="symptoms" value="Weight gain">
+                    <label for="symptom6">Weight gain</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="symptom7" name="symptoms" value="Hair loss">
+                    <label for="symptom7">Hair loss</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="symptom8" name="symptoms" value="Sleep problems">
+                    <label for="symptom8">Sleep problems</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="symptom9" name="symptoms" value="Low libido">
+                    <label for="symptom9">Low libido</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="symptom10" name="symptoms" value="Brain fog">
+                    <label for="symptom10">Brain fog</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="symptom11" name="symptoms" value="Anxiety">
+                    <label for="symptom11">Anxiety</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="symptom12" name="symptoms" value="Acne">
+                    <label for="symptom12">Acne</label>
+                </div>
+            </div>
+
+            <button class="btn" onclick="nextStep(1)">Continue</button>
+        </div>
+
+        <!-- Step 2: Intensity Ratings -->
+        <div class="card hidden" id="step2">
+            <div class="progress-pill">Step 2 of 5</div>
+            <h2 class="step-title">Let's go a little deeper.</h2>
+            <p class="step-description">Understanding the intensity helps us tailor the natural remedies.</p>
+            
+            <div id="intensitySections">
+                <!-- Dynamically generated intensity sections for selected symptoms -->
+            </div>
+
+            <button class="btn" onclick="nextStep(2)">Next</button>
+            <button class="btn btn-secondary" onclick="prevStep(2)" style="margin-top: 10px;">Back</button>
+        </div>
+
+        <!-- Step 3: Context (Age, Period, Testing, Therapy) -->
+        <div class="card hidden" id="step3">
+            <div class="progress-pill">Step 3 of 5</div>
+            <h2 class="step-title">A bit of context.</h2>
+            <p class="step-description">This helps us check if it's menopause, thyroid, or stress related.</p>
+            
+            <div class="form-group">
+                <label for="ageRange">What is your age range?</label>
+                <select id="ageRange" name="ageRange" class="duration-select">
+                    <option value="">Select Age</option>
+                    <option value="Under 35">Under 35</option>
+                    <option value="35-40">35-40</option>
+                    <option value="41-45">41-45</option>
+                    <option value="46-50">46-50</option>
+                    <option value="51-55">51-55</option>
+                    <option value="56-60">56-60</option>
+                    <option value="61-65">61-65</option>
+                    <option value="Over 65">Over 65</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="periodStatus">Period Status</label>
+                <select id="periodStatus" name="periodStatus" class="duration-select">
+                    <option value="">Select Status</option>
+                    <option value="Regular">Regular</option>
+                    <option value="Irregular / Skipped months">Irregular / Skipped months</option>
+                    <option value="Stopped < 12 months ago">Stopped &lt; 12 months ago</option>
+                    <option value="Stopped 12+ months ago (Menopause)">Stopped 12+ months ago (Menopause)</option>
+                    <option value="Surgical Menopause (Hysterectomy/Oophorectomy)">Surgical Menopause (Hysterectomy/Oophorectomy)</option>
+                    <option value="Never">Never</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Have you tested hormones before?</label>
+                <div class="card-radio-group">
+                    <div class="card-radio-item">
+                        <input type="radio" id="test1" name="hormoneTest" value="Yes, recently (< 6 months)">
+                        <label for="test1">Yes, recently (&lt; 6 months)</label>
+                    </div>
+                    <div class="card-radio-item">
+                        <input type="radio" id="test2" name="hormoneTest" value="Yes, but it was a while ago">
+                        <label for="test2">Yes, but it was a while ago</label>
+                    </div>
+                    <div class="card-radio-item">
+                        <input type="radio" id="test3" name="hormoneTest" value="Never">
+                        <label for="test3">Never</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Current Hormone Therapy?</label>
+                <div class="card-radio-group">
+                    <div class="card-radio-item">
+                        <input type="radio" id="therapy1" name="hormoneTherapy" value="Yes, currently taking HRT/BHRT">
+                        <label for="therapy1">Yes, currently taking HRT/BHRT</label>
+                    </div>
+                    <div class="card-radio-item">
+                        <input type="radio" id="therapy2" name="hormoneTherapy" value="No, not currently">
+                        <label for="therapy2">No, not currently</label>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn" onclick="nextStep(3)">Next</button>
+            <button class="btn btn-secondary" onclick="prevStep(3)" style="margin-top: 10px;">Back</button>
+        </div>
+
+        <!-- Step 4: Name & Email -->
+        <div class="card hidden" id="step4">
+            <div class="progress-pill">Step 4 of 5</div>
+            <h2 class="step-title">Almost done!</h2>
+            <p class="step-description">Please provide your name and email to receive your personalized results</p>
+            
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+
+            <button class="btn" onclick="submitQuiz()">Submit Assessment</button>
+            <button class="btn btn-secondary" onclick="prevStep(4)" style="margin-top: 10px;">Back</button>
+        </div>
+
+        <!-- Loading Screen -->
+        <div class="card hidden" id="loading">
+            <div class="loading-screen">
+                <div class="loading-animation">
+                    <div class="heart"></div>
+                </div>
+                <h3 class="loading-text">Dr. Zahraa is analyzing your hormonal profile...</h3>
+                <p class="loading-subtext">This may take a few moments</p>
+            </div>
+        </div>
+
+        <!-- Results Card -->
+        <div class="card hidden" id="results">
+            <div class="results-card">
+                <div class="results-header">
+                    <h2 class="results-title">Your Personalized Assessment</h2>
+                </div>
+
+                <div class="validation-section">
+                    <div class="validation-text" id="analysisText">
+                        <!-- AI analysis will be inserted here -->
+                    </div>
+                </div>
+
+                <div class="prescription-pad">
+                    <div class="prescription-label">Recommended Test</div>
+                    <div class="product-name" id="productName">
+                        <!-- Product name will be inserted here -->
+                    </div>
+                </div>
+
+                <a href="#" id="productLink" class="btn" target="_blank">Order Test Kit</a>
+
+                <div class="trust-footer">
+                    Questions? Book a 1:1 review with Dr. Zahraa included with your kit.
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            © 2025 WellPharma Pharmacy. Dr. Zahraa Babiker.
+        </div>
+    </div>
+
+    <script>
+        // Webhook URL - Replace with your actual n8n webhook URL
+        const WEBHOOK_URL = 'https://YOUR-N8N-WEBHOOK-URL-HERE';
+
+        // State management
+        const quizData = {
+            symptoms: [],
+            symptomIntensities: {}, // Store intensity and duration for each symptom
+            ageRange: null,
+            periodStatus: null,
+            hormoneTest: null,
+            hormoneTherapy: null,
+            name: '',
+            email: ''
+        };
+
+        function nextStep(currentStep) {
+            // Validate current step (skip validation for welcome page)
+            if (currentStep > 0 && !validateStep(currentStep)) {
+                return;
+            }
+
+            // Collect data from current step (skip for welcome page)
+            if (currentStep > 0) {
+                collectStepData(currentStep);
+            }
+
+            // Hide current step
+            const currentCard = document.getElementById(`step${currentStep}`);
+            currentCard.classList.add('hidden');
+
+            // Show next step
+            const nextStepNum = currentStep + 1;
+            
+            // Special handling for step 2 (intensity ratings)
+            if (nextStepNum === 2) {
+                generateIntensitySections();
+            }
+            
+            if (nextStepNum <= 4) {
+                setTimeout(() => {
+                    const nextCard = document.getElementById(`step${nextStepNum}`);
+                    nextCard.classList.remove('hidden');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }, 300);
+            }
+        }
+
+        function prevStep(currentStep) {
+            // Hide current step
+            const currentCard = document.getElementById(`step${currentStep}`);
+            currentCard.classList.add('hidden');
+
+            // Show previous step
+            const prevStepNum = currentStep - 1;
+            setTimeout(() => {
+                const prevCard = document.getElementById(`step${prevStepNum}`);
+                if (prevCard) {
+                    prevCard.classList.remove('hidden');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+            }, 300);
+        }
+
+        function validateStep(step) {
+            switch(step) {
+                case 1:
+                    const checkedSymptoms = document.querySelectorAll('input[name="symptoms"]:checked');
+                    if (checkedSymptoms.length === 0) {
+                        showError('Please select at least one symptom');
+                        return false;
+                    }
+                    return true;
+                case 2:
+                    // Validate that all selected symptoms have intensity ratings
+                    const selectedSymptoms = quizData.symptoms;
+                    for (let symptom of selectedSymptoms) {
+                        const intensity = document.getElementById(`intensity-${symptom.replace(/\s+/g, '-').toLowerCase()}`)?.value;
+                        const duration = document.getElementById(`duration-${symptom.replace(/\s+/g, '-').toLowerCase()}`)?.value;
+                        if (!intensity || !duration) {
+                            showError('Please rate the intensity and duration for all selected symptoms');
+                            return false;
+                        }
+                    }
+                    return true;
+                case 3:
+                    const ageRange = document.getElementById('ageRange').value;
+                    const periodStatus = document.getElementById('periodStatus').value;
+                    const hormoneTest = document.querySelector('input[name="hormoneTest"]:checked');
+                    const hormoneTherapy = document.querySelector('input[name="hormoneTherapy"]:checked');
+                    
+                    if (!ageRange) {
+                        showError('Please select your age range');
+                        return false;
+                    }
+                    if (!periodStatus) {
+                        showError('Please select your period status');
+                        return false;
+                    }
+                    if (!hormoneTest) {
+                        showError('Please select if you have tested hormones before');
+                        return false;
+                    }
+                    if (!hormoneTherapy) {
+                        showError('Please select your current hormone therapy status');
+                        return false;
+                    }
+                    return true;
+                case 4:
+                    const name = document.getElementById('name').value.trim();
+                    const email = document.getElementById('email').value.trim();
+                    if (!name) {
+                        showError('Please enter your name');
+                        return false;
+                    }
+                    if (!email || !isValidEmail(email)) {
+                        showError('Please enter a valid email address');
+                        return false;
+                    }
+                    return true;
+                default:
+                    return true;
+            }
+        }
+
+        function collectStepData(step) {
+            switch(step) {
+                case 1:
+                    const checkedSymptoms = document.querySelectorAll('input[name="symptoms"]:checked');
+                    quizData.symptoms = Array.from(checkedSymptoms).map(cb => cb.value);
+                    break;
+                case 2:
+                    // Collect intensity and duration for each symptom
+                    quizData.symptomIntensities = {};
+                    quizData.symptoms.forEach(symptom => {
+                        const symptomId = symptom.replace(/\s+/g, '-').toLowerCase();
+                        const intensity = document.getElementById(`intensity-${symptomId}`)?.value || '5';
+                        const duration = document.getElementById(`duration-${symptomId}`)?.value || '';
+                        quizData.symptomIntensities[symptom] = {
+                            intensity: parseInt(intensity),
+                            duration: duration
+                        };
+                    });
+                    break;
+                case 3:
+                    quizData.ageRange = document.getElementById('ageRange').value;
+                    quizData.periodStatus = document.getElementById('periodStatus').value;
+                    const hormoneTest = document.querySelector('input[name="hormoneTest"]:checked');
+                    const hormoneTherapy = document.querySelector('input[name="hormoneTherapy"]:checked');
+                    quizData.hormoneTest = hormoneTest ? hormoneTest.value : null;
+                    quizData.hormoneTherapy = hormoneTherapy ? hormoneTherapy.value : null;
+                    break;
+                case 4:
+                    quizData.name = document.getElementById('name').value.trim();
+                    quizData.email = document.getElementById('email').value.trim();
+                    break;
+            }
+        }
+
+        function generateIntensitySections() {
+            const container = document.getElementById('intensitySections');
+            container.innerHTML = '';
+            
+            quizData.symptoms.forEach(symptom => {
+                const symptomId = symptom.replace(/\s+/g, '-').toLowerCase();
+                const section = document.createElement('div');
+                section.className = 'symptom-intensity-section';
+                section.innerHTML = `
+                    <div class="symptom-title">${symptom}</div>
+                    <div class="intensity-container">
+                        <div class="intensity-label-row">
+                            <span class="intensity-label">Intensity</span>
+                            <span class="intensity-value" id="value-${symptomId}">5/10</span>
+                        </div>
+                        <input 
+                            type="range" 
+                            id="intensity-${symptomId}" 
+                            class="intensity-slider" 
+                            min="0" 
+                            max="10" 
+                            value="5" 
+                            oninput="updateIntensityValue('${symptomId}', this.value)"
+                        />
+                        <div class="intensity-labels">
+                            <span>Mild</span>
+                            <span>Moderate</span>
+                            <span>Severe</span>
+                        </div>
+                    </div>
+                    <div class="duration-container">
+                        <label class="duration-label">How long has this been happening?</label>
+                        <select id="duration-${symptomId}" class="duration-select">
+                            <option value="">Select duration</option>
+                            <option value="< 3 months">&lt; 3 months</option>
+                            <option value="3-6 months">3-6 months</option>
+                            <option value="6-12 months">6-12 months</option>
+                            <option value="1-2 years">1-2 years</option>
+                            <option value="> 2 years">&gt; 2 years</option>
+                        </select>
+                    </div>
+                `;
+                container.appendChild(section);
+            });
+        }
+
+        function updateIntensityValue(symptomId, value) {
+            const valueElement = document.getElementById(`value-${symptomId}`);
+            if (valueElement) {
+                valueElement.textContent = `${value}/10`;
+            }
+        }
+
+        function showError(message) {
+            // Remove existing error messages
+            const existingError = document.querySelector('.error-message');
+            if (existingError) {
+                existingError.remove();
+            }
+
+            // Create error message
+            const errorDiv = document.createElement('div');
+            errorDiv.className = 'error-message';
+            errorDiv.textContent = message;
+
+            // Insert at top of current card
+            const currentStep = document.querySelector('.card:not(.hidden)');
+            currentStep.insertBefore(errorDiv, currentStep.firstChild);
+
+            // Scroll to error
+            errorDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+            // Remove error after 5 seconds
+            setTimeout(() => {
+                errorDiv.remove();
+            }, 5000);
+        }
+
+        function isValidEmail(email) {
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
+        }
+
+        async function submitQuiz() {
+            // Validate step 4
+            if (!validateStep(4)) {
+                return;
+            }
+
+            // Collect final step data
+            collectStepData(4);
+
+            // Hide step 4, show loading
+            const step4Card = document.getElementById('step4');
+            step4Card.classList.add('hidden');
+
+            setTimeout(() => {
+                const loadingCard = document.getElementById('loading');
+                loadingCard.classList.remove('hidden');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }, 300);
+
+            try {
+                // Send POST request to webhook
+                const response = await fetch(WEBHOOK_URL, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(quizData)
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const result = await response.json();
+
+                // Hide loading, show results
+                setTimeout(() => {
+                    const loadingCard = document.getElementById('loading');
+                    loadingCard.classList.add('hidden');
+
+                    // Populate results
+                    document.getElementById('analysisText').textContent = result.analysis || 'Thank you for completing the assessment.';
+                    document.getElementById('productName').textContent = result.product_name || 'Hormone Panel';
+                    document.getElementById('productLink').href = result.product_link || '#';
+
+                    const resultsCard = document.getElementById('results');
+                    resultsCard.classList.remove('hidden');
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }, 1500);
+
+            } catch (error) {
+                console.error('Error submitting quiz:', error);
+                
+                // Show error message
+                setTimeout(() => {
+                    const loadingCard = document.getElementById('loading');
+                    loadingCard.classList.add('hidden');
+
+                    // Show error in results card
+                    document.getElementById('analysisText').textContent = 'We encountered an error processing your assessment. Please try again later or contact us directly.';
+                    document.getElementById('productName').textContent = 'Hormone Panel';
+                    document.getElementById('productLink').href = '#';
+
+                    const resultsCard = document.getElementById('results');
+                    resultsCard.classList.remove('hidden');
+                }, 1500);
+            }
+        }
+
+        // Handle card radio button styling
+        function updateCardRadioStyling() {
+            document.querySelectorAll('.card-radio-item input[type="radio"]').forEach(radio => {
+                // Remove existing listeners to avoid duplicates
+                const newRadio = radio.cloneNode(true);
+                radio.parentNode.replaceChild(newRadio, radio);
+                
+                newRadio.addEventListener('change', function() {
+                    // Remove selected class from all items in the same group
+                    const groupName = this.name;
+                    document.querySelectorAll(`input[name="${groupName}"]`).forEach(r => {
+                        r.closest('.card-radio-item').classList.remove('selected');
+                    });
+                    // Add selected class to the checked item
+                    if (this.checked) {
+                        this.closest('.card-radio-item').classList.add('selected');
+                    }
+                });
+                
+                // Set initial state
+                if (newRadio.checked) {
+                    newRadio.closest('.card-radio-item').classList.add('selected');
+                }
+            });
+        }
+
+        // Allow Enter key to submit on text inputs
+        document.addEventListener('DOMContentLoaded', function() {
+            const inputs = document.querySelectorAll('input[type="text"], input[type="email"], input[type="number"]');
+            inputs.forEach(input => {
+                input.addEventListener('keypress', function(e) {
+                    if (e.key === 'Enter') {
+                        e.preventDefault();
+                        const currentStep = parseInt(this.closest('.card').id.replace('step', ''));
+                        if (currentStep < 4) {
+                            nextStep(currentStep);
+                        } else {
+                            submitQuiz();
+                        }
+                    }
+                });
+            });
+            
+            // Initialize card radio styling
+            updateCardRadioStyling();
+            
+            // Re-initialize when step 3 is shown
+            const observer = new MutationObserver(function(mutations) {
+                mutations.forEach(function(mutation) {
+                    if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                        const target = mutation.target;
+                        if (target.id === 'step3' && !target.classList.contains('hidden')) {
+                            setTimeout(updateCardRadioStyling, 100);
+                        }
+                    }
+                });
+            });
+            
+            const step3 = document.getElementById('step3');
+            if (step3) {
+                observer.observe(step3, { attributes: true });
+            }
+        });
+    </script>
+</body>
+</html>
+
