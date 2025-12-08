@@ -29,3 +29,7 @@
 # Calculator routes
 /calculator /Nutrient-Calculator/ 301
 /nutrient-calculator /Nutrient-Calculator/ 301
+
+# Hormone quiz route
+/hormone-quiz /Hormone%20Quiz/ 200
+/hormone-quiz/ /Hormone%20Quiz/ 200

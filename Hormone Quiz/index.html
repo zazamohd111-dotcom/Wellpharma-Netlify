@@ -137,6 +137,7 @@
 
         input[type="text"],
         input[type="email"],
+        input[type="tel"],
         input[type="number"],
         select,
         textarea {
@@ -1142,7 +1143,7 @@
                 <div class="progress-bar-fill progress-step-4"></div>
             </div>
             <h2 class="step-title">Almost done!</h2>
-            <p class="step-description">Please provide your name and email to receive your personalized results</p>
+            <p class="step-description">Please provide your contact information to receive your personalized results</p>
             
             <div class="form-group">
                 <label for="name">Full Name</label>
@@ -1153,6 +1154,12 @@
                 <label for="email">Email Address</label>
                 <input type="email" id="email" name="email" placeholder="Enter your email address" required>
             </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+
             <div class="button-row">
                 <button class="btn btn-secondary" type="button" onclick="prevStep(4)">Back</button>
                 <button class="btn" type="button" onclick="submitQuiz()">Submit Assessment</button>
@@ -1247,8 +1254,8 @@
     </div>
 
     <script>
-        // Webhook URL - Replace with your actual n8n webhook URL
-        const WEBHOOK_URL = 'https://YOUR-N8N-WEBHOOK-URL-HERE';
+        // Webhook URL - n8n backend endpoint
+        const WEBHOOK_URL = 'https://n8n.srv928524.hstgr.cloud/webhook/hormone-quiz';
 
         // State management
         const quizData = {
@@ -1259,7 +1266,8 @@
             hormoneTest: null,
             hormoneTherapy: null,
             name: '',
-            email: ''
+            email: '',
+            phone: ''
         };
 
         function nextStep(currentStep) {
@@ -1401,6 +1409,7 @@
                 case 4:
                     quizData.name = document.getElementById('name').value.trim();
                     quizData.email = document.getElementById('email').value.trim();
+                    quizData.phone = document.getElementById('phone').value.trim();
                     break;
             }
         }
@@ -1508,31 +1517,59 @@
             }, 300);
 
             try {
+                // Prepare data for n8n webhook (map to expected field names)
+                const webhookData = {
+                    name: quizData.name,
+                    email: quizData.email,
+                    phone: quizData.phone,
+                    age: quizData.ageRange,
+                    symptoms: quizData.symptoms,
+                    symptomIntensities: quizData.symptomIntensities,
+                    periodStatus: quizData.periodStatus,
+                    previousTesting: quizData.hormoneTest,
+                    onHRT: quizData.hormoneTherapy
+                };
+
+                console.log('Sending data to n8n webhook:', JSON.stringify(webhookData, null, 2));
+
                 // Send POST request to webhook
                 const response = await fetch(WEBHOOK_URL, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
                     },
-                    body: JSON.stringify(quizData)
+                    body: JSON.stringify(webhookData)
                 });
 
+                console.log('Webhook response status:', response.status);
+
                 if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
+                    // Try to get error details from response
+                    let errorDetails = '';
+                    try {
+                        const errorBody = await response.text();
+                        console.error('Error response body:', errorBody);
+                        errorDetails = errorBody;
+                    } catch (e) {
+                        console.error('Could not read error response');
+                    }
+                    throw new Error(`HTTP error! status: ${response.status}. Details: ${errorDetails}`);
                 }
 
                 const result = await response.json();
+                console.log('Webhook response data:', result);
 
                 // Hide loading, show results
                 setTimeout(() => {
                     const loadingCard = document.getElementById('loading');
                     loadingCard.classList.add('hidden');
 
-                    // Populate results with structured sections
-                    document.getElementById('analysisText').innerHTML = result.analysis || result.validation || 'Thank you for completing the assessment. Dr. Zahraa will review your responses.';
-                    document.getElementById('lifestyleContent').innerHTML = result.lifestyle || 'Lifestyle recommendations will be provided based on your assessment.';
-                    document.getElementById('testingContent').innerHTML = result.testing || result.recommended_testing || 'Testing recommendations will be provided based on your assessment.';
-                    document.getElementById('supplementsContent').innerHTML = result.supplements || result.targeted_support || 'Supplement recommendations will be provided based on your assessment.';
+                    // Populate results with structured sections (data is nested under result.results)
+                    const data = result.results || result;
+                    document.getElementById('analysisText').innerHTML = data.analysis || result.analysis || 'Thank you for completing the assessment. Dr. Zahraa will review your responses.';
+                    document.getElementById('lifestyleContent').innerHTML = data.lifestyle || result.lifestyle || 'Lifestyle recommendations will be provided based on your assessment.';
+                    document.getElementById('testingContent').innerHTML = data.testing || result.testing || 'Testing recommendations will be provided based on your assessment.';
+                    document.getElementById('supplementsContent').innerHTML = data.supplements || result.supplements || 'Supplement recommendations will be provided based on your assessment.';
 
                     const resultsCard = document.getElementById('results');
                     resultsCard.classList.remove('hidden');
@@ -1642,7 +1679,7 @@
 
         // Allow Enter key to submit on text inputs
         document.addEventListener('DOMContentLoaded', function() {
-            const inputs = document.querySelectorAll('input[type="text"], input[type="email"], input[type="number"]');
+            const inputs = document.querySelectorAll('input[type="text"], input[type="email"], input[type="tel"], input[type="number"]');
             inputs.forEach(input => {
                 input.addEventListener('keypress', function(e) {
                     if (e.key === 'Enter') {
