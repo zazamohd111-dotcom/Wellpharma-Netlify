@@ -193,6 +193,9 @@
             100% { transform: translateY(-5px) scale(1.05); }
         }
         
+        /* Quiz Gateway Section */
+        .quiz-gateway-section .btn:hover{transform:translateY(-2px);opacity:0.9}
+        
         /* Tablet Styles */
         @media (max-width: 1024px) {
             .features-grid{grid-template-columns:repeat(2,1fr)}
@@ -231,6 +234,12 @@
             .dropdown.active .dropdown-link{background:var(--white) !important;padding:0.625rem 1rem !important;margin:0.25rem 0 !important;border-radius:6px;display:block !important;box-shadow:0 1px 3px rgba(0,0,0,0.05)}
             .dropdown.active .dropdown-link:hover{background:#f0f0f0 !important;transform:translateX(5px)}
             .dropdown.active .dropdown-arrow{transform:rotate(180deg)}
+            /* Quiz Gateway Mobile Styles */
+            .quiz-gateway-section{padding:2rem 1.5rem !important}
+            .quiz-gateway-section .container > div{padding:1.5rem !important}
+            .quiz-gateway-section h2{font-size:1.3rem !important}
+            .quiz-gateway-section p{font-size:0.95rem !important}
+            .quiz-gateway-section .btn{font-size:0.95rem !important;padding:12px 24px !important;width:100%;max-width:100%}
         }
     </style>
     
@@ -359,8 +368,8 @@
                 <p>Take control of your health with ZRT Laboratory testing solutions.</p>
                 <p>Licensed pharmacist consultation included with every test.</p>
                 <div class="hero-cta">
-                    <a href="#hormone-kits" class="btn btn-primary">Shop Hormone Kits</a>
-                    <a href="https://cal.com/wellpharma-pharmacy-esydym/hormone-consult" class="btn btn-secondary" target="_blank">Schedule Consultation</a>
+                    <a href="Hormone Quiz/index.html" class="btn btn-primary">Take Free Assessment</a>
+                    <a href="#hormone-kits" class="btn btn-secondary">Shop Kits →</a>
                 </div>
             </div>
             
@@ -397,11 +406,27 @@
         </div>
     </section>
 
+    <!-- Quiz Gateway Section -->
+    <section class="section quiz-gateway-section" style="background: linear-gradient(135deg, rgb(77,123,107) 0%, rgb(144,173,114) 100%); padding: 2.5rem 2rem; text-align: center;">
+        <div class="container" style="max-width: 900px;">
+            <div style="background: rgba(255, 255, 255, 0.95); border-radius: 12px; padding: 2rem 2.5rem; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);">
+                <h2 style="color: var(--primary-color); font-size: 1.6rem; margin-bottom: 0.75rem; font-weight: 700;">Not Sure Which Test is Right for You?</h2>
+                <p style="color: #666; font-size: 1rem; margin-bottom: 1.5rem; line-height: 1.5;">
+                    Take our free 2-minute assessment and get personalized test recommendations based on your symptoms.
+                </p>
+                <a href="Hormone Quiz/index.html" class="btn" style="background: var(--primary-color); color: white; font-size: 1rem; padding: 12px 32px; border-radius: 8px; display: inline-block; font-weight: 600; text-decoration: none; transition: all 0.3s ease; border: none;">
+                    Take Free Assessment
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- Comprehensive Hormone Testing Solutions Section -->
     <section id="hormone-kits" class="section">
         <div class="container">
             <h2>Comprehensive Hormone Testing Solutions</h2>
-            <p style="text-align: center; font-size: 1.1rem; margin-bottom: 3rem; color: #666;">Professional-grade testing kits with expert pharmacist interpretation and consultation</p>
+            <p style="text-align: center; font-size: 1.1rem; margin-bottom: 1rem; color: #666;">Professional-grade testing kits with expert pharmacist interpretation and consultation</p>
+            <p style="text-align: center; font-size: 0.95rem; margin-bottom: 3rem; color: #999; font-style: italic;">Already know which test you need? Shop directly below.</p>
             
             <div class="features-grid">
                 <div class="feature-card animate-on-scroll">
