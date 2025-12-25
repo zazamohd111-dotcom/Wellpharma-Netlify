@@ -238,7 +238,7 @@ Based on clinical research and our experience supporting hundreds of GLP-1 patie
 
 When appetite is suppressed, getting enough protein from food alone becomes nearly impossible. High-quality protein powder makes it easy.
 
-*WellPharma carries professional-grade Ortho Molecular protein powders—the same quality your doctor would recommend.*
+*WellPharma carries [professional-grade protein powders](https://www.wellpharmapharmacy.com/supplements.html)—the same quality your doctor would recommend.*
 
 **2. B12 (500-1000 mcg daily)**
 
@@ -255,8 +255,6 @@ When eating less, you need insurance that you're getting essential nutrients. A 
 **5. Probiotics and Digestive Support**
 
 GI side effects are common with oral Wegovy. Probiotics and gentle fiber supplements can help manage constipation and maintain gut health.
-
-**For complete details on our [GLP-1 supplement support program](https://www.wellpharmapharmacy.com/glp1-medications.html), including our specially designed supplement packages, visit our GLP-1 medications page.**
 
 ### Why Pharmacist Counseling Is Essential
 
@@ -301,7 +299,7 @@ Your doctor prescribes the medication. Your pharmacist ensures you use it correc
 
 * Starter Pack: Protein powder, multivitamin, B12
 * Complete Pack: Everything above plus probiotics, vitamin D, fiber support
-* Premium Pack: Full Ortho Molecular supplement protocol plus monthly testing
+* Premium Pack: Full supplement protocol plus monthly testing
 
 Shop supplements online at [shops.wellpharmapharmacy.com](https://shops.wellpharmapharmacy.com/) or visit us in person at our Randallstown location.
 
@@ -376,5 +374,20 @@ Randallstown, MD 21133\
 - - -
 
 *This information is for educational purposes only and does not constitute medical advice. Always consult with your healthcare provider about medications, supplements, and weight loss strategies appropriate for your individual needs.*
+
+<!--StartFragment-->
+
+## Sources & References
+
+1. Novo Nordisk Press Release (December 22, 2025): "Novo Nordisk Announces FDA Approval of Oral Wegovy for Weight Management" - <https://www.novonordisk.com/news-and-media/news-details.html?id=916472>
+2. FDA Prescribing Information for Oral Semaglutide 25mg (2025) - Label and clinical trial data
+3. OASIS 4 Clinical Trial Results (Applied Clinical Trials Online, December 2025) - Efficacy and safety data for oral semaglutide in obesity treatment
+4. ABC News (December 23, 2025): "FDA Approves Wegovy Pill for Weight Loss" - Consumer-focused coverage of approval
+5. NowPatient Health Blog: "Wegovy Pill vs. Injection: Comparison Guide" - Administration and adherence data
+6. BodySpec Analysis (December 2025): "Wegovy Pills 2026: Complete Guide to Approval, Cost, and Results" - Cost and availability information
+7. Duke Foundation Relations: "Wegovy Pill vs Injection 2025" - Clinical comparison data
+8. Wegovy Official Website: Patient information and savings program details
+
+<!--EndFragment-->
 
 <!--EndFragment-->
