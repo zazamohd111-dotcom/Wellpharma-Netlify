@@ -384,4 +384,27 @@ With Baltimore County's free 24/7 drop boxes just minutes away from Randallstown
 
 **Questions about medication disposal, medication management, or pharmacy services in Randallstown? Contact WellPharma Pharmacy at (410) 698-9068. We're here to help.**
 
+<!--StartFragment-->
+
+## Sources & References
+
+1. **Baltimore County Government** - Drug Disposal Program and Precinct Drop Box Locations\
+   <https://www.baltimorecountymd.gov/departments/health/health-services/substance-use/drug-disposal>
+2. **DEA (Drug Enforcement Administration)** - National Prescription Drug Take-Back Day Statistics and Event Information\
+   <https://www.dea.gov/takebackday>
+3. **FDA (Food and Drug Administration)** - Safe Disposal of Medicines Guidelines and Flush List\
+   <https://www.fda.gov/drugs/disposal-unused-medicines-what-you-should-know>
+4. **EPA (Environmental Protection Agency)** - Impact of Pharmaceuticals Released to the Environment\
+   <https://www.epa.gov/household-medication-disposal>
+5. **Maryland Department of Health** - Prescription Drug Repository Program\
+   <http://dhmh.maryland.gov/pharmacy/Pages/drug-repository.aspx>
+6. **University of Maryland School of Medicine** - Opioid Crisis and Substance Use Research\
+   <https://www.medschool.umaryland.edu>
+7. **Minnesota Pollution Control Agency** - Take-Back Program Impact Data (730,000 lbs collected 2007-2021)
+8. **UK NHS and Pharmaceutical Journal** - Medication Waste Statistics (£300 million annually, CO2 emissions data)
+9. **Frontiers in Public Health** - Global Medication Disposal Practices Study (72% improper disposal rate)
+10. **American Cancer Society** - Medication Disposal Best Practices for Healthcare Settings
+
+<!--EndFragment-->
+
 <!--EndFragment-->
