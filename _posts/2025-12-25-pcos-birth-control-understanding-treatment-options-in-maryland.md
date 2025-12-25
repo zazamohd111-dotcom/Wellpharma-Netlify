@@ -2,7 +2,7 @@
 title: "PCOS & Birth Control: Understanding Treatment Options in Maryland"
 date: 2026-01-21T12:00:52.025Z
 author: Dr. Zahraa Babiker
-image: /images/blog/expressive-senior-woman-posing-1-.jpg
+image: /images/blog/2111.q702.003.s.m005.c12.menstruation-pms-woman-illustration.jpg
 excerpt: Living with PCOS? Learn why doctors prescribe birth control for symptom
   management and how Maryland pharmacists can help with convenient contraceptive
   access and support
