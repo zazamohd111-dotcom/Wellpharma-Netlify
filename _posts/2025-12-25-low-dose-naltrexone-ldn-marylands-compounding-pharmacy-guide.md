@@ -126,6 +126,8 @@ Low-dose naltrexone is used "off-label" (meaning for conditions beyond its origi
 
 **Important note:** LDN doesn't work for everyone, and response is highly individual. Research suggests about 50% of patients experience meaningful benefit, while the other 50% see little to no improvement. The only way to know if it will help you is to try it under medical supervision.
 
+![](/images/blog/gemini_generated_image_qkqdlaqkqdlaqkqd.png)
+
 ## The Science Behind LDN: Why Low Doses Work Differently
 
 This is where LDN gets really interesting from a scientific perspective.
