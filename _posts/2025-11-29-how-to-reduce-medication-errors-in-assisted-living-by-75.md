@@ -1,6 +1,6 @@
 ---
 title: How to Reduce Medication Errors in Assisted Living by 75%
-date: 2026-01-07T12:00:14.448Z
+date: 2026-02-04T12:00:14.448Z
 author: Dr. Zahraa Babiker
 image: /images/blog/pexels-shvetsa-3683086.jpg
 excerpt: Medication errors affect 27% of assisted living residents. Learn how
