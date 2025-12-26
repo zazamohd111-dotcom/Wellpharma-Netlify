@@ -177,77 +177,6 @@
     <!-- Custom Styles for Quick Access & Community Sections -->
     <style>
         /* Quick Access Section */
-        .quick-access-section {
-            padding: 4rem 0;
-        }
-
-        .quick-access-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
-        }
-
-        .quick-access-card {
-            background: var(--white);
-            padding: 2rem;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-            text-decoration: none;
-            color: var(--text-color);
-            transition: all 0.3s ease;
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            border: 2px solid transparent;
-        }
-
-        .quick-access-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-            border-color: var(--primary-color);
-        }
-
-
-        .quick-access-icon {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            color: #3498db;
-        }
-
-        .quick-access-icon i {
-            display: block;
-        }
-
-        .quick-access-card h3 {
-            color: var(--primary-color);
-            margin-bottom: 0.5rem;
-            font-size: 1.3rem;
-        }
-
-        .quick-access-card p {
-            color: #666;
-            margin-bottom: 0;
-            font-size: 0.95rem;
-        }
-
-        .quick-access-arrow {
-            position: absolute;
-            top: 1rem;
-            right: 1rem;
-            font-size: 1.5rem;
-            color: var(--primary-color);
-            opacity: 0;
-            transition: all 0.3s ease;
-        }
-
-        .quick-access-card:hover .quick-access-arrow {
-            opacity: 1;
-            transform: translateX(5px);
-        }
-
         /* Health Assessments Section - Compact */
         .health-assessments-section {
             padding: 3rem 0;
@@ -425,10 +354,6 @@
         /* Section Background Colors - Monochromatic Green + Peach Accent */
         .services-section {
             background: #FFFFFF; /* Clean white for professional services */
-        }
-
-        .quick-access-section {
-            background: #EBF3ED; /* Light green - existing */
         }
 
         .health-assessments-section {
@@ -732,11 +657,6 @@
             .services-grid {
                 grid-template-columns: 1fr !important;
                 gap: 1.5rem !important;
-            }
-
-            .quick-access-grid {
-                grid-template-columns: 1fr;
-                gap: 1.5rem;
             }
 
             .virtual-assistants-grid-compact {
@@ -1307,44 +1227,6 @@
                         <span class="show-less-text" style="display: none;">Show Less</span>
                         <i class="fas fa-chevron-down toggle-icon"></i>
                     </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Quick Access Hub Section -->
-        <section id="quick-access" class="quick-access-section section-light">
-            <div class="container">
-                <h2>Quick Access to Our Services</h2>
-                <p class="section-subtitle">Get started with our most popular pharmacy services</p>
-
-                <div class="quick-access-grid">
-                    <a href="https://app.formdr.com/practice/NDUzNjE=/form/eg8P_60baYvMleMIRDy3ux7YtPT4GAAY" class="quick-access-card" target="_blank">
-                        <div class="quick-access-icon"><i class="fas fa-prescription-bottle-alt"></i></div>
-                        <h3>Refill Prescription</h3>
-                        <p>Quick and easy prescription refills</p>
-                        <span class="quick-access-arrow">→</span>
-                    </a>
-
-                    <a href="https://us.fullscript.com/welcome/wellpharmapharmacy/store-start?utm_medium=webreferral&utm_source=other&utm_campaign=abmwebbuttons_dark_728x90.svg&signup_source=website_buttons" class="quick-access-card" target="_blank">
-                        <div class="quick-access-icon"><i class="fas fa-shopping-bag"></i></div>
-                        <h3>Shop Supplements</h3>
-                        <p>Premium vitamins & health products</p>
-                        <span class="quick-access-arrow">→</span>
-                    </a>
-
-                    <a href="https://pharmacy.imagemovermd.com/v1/web-workflow/117/self-registration.html" class="quick-access-card" target="_blank">
-                        <div class="quick-access-icon"><i class="fas fa-syringe"></i></div>
-                        <h3>Schedule Vaccine</h3>
-                        <p>Flu, COVID-19, RSV & more</p>
-                        <span class="quick-access-arrow">→</span>
-                    </a>
-
-                    <a href="https://cal.com/wellpharma-pharmacy-esydym/15min" class="quick-access-card" target="_blank">
-                        <div class="quick-access-icon"><i class="fas fa-pills"></i></div>
-                        <h3>Birth Control Consultation</h3>
-                        <p>Same-day prescriptions available</p>
-                        <span class="quick-access-arrow">→</span>
-                    </a>
                 </div>
             </div>
         </section>
