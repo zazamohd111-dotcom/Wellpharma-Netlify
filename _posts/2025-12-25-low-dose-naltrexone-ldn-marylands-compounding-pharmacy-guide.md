@@ -2,7 +2,7 @@
 title: "Low-Dose Naltrexone (LDN): Maryland's Compounding Pharmacy Guide"
 date: 2026-01-14T12:00:27.254Z
 author: Dr. Zahraa Babiker
-image: /images/blog/expressive-senior-woman-posing-1-.jpg
+image: /images/blog/front-view-sick-young-female-feeling-very-ill-taking-pills-white-surface.jpg
 excerpt: " Discover how low-dose naltrexone (LDN) helps chronic pain, autoimmune
   conditions, fibromyalgia & Long COVID. Learn where to get LDN in Maryland from
   a trusted compounding pharmacy."
