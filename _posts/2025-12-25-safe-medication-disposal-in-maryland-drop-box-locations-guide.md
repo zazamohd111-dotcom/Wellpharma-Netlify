@@ -2,7 +2,7 @@
 title: "Safe Medication Disposal in Maryland: Drop Box Locations Guide"
 date: 2026-01-28T12:00:31.577Z
 author: Dr. Zahraa Babiker
-image: /images/blog/expressive-senior-woman-posing-1-.jpg
+image: /images/blog/gemini_generated_image_4loz5y4loz5y4loz.png
 excerpt: Find medication disposal locations in Baltimore County, MD. 24/7 drop
   boxes, DEA Take-Back events, and safe disposal methods from WellPharma
   Pharmacy.
