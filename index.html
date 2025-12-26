@@ -248,74 +248,327 @@
             transform: translateX(5px);
         }
 
-        /* Virtual Assistants Section */
-        .virtual-assistants-section {
-            padding: 5rem 0;
-            background: var(--white);
+        /* Health Assessments Section - Compact */
+        .health-assessments-section {
+            padding: 3rem 0;
+            background: var(--light-bg);
         }
 
-        .virtual-assistants-grid {
+        .assessments-grid-compact {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
             margin-top: 2rem;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
-        .assistant-card {
+        .assessment-card-compact {
             background: var(--white);
-            padding: 2.5rem;
-            border-radius: 16px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-            text-align: center;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(77,123,107,0.1);
             transition: all 0.3s ease;
             border: 2px solid transparent;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            text-decoration: none;
+            display: block;
+            text-align: center;
         }
 
-        .assistant-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 12px 30px rgba(77,123,107,0.15);
+        .assessment-card-compact:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(77,123,107,0.15);
             border-color: var(--primary-color);
         }
 
-        .assistant-icon {
-            width: 80px;
-            height: 80px;
-            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 1.5rem;
-            box-shadow: 0 4px 15px rgba(77,123,107,0.2);
-        }
-
-        .assistant-icon i {
-            font-size: 2rem;
-            color: var(--white);
-        }
-
-        .assistant-card h3 {
+        .assessment-card-compact i {
+            font-size: 3rem;
             color: var(--primary-color);
-            font-size: 1.5rem;
             margin-bottom: 1rem;
+            display: block;
+        }
+
+        .assessment-card-compact h3 {
+            color: var(--primary-color);
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+
+        .assessment-card-compact p {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+
+        .assessment-arrow {
+            color: var(--secondary-color);
+            font-weight: 600;
+            font-size: 1rem;
+            display: inline-block;
+            transition: transform 0.3s ease;
+        }
+
+        .assessment-card-compact:hover .assessment-arrow {
+            transform: translateX(5px);
+        }
+
+        /* Mobile Responsive for Assessments */
+        @media (max-width: 768px) {
+            .assessments-grid-compact {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            .assessment-card-compact {
+                padding: 1.5rem;
+            }
+
+            .assessment-card-compact i {
+                font-size: 2.5rem;
+            }
+
+            .assessment-card-compact h3 {
+                font-size: 1.25rem;
+            }
+        }
+
+        /* Virtual Assistants Section - Compact Version */
+        .virtual-assistants-section {
+            padding: 3rem 0;
+            background: var(--white);
+        }
+
+        .virtual-assistants-grid-compact {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .assistant-card-compact {
+            background: var(--light-bg);
+            padding: 1.5rem;
+            border-radius: 12px;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            text-decoration: none;
+            display: block;
+        }
+
+        .assistant-card-compact:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(77,123,107,0.15);
+            border-color: var(--primary-color);
+            background: var(--white);
+        }
+
+        .assistant-card-compact i {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .assistant-card-compact h3 {
+            color: var(--primary-color);
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
             font-weight: 700;
         }
 
-        .assistant-card p {
+        .assistant-card-compact p {
             color: #666;
-            font-size: 1rem;
-            line-height: 1.6;
-            margin-bottom: 1.5rem;
-            flex-grow: 1;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            margin: 0;
         }
 
-        .assistant-card .btn {
-            margin-top: auto;
-            width: 100%;
+        /* Announcement Section */
+        .announcement-section {
+            padding: 2rem 0;
+            background: var(--light-bg);
+        }
+
+        .announcement-banner {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            padding: 1.5rem 2rem;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            box-shadow: 0 4px 15px rgba(77,123,107,0.2);
+        }
+
+        .announcement-banner i {
+            font-size: 2.5rem;
+            color: var(--white);
+            flex-shrink: 0;
+        }
+
+        .announcement-content h3 {
+            color: var(--white);
+            font-size: 1.3rem;
+            margin-bottom: 0.25rem;
+            font-weight: 700;
+        }
+
+        .announcement-content p {
+            color: rgba(255,255,255,0.95);
+            font-size: 1rem;
+            margin: 0;
+        }
+
+        /* Section Background Colors - Monochromatic Green + Peach Accent */
+        .services-section {
+            background: #FFFFFF; /* Clean white for professional services */
+        }
+
+        .quick-access-section {
+            background: #EBF3ED; /* Light green - existing */
+        }
+
+        .health-assessments-section {
+            background: #F5FAF7; /* Very light green tint */
+        }
+
+        .virtual-assistants-section {
+            background: #FFFFFF; /* White for tech/modern feel */
+        }
+
+        /* Pharmacy Services - Expandable */
+        .service-card-hidden {
+            display: none;
+        }
+
+        .service-card-hidden.show {
+            display: block;
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .services-toggle-container {
             text-align: center;
+            margin-top: 2rem;
+        }
+
+        .btn-show-more {
+            background: var(--primary-color);
+            color: var(--white);
+            border: none;
+            padding: 12px 32px;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .btn-show-more:hover {
+            background: var(--secondary-color);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(77,123,107,0.3);
+        }
+
+        .toggle-icon {
+            transition: transform 0.3s ease;
+        }
+
+        .btn-show-more.active .toggle-icon {
+            transform: rotate(180deg);
+        }
+
+        /* Birth Control Hero Section - Condensed */
+        .birth-control-section {
+            background: #FFF5F0 !important; /* Subtle peach/coral for women's health */
+        }
+
+        .birth-control-hero {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .birth-control-image {
+            position: relative;
+        }
+
+        .birth-control-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 16px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+        }
+
+        .birth-control-content h2 {
+            color: var(--primary-color);
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1.25rem;
+            line-height: 1.3;
+        }
+
+        .birth-control-content p {
+            color: #555;
+            font-size: 1.15rem;
+            line-height: 1.7;
+            margin-bottom: 2rem;
+        }
+
+        .birth-control-cta {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: nowrap;
+        }
+
+        .birth-control-cta .btn {
+            padding: 12px 24px;
+            font-size: 1.1rem;
+            flex: 1;
+        }
+
+        /* Mobile responsive for birth control hero */
+        @media (max-width: 768px) {
+            .birth-control-hero {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .birth-control-content h2 {
+                font-size: 1.75rem;
+            }
+
+            .birth-control-content p {
+                font-size: 1rem;
+            }
+
+            .birth-control-cta {
+                flex-direction: column;
+            }
+
+            .birth-control-cta .btn {
+                width: 100%;
+                flex: none;
+            }
         }
 
         /* Community Section - Centered Podcast Layout */
@@ -475,46 +728,110 @@
 
         /* Mobile Responsive */
         @media (max-width: 768px) {
+            /* Force services grid to 1 column on mobile */
+            .services-grid {
+                grid-template-columns: 1fr !important;
+                gap: 1.5rem !important;
+            }
+
             .quick-access-grid {
                 grid-template-columns: 1fr;
                 gap: 1.5rem;
             }
 
-            .virtual-assistants-grid {
+            .virtual-assistants-grid-compact {
                 grid-template-columns: 1fr;
-                gap: 1.5rem;
+                gap: 1rem;
             }
 
-            .assistant-card {
-                padding: 2rem;
+            .assistant-card-compact {
+                padding: 1.25rem;
             }
 
-            .community-card-featured {
-                padding: 2rem;
-                border-radius: 16px;
-            }
-
-            .podcast-badge-wrapper {
-                position: static;
+            .announcement-banner {
+                flex-direction: column;
                 text-align: center;
-                margin-bottom: 1.5rem;
+                gap: 1rem;
+                padding: 1.5rem;
             }
 
-            .podcast-cover-placeholder-large {
-                width: 240px;
-                height: 140px;
+            .announcement-banner i {
+                font-size: 2rem;
             }
 
-            .podcast-info-centered h3 {
-                font-size: 1.75rem;
+            .announcement-content h3 {
+                font-size: 1.1rem;
             }
 
-            .podcast-description {
-                font-size: 1rem;
+            .announcement-content p {
+                font-size: 0.9rem;
             }
 
-            .podcast-topics ul {
-                grid-template-columns: 1fr;
+            /* Fix contact form alignment on mobile */
+            .contact-section {
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+            }
+
+            .contact-section .container {
+                padding-left: 1rem !important;
+                padding-right: 1rem !important;
+                max-width: 100% !important;
+                overflow-x: hidden !important;
+            }
+
+            .contact-content {
+                padding: 0 !important;
+                margin: 0 !important;
+                gap: 1rem !important;
+            }
+
+            .contact-info {
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+
+            .contact-form {
+                padding: 1.5rem !important;
+                margin: 0 !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                box-sizing: border-box !important;
+                overflow: hidden !important;
+            }
+
+            .contact-card {
+                padding: 1.5rem !important;
+                margin-bottom: 1rem !important;
+                margin-left: 0 !important;
+                margin-right: 0 !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                box-sizing: border-box !important;
+            }
+
+            .contact-form h3 {
+                margin-top: 0 !important;
+            }
+
+            .form-group {
+                margin-bottom: 1rem !important;
+                width: 100% !important;
+            }
+
+            .form-group label {
+                display: block !important;
+                width: 100% !important;
+            }
+
+            .form-group input,
+            .form-group select,
+            .form-group textarea {
+                width: 100% !important;
+                max-width: 100% !important;
+                box-sizing: border-box !important;
+                padding: 0.75rem !important;
+                font-size: 16px !important;
             }
         }
     </style>
@@ -880,11 +1197,6 @@
                             <span>COVID-19 Testing & Vaccines</span>
                         </div>
                     </div>
-                    
-                    <div class="hero-cta">
-                        <a href="https://cal.com/wellpharma-pharmacy-esydym/15min" class="btn btn-primary" target="_blank">Get Birth Control Today</a>
-                        <a href="tel:+14106989068" class="btn btn-secondary">Call (410) 698-9068</a>
-                    </div>
                 </div>
                 
                 <div class="hero-image">
@@ -900,54 +1212,23 @@
         <!-- Birth Control Section -->
         <section id="birth-control" class="birth-control-section section-light">
             <div class="container">
-                <div class="section-content">
-                    <div class="content-left">
-                        <h2>Same-Day Birth Control Prescribed by a Pharmacist - No Doctor Visit Required</h2>
-                        <p class="section-subtitle">Our licensed pharmacist can prescribe birth control directly to you, making contraceptive access faster and more convenient than ever.</p>
-                        
-                        <h3>What We Offer:</h3>
-                        <ul>
-                            <li>We offer various options of birth control methods including pills, patches, vaginal rings and emergency contraceptions</li>
-                            <li>Same-day pickup or free discrete delivery</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="content-right">
+                <div class="birth-control-hero">
+                    <div class="birth-control-image">
                         <picture>
-                            <source srcset="Image.webp/birth-control-consultation744.webp" type="image/webp" sizes="(max-width: 768px) 372px, 500px">
-                            <img src="images/birth-control-consultation.jpg" alt="Birth Control Consultation with Pharmacist at WellPharma" fetchpriority="high" decoding="async" width="500" height="375" sizes="(max-width: 768px) 372px, 500px">
+                            <source srcset="Image.webp/birth-control-consultation744.webp" type="image/webp" sizes="(max-width: 768px) 100vw, 50vw">
+                            <img src="images/birth-control-consultation.jpg" alt="Birth Control Consultation with Pharmacist at WellPharma" fetchpriority="high" decoding="async" width="500" height="375" sizes="(max-width: 768px) 100vw, 50vw">
                         </picture>
                     </div>
-                </div>
-                
-                <div class="birth-control-bottom">
-                    <div class="bottom-left">
-                        <div id="how-it-works">
-                            <h3>How It Works:</h3>
-                            <ol>
-                                <li>Complete a quick health consultation with our licensed pharmacist</li>
-                                <li>Get your prescription reviewed and approved if medically appropriate</li>
-                                <li>Pick up your birth control the same day for up to 12-month supply</li>
-                            </ol>
-                        </div>
-                        
-                        <h3>Why Choose Us:</h3>
-                        <ul>
-                            <li>Same-day service - no waiting 2-5 days like online services</li>
-                            <li>Professional consultation for only $30 (insurance may cover, FSA/HSA eligible)</li>
-                            <li>Private, confidential care with a Maryland-licensed pharmacist</li>
-                        </ul>
-                        
-                        <div id="consultation" class="section-cta">
+
+                    <div class="birth-control-content">
+                        <h2>Same-Day Birth Control - No Doctor Visit Required</h2>
+                        <p>Get birth control prescribed by our licensed pharmacist in Maryland. Professional consultation for only $30, same-day pickup or free discreet delivery.</p>
+
+                        <div class="birth-control-cta">
                             <a href="https://cal.com/wellpharma-pharmacy-esydym/15min" class="btn btn-primary" target="_blank">Schedule Consultation</a>
                             <a href="tel:+14106989068" class="btn btn-secondary">Call (410) 698-9068</a>
                         </div>
-                        
-                        <p class="legal-notice">
-                            <strong>Maryland Law:</strong> Licensed pharmacists can prescribe hormonal contraceptives after consultation. No doctor referral needed.
-                        </p>
                     </div>
-                    <div class="bottom-spacer"></div>
                 </div>
             </div>
         </section>
@@ -966,7 +1247,7 @@
                         <p>Quick and easy prescription refills online or by phone</p>
                         <a href="https://app.formdr.com/practice/NDUzNjE=/form/eg8P_60baYvMleMIRDy3ux7YtPT4GAAY" class="service-link action-btn" target="_blank">Refill</a>
                     </div>
-                    
+
                     <div id="transfer-prescription-card" class="service-card">
                         <picture>
                             <source srcset="Image.webp/transfer-prescription660.webp" type="image/webp" sizes="330px">
@@ -976,7 +1257,7 @@
                         <p>Transfer your prescriptions from another pharmacy</p>
                         <a href="https://app.formdr.com/practice/NDUzNjE=/form/t8T5m2GJfxhERNOEJgdxFg19xks4_Se2" class="service-link action-btn" target="_blank">Transfer</a>
                     </div>
-                    
+
                     <div id="immunizations-card" class="service-card">
                         <picture>
                             <source srcset="Image.webp/immunizations660.webp" type="image/webp" sizes="330px">
@@ -986,8 +1267,9 @@
                         <p>Flu shots, COVID vaccines, and travel immunizations</p>
                         <a href="immunization.html" class="service-link health-btn">Vaccines Info</a>
                     </div>
-                    
-                    <div id="testing-card" class="service-card">
+
+                    <!-- Additional Services (Hidden by default) -->
+                    <div id="testing-card" class="service-card service-card-hidden">
                         <picture>
                             <source srcset="Image.webp/testing-services.webp" type="image/webp" sizes="330px">
                             <img src="images/testing-services.jpg" alt="Testing Services" loading="lazy" decoding="async" width="300" height="200" sizes="330px">
@@ -996,8 +1278,8 @@
                         <p>Strep tests, COVID & flu tests available for quick diagnosis</p>
                         <a href="testing.html" class="service-link schedule-btn">Learn More</a>
                     </div>
-                    
-                    <div id="hormone-kits-card" class="service-card">
+
+                    <div id="hormone-kits-card" class="service-card service-card-hidden">
                         <picture>
                             <source srcset="Image.webp/hormone-kits.webp" type="image/webp" sizes="330px">
                             <img src="images/hormone-kits.jpg" alt="Hormone Test Kits" loading="lazy" decoding="async" width="300" height="200" sizes="330px">
@@ -1006,8 +1288,8 @@
                         <p>Professional at-home hormone testing from ZRT Labs and Designs for Health</p>
                         <a href="hormone-kits.html" class="service-link order-btn">Shop Kits</a>
                     </div>
-                    
-                    <div id="pharmacy-care-at-home-card" class="service-card">
+
+                    <div id="pharmacy-care-at-home-card" class="service-card service-card-hidden">
                         <picture>
                             <source srcset="Image.webp/pharmacy-care-at-home2.webp" type="image/webp" sizes="330px">
                             <img src="images/pharmacy-care-at-home2.jpg" alt="Pharmacy Care at Home Services" loading="lazy" decoding="async" width="300" height="200" sizes="330px">
@@ -1016,6 +1298,15 @@
                         <p>CMS-approved Medicare services helping seniors age safely at home.</p>
                         <a href="pharmacy-care-at-home.html" class="service-link order-btn">Senior Care</a>
                     </div>
+                </div>
+
+                <!-- Show More Button -->
+                <div class="services-toggle-container">
+                    <button id="toggleServicesBtn" class="btn-show-more">
+                        <span class="show-more-text">View All Services</span>
+                        <span class="show-less-text" style="display: none;">Show Less</span>
+                        <i class="fas fa-chevron-down toggle-icon"></i>
+                    </button>
                 </div>
             </div>
         </section>
@@ -1034,7 +1325,7 @@
                         <span class="quick-access-arrow">→</span>
                     </a>
 
-                    <a href="https://shops.wellpharmapharmacy.com/" class="quick-access-card" target="_blank">
+                    <a href="https://us.fullscript.com/welcome/wellpharmapharmacy/store-start?utm_medium=webreferral&utm_source=other&utm_campaign=abmwebbuttons_dark_728x90.svg&signup_source=website_buttons" class="quick-access-card" target="_blank">
                         <div class="quick-access-icon"><i class="fas fa-shopping-bag"></i></div>
                         <h3>Shop Supplements</h3>
                         <p>Premium vitamins & health products</p>
@@ -1058,91 +1349,57 @@
             </div>
         </section>
 
+        <!-- Health Assessments Section -->
+        <section id="health-assessments" class="health-assessments-section health-assessments-compact">
+            <div class="container">
+                <h2>Free Health Assessments</h2>
+                <p class="section-subtitle">Get personalized recommendations in minutes</p>
+
+                <div class="assessments-grid-compact">
+                    <!-- Hormone Balance Assessment -->
+                    <a href="https://www.wellpharmapharmacy.com/hormone%20quiz/" class="assessment-card-compact">
+                        <i class="fas fa-vial"></i>
+                        <h3>Hormone Balance Quiz</h3>
+                        <p>Check if hormones are affecting your health</p>
+                        <span class="assessment-arrow">Take Quiz →</span>
+                    </a>
+
+                    <!-- Nutrient Depletion Quiz -->
+                    <a href="https://www.wellpharmapharmacy.com/nutrient-calculator/" class="assessment-card-compact">
+                        <i class="fas fa-capsules"></i>
+                        <h3>Nutrient Depletion Check</h3>
+                        <p>See what your medications might be depleting</p>
+                        <span class="assessment-arrow">Start Check →</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
         <!-- Chat With Our Virtual Assistants Section -->
-        <section id="virtual-assistants" class="virtual-assistants-section">
+        <section id="virtual-assistants" class="virtual-assistants-section virtual-assistants-compact">
             <div class="container">
                 <h2>Chat With Our Virtual Assistants</h2>
                 <p class="section-subtitle">Get instant answers to your health questions from our AI-powered assistants</p>
 
-                <div class="virtual-assistants-grid">
-                    <div class="assistant-card">
-                        <div class="assistant-icon">
-                            <i class="fas fa-comment-medical"></i>
-                        </div>
+                <div class="virtual-assistants-grid-compact">
+                    <a href="https://chatgpt.com/g/g-6915da729de08191af8f8991dea2eeea-wellpharma-wellness-assistant" class="assistant-card-compact" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-comment-medical"></i>
                         <h3>WellPharma Wellness Assistant</h3>
                         <p>Get answers to general pharmacy questions and learn about our services</p>
-                        <a href="https://chatgpt.com/g/g-6915da729de08191af8f8991dea2eeea-wellpharma-wellness-assistant" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Chat with our Wellness Assistant</a>
-                    </div>
+                    </a>
 
-                    <div class="assistant-card">
-                        <div class="assistant-icon">
-                            <i class="fas fa-syringe"></i>
-                        </div>
+                    <a href="https://chatgpt.com/g/g-6915da330bf88191823148efc7b7c899-vicky-vaccine-counsoler-gpt" class="assistant-card-compact" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-syringe"></i>
                         <h3>Vicky the Vaccine Guide</h3>
                         <p>Learn which vaccines you need and get personalized vaccine education</p>
-                        <a href="https://chatgpt.com/g/g-6915da330bf88191823148efc7b7c899-vicky-vaccine-counsoler-gpt" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Ask Vicky about vaccines</a>
-                    </div>
+                    </a>
 
-                    <div class="assistant-card">
-                        <div class="assistant-icon">
-                            <i class="fas fa-pills"></i>
-                        </div>
+                    <a href="https://chatgpt.com/g/g-6915dd5758c881919993ae77dc7cb44a-bella-birth-control-counslor-gpt" class="assistant-card-compact" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-pills"></i>
                         <h3>Bella the Birth Control Guide</h3>
                         <p>Get private answers about birth control options and recommendations</p>
-                        <a href="https://chatgpt.com/g/g-6915dd5758c881919993ae77dc7cb44a-bella-birth-control-counslor-gpt" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Chat with Bella about birth control</a>
-                    </div>
+                    </a>
                 </div>
-            </div>
-        </section>
-
-        <!-- Join Our Health Community Section -->
-        <section id="community" class="community-section">
-            <div class="container">
-                <h2>Coming Soon: Baltimore Health Beat</h2>
-                <p class="section-subtitle">Your trusted podcast for medication management, health tips, and expert healthcare conversations</p>
-
-                <div class="community-grid-centered">
-                    <!-- Podcast Preview -->
-                    <aside class="community-card-featured podcast-card">
-                        <div class="podcast-badge-wrapper">
-                            <span class="coming-soon-badge">Coming Soon</span>
-                        </div>
-                        <div class="podcast-preview-centered">
-                            <div class="podcast-cover-placeholder-large">
-                                <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 14C13.66 14 15 12.66 15 11V5C15 3.34 13.66 2 12 2C10.34 2 9 3.34 9 5V11C9 12.66 10.34 14 12 14Z" fill="rgb(77,123,107)"/>
-                                    <path d="M17 11C17 14.31 14.31 17 11 17C7.69 17 5 14.31 5 11H3C3 15.42 6.58 19 11 19V22H13V19C17.42 19 21 15.42 21 11H17Z" fill="rgb(144,173,114)"/>
-                                </svg>
-                                <p>Podcast Cover</p>
-                            </div>
-                            <div class="podcast-info-centered">
-                                <h3>Baltimore Health Beat</h3>
-                                <p class="podcast-description">Join Dr. Zahraa Babiker, PharmD, as she shares expert insights on medication safety, wellness strategies, and interviews with healthcare professionals serving the Baltimore community.</p>
-                                <div class="podcast-topics">
-                                    <p><strong>Upcoming Topics:</strong></p>
-                                    <ul>
-                                        <li>Medication safety & management</li>
-                                        <li>Preventive health & wellness</li>
-                                        <li>Expert healthcare interviews</li>
-                                        <li>Community health topics</li>
-                                    </ul>
-                                </div>
-                                <p class="podcast-notify">Be the first to know when we launch! Follow us on social media for updates.</p>
-                            </div>
-                        </div>
-                    </aside>
-                </div>
-            </div>
-        </section>
-
-        <!-- Fullscript Banner Section -->
-        <section class="fullscript-banner-section" style="background: var(--light-bg); padding: 4rem 2rem; margin: 0;">
-            <div class="container" style="max-width: 1200px; margin: 0 auto; text-align: center;">
-                <h2 style="color: var(--primary-color); font-size: 2.5rem; margin-bottom: 2rem;">Shop Quality Supplements</h2>
-                <p style="color: var(--text-color); font-size: 1.2rem; max-width: 700px; margin: 0 auto 2rem;">Order professional-grade supplements through our Fullscript store</p>
-                <a href="https://us.fullscript.com/welcome/wellpharmapharmacy?utm_medium=webreferral&utm_source=other&utm_campaign=abmwebbuttons_dark_728x90.svg&signup_source=website_buttons" target="_top" style="display: inline-block; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-                    <img src="https://assets.fullscript.com/buttons/dark_728x90.svg" alt="Order supplements through my Fullscript store." style="width: 728px; max-width: 100%; height: auto; box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-radius: 8px;">
-                </a>
             </div>
         </section>
 
@@ -1487,6 +1744,19 @@
             </div>
         </section>
 
+        <!-- Coming Soon Announcement -->
+        <section class="announcement-section">
+            <div class="container">
+                <div class="announcement-banner">
+                    <i class="fas fa-microphone-alt"></i>
+                    <div class="announcement-content">
+                        <h3>Coming Soon: The Hormone Pharmacist Podcast</h3>
+                        <p>Join Dr. Zahraa Babiker for expert health conversations. Follow us on social media for updates!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- FAQ Section -->
         <section id="faq" class="faq-section">
             <div class="container">
@@ -1729,6 +1999,45 @@
     <script src="js/testimonials-slider.js" defer></script>
     <script src="js/dynamic-blog.js" defer></script>
     <script src="js/latest-news-loader.js" defer></script>
+
+    <!-- Services Toggle Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggleBtn = document.getElementById('toggleServicesBtn');
+            const hiddenServices = document.querySelectorAll('.service-card-hidden');
+            const showMoreText = toggleBtn.querySelector('.show-more-text');
+            const showLessText = toggleBtn.querySelector('.show-less-text');
+
+            toggleBtn.addEventListener('click', function() {
+                // Toggle the active class for icon rotation
+                toggleBtn.classList.toggle('active');
+
+                // Toggle visibility of hidden services
+                hiddenServices.forEach(function(service) {
+                    service.classList.toggle('show');
+                });
+
+                // Toggle text
+                if (showMoreText.style.display === 'none') {
+                    showMoreText.style.display = 'inline';
+                    showLessText.style.display = 'none';
+                } else {
+                    showMoreText.style.display = 'none';
+                    showLessText.style.display = 'inline';
+                }
+
+                // Smooth scroll to services if expanding
+                if (toggleBtn.classList.contains('active')) {
+                    setTimeout(function() {
+                        const servicesSection = document.getElementById('services');
+                        const yOffset = -100; // Account for fixed header
+                        const y = servicesSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+                        window.scrollTo({top: y, behavior: 'smooth'});
+                    }, 100);
+                }
+            });
+        });
+    </script>
 </body>
 
 <!-- RapidSSL Site Seal - Optimized Loading -->
