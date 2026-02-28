@@ -496,6 +496,75 @@
             }
         }
 
+        /* Weight Management Promo Section */
+        .weight-management-promo-section {
+            background: var(--light-bg);
+        }
+
+        .weight-management-promo-hero {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .weight-management-promo-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 16px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+            object-fit: cover;
+        }
+
+        .weight-management-promo-content h2 {
+            color: var(--primary-color);
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1.25rem;
+            line-height: 1.3;
+        }
+
+        .weight-management-promo-content p {
+            color: #555;
+            font-size: 1.15rem;
+            line-height: 1.7;
+            margin-bottom: 2rem;
+        }
+
+        .weight-management-promo-cta {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: nowrap;
+        }
+
+        .weight-management-promo-cta .btn {
+            padding: 12px 24px;
+            font-size: 1.1rem;
+            flex: 1;
+        }
+
+        @media (max-width: 768px) {
+            .weight-management-promo-hero {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            .weight-management-promo-content h2 {
+                font-size: 1.75rem;
+            }
+            .weight-management-promo-content p {
+                font-size: 1rem;
+            }
+            .weight-management-promo-cta {
+                flex-direction: column;
+            }
+            .weight-management-promo-cta .btn {
+                width: 100%;
+                flex: none;
+            }
+        }
+
         /* Community Section - Centered Podcast Layout */
         .community-section {
             padding: 5rem 0;
@@ -1052,11 +1121,7 @@
                         <a href="#prescriptions" class="nav-link">Prescriptions <span class="dropdown-arrow">▼</span></a>
                         <div class="dropdown-menu">
                             <a href="https://app.formdr.com/practice/NDUzNjE=/form/eg8P_60baYvMleMIRDy3ux7YtPT4GAAY" class="dropdown-link" target="_blank">Refill</a>
-                            <a href="https://app.formdr.com/practice/NDUzNjE=/form/t8T5m2GJfxhERNOEJgdxFg19xks4_Se2" class="dropdown-link" target="_blank">Transfer</a>
                         </div>
-                    </li>
-                    <li class="nav-item">
-                        <a href="birth-control.html" class="nav-link">Birth Control</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link">Services <span class="dropdown-arrow">▼</span></a>
@@ -1068,6 +1133,12 @@
                             <a href="pharmacy-care-at-home.html" class="dropdown-link">Pharmacy Care at Home</a>
                             <a href="long-term-care.html" class="dropdown-link">Long Term Care</a>
                         </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="glp1-womens-weight-loss-maryland.html" class="nav-link">Weight Management</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="birth-control.html" class="nav-link">Birth Control</a>
                     </li>
                     <li class="nav-item">
                         <a href="https://us.fullscript.com/welcome/wellpharmapharmacy" class="nav-link" target="_blank">Shop</a>
@@ -1129,17 +1200,29 @@
             </div>
         </section>
 
+        <!-- Weight Management Promo Section -->
+        <section id="weight-management" class="weight-management-promo-section section-light">
+            <div class="container">
+                <div class="weight-management-promo-hero">
+                    <div class="weight-management-promo-image">
+                        <img src="images/blog/weightloss.jpg" alt="Women's GLP-1 Weight Management Program at WellPharma Pharmacy" loading="lazy" decoding="async" width="500" height="375">
+                    </div>
+                    <div class="weight-management-promo-content">
+                        <h2>Women's Weight Management — $159/Month</h2>
+                        <p>Maryland's affordable, membership-based GLP-1 weight loss program. Clinician-guided therapy, ongoing check-ins, and personalized support — all through your local WellPharma pharmacist.</p>
+                        <div class="weight-management-promo-cta">
+                            <a href="glp1-womens-weight-loss-maryland.html" class="btn btn-primary">See the Program</a>
+                            <a href="tel:+14106989068" class="btn btn-secondary">Call (410) 698-9068</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Birth Control Section -->
         <section id="birth-control" class="birth-control-section section-light">
             <div class="container">
                 <div class="birth-control-hero">
-                    <div class="birth-control-image">
-                        <picture>
-                            <source srcset="Image.webp/birth-control-consultation744.webp" type="image/webp" sizes="(max-width: 768px) 100vw, 50vw">
-                            <img src="images/birth-control-consultation.jpg" alt="Birth Control Consultation with Pharmacist at WellPharma" fetchpriority="high" decoding="async" width="500" height="375" sizes="(max-width: 768px) 100vw, 50vw">
-                        </picture>
-                    </div>
-
                     <div class="birth-control-content">
                         <h2>Same-Day Birth Control - No Doctor Visit Required</h2>
                         <p>Get birth control prescribed by our licensed pharmacist in Maryland. Professional consultation for only $30, same-day pickup or free discreet delivery.</p>
@@ -1148,6 +1231,13 @@
                             <a href="https://cal.com/wellpharma-pharmacy-esydym/15min" class="btn btn-primary" target="_blank">Schedule Consultation</a>
                             <a href="tel:+14106989068" class="btn btn-secondary">Call (410) 698-9068</a>
                         </div>
+                    </div>
+
+                    <div class="birth-control-image">
+                        <picture>
+                            <source srcset="Image.webp/birth-control-consultation744.webp" type="image/webp" sizes="(max-width: 768px) 100vw, 50vw">
+                            <img src="images/birth-control-consultation.jpg" alt="Birth Control Consultation with Pharmacist at WellPharma" fetchpriority="high" decoding="async" width="500" height="375" sizes="(max-width: 768px) 100vw, 50vw">
+                        </picture>
                     </div>
                 </div>
             </div>
@@ -1168,14 +1258,14 @@
                         <a href="https://app.formdr.com/practice/NDUzNjE=/form/eg8P_60baYvMleMIRDy3ux7YtPT4GAAY" class="service-link action-btn" target="_blank">Refill</a>
                     </div>
 
-                    <div id="transfer-prescription-card" class="service-card">
+                    <div id="hormone-kits-card" class="service-card">
                         <picture>
-                            <source srcset="Image.webp/transfer-prescription660.webp" type="image/webp" sizes="330px">
-                            <img src="images/transfer-prescription.jpg" alt="Transfer Prescription Service" loading="lazy" decoding="async" width="300" height="200" sizes="330px">
+                            <source srcset="Image.webp/hormone-kits.webp" type="image/webp" sizes="330px">
+                            <img src="images/hormone-kits.jpg" alt="Hormone Test Kits" loading="lazy" decoding="async" width="300" height="200" sizes="330px">
                         </picture>
-                        <h3>Transfer Prescription</h3>
-                        <p>Transfer your prescriptions from another pharmacy</p>
-                        <a href="https://app.formdr.com/practice/NDUzNjE=/form/t8T5m2GJfxhERNOEJgdxFg19xks4_Se2" class="service-link action-btn" target="_blank">Transfer</a>
+                        <h3>Hormone Kits</h3>
+                        <p>Professional at-home hormone testing from ZRT Labs and Designs for Health</p>
+                        <a href="hormone-kits.html" class="service-link order-btn">Shop Kits</a>
                     </div>
 
                     <div id="immunizations-card" class="service-card">
@@ -1199,14 +1289,11 @@
                         <a href="testing.html" class="service-link schedule-btn">Learn More</a>
                     </div>
 
-                    <div id="hormone-kits-card" class="service-card service-card-hidden">
-                        <picture>
-                            <source srcset="Image.webp/hormone-kits.webp" type="image/webp" sizes="330px">
-                            <img src="images/hormone-kits.jpg" alt="Hormone Test Kits" loading="lazy" decoding="async" width="300" height="200" sizes="330px">
-                        </picture>
-                        <h3>Hormone Kits</h3>
-                        <p>Professional at-home hormone testing from ZRT Labs and Designs for Health</p>
-                        <a href="hormone-kits.html" class="service-link order-btn">Shop Kits</a>
+                    <div id="compounding-card" class="service-card service-card-hidden">
+                        <img src="images/custom compounding.png" alt="Custom Compounding Service" loading="lazy" decoding="async" width="300" height="200">
+                        <h3>Custom Compounding</h3>
+                        <p>Personalized medications tailored to your exact needs by our compounding pharmacist</p>
+                        <a href="compounding.html" class="service-link health-btn">Learn More</a>
                     </div>
 
                     <div id="pharmacy-care-at-home-card" class="service-card service-card-hidden">
