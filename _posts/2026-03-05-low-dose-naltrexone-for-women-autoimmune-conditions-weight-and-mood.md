@@ -2,7 +2,7 @@
 title: "Low-Dose Naltrexone for Women: Autoimmune Conditions, Weight, and Mood"
 date: 2026-03-25T11:00:02.577Z
 author: Dr. Zahraa Babiker
-image: /images/blog/2111.q702.003.s.m005.c12.menstruation-pms-woman-illustration.jpg
+image: /images/blog/gemini_generated_image_y43jv6y43jv6y43j.png
 excerpt: Low-dose naltrexone (LDN) is showing strong results for women with
   autoimmune conditions, fibromyalgia, Hashimoto's, and hormone-related mood
   issues. A Maryland compounding pharmacist explains the latest research and how
