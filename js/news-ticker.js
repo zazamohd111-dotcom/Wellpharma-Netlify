@@ -22,11 +22,7 @@
   }
 
   if (articles.length === 0) {
-    track.innerHTML =
-      '<span class="ticker-item">' +
-      '<a href="blog.html">Visit our blog for the latest health updates from WellPharma Pharmacy.</a>' +
-      '</span>';
-    // No animation needed for single static item
+    track.innerHTML = '<span class="ticker-item">Latest healthcare news loading — check back soon.</span>';
     track.style.animation = 'none';
     return;
   }
