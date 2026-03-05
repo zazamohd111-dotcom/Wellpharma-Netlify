@@ -3,7 +3,7 @@ title: Is It Anxiety, Depression, or Perimenopause? Why So Many Women Are Being
   Misdiagnosed
 date: 2026-03-28T11:00:13.564Z
 author: Dr. Zahraa Babiker
-image: /images/blog/2111.q702.003.s.m005.c12.menstruation-pms-woman-illustration.jpg
+image: /images/blog/gemini_generated_image_gsmdxtgsmdxtgsmd.png
 excerpt: Up to 70% of perimenopausal women are misdiagnosed with anxiety,
   depression, or thyroid disorders before anyone checks their hormones. A
   Maryland pharmacist explains the symptoms, the statistics, and what to do if
