@@ -2,7 +2,7 @@
 title: "Compounded Semaglutide in Maryland: What Women Need to Know in 2026"
 date: 2026-03-07T12:00:22.859Z
 author: Dr. Zahraa Babiker
-image: /images/blog/2111.q702.003.s.m005.c12.menstruation-pms-woman-illustration.jpg
+image: /images/blog/haberdoedas-tzkc7fgal7y-unsplash.jpg
 excerpt: Wondering about compounded semaglutide in Maryland? A licensed
   pharmacist breaks down how it works, what the FDA says, what it costs, and how
   to access it safely for women's weight loss in 2026
