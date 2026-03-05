@@ -2,7 +2,7 @@
 title: "Tirzepatide vs. Semaglutide for Women: Which GLP-1 Is Right for You?"
 date: 2026-03-14T11:00:41.648Z
 author: Dr. Zahraa Babiker
-image: /images/blog/2111.q702.003.s.m005.c12.menstruation-pms-woman-illustration.jpg
+image: /images/blog/sweet-life-o1n2-psihbw-unsplash.jpg
 excerpt: Tirzepatide (Mounjaro/Zepbound) vs. semaglutide (Ozempic/Wegovy) —
   which GLP-1 works better for women's weight loss? A Maryland pharmacist breaks
   down the real differences, the latest clinical data, and how to choose.
