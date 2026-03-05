@@ -2,7 +2,7 @@
 title: Why Women Lose Weight Differently on GLP-1s (And What to Do About It)
 date: 2026-03-22T00:42:13.319Z
 author: Dr. Zahraa Babiker
-image: /images/blog/sweet-life-o1n2-psihbw-unsplash.jpg
+image: /images/blog/prakriti-khajuria-em67woehdho-unsplash.jpg
 excerpt: Women on GLP-1 medications like semaglutide often experience different
   results than men — and there's a real hormonal reason why. A Maryland
   pharmacist explains the science and what women can do to optimize their
