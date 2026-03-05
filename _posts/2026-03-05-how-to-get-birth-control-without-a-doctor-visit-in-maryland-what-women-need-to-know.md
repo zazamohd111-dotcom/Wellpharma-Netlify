@@ -3,7 +3,7 @@ title: "How to Get Birth Control Without a Doctor Visit in Maryland: What Women
   Need to Know"
 date: 2026-03-05T01:45:24.187Z
 author: Dr. Zahraa Babiker
-image: /images/blog/gemini_generated_image_ws745ws745ws745w.png
+image: /images/blog/gemini_generated_image_8oo1ph8oo1ph8oo1.png
 excerpt: In Maryland, you can now get birth control prescribed directly by a
   licensed pharmacist — no doctor's appointment required. Here's exactly how it
   works, what it costs, and what options are available at WellPharma Pharmacy in
