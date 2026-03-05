@@ -1,7 +1,7 @@
 ---
 title: "How to Get Birth Control Without a Doctor Visit in Maryland: What Women
   Need to Know"
-date: 2026-03-05T01:45:24.187Z
+date: 2026-03-28T11:00:24.187Z
 author: Dr. Zahraa Babiker
 image: /images/blog/gemini_generated_image_8oo1ph8oo1ph8oo1.png
 excerpt: In Maryland, you can now get birth control prescribed directly by a
