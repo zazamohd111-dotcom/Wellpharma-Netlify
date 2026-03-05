@@ -1,0 +1,38 @@
+name: Fetch Healthcare News
+
+on:
+  schedule:
+    # Every Sunday at 2:00 AM UTC (10:00 PM Sat EST)
+    - cron: '0 2 * * 0'
+  workflow_dispatch: # Manual trigger button in GitHub Actions tab
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # Needed to commit news.json back to repo
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch healthcare news
+        run: node scrapers/fetch-news.js
+
+      - name: Commit updated news.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add api/news.json
+          git diff --staged --quiet || git commit -m "Update healthcare news feed [$(date +'%Y-%m-%d')]"
+          git push
+
+      - name: Trigger Netlify deploy
+        if: success()
+        run: |
+          curl -s -X POST -d {} ${{ secrets.NETLIFY_BUILD_HOOK }}
+          echo "Netlify deploy triggered"
