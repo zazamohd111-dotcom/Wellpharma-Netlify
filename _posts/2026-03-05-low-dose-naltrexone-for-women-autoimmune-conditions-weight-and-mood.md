@@ -1,6 +1,6 @@
 ---
 title: "Low-Dose Naltrexone for Women: Autoimmune Conditions, Weight, and Mood"
-date: 2026-03-25T12:00:02.577Z
+date: 2026-03-25T11:00:02.577Z
 author: Dr. Zahraa Babiker
 image: /images/blog/2111.q702.003.s.m005.c12.menstruation-pms-woman-illustration.jpg
 excerpt: Low-dose naltrexone (LDN) is showing strong results for women with
