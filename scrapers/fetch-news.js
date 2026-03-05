@@ -50,8 +50,8 @@ const FEEDS = [
     source: 'FDA',
   },
   {
-    url: 'https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml',
-    source: 'FDA',
+    url: 'https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls-market-withdrawals-safety-alerts/rss.xml',
+    source: 'FDA Recalls',
   },
   // Pharmacy & Clinical
   {
@@ -69,24 +69,26 @@ const FEEDS = [
   },
   // Consumer health
   {
-    url: 'https://rssfeeds.webmd.com/rss/rss.aspx?RSSSource=RSS_PUBLIC',
-    source: 'WebMD',
+    url: 'https://www.healthline.com/rss/news',
+    source: 'Healthline',
   },
   // Maryland / local
   {
-    url: 'https://www.wypr.org/rss.xml',
-    source: 'WYPR Maryland',
+    url: 'https://www.wbaltv.com/feeds/news/health.rss',
+    source: 'WBAL Maryland',
   },
 ];
 
 // ─── Simple RSS XML parser ────────────────────────────────────────────────────
 function extractTag(xml, tag) {
-  const regex = new RegExp(
-    `<${tag}[^>]*>(?:<!\\[CDATA\\[)?([\\s\\S]*?)(?:\\]\\]>)?<\\/${tag}>`,
-    'i'
-  );
+  const regex = new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, 'i');
   const match = xml.match(regex);
-  return match ? match[1].trim() : '';
+  if (!match) return '';
+  let content = match[1].trim();
+  // Strip CDATA wrapper if present
+  const cdata = content.match(/^<!\[CDATA\[([\s\S]*?)\]\]>$/);
+  if (cdata) content = cdata[1].trim();
+  return content;
 }
 
 function parseRSS(xml, sourceName) {

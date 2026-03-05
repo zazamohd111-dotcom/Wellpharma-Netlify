@@ -1,5 +1,70 @@
 {
-  "fetched_at": "",
-  "count": 0,
-  "articles": []
+  "fetched_at": "2026-03-05T23:53:40.943Z",
+  "count": 8,
+  "articles": [
+    {
+      "title": "Infections May Help Fuel Frailty, With a Potential Push From Obesity",
+      "link": "https://www.medpagetoday.com/geriatrics/generalgeriatrics/120188",
+      "description": "(MedPage Today) -- Infections were linked to a significantly greater risk of frailty in older people, and obesity may help shape that relationship, according to an observational cohort study.\nAmong 1,399 participants in",
+      "pubDate": "2026-03-05T22:40:57.000Z",
+      "source": "MedPage Today",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "STAT+: Omada reports first profitable quarter as it seizes broad GLP-1 opportunity",
+      "link": "https://www.statnews.com/2026/03/05/omada-reports-quarterly-profit-glp1-opportunity/?utm_campaign=rss",
+      "description": "Virtual chronic care company Omada, which went public less than a year ago, reported a quarterly profit for the first time.",
+      "pubDate": "2026-03-05T21:20:00.000Z",
+      "source": "STAT News",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "GLP-1 Drugs May Prevent, Treat Multiple Addictions",
+      "link": "https://www.medpagetoday.com/psychiatry/addictions/120182",
+      "description": "(MedPage Today) -- Initiation of a GLP-1 receptor agonist was tied to lower risks of several substance use disorders (SUDs) in adults with type 2 diabetes, according to a target trial emulation using data on veterans.\nI",
+      "pubDate": "2026-03-05T20:53:17.000Z",
+      "source": "MedPage Today",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Robotic Hip Arthroplasty: Infection Risk Skyrockets in Morbid Obesity",
+      "link": "https://www.medpagetoday.com/meetingcoverage/aaos/120177",
+      "description": "(MedPage Today) -- NEW ORLEANS  --  Patients with morbid obesity undergoing robotically assisted hip replacement faced a dramatically increased likelihood of prosthetic joint infections (PJIs), a researcher said here.\nA",
+      "pubDate": "2026-03-05T18:23:57.000Z",
+      "source": "MedPage Today",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "STAT+: A drug company with a side of gold?",
+      "link": "https://www.statnews.com/2026/03/05/biotech-news-klotho-neurosciences-share-greenland-mining-company/?utm_campaign=rss",
+      "description": "GLP-1s and addiction, a gene therapy company and a mining corporation, and more biotech news from The Readout",
+      "pubDate": "2026-03-05T16:29:57.000Z",
+      "source": "STAT News",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "STAT+: Eli Lilly launches program for employers to subsidize cost of obesity drug outside insurance",
+      "link": "https://www.statnews.com/2026/03/05/eli-lilly-zepbound-employers/?utm_campaign=rss",
+      "description": "Eli Lilly is going beyond its efforts to sell its obesity drug Zepbound directly to patients, and is now trying to target employers.",
+      "pubDate": "2026-03-05T11:00:00.000Z",
+      "source": "STAT News",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Opinion: Obesity drugs may silence the ‘drug noise’ behind all addiction",
+      "link": "https://www.statnews.com/2026/03/04/glp-1-drugs-addiction-biological-driver/?utm_campaign=rss",
+      "description": "A new study found GLP-1 drugs were associated with 50% fewer substance-related deaths, 39% fewer drug overdoses, and 26% fewer drug-related hospitalizations.",
+      "pubDate": "2026-03-04T23:30:00.000Z",
+      "source": "STAT News",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "<![CDATA[Elinzanetant: Advancing Treatment for Vasomotor Symptoms]]>",
+      "link": "https://www.pharmacytimes.com/view/elinzanetant-advancing-treatment-for-vasomotor-symptoms",
+      "description": "<![CDATA[FDA-approved elinzanetant offers stronger nonhormonal relief for menopausal vasomotor symptoms, with promising trial results and simpler liver monitoring.]]>",
+      "pubDate": "2026-03-03T14:27:11.000Z",
+      "source": "Pharmacy Times",
+      "category": "Hormones"
+    }
+  ]
 }
