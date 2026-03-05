@@ -3,7 +3,7 @@ title: "Menopause and Brain Health: What the 2026 Research Tells Us About
   Memory, Brain Fog, and Alzheimer's Risk"
 date: 2026-03-18T11:00:48.026Z
 author: Dr. Zahraa Babiker
-image: /images/blog/2111.q702.003.s.m005.c12.menstruation-pms-woman-illustration.jpg
+image: /images/blog/gemini_generated_image_36aacz36aacz36aa.png
 excerpt: "New research confirms what women have been saying for years: menopause
   has a real impact on the brain. A Maryland pharmacist explains the latest
   science on memory, brain fog, and cognitive protection — and what you can
