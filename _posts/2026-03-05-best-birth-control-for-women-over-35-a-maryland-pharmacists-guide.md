@@ -2,7 +2,7 @@
 title: "Best Birth Control for Women Over 35: A Maryland Pharmacist's Guide"
 date: 2026-03-11T11:00:52.382Z
 author: Dr. Zahraa Babiker
-image: /images/blog/2111.q702.003.s.m005.c12.menstruation-pms-woman-illustration.jpg
+image: /images/blog/danilo-alvesd-y14onzytxb4-unsplash.jpg
 excerpt: Birth control choices change as women approach 40. A Maryland
   pharmacist explains which contraceptive options are safest and most effective
   for women over 35, including those in perimenopause, and what to watch out for
