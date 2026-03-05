@@ -2,7 +2,7 @@
 title: What Is a Compounding Pharmacy? Why Women  Are Turning to Custom Medications
 date: 2026-03-19T01:05:54.980Z
 author: Dr. Zahraa Babiker
-image: /images/blog/2111.q702.003.s.m005.c12.menstruation-pms-woman-illustration.jpg
+image: /images/blog/gemini_generated_image_7bh5o47bh5o47bh5.png
 excerpt: What exactly is a compounding pharmacy — and why are so many women
   seeking out custom-compounded medications? A licensed pharmacist in
   Randallstown, MD explains everything you need to know about compounding for
