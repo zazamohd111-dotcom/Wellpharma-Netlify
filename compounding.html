@@ -882,6 +882,13 @@
             </div>
         </section>
 
+        <!-- YouTube Videos -->
+        <section class="yt-section">
+          <div class="yt-section-inner">
+            <div id="yt-compounding"></div>
+          </div>
+        </section>
+
         <!-- CTA Section -->
         <section id="cta" class="cta-section">
             <div class="container">
@@ -1077,6 +1084,17 @@
 
     <!-- AccessYes Accessibility Widget -->
     <script>(function(w,d,s,u,o){w._cyA11yConfig={"iconId":"default","position":{"mobile":"bottom-right","desktop":"bottom-right"},"language":{"default":"en","selected":[]}};var js=d.createElement(s),fjs=d.getElementsByTagName(s)[0];js.src=u;js.async=true;fjs.parentNode.insertBefore(js,fjs);})(window,document,"script","https://cdn-cookieyes.com/widgets/accessibility.js?id=75ec76fd-a3d5-4d87-b3b6-bc659340850");</script>
+    <script src="js/youtube-videos.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            loadYouTubeVideos(
+                'compounding pharmacy explained custom medications',
+                'yt-compounding',
+                'Watch & Learn: Compounding Pharmacy',
+                'Educational videos about custom compounded medications.'
+            );
+        });
+    </script>
 
 </body>
 </html>

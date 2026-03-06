@@ -1066,6 +1066,13 @@
         </div>
     </section>
 
+    <!-- ===== YOUTUBE VIDEOS ===== -->
+    <section class="yt-section">
+      <div class="yt-section-inner">
+        <div id="yt-glp1"></div>
+      </div>
+    </section>
+
     <!-- ===== FINAL CTA ===== -->
     <section class="final-cta" id="get-started" aria-labelledby="cta-heading">
         <div class="final-cta-inner">
@@ -1122,6 +1129,17 @@
                 });
             });
         }
+    </script>
+    <script src="js/youtube-videos.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            loadYouTubeVideos(
+                'GLP-1 semaglutide weight loss explained',
+                'yt-glp1',
+                'Watch & Learn: GLP-1 & Weight Loss',
+                'Educational videos to help you understand your treatment options.'
+            );
+        });
     </script>
 </body>
 </html>
