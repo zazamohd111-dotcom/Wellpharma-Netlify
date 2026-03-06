@@ -27,7 +27,7 @@
     return;
   }
 
-  function buildItem(article) {
+  function buildItem(article, idx) {
     const color = TAG_COLORS[article.category] || 'rgba(0,0,0,0.3)';
     const safeTitle = article.title
       .replace(/&/g, '&amp;')
@@ -39,7 +39,7 @@
         '<span class="ticker-tag" style="background:' + color + '">' +
           article.category +
         '</span>' +
-        '<a href="' + article.link + '" target="_blank" rel="noopener noreferrer">' +
+        '<a href="news.html?id=' + idx + '">' +
           safeTitle +
         '</a>' +
       '</span>' +
@@ -48,7 +48,7 @@
   }
 
   // Duplicate content for seamless infinite loop
-  const html = articles.map(buildItem).join('');
+  const html = articles.map((a, i) => buildItem(a, i)).join('');
   track.innerHTML = html + html;
 
   // Set animation duration based on content length (~150px per second)

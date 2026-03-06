@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health News | WellPharma Pharmacy</title>
+    <meta name="description" content="Latest healthcare news covering GLP-1 medications, women's hormones, compounding pharmacy, peptide therapy, and Maryland health updates.">
+    <link rel="canonical" href="https://www.wellpharmapharmacy.com/news.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: rgb(77,123,107);
+            --primary-dark: #3a6b56;
+            --light-bg: rgb(235,243,237);
+            --text: #2e2e2e;
+            --white: #fff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: var(--text);
+            background: #f4f7f5;
+        }
+
+        /* Top bar */
+        .top-bar {
+            background: var(--primary);
+            padding: 0.85rem 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .back-link {
+            color: rgba(255,255,255,0.9);
+            text-decoration: none;
+            font-size: 0.88rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+        }
+        .back-link:hover { color: #fff; }
+        .top-bar-title { color: #fff; font-weight: 700; font-size: 0.95rem; }
+
+        /* Article card */
+        .page-wrap {
+            max-width: 700px;
+            margin: 2rem auto;
+            padding: 0 1.25rem 4rem;
+        }
+        .article-card {
+            background: var(--white);
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.09);
+        }
+
+        /* Header */
+        .article-header { padding: 1.75rem 1.75rem 1.25rem; }
+        .category-pill {
+            display: inline-block;
+            padding: 5px 14px;
+            border-radius: 20px;
+            font-size: 0.72rem;
+            font-weight: 700;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            margin-bottom: 1rem;
+        }
+        .article-title {
+            font-size: 1.55rem;
+            font-weight: 700;
+            line-height: 1.35;
+            color: var(--text);
+            margin-bottom: 0.75rem;
+        }
+        .article-meta {
+            color: #999;
+            font-size: 0.83rem;
+            display: flex;
+            gap: 1.25rem;
+            flex-wrap: wrap;
+            padding-bottom: 1.25rem;
+            border-bottom: 1px solid #eef2ee;
+        }
+
+        /* Description */
+        .article-desc {
+            padding: 1.5rem 1.75rem;
+            font-size: 1rem;
+            line-height: 1.8;
+            color: #555;
+            border-bottom: 1px solid #eef2ee;
+        }
+
+        /* What this means box */
+        .matters-box {
+            margin: 1.5rem 1.75rem;
+            background: var(--light-bg);
+            border-left: 4px solid var(--primary);
+            border-radius: 0 10px 10px 0;
+            padding: 1.1rem 1.4rem;
+        }
+        .matters-label {
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 0.09em;
+            margin-bottom: 0.45rem;
+        }
+        .matters-text {
+            font-size: 0.93rem;
+            color: #444;
+            line-height: 1.7;
+        }
+
+        /* Original source / CTA row */
+        .source-row {
+            margin: 0 1.75rem 1.75rem;
+            border: 1px solid #e8eee9;
+            border-radius: 12px;
+            padding: 1.1rem 1.4rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        .source-label { font-size: 0.72rem; color: #aaa; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.2rem; }
+        .source-name { font-size: 1rem; font-weight: 700; color: var(--text); }
+        .btn-read {
+            display: inline-block;
+            padding: 11px 22px;
+            background: var(--primary);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+        .btn-read:hover { background: var(--primary-dark); }
+
+        /* More news list */
+        .more-section { margin-top: 2rem; }
+        .more-title {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 0.85rem;
+        }
+        .news-list { display: flex; flex-direction: column; gap: 0.6rem; }
+        .news-item {
+            background: var(--white);
+            border-radius: 10px;
+            padding: 0.9rem 1.1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.85rem;
+            text-decoration: none;
+            color: var(--text);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            transition: box-shadow 0.2s;
+        }
+        .news-item:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.1); }
+        .item-pill {
+            flex-shrink: 0;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.65rem;
+            font-weight: 700;
+            color: #fff;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+        .item-title { font-size: 0.88rem; font-weight: 600; line-height: 1.4; }
+        .item-meta  { font-size: 0.76rem; color: #aaa; margin-top: 0.15rem; }
+
+        /* List view */
+        .list-header {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 1.25rem;
+            color: var(--text);
+        }
+
+        /* State messages */
+        .state-msg { text-align: center; padding: 3rem 1rem; color: #aaa; font-size: 0.95rem; }
+
+        @media (max-width: 540px) {
+            .article-title { font-size: 1.25rem; }
+            .article-header, .article-desc, .source-row { padding-left: 1.25rem; padding-right: 1.25rem; }
+            .matters-box { margin-left: 1.25rem; margin-right: 1.25rem; }
+            .source-row { margin-left: 1.25rem; margin-right: 1.25rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="top-bar">
+    <a class="back-link" href="index.html">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+        Back to WellPharma
+    </a>
+    <span class="top-bar-title">WellPharma Health News</span>
+    <span></span>
+</div>
+
+<div class="page-wrap">
+    <div id="articleView" style="display:none">
+        <div class="article-card" id="articleCard">
+            <div class="state-msg">Loading&hellip;</div>
+        </div>
+        <div class="more-section" id="moreSection" style="display:none">
+            <div class="more-title">More Health News</div>
+            <div class="news-list" id="moreList"></div>
+        </div>
+    </div>
+
+    <div id="listView" style="display:none">
+        <div class="list-header">Latest Health News</div>
+        <div class="news-list" id="newsList">
+            <div class="state-msg">Loading&hellip;</div>
+        </div>
+    </div>
+</div>
+
+<script>
+const COLORS = {
+    'GLP-1 & Weight': '#2e7d5e',
+    'Hormones':       '#7b5ea7',
+    'Compounding':    '#2a6496',
+    'Peptides':       '#c0692a',
+    'Maryland Health':'#1a7a3c',
+};
+
+const MATTERS = {
+    'GLP-1 & Weight':
+        'GLP-1 medications like semaglutide (Ozempic/Wegovy) and tirzepatide (Mounjaro/Zepbound) are rapidly changing weight management. ' +
+        'WellPharma helps coordinate GLP-1 therapy, answers your medication questions, and supports your weight management journey from start to finish.',
+    'Hormones':
+        'Hormonal changes during perimenopause and menopause affect millions of women. ' +
+        'WellPharma offers hormone testing kits and works with your care team to help you understand your options — including hormone therapy and non-hormonal alternatives.',
+    'Compounding':
+        'Compounding allows pharmacists to create custom medications tailored to your exact needs — the right dose, the right form, just for you. ' +
+        'WellPharma is a trusted compounding pharmacy serving Randallstown and greater Baltimore.',
+    'Peptides':
+        'Peptide therapies are an emerging area of health and longevity medicine. ' +
+        'Ask our pharmacist about the latest peptide options and how they may fit into your wellness plan.',
+    'Maryland Health':
+        'Staying informed about local health news helps you make better decisions for yourself and your family. ' +
+        'WellPharma is your community pharmacy in Randallstown, MD — always here to help.',
+};
+
+function fmtDate(iso) {
+    try { return new Date(iso).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' }); }
+    catch { return ''; }
+}
+
+function pillHtml(cat, cls) {
+    const c = COLORS[cat] || '#666';
+    return `<span class="${cls}" style="background:${c}">${cat}</span>`;
+}
+
+async function fetchArticles() {
+    const res  = await fetch('/api/news.json');
+    const data = await res.json();
+    return data.articles || [];
+}
+
+function renderArticle(a, all, idx) {
+    document.title = a.title + ' | WellPharma Pharmacy';
+    const card = document.getElementById('articleCard');
+    card.innerHTML = `
+        <div class="article-header">
+            ${pillHtml(a.category, 'category-pill')}
+            <h1 class="article-title">${a.title}</h1>
+            <div class="article-meta">
+                <span>${fmtDate(a.pubDate)}</span>
+                <span>Source: ${a.source}</span>
+            </div>
+        </div>
+        ${a.description ? `<div class="article-desc">${a.description}</div>` : ''}
+        ${MATTERS[a.category] ? `
+        <div class="matters-box">
+            <div class="matters-label">What This Means for Your Health</div>
+            <p class="matters-text">${MATTERS[a.category]}</p>
+        </div>` : ''}
+        <div class="source-row">
+            <div>
+                <div class="source-label">Original Source</div>
+                <div class="source-name">${a.source}</div>
+            </div>
+            <a class="btn-read" href="${a.link}" target="_blank" rel="noopener noreferrer">Read Full Article</a>
+        </div>
+    `;
+
+    // "More news" sidebar
+    const others = all.filter((_, i) => i !== idx).slice(0, 6);
+    if (others.length) {
+        const moreSection = document.getElementById('moreSection');
+        const moreList    = document.getElementById('moreList');
+        moreSection.style.display = 'block';
+        moreList.innerHTML = others.map(o => {
+            const oi = all.indexOf(o);
+            return `
+            <a class="news-item" href="news.html?id=${oi}">
+                ${pillHtml(o.category, 'item-pill')}
+                <div>
+                    <div class="item-title">${o.title}</div>
+                    <div class="item-meta">${o.source} · ${fmtDate(o.pubDate)}</div>
+                </div>
+            </a>`;
+        }).join('');
+    }
+}
+
+function renderList(all) {
+    document.getElementById('listView').style.display = 'block';
+    const list = document.getElementById('newsList');
+    if (!all.length) {
+        list.innerHTML = '<div class="state-msg">No news available yet. Check back soon.</div>';
+        return;
+    }
+    list.innerHTML = all.map((a, i) => `
+        <a class="news-item" href="news.html?id=${i}">
+            ${pillHtml(a.category, 'item-pill')}
+            <div>
+                <div class="item-title">${a.title}</div>
+                <div class="item-meta">${a.source} · ${fmtDate(a.pubDate)}</div>
+            </div>
+        </a>`).join('');
+}
+
+(async () => {
+    const id = new URLSearchParams(window.location.search).get('id');
+    let articles = [];
+    try { articles = await fetchArticles(); } catch {}
+
+    if (id !== null) {
+        document.getElementById('articleView').style.display = 'block';
+        const idx = parseInt(id, 10);
+        const art = articles[idx];
+        if (!art) {
+            document.getElementById('articleCard').innerHTML =
+                '<div class="state-msg">Article not found. <a href="news.html">View all news</a></div>';
+        } else {
+            renderArticle(art, articles, idx);
+        }
+    } else {
+        renderList(articles);
+    }
+})();
+</script>
+</body>
+</html>
