@@ -39,6 +39,10 @@
       grid-template-columns: repeat(3, 1fr);
       gap: 1.5rem;
     }
+    .yt-grid.yt-single {
+      grid-template-columns: minmax(0, 480px);
+      justify-content: center;
+    }
     @media (max-width: 900px) { .yt-grid { grid-template-columns: repeat(2, 1fr); } }
     @media (max-width: 580px) { .yt-grid { grid-template-columns: 1fr; } }
     .yt-card {
@@ -146,16 +150,18 @@
       </div>`;
   }
 
-  window.loadYouTubeVideos = async function (query, containerId, heading, subheading) {
+  window.loadYouTubeVideos = async function (query, containerId, heading, subheading, maxResults) {
     const container = document.getElementById(containerId);
     if (!container) return;
+    const count = maxResults || 3;
 
     try {
       const params = new URLSearchParams({
         part:               'snippet',
         q:                  query,
         type:               'video',
-        maxResults:         3,
+        maxResults:         count,
+        order:              count === 1 ? 'viewCount' : 'relevance',
         relevanceLanguage:  'en',
         safeSearch:         'strict',
         videoEmbeddable:    'true',
@@ -167,12 +173,13 @@
       const data = await res.json();
       if (!data.items || data.items.length === 0) throw new Error('No results');
 
+      const gridClass = count === 1 ? 'yt-grid yt-single' : 'yt-grid';
       container.innerHTML = `
         <div class="yt-section-header">
           <h2>${heading || 'Watch &amp; Learn'}</h2>
           <p>${subheading || 'Educational videos to help you understand your options.'}</p>
         </div>
-        <div class="yt-grid">
+        <div class="${gridClass}">
           ${data.items.map(buildCard).join('')}
         </div>`;
 
