@@ -44,38 +44,48 @@ const CATEGORIES = {
 
 // ─── RSS feed sources ─────────────────────────────────────────────────────────
 const FEEDS = [
-  // FDA — drug safety and press releases
+  // FDA — drug safety (covers compounding alerts, GLP-1 approvals)
   {
     url: 'https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/drug-safety-communications/rss.xml',
     source: 'FDA',
   },
-  {
-    url: 'https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls-market-withdrawals-safety-alerts/rss.xml',
-    source: 'FDA Recalls',
-  },
-  // Pharmacy & Clinical
+  // Pharmacy & Clinical — strong on compounding + hormones
   {
     url: 'https://www.pharmacytimes.com/rss',
     source: 'Pharmacy Times',
   },
   {
+    url: 'https://www.drugtopics.com/rss',
+    source: 'Drug Topics',
+  },
+  // Clinical research — GLP-1, hormones, peptides
+  {
     url: 'https://www.medpagetoday.org/rss/headlines.xml',
     source: 'MedPage Today',
   },
-  // Research & biotech news
+  // Biotech & pharma — GLP-1, peptides, longevity
   {
     url: 'https://www.statnews.com/feed/',
     source: 'STAT News',
   },
-  // Consumer health
+  // Women's health & hormones
   {
-    url: 'https://www.healthline.com/rss/news',
-    source: 'Healthline',
+    url: 'https://www.womenshealthmag.com/rss/all.xml/',
+    source: "Women's Health",
   },
-  // Maryland / local
+  // Longevity / peptides / anti-aging research
   {
-    url: 'https://www.wbaltv.com/feeds/news/health.rss',
-    source: 'WBAL Maryland',
+    url: 'https://examine.com/feed/',
+    source: 'Examine.com',
+  },
+  // Maryland / DC area local health
+  {
+    url: 'https://wtop.com/health/feed/',
+    source: 'WTOP Health',
+  },
+  {
+    url: 'https://marylandmatters.org/feed/',
+    source: 'Maryland Matters',
   },
 ];
 
