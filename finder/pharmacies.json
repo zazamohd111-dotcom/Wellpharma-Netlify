@@ -60,16 +60,6 @@
     "zipCode": "21215"
   },
   {
-    "name": "Wannee Kunaprayoon, BSC",
-    "address": "Belford Shopping Center, 4214 Frankford Ave, Baltimore, MD 21206",
-    "phone": "(410) 488-3500",
-    "website": "",
-    "rating": null,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Wannee%20Kunaprayoon%2C%20BSC&query_place_id=ChIJvROHMN8FyIkRWUkUgRacfBA",
-    "city": "4214 Frankford Ave",
-    "zipCode": "21206"
-  },
-  {
     "name": "CVS Pharmacy",
     "address": "Hamilton Business Community, 5407-17 Harford Rd, Baltimore, MD 21214",
     "phone": "(410) 426-9855",
@@ -78,16 +68,6 @@
     "map_url": "https://www.google.com/maps/search/?api=1&query=CVS%20Pharmacy&query_place_id=ChIJg-hYve8FyIkRTwDnpsjH61s",
     "city": "5407-17 Harford Rd",
     "zipCode": "21214"
-  },
-  {
-    "name": "Dr. Annette Kingel",
-    "address": "London house, 6101 Park Heights Ave, Baltimore, MD 21215",
-    "phone": "(410) 624-7190",
-    "website": "",
-    "rating": 5,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Dr.%20Annette%20Kingel&query_place_id=ChIJQz4TIV4ayIkR8CmV-qIcLtY",
-    "city": "6101 Park Heights Ave",
-    "zipCode": "21215"
   },
   {
     "name": "The GBMC Pharmacy - Specialty & Outpatient Prescription Services",
@@ -198,16 +178,6 @@
     "map_url": "https://www.google.com/maps/search/?api=1&query=ABH%20Pharmacy%20%26%20Medical%20Supply&query_place_id=ChIJjWFuIokcyIkRh5Zv9oXXu3o",
     "city": "Baltimore",
     "zipCode": "21229"
-  },
-  {
-    "name": "AGG Wellness, LLC .",
-    "address": "5909 Falls Rd, Baltimore, MD 21209",
-    "phone": "",
-    "website": "",
-    "rating": null,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=AGG%20Wellness%2C%20LLC%20.&query_place_id=ChIJBXv5yA0byIkRpmNuZ9ldktc",
-    "city": "Baltimore",
-    "zipCode": "21209"
   },
   {
     "name": "AHF Pharmacy - Baltimore",
@@ -328,16 +298,6 @@
     "map_url": "https://www.google.com/maps/search/?api=1&query=Citicare%20Pharmacy%20and%20Medical%20Equipment%2C%20LLC.&query_place_id=ChIJbQ6QCh0FyIkRfPs7cVpWLho",
     "city": "Baltimore",
     "zipCode": "21218"
-  },
-  {
-    "name": "Cloretta J. Collins, BS",
-    "address": "2310 W Patapsco Ave, Baltimore, MD 21230",
-    "phone": "(410) 646-2059",
-    "website": "http://www.walgreens.com/",
-    "rating": 5,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Cloretta%20J.%20Collins%2C%20BS&query_place_id=ChIJZ9UbbdYcyIkRDpiVt4eO4vw",
-    "city": "Baltimore",
-    "zipCode": "21230"
   },
   {
     "name": "Comfort Pharmacy",
@@ -520,16 +480,6 @@
     "zipCode": "21201"
   },
   {
-    "name": "Denise V. Turner, MD",
-    "address": "3319 W Belvedere Ave, Baltimore, MD 21215",
-    "phone": "(410) 542-7800",
-    "website": "http://www.parkwestmed.org/",
-    "rating": 4,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Denise%20V.%20Turner%2C%20MD&query_place_id=ChIJmYC9OfAayIkRdDmpXL9pP3A",
-    "city": "Baltimore",
-    "zipCode": "21215"
-  },
-  {
     "name": "Drug City Pharmacy And Liquors",
     "address": "2805 North Point Rd, Baltimore, MD 21222",
     "phone": "(410) 284-2424",
@@ -600,16 +550,6 @@
     "zipCode": "21201"
   },
   {
-    "name": "ExpressCare of Quarry Lake",
-    "address": "2570 Quarry Lake Dr, Baltimore, MD 21209",
-    "phone": "(443) 842-6238",
-    "website": "https://goexpresscare.com/location/quarry-lake/",
-    "rating": 4.2,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=ExpressCare%20of%20Quarry%20Lake&query_place_id=ChIJTwz844gRyIkRKtBh7C1jId0",
-    "city": "Baltimore",
-    "zipCode": "21209"
-  },
-  {
     "name": "Extracare Pharmacy",
     "address": "883 N Howard St, Baltimore, MD 21201",
     "phone": "(410) 332-4666",
@@ -618,16 +558,6 @@
     "map_url": "https://www.google.com/maps/search/?api=1&query=Extracare%20Pharmacy&query_place_id=ChIJOdo7Vb0EyIkRg_ZZ_N14Mbk",
     "city": "Baltimore",
     "zipCode": "21201"
-  },
-  {
-    "name": "Falls Road Animal Hospital",
-    "address": "1423 Clarkview Rd Suite 200, Baltimore, MD 21209",
-    "phone": "(410) 324-3343",
-    "website": "https://fallsroad.com/",
-    "rating": 3.8,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Falls%20Road%20Animal%20Hospital&query_place_id=ChIJJ2qs_A0QyIkRhwhmBVcKf34",
-    "city": "Baltimore",
-    "zipCode": "21209"
   },
   {
     "name": "Franklin Care Pharmacy",
@@ -648,16 +578,6 @@
     "map_url": "https://www.google.com/maps/search/?api=1&query=Gardenville%20Pharmacy&query_place_id=ChIJUT3vR2kFyIkRgTQfJ2EkEGE",
     "city": "Baltimore",
     "zipCode": "21206"
-  },
-  {
-    "name": "Geresbeck's Food Market",
-    "address": "2109 Eastern Blvd, Baltimore, MD 21220",
-    "phone": "(410) 686-3487",
-    "website": "http://www.geresbecks.com/",
-    "rating": 4.4,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Geresbeck's%20Food%20Market&query_place_id=ChIJl-PA0Gn9x4kR8erL7TLHRlU",
-    "city": "Baltimore",
-    "zipCode": "21220"
   },
   {
     "name": "Giant Food",
@@ -800,16 +720,6 @@
     "zipCode": "21224"
   },
   {
-    "name": "John F. Vanwie, PD",
-    "address": "9106 Philadelphia Road Suite 100, Baltimore, MD 21237, Rosedale, MD 21237",
-    "phone": "(410) 687-8113",
-    "website": "",
-    "rating": 1,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=John%20F.%20Vanwie%2C%20PD&query_place_id=ChIJASVfBeQHyIkR_KSuUbueOHE",
-    "city": "Baltimore",
-    "zipCode": "21237"
-  },
-  {
     "name": "Johns Hopkins Outpatient Pharmacy",
     "address": "4940 Eastern Avenue BMO Building, Baltimore, MD 21224",
     "phone": "(410) 550-0961",
@@ -938,16 +848,6 @@
     "map_url": "https://www.google.com/maps/search/?api=1&query=Mimikay%20Pharmacy&query_place_id=ChIJ2-lg2CkFyIkRJibuxFEffk8",
     "city": "Baltimore",
     "zipCode": "21211"
-  },
-  {
-    "name": "MoneyGram",
-    "address": "1001 York Rd, Baltimore, MD 21204",
-    "phone": "(800) 746-7287",
-    "website": "https://moneygram.com/locations/us/en/md/baltimore/66000730?utm_source=google&utm_medium=organic&utm_campaign=gbp",
-    "rating": 1,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=MoneyGram&query_place_id=ChIJv7gMO00OyIkRRq9LriYsb9E",
-    "city": "Baltimore",
-    "zipCode": "21204"
   },
   {
     "name": "Morrell Park Pharmacy",
@@ -1130,16 +1030,6 @@
     "zipCode": "21215"
   },
   {
-    "name": "Richard Mainzer, PD",
-    "address": "9006 Yellow Brick Road, Baltimore, MD 21237, 9006 Yellow Brick Rd # B, Rosedale, MD 21237",
-    "phone": "(443) 927-8405",
-    "website": "",
-    "rating": 5,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Richard%20Mainzer%2C%20PD&query_place_id=ChIJt9oaoegHyIkRZ_aaAG1cErc",
-    "city": "Baltimore",
-    "zipCode": "21237"
-  },
-  {
     "name": "Ritchie Pharmacy",
     "address": "5507 B Ritchie Hwy, Baltimore, MD 21225",
     "phone": "(410) 355-3610",
@@ -1158,26 +1048,6 @@
     "map_url": "https://www.google.com/maps/search/?api=1&query=RITE%20CARE%20EXPRESS%20PHARMACY&query_place_id=ChIJP5YaaeUDyIkRm6_M8Ao_djA",
     "city": "Baltimore",
     "zipCode": "21223"
-  },
-  {
-    "name": "Ronald Knights, Phram",
-    "address": "9000 Franklin Square Drive, Baltimore, MD 21237, Rosedale, MD 21237",
-    "phone": "(443) 777-7629",
-    "website": "",
-    "rating": null,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Ronald%20Knights%2C%20Phram&query_place_id=ChIJUxQrJN4HyIkRyW8LzYK4xt8",
-    "city": "Baltimore",
-    "zipCode": "21237"
-  },
-  {
-    "name": "Ronald M. Kaplan, AUD",
-    "address": "3620 Fords Ln, Baltimore, MD 21215",
-    "phone": "(410) 358-0188",
-    "website": "",
-    "rating": null,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Ronald%20M.%20Kaplan%2C%20AUD&query_place_id=ChIJ2Ynpl2cayIkRKFR3_wrlbbc",
-    "city": "Baltimore",
-    "zipCode": "21215"
   },
   {
     "name": "Safeway Pharmacy",
@@ -1208,16 +1078,6 @@
     "map_url": "https://www.google.com/maps/search/?api=1&query=Sam's%20Club%20Pharmacy&query_place_id=ChIJVX25xccHyIkRv-F1-QS5NO8",
     "city": "Baltimore",
     "zipCode": "21237"
-  },
-  {
-    "name": "Scintillation Technologies Inc",
-    "address": "1520 Caton Center Dr, Baltimore, MD 21227",
-    "phone": "(410) 247-7200",
-    "website": "http://www.scintech.us/",
-    "rating": null,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Scintillation%20Technologies%20Inc&query_place_id=ChIJB6RCQ_4cyIkRPVvsl_1W810",
-    "city": "Baltimore",
-    "zipCode": "21227"
   },
   {
     "name": "SHOPPERS Catonsville",
@@ -1528,16 +1388,6 @@
     "map_url": "https://www.google.com/maps/search/?api=1&query=Walmart%20Pharmacy&query_place_id=ChIJVX25xccHyIkRX_g-gPC_cus",
     "city": "Baltimore",
     "zipCode": "21237"
-  },
-  {
-    "name": "Warren G. Zerwitz, PHG",
-    "address": "5760 Wabash Ave, Baltimore, MD 21215",
-    "phone": "(410) 358-5822",
-    "website": "",
-    "rating": null,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Warren%20G.%20Zerwitz%2C%20PHG&query_place_id=ChIJv3vdlvwayIkRAWkTGcV4vsE",
-    "city": "Baltimore",
-    "zipCode": "21215"
   },
   {
     "name": "Weis Pharmacy",
@@ -1900,16 +1750,6 @@
     "zipCode": "21228"
   },
   {
-    "name": "Advanced Infusion Care",
-    "address": "10 Warren Rd, Cockeysville, MD 21030",
-    "phone": "(833) 885-5812",
-    "website": "https://www.aiscaregroup.com/our-divisions/infusion-care/",
-    "rating": null,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Advanced%20Infusion%20Care&query_place_id=ChIJ-a0A00UNyIkRj9bTEutfRkk",
-    "city": "Cockeysville",
-    "zipCode": "21030"
-  },
-  {
     "name": "Austin Pharmacy & Medical Supplies",
     "address": "10757 York Rd, Cockeysville, MD 21030",
     "phone": "(410) 773-0300",
@@ -1920,32 +1760,12 @@
     "zipCode": "21030"
   },
   {
-    "name": "BrightStar Care",
-    "address": "6 N Park Dr Suite 110, Cockeysville, MD 21030",
-    "phone": "(443) 275-2796",
-    "website": "https://www.brightstarcare.com/locations/baltimore-city-county/",
-    "rating": 4.8,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=BrightStar%20Care&query_place_id=ChIJUVP9MTwOyIkRYbo7X9QJoVg",
-    "city": "Cockeysville",
-    "zipCode": "21030"
-  },
-  {
     "name": "CVS",
     "address": "9901 York Rd Target, Cockeysville, MD 21030",
     "phone": "(410) 683-6517",
     "website": "",
     "rating": 1.8,
     "map_url": "https://www.google.com/maps/search/?api=1&query=CVS&query_place_id=ChIJAQAAafoNyIkRDMp0Elr7EbY",
-    "city": "Cockeysville",
-    "zipCode": "21030"
-  },
-  {
-    "name": "Epidemiology International Inc",
-    "address": "111 Lake Front Dr, Cockeysville, MD 21030",
-    "phone": "(410) 581-9450",
-    "website": "",
-    "rating": null,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Epidemiology%20International%20Inc&query_place_id=ChIJf4A-f2USyIkReT8UtAZT8QE",
     "city": "Cockeysville",
     "zipCode": "21030"
   },
@@ -1966,16 +1786,6 @@
     "website": "",
     "rating": 3.8,
     "map_url": "https://www.google.com/maps/search/?api=1&query=Harvard%20Pharmacy%20Inc&query_place_id=ChIJf8PeixUOyIkRq6zVatZjatA",
-    "city": "Cockeysville",
-    "zipCode": "21030"
-  },
-  {
-    "name": "Quick mart",
-    "address": "576 Cranbrook Rd, Cockeysville, MD 21030",
-    "phone": "(410) 666-7702",
-    "website": "",
-    "rating": 4.2,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Quick%20mart&query_place_id=ChIJCUkL0eoNyIkRxapBenq-89U",
     "city": "Cockeysville",
     "zipCode": "21030"
   },
@@ -2110,36 +1920,6 @@
     "zipCode": "21222"
   },
   {
-    "name": "Dundalk PLaza",
-    "address": "1408 Merritt Blvd, Dundalk, MD 21222",
-    "phone": "",
-    "website": "",
-    "rating": 4.2,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Dundalk%20PLaza&query_place_id=ChIJBRXlZdUGyIkRO0m4j1Ne-Dw",
-    "city": "Dundalk",
-    "zipCode": "21222"
-  },
-  {
-    "name": "ExpressCare Urgent Care Center - Dundalk",
-    "address": "1307 Merritt Blvd, Dundalk, MD 21222",
-    "phone": "(410) 288-2121",
-    "website": "https://whywaitintheer.com/",
-    "rating": 4,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=ExpressCare%20Urgent%20Care%20Center%20-%20Dundalk&query_place_id=ChIJ-Ufn0dUGyIkR1vDX0w_6-Fg",
-    "city": "Dundalk",
-    "zipCode": "21222"
-  },
-  {
-    "name": "ExpressCare Urgent Care Center - Northpoint",
-    "address": "4009 North Point Blvd, Dundalk, MD 21222",
-    "phone": "(410) 477-1039",
-    "website": "https://goexpresscare.com/location/north-point/",
-    "rating": 4.2,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=ExpressCare%20Urgent%20Care%20Center%20-%20Northpoint&query_place_id=ChIJfcMFRLMAyIkRu3HLRLonKPo",
-    "city": "Dundalk",
-    "zipCode": "21222"
-  },
-  {
     "name": "Giant Food",
     "address": "1400 Merritt Blvd, Dundalk, MD 21222",
     "phone": "(410) 631-1250",
@@ -2186,16 +1966,6 @@
     "website": "",
     "rating": 5,
     "map_url": "https://www.google.com/maps/search/?api=1&query=MingoCare%20Pharmacy&query_place_id=ChIJTVY3CiwByIkRKWpa9bWif-s",
-    "city": "Dundalk",
-    "zipCode": "21222"
-  },
-  {
-    "name": "Shell",
-    "address": "1521 Merritt Blvd, Dundalk, MD 21222",
-    "phone": "(410) 285-0272",
-    "website": "https://find.shell.com/us/fuel/10071668-1521-merritt-blvd/en_US",
-    "rating": 4,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Shell&query_place_id=ChIJNel6nyoByIkRRxz0OaSuuGE",
     "city": "Dundalk",
     "zipCode": "21222"
   },
@@ -2420,26 +2190,6 @@
     "zipCode": "21727"
   },
   {
-    "name": "24 7 Super Mart",
-    "address": "329 S Marlyn Ave, Essex, MD 21221",
-    "phone": "",
-    "website": "",
-    "rating": 4.3,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=24%207%20Super%20Mart&query_place_id=ChIJLWBwHXkHyIkRF_K0_Z9VEuw",
-    "city": "Essex",
-    "zipCode": "21221"
-  },
-  {
-    "name": "Central Maryland Primary Care",
-    "address": "201 Back River Neck Rd # 109, Essex, MD 21221",
-    "phone": "(410) 391-8733",
-    "website": "",
-    "rating": 3.4,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Central%20Maryland%20Primary%20Care&query_place_id=ChIJVUGPW539x4kRgxYhx2gMN-g",
-    "city": "Essex",
-    "zipCode": "21221"
-  },
-  {
     "name": "COVID-19 Drive-Thru Testing at Walgreens",
     "address": "6 S Marlyn Ave, Essex, MD 21221",
     "phone": "(410) 918-0790",
@@ -2470,42 +2220,12 @@
     "zipCode": "21221"
   },
   {
-    "name": "ExpressCare Urgent Care Center - Essex",
-    "address": "1354 Eastern Blvd, Essex, MD 21221",
-    "phone": "(443) 231-5203",
-    "website": "https://whywaitintheer.com/location/essex/",
-    "rating": 4,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=ExpressCare%20Urgent%20Care%20Center%20-%20Essex&query_place_id=ChIJ3eQKtYYHyIkRTD4ZLk5S9Uw",
-    "city": "Essex",
-    "zipCode": "21221"
-  },
-  {
-    "name": "Mace Medical (Essex)",
-    "address": "1124 Mace Ave, Essex, MD 21221",
-    "phone": "(410) 391-6996",
-    "website": "http://www.macemed.com/",
-    "rating": 3.4,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Mace%20Medical%20(Essex)&query_place_id=ChIJASuacZEHyIkRKT38snbVjAs",
-    "city": "Essex",
-    "zipCode": "21221"
-  },
-  {
     "name": "RIVERVIEW PHARMACY & SURGICALS",
     "address": "410 Eastern Blvd, Essex, MD 21221",
     "phone": "(443) 231-5177",
     "website": "http://www.riverview-rx.com/",
     "rating": 4.4,
     "map_url": "https://www.google.com/maps/search/?api=1&query=RIVERVIEW%20PHARMACY%20%26%20SURGICALS&query_place_id=ChIJG6zQXnMHyIkRhvIAMtmHH6s",
-    "city": "Essex",
-    "zipCode": "21221"
-  },
-  {
-    "name": "Syed Masiuddin",
-    "address": "140 Back River Neck Rd, Essex, MD 21221",
-    "phone": "(410) 238-0511",
-    "website": "",
-    "rating": null,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Syed%20Masiuddin&query_place_id=ChIJO_B6Enj9x4kRjLiy35Hr1co",
     "city": "Essex",
     "zipCode": "21221"
   },
@@ -2528,16 +2248,6 @@
     "map_url": "https://www.google.com/maps/search/?api=1&query=YOU%20FIRST%20PHARMACY%20LLC&query_place_id=ChIJV3dMbnQHyIkRBkL_Q0jzvrQ",
     "city": "Essex",
     "zipCode": "21221"
-  },
-  {
-    "name": "Bel Air Medicines",
-    "address": "1911 Belair Rd, Fallston, MD 21047",
-    "phone": "(410) 877-0611",
-    "website": "https://www.belairmedicines.com/",
-    "rating": 5,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Bel%20Air%20Medicines&query_place_id=ChIJqzZsJxzex4kR9hTtn1CQ2ew",
-    "city": "Fallston",
-    "zipCode": "21047"
   },
   {
     "name": "CVS",
@@ -2710,16 +2420,6 @@
     "zipCode": "21085"
   },
   {
-    "name": "Jill R. Molofsky, BS",
-    "address": "803 Barkwood Ct, Linthicum Heights, MD 21090",
-    "phone": "",
-    "website": "",
-    "rating": null,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Jill%20R.%20Molofsky%2C%20BS&query_place_id=ChIJ8wMwg0UdyIkRZKWvQgRO52A",
-    "city": "Linthicum Heights",
-    "zipCode": "21090"
-  },
-  {
     "name": "Pro Fit Rx",
     "address": "1134 York Rd, Lutherville, MD 21093",
     "phone": "(410) 828-7928",
@@ -2760,26 +2460,6 @@
     "zipCode": "21220"
   },
   {
-    "name": "Maryland Emergency Products LLC",
-    "address": "9718 Pulaski Hwy, Middle River, MD 21220",
-    "phone": "(410) 391-2223",
-    "website": "",
-    "rating": null,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Maryland%20Emergency%20Products%20LLC&query_place_id=ChIJgfBK4Kvix4kRApzm_nzAJAs",
-    "city": "Middle River",
-    "zipCode": "21220"
-  },
-  {
-    "name": "R X Resources & Solutions LLC",
-    "address": "11615 Crossroads Cir # E, Middle River, MD 21220",
-    "phone": "",
-    "website": "",
-    "rating": null,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=R%20X%20Resources%20%26%20Solutions%20LLC&query_place_id=ChIJK9MWWijjx4kR09T6H0X_1Q4",
-    "city": "Middle River",
-    "zipCode": "21220"
-  },
-  {
     "name": "Target",
     "address": "1330 Martin Blvd, Middle River, MD 21220",
     "phone": "(410) 406-9081",
@@ -2806,16 +2486,6 @@
     "website": "https://www.cvs.com/store-locator/baltimore-md-pharmacies/4140-joppa-road-baltimore-md-21236/storeid=4274?WT.mc_id=LS_GOOGLE_RX_4274",
     "rating": 4,
     "map_url": "https://www.google.com/maps/search/?api=1&query=CVS%20Pharmacy&query_place_id=ChIJF-S-MkwIyIkRXRPzTIdBjAU",
-    "city": "Nottingham",
-    "zipCode": "21236"
-  },
-  {
-    "name": "Fullerton Animal Hospital",
-    "address": "8018 Belair Rd, Nottingham, MD 21236",
-    "phone": "(410) 665-6996",
-    "website": "https://fullertonanimal.com/?utm_source=gmb&utm_medium=organic",
-    "rating": 4.8,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Fullerton%20Animal%20Hospital&query_place_id=ChIJrw99XYsIyIkRsectZs2wVtA",
     "city": "Nottingham",
     "zipCode": "21236"
   },
@@ -2990,36 +2660,6 @@
     "zipCode": "21117"
   },
   {
-    "name": "ScriptSourcing",
-    "address": "11000 Owings Mills Blvd #6a, Owings Mills, MD 21117",
-    "phone": "(410) 902-8800",
-    "website": "",
-    "rating": 5,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=ScriptSourcing&query_place_id=ChIJeT0EYaoXyIkRzso2cXdm1cw",
-    "city": "Owings Mills",
-    "zipCode": "21117"
-  },
-  {
-    "name": "Target Grocery",
-    "address": "11200 Reisterstown Rd, Owings Mills, MD 21117",
-    "phone": "(410) 654-9800",
-    "website": "https://www.target.com/sl/owings-mills/1045/grocery?utm_source=OGS&utm_medium=groceryList&utm_id=1045",
-    "rating": 4.4,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Target%20Grocery&query_place_id=ChIJC-KwZ_8XyIkRDJwkeNwQFRA",
-    "city": "Owings Mills",
-    "zipCode": "21117"
-  },
-  {
-    "name": "The Expert Nutrition Center",
-    "address": "10210 S Dolfield Rd, Owings Mills, MD 21117",
-    "phone": "(888) 794-4325",
-    "website": "http://expertnutrition.com/",
-    "rating": 4.6,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=The%20Expert%20Nutrition%20Center&query_place_id=ChIJuxRJcgoXyIkRyjYsfwNaMV4",
-    "city": "Owings Mills",
-    "zipCode": "21117"
-  },
-  {
     "name": "Wegmans",
     "address": "10100 Reisterstown Rd, Owings Mills, MD 21117",
     "phone": "(443) 471-2300",
@@ -3036,16 +2676,6 @@
     "website": "https://www.weismarkets.com/stores#/4372",
     "rating": 4.1,
     "map_url": "https://www.google.com/maps/search/?api=1&query=Weis%20Markets&query_place_id=ChIJh5BAg4UXyIkRq_MRtugtm_A",
-    "city": "Owings Mills",
-    "zipCode": "21117"
-  },
-  {
-    "name": "Znova",
-    "address": "10 Stream Ct, Owings Mills, MD 21117",
-    "phone": "(410) 902-3450",
-    "website": "",
-    "rating": 5,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Znova&query_place_id=ChIJ-zwHRjoRyIkRYoAquCK0A8w",
     "city": "Owings Mills",
     "zipCode": "21117"
   },
@@ -3068,16 +2698,6 @@
     "map_url": "https://www.google.com/maps/search/?api=1&query=Mt%20Carmel%20Pharmacy&query_place_id=ChIJpzhh4bxtyIkRehZaaZ1Igpg",
     "city": "Parkton",
     "zipCode": "21120"
-  },
-  {
-    "name": "Andrew P. Mclaughlin, BS",
-    "address": "9616 Harford Rd, Parkville, MD 21234",
-    "phone": "(410) 663-7957",
-    "website": "http://www.walgreens.com/",
-    "rating": 1,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Andrew%20P.%20Mclaughlin%2C%20BS&query_place_id=ChIJ-ceR5eAIyIkRxQ0R8FQ5Q7Y",
-    "city": "Parkville",
-    "zipCode": "21234"
   },
   {
     "name": "Cornerstone Pharmacy",
@@ -3280,32 +2900,12 @@
     "zipCode": "21208"
   },
   {
-    "name": "Gerald I. Cohen, BS",
-    "address": "11 Slade Ave, Pikesville, MD 21208",
-    "phone": "(443) 352-3155",
-    "website": "",
-    "rating": null,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Gerald%20I.%20Cohen%2C%20BS&query_place_id=ChIJNVmiLhIayIkRe7PyL12Gx4c",
-    "city": "Pikesville",
-    "zipCode": "21208"
-  },
-  {
     "name": "Giant Pharmacy",
     "address": "3757 Old Court Rd, Pikesville, MD 21208",
     "phone": "(410) 602-7661",
     "website": "https://pharmacy.giantfood.com/md/pikesville/3757-old-court-rd?y_source=1_MTE2Mzg0NzItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
     "rating": 2.5,
     "map_url": "https://www.google.com/maps/search/?api=1&query=Giant%20Pharmacy&query_place_id=ChIJidSBcQYayIkRG-xOj4-6SZ4",
-    "city": "Pikesville",
-    "zipCode": "21208"
-  },
-  {
-    "name": "Harold L. Cooper, R",
-    "address": "806 Reisterstown Rd, Pikesville, MD 21208",
-    "phone": "(410) 484-4801",
-    "website": "",
-    "rating": null,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Harold%20L.%20Cooper%2C%20R&query_place_id=ChIJlQ4p3g8ayIkRG118ghgHQOE",
     "city": "Pikesville",
     "zipCode": "21208"
   },
@@ -3360,16 +2960,6 @@
     "zipCode": "21208"
   },
   {
-    "name": "Target Grocery",
-    "address": "1737 Reisterstown Rd, Pikesville, MD 21208",
-    "phone": "(410) 486-4141",
-    "website": "https://www.target.com/sl/pikesville/1541/grocery?utm_source=OGS&utm_medium=groceryList&utm_id=1541",
-    "rating": 4.1,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Target%20Grocery&query_place_id=ChIJExG6-vcRyIkRTHQxXRwdUkY",
-    "city": "Pikesville",
-    "zipCode": "21208"
-  },
-  {
     "name": "The Pharmacia",
     "address": "1809 Reisterstown Rd suite 115, Pikesville, MD 21208",
     "phone": "(410) 559-1750",
@@ -3396,16 +2986,6 @@
     "website": "https://www.walgreens.com/locator/walgreens-1510+reisterstown+rd-pikesville-md-21208/id=12560",
     "rating": 2.6,
     "map_url": "https://www.google.com/maps/search/?api=1&query=Walgreens%20Pharmacy&query_place_id=ChIJf_edpgYayIkRfNnk12ayF6U",
-    "city": "Pikesville",
-    "zipCode": "21208"
-  },
-  {
-    "name": "Weiner's Home Health Care Center",
-    "address": "1777 Reisterstown Rd #14a, Pikesville, MD 21208",
-    "phone": "(410) 653-1434",
-    "website": "http://www.weinershomehealthcarecenter.com/",
-    "rating": 3,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Weiner's%20Home%20Health%20Care%20Center&query_place_id=ChIJkws28ggayIkRoNTDZjNevno",
     "city": "Pikesville",
     "zipCode": "21208"
   },
@@ -3490,16 +3070,6 @@
     "zipCode": "21136"
   },
   {
-    "name": "Mid-Atlantic Medical Supply & Equipment",
-    "address": "718 Main St, Reisterstown, MD 21136",
-    "phone": "(410) 363-2279",
-    "website": "https://medicalsupplysale.com/",
-    "rating": 4.4,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Mid-Atlantic%20Medical%20Supply%20%26%20Equipment&query_place_id=ChIJf89kx9EXyIkRJTNCB4zcxVY",
-    "city": "Reisterstown",
-    "zipCode": "21136"
-  },
-  {
     "name": "NatureCARE Pharmacy",
     "address": "40 Main St, Reisterstown, MD 21136",
     "phone": "(410) 833-9844",
@@ -3580,16 +3150,6 @@
     "zipCode": "21237"
   },
   {
-    "name": "Remedi Senior Care",
-    "address": "9006 Yellow Brick Rd, Rosedale, MD 21237",
-    "phone": "(443) 927-8400",
-    "website": "http://www.remedirx.com/",
-    "rating": 3,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Remedi%20Senior%20Care&query_place_id=ChIJt9oaoegHyIkRPbS5MC0HBmU",
-    "city": "Rosedale",
-    "zipCode": "21237"
-  },
-  {
     "name": "Walgreens",
     "address": "8606 Philadelphia Rd, Rosedale, MD 21237",
     "phone": "(410) 238-7705",
@@ -3636,16 +3196,6 @@
     "website": "https://www.lykospharmacyrx.com/",
     "rating": 4.8,
     "map_url": "https://www.google.com/maps/search/?api=1&query=Lykos%20Pharmacy&query_place_id=ChIJExCuyBEOyIkRliq_vcniW_Q",
-    "city": "Timonium",
-    "zipCode": "21093"
-  },
-  {
-    "name": "Patient First Primary and Urgent Care - Lutherville",
-    "address": "10755 Falls Rd Suite 160, Timonium, MD 21093",
-    "phone": "(410) 583-2777",
-    "website": "https://www.patientfirst.com/locations/baltimore/lutherville?utm_source=local&utm_medium=organic&utm_campaign=gbp&y_source=1_NTI1NTU2MjUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
-    "rating": 4.5,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Patient%20First%20Primary%20and%20Urgent%20Care%20-%20Lutherville&query_place_id=ChIJ-5S21LURyIkR-b4ihcYxR88",
     "city": "Timonium",
     "zipCode": "21093"
   },
@@ -3780,16 +3330,6 @@
     "zipCode": "21204"
   },
   {
-    "name": "Sprouts Farmers Market",
-    "address": "803 Goucher Blvd, Towson, MD 21286",
-    "phone": "(410) 842-6010",
-    "website": "https://www.sprouts.com/store/md/towson/towson/",
-    "rating": 4.4,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Sprouts%20Farmers%20Market&query_place_id=ChIJC_lr0oIPyIkRjZ7PM8UIEMQ",
-    "city": "Towson",
-    "zipCode": "21286"
-  },
-  {
     "name": "St. Joseph Medical Center Pharmacy",
     "address": "7505 Osler Dr #102, Towson, MD 21204",
     "phone": "(443) 279-1998",
@@ -3800,32 +3340,12 @@
     "zipCode": "21204"
   },
   {
-    "name": "Target Grocery",
-    "address": "1238 Putty Hill Ave, Towson, MD 21286",
-    "phone": "(410) 823-4423",
-    "website": "https://www.target.com/sl/towson/1142/grocery?utm_source=OGS&utm_medium=groceryList&utm_id=1142",
-    "rating": 5,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Target%20Grocery&query_place_id=ChIJk0pH4QYPyIkRSTR04CVXbw4",
-    "city": "Towson",
-    "zipCode": "21286"
-  },
-  {
     "name": "Towson Health Mart Pharmacy",
     "address": "32 West Road #100, Towson, MD 21204",
     "phone": "(410) 823-1818",
     "website": "http://towsonpharmacy.com/",
     "rating": 4.2,
     "map_url": "https://www.google.com/maps/search/?api=1&query=Towson%20Health%20Mart%20Pharmacy&query_place_id=ChIJbUhGGEsOyIkRVZrfz6oX7hQ",
-    "city": "Towson",
-    "zipCode": "21204"
-  },
-  {
-    "name": "Towson Medical Associates: Doyle Timothy G MD",
-    "address": "7801 York Rd #102, Towson, MD 21204",
-    "phone": "(410) 769-4920",
-    "website": "",
-    "rating": 5,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Towson%20Medical%20Associates%3A%20Doyle%20Timothy%20G%20MD&query_place_id=ChIJcecbw6IPyIkRcv1fsCCjBt0",
     "city": "Towson",
     "zipCode": "21204"
   },
@@ -3840,16 +3360,6 @@
     "zipCode": "21204"
   },
   {
-    "name": "Walters James K",
-    "address": "6501 N Charles St # Th298, Towson, MD 21204",
-    "phone": "(410) 938-3434",
-    "website": "",
-    "rating": null,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Walters%20James%20K&query_place_id=ChIJTyudKMAPyIkRp56eI6xOLKU",
-    "city": "Towson",
-    "zipCode": "21204"
-  },
-  {
     "name": "Union Bridge Pharmacy - Family Health Center",
     "address": "5 N Main St, Union Bridge, MD 21791",
     "phone": "(410) 775-7272",
@@ -3858,16 +3368,6 @@
     "map_url": "https://www.google.com/maps/search/?api=1&query=Union%20Bridge%20Pharmacy%20-%20Family%20Health%20Center&query_place_id=ChIJ-43chTs1yIkRl5tp0t5sDg8",
     "city": "Union Bridge",
     "zipCode": "21791"
-  },
-  {
-    "name": "Genoa Healthcare",
-    "address": "10 Distillery Dr Suite 200-P, Westminster, MD 21157",
-    "phone": "(443) 487-4127",
-    "website": "http://www.genoahealthcare.com/",
-    "rating": 5,
-    "map_url": "https://www.google.com/maps/search/?api=1&query=Genoa%20Healthcare&query_place_id=ChIJ3yEU95lHyIkRXk9ODS4aoVk",
-    "city": "Westminster",
-    "zipCode": "21157"
   },
   {
     "name": "Safeway",
