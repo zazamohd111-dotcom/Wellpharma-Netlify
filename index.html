@@ -169,6 +169,17 @@
         @keyframes tickerScroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
         @keyframes livePulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:0.4;transform:scale(0.85)}}
         @media(max-width:768px){.news-ticker{height:40px}.ticker-live-text{font-size:0.7rem}.ticker-item a{font-size:0.76rem}}
+        /* ── Watch & Learn Video Grid ────────────────────────────────────── */
+        .video-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:2rem}
+        .video-card{border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.08);background:#fff}
+        .video-facade{position:relative;cursor:pointer;aspect-ratio:16/9;background:#000;display:block}
+        .video-facade img{width:100%;height:100%;object-fit:cover;display:block;opacity:0.85;transition:opacity 0.2s}
+        .video-facade:hover img{opacity:1}
+        .video-play-btn{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:none;border:none;cursor:pointer;filter:drop-shadow(0 2px 8px rgba(0,0,0,0.4));transition:transform 0.2s}
+        .video-facade:hover .video-play-btn{transform:translate(-50%,-50%) scale(1.1)}
+        .video-card iframe{width:100%;aspect-ratio:16/9;border:none;display:block}
+        .video-title{padding:0.75rem 1rem;font-size:0.9rem;font-weight:600;color:var(--text-color);line-height:1.4;margin:0}
+        @media(max-width:768px){.video-grid{grid-template-columns:1fr}}
     </style>
 
     <!-- Critical CSS - Non-blocking load (minified) -->
@@ -1188,7 +1199,6 @@
 
                     <div class="hero-cta-row">
                         <a href="https://app.formdr.com/practice/NDUzNjE=/form/eg8P_60baYvMleMIRDy3ux7YtPT4GAAY" class="btn btn-primary" target="_blank">Refill Prescription</a>
-                        <a href="tel:+14106989068" class="btn btn-secondary">Call (410) 698-9068</a>
                     </div>
                 </div>
                 
@@ -1214,7 +1224,6 @@
                         <p>Maryland's affordable, membership-based GLP-1 weight loss program. Clinician-guided therapy, ongoing check-ins, and personalized support — all through your local WellPharma pharmacist.</p>
                         <div class="weight-management-promo-cta">
                             <a href="glp1-womens-weight-loss-maryland.html" class="btn btn-primary">See the Program</a>
-                            <a href="tel:+14106989068" class="btn btn-secondary">Call (410) 698-9068</a>
                         </div>
                     </div>
                 </div>
@@ -1231,7 +1240,6 @@
 
                         <div class="birth-control-cta">
                             <a href="https://cal.com/wellpharma-pharmacy-esydym/15min" class="btn btn-primary" target="_blank">Schedule Consultation</a>
-                            <a href="tel:+14106989068" class="btn btn-secondary">Call (410) 698-9068</a>
                         </div>
                     </div>
 
@@ -1374,125 +1382,45 @@
             </div>
         </section>
 
-        <!-- Blog Section with Sliding Cards -->
+        <!-- Watch & Learn Video Section -->
         <section id="blog-section" class="blog-slider-section">
             <div class="container">
                 <div class="blog-header">
-                    <h2>Key health insights</h2>
+                    <h2>Watch &amp; Learn</h2>
                 </div>
-                
-                <div class="blog-slider-wrapper">
-                    <div class="blog-slider-container">
-                        <div class="blog-slider-track">
-                            <!-- Blog Card 1 -->
-                            <article class="blog-card">
-                                <div class="blog-card-image">
-                                    <picture>
-                                        <source srcset="Image.webp/blog-pill-organizers.webp" type="image/webp">
-                                        <img src="images/blog-pill-organizers.jpg" alt="Pill Organization for Aging in Place: Your Guide to Safe Medication Management" loading="lazy">
-                                    </picture>
-                                    <div class="blog-card-overlay">
-                                        <h3>Pill Organization for Aging in Place: Your Guide to Safe Medication Management</h3>
-                                    </div>
-                                </div>
-                                <a href="pill-organizers.html" class="blog-explore-btn">Explore</a>
-                            </article>
 
-                            <!-- Blog Card 2 -->
-                            <article class="blog-card">
-                                <div class="blog-card-image">
-                                    <picture>
-                                        <source srcset="Image.webp/glp1 medication.webp" type="image/webp">
-                                        <img src="images/glp1 medication.jpg" alt="GLP-1 Medications (Ozempic/Wegovy): Essential Supplements and Testing for Success" loading="lazy">
-                                    </picture>
-                                    <div class="blog-card-overlay">
-                                        <h3>GLP-1 Medications (Ozempic/Wegovy): Essential Supplements and Testing for Success</h3>
-                                    </div>
-                                </div>
-                                <a href="glp1-medications.html" class="blog-explore-btn">Explore</a>
-                            </article>
-
-                            <!-- Blog Card 3 -->
-                            <article class="blog-card">
-                                <div class="blog-card-image">
-                                    <picture>
-                                        <source srcset="Image.webp/blog-birth-control.webp" type="image/webp">
-                                        <img src="images/blog-birth-control.jpg" alt="Birth Control Options and Side Effects: Get Prescriptions at Your Pharmacy" loading="lazy">
-                                    </picture>
-                                    <div class="blog-card-overlay">
-                                        <h3>Birth Control Options and Side Effects: Get Prescriptions at Your Pharmacy</h3>
-                                    </div>
-                                </div>
-                                <a href="birth-control.html" class="blog-explore-btn">Explore</a>
-                            </article>
-
-                            <!-- Blog Card 4 -->
-                            <article class="blog-card">
-                                <div class="blog-card-image">
-                                    <picture>
-                                        <source srcset="Image.webp/blog-vaccines.webp" type="image/webp">
-                                        <img src="images/blog-vaccines.jpg" alt="What Vaccines Do Adults Need? 2025 Flu & COVID Guide" loading="lazy">
-                                    </picture>
-                                    <div class="blog-card-overlay">
-                                        <h3>What Vaccines Do Adults Need? 2025 Flu & COVID Guide</h3>
-                                    </div>
-                                </div>
-                                <a href="vaccines.html" class="blog-explore-btn">Explore</a>
-                            </article>
-
-                            <!-- Duplicate cards for seamless loop -->
-                            <article class="blog-card">
-                                <div class="blog-card-image">
-                                    <picture>
-                                        <source srcset="Image.webp/blog-pill-organizers.webp" type="image/webp">
-                                        <img src="images/blog-pill-organizers.jpg" alt="Pill Organization for Aging in Place: Your Guide to Safe Medication Management" loading="lazy">
-                                    </picture>
-                                    <div class="blog-card-overlay">
-                                        <h3>Pill Organization for Aging in Place: Your Guide to Safe Medication Management</h3>
-                                    </div>
-                                </div>
-                                <a href="pill-organizers.html" class="blog-explore-btn">Explore</a>
-                            </article>
-
-                            <article class="blog-card">
-                                <div class="blog-card-image">
-                                    <picture>
-                                        <source srcset="Image.webp/glp1 medication.webp" type="image/webp">
-                                        <img src="images/glp1 medication.jpg" alt="GLP-1 Medications (Ozempic/Wegovy): Essential Supplements and Testing for Success" loading="lazy">
-                                    </picture>
-                                    <div class="blog-card-overlay">
-                                        <h3>GLP-1 Medications (Ozempic/Wegovy): Essential Supplements and Testing for Success</h3>
-                                    </div>
-                                </div>
-                                <a href="glp1-medications.html" class="blog-explore-btn">Explore</a>
-                            </article>
-
-                            <article class="blog-card">
-                                <div class="blog-card-image">
-                                    <picture>
-                                        <source srcset="Image.webp/blog-birth-control.webp" type="image/webp">
-                                        <img src="images/blog-birth-control.jpg" alt="Birth Control Options and Side Effects: Get Prescriptions at Your Pharmacy" loading="lazy">
-                                    </picture>
-                                    <div class="blog-card-overlay">
-                                        <h3>Birth Control Options and Side Effects: Get Prescriptions at Your Pharmacy</h3>
-                                    </div>
-                                </div>
-                                <a href="birth-control.html" class="blog-explore-btn">Explore</a>
-                            </article>
-
-                            <article class="blog-card">
-                                <div class="blog-card-image">
-                                    <picture>
-                                        <source srcset="Image.webp/blog-vaccines.webp" type="image/webp">
-                                        <img src="images/blog-vaccines.jpg" alt="What Vaccines Do Adults Need? 2025 Flu & COVID Guide" loading="lazy">
-                                    </picture>
-                                    <div class="blog-card-overlay">
-                                        <h3>What Vaccines Do Adults Need? 2025 Flu & COVID Guide</h3>
-                                    </div>
-                                </div>
-                                <a href="vaccines.html" class="blog-explore-btn">Explore</a>
-                            </article>
+                <div class="video-grid">
+                    <!-- Video 1: Birth Control -->
+                    <div class="video-card">
+                        <div class="video-facade" data-videoid="FqS1uwtJbO0">
+                            <img src="https://img.youtube.com/vi/FqS1uwtJbO0/hqdefault.jpg" alt="Birth Control Slip-Up? How to Handle Missed Pills Safely" loading="lazy" width="480" height="360">
+                            <button class="video-play-btn" aria-label="Play video">
+                                <svg viewBox="0 0 68 48" width="68" height="48"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24 27 14v20" fill="#fff"/></svg>
+                            </button>
                         </div>
+                        <p class="video-title">Birth Control Slip-Up? How to Handle Missed Pills Safely</p>
+                    </div>
+
+                    <!-- Video 2: GLP-1 -->
+                    <div class="video-card">
+                        <div class="video-facade" data-videoid="Aq-R9jQOImI">
+                            <img src="https://img.youtube.com/vi/Aq-R9jQOImI/hqdefault.jpg" alt="What Happens When You Stop Taking GLP-1?" loading="lazy" width="480" height="360">
+                            <button class="video-play-btn" aria-label="Play video">
+                                <svg viewBox="0 0 68 48" width="68" height="48"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24 27 14v20" fill="#fff"/></svg>
+                            </button>
+                        </div>
+                        <p class="video-title">What Happens When You Stop Taking GLP-1?</p>
+                    </div>
+
+                    <!-- Video 3: Women's HRT -->
+                    <div class="video-card">
+                        <div class="video-facade" data-videoid="S2ZxBBQPaCo">
+                            <img src="https://img.youtube.com/vi/S2ZxBBQPaCo/hqdefault.jpg" alt="Women's HRT Explained" loading="lazy" width="480" height="360">
+                            <button class="video-play-btn" aria-label="Play video">
+                                <svg viewBox="0 0 68 48" width="68" height="48"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="#f00"/><path d="M45 24 27 14v20" fill="#fff"/></svg>
+                            </button>
+                        </div>
+                        <p class="video-title">Women's HRT Explained</p>
                     </div>
                 </div>
                 
@@ -1951,7 +1879,18 @@
 
     <!-- JavaScript - Optimized Loading -->
     <script src="js/wellpharma.js" defer></script>
-    <script src="js/blog-slider.js" defer></script>
+    <script>
+        document.querySelectorAll('.video-facade').forEach(function(facade) {
+            facade.addEventListener('click', function() {
+                var id = this.dataset.videoid;
+                var iframe = document.createElement('iframe');
+                iframe.src = 'https://www.youtube.com/embed/' + id + '?autoplay=1';
+                iframe.allow = 'autoplay; encrypted-media';
+                iframe.setAttribute('allowfullscreen', '');
+                this.replaceWith(iframe);
+            });
+        });
+    </script>
     <script src="js/testimonials-slider.js" defer></script>
     <script src="js/dynamic-blog.js" defer></script>
     <script src="js/latest-news-loader.js" defer></script>
