@@ -35,10 +35,25 @@
     <style>
         /* Blog Archive Styles */
         .blog-archive-header {
-            background: linear-gradient(135deg, #2d5016 0%, #4a7c29 100%);
+            position: relative;
+            background-image: url('images/pharmacy-interior.jpg');
+            background-size: cover;
+            background-position: center;
             color: white;
             padding: 120px 2rem 4rem;
             text-align: center;
+        }
+        .blog-archive-header::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(45,80,22,0.82) 0%, rgba(74,124,41,0.78) 100%);
+            z-index: 0;
+        }
+        .blog-archive-header h1,
+        .blog-archive-header p {
+            position: relative;
+            z-index: 1;
         }
 
         .blog-archive-header h1 {
