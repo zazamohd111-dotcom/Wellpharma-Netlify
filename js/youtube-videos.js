@@ -161,7 +161,7 @@
         q:                  query,
         type:               'video',
         maxResults:         count,
-        order:              count === 1 ? 'viewCount' : 'relevance',
+        order:              'relevance',
         relevanceLanguage:  'en',
         safeSearch:         'strict',
         videoEmbeddable:    'true',
