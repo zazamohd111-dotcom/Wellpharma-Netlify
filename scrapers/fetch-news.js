@@ -95,9 +95,8 @@ function extractTag(xml, tag) {
   const match = xml.match(regex);
   if (!match) return '';
   let content = match[1].trim();
-  // Strip CDATA wrapper if present
-  const cdata = content.match(/^<!\[CDATA\[([\s\S]*?)\]\]>$/);
-  if (cdata) content = cdata[1].trim();
+  // Strip CDATA wrapper anywhere in content
+  content = content.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1').trim();
   return content;
 }
 

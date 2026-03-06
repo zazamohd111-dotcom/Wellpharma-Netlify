@@ -1,5 +1,6 @@
 /* Main CSS for WellPharma Pharmacy - Static Site */
 /* WordPress Forhers-Inspired Green Wellness Color Palette */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 :root {
     /* Primary Green Palette - From WordPress */
     --primary-color: rgb(77, 123, 107); /* Forest Green - Trust & Health */
@@ -8,9 +9,9 @@
     --success-color: rgb(114, 150, 147); /* Muted Teal - Wellness */
     
     /* Supporting Colors */
-    --text-color: #2e2e2e; /* Dark Gray for readability */
-    --text-light: #5a5a5a; /* Medium Gray */
-    --light-bg: rgb(235, 243, 237); /* Very Light Green Background */
+    --text-color: #2E2E2E; /* Charcoal — clinical readability */
+    --text-light: #5A6A72; /* Slate Gray — secondary text */
+    --light-bg: #F5F7F8; /* Light Gray — section backgrounds */
     --white: #ffffff;
     --border-color: rgb(154, 189, 177); /* Mint Green Border */
     
@@ -57,9 +58,9 @@
     --radius-xl: 16px;
     
     /* Shadows */
-    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
-    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
-    --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.1);
+    --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.08);
     
     /* Transitions - WordPress smooth animations */
     --transition-fast: 0.2s ease-out;
@@ -68,8 +69,8 @@
     --transition-all: color 0.3s ease-out, background-color 0.3s ease-out, box-shadow 0.3s ease-out, transform 0.3s ease-out;
     
     /* Typography - WordPress Font Stack */
-    --font-primary: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    --font-heading: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-heading: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 * {
@@ -840,54 +841,54 @@ ul, ol {
     color: rgba(255, 255, 255, 0.9);
 }
 
-/* Category Colors */
+/* Category Colors — muted brand-green palette */
 .category-compounding {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #3d6b5c 0%, #4d7b6c 100%);
 }
 
 .category-birth-control {
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background: linear-gradient(135deg, #4a6858 0%, #5a7868 100%);
 }
 
 .category-weight-loss {
-    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    background: linear-gradient(135deg, #52826e 0%, #628e7c 100%);
 }
 
 .category-vaccines {
-    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+    background: linear-gradient(135deg, #3a5e52 0%, #4a6e62 100%);
 }
 
 .category-hormonal-imbalance {
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background: linear-gradient(135deg, #486068 0%, #587078 100%);
 }
 
 .category-diabetes-prevention {
-    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+    background: linear-gradient(135deg, #3e6458 0%, #4e7468 100%);
 }
 
 .category-hormone-testing {
-    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+    background: linear-gradient(135deg, #4a6e64 0%, #5a7e74 100%);
 }
 
-/* New category pills using same gradient colors */
+/* Health tool category pills */
 .category-bmi {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #3d6b5c 0%, #4d7b6c 100%);
 }
 
 .category-bp-monitor {
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background: linear-gradient(135deg, #486068 0%, #587880 100%);
 }
 
 .category-pill-id {
-    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    background: linear-gradient(135deg, #4a6858 0%, #5a7868 100%);
 }
 
 .category-med-review {
-    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+    background: linear-gradient(135deg, #3a5e52 0%, #4a6e62 100%);
 }
 
 .category-risk-test {
-    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+    background: linear-gradient(135deg, #52626a 0%, #62727a 100%);
 }
 
 .category-pill:hover {
