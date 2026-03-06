@@ -127,8 +127,11 @@
         section[id]{scroll-margin-top:100px}
 
         /* Hero Title Styles - Bold Brand + Lighter Subtitle */
-        .hero-main-title{font-size:3.5rem;font-weight:800;line-height:1.1;margin-bottom:0.5rem;color:var(--primary-color);letter-spacing:-0.02em}
-        .hero-subtitle{font-size:1.5rem;font-weight:400;line-height:1.4;margin-bottom:1.5rem;color:var(--text-color);opacity:0.85}
+        .hero-main-title{font-size:4rem;font-weight:800;line-height:1.05;margin-bottom:0.5rem;color:var(--primary-color);letter-spacing:-0.03em}
+        .hero-subtitle{font-size:1.35rem;font-weight:500;line-height:1.5;margin-bottom:1.5rem;color:var(--text-color);opacity:0.8}
+        .hero-cta-row{display:flex;gap:1rem;flex-wrap:wrap;margin-top:2rem}
+        .hero-cta-row .btn{font-size:1rem;padding:14px 28px;border-radius:10px}
+        @media(max-width:768px){.hero-main-title{font-size:2.6rem}.hero-cta-row{flex-direction:column}.hero-cta-row .btn{text-align:center}}
 
         .btn{display:inline-block;padding:12px 24px;border:none;border-radius:8px;text-decoration:none;font-weight:700;font-size:1.1rem;transition:var(--transition);cursor:pointer}
         .btn-primary{background:var(--primary-color);color:var(--white)}
@@ -160,8 +163,8 @@
         }
 
         /* ── News Ticker ────────────────────────────────────────────────── */
-        .news-ticker{width:100%;height:46px;background:#0d1b2a;color:#fff;display:flex;align-items:center;overflow:hidden}
-        .ticker-live{flex-shrink:0;display:flex;align-items:center;gap:0.4rem;padding:0 1.25rem;height:100%;border-right:1px solid rgba(255,255,255,0.12)}
+        .news-ticker{width:100%;height:46px;background:#1a3d2e;color:#fff;display:flex;align-items:center;overflow:hidden}
+        .ticker-live{flex-shrink:0;display:flex;align-items:center;gap:0.4rem;padding:0 1.25rem;height:100%;border-right:1px solid rgba(255,255,255,0.15)}
         .ticker-live-dot{width:8px;height:8px;border-radius:50%;background:#e53935;animation:livePulse 1.4s ease-in-out infinite;flex-shrink:0}
         .ticker-live-text{font-weight:800;font-size:0.78rem;color:#e53935;letter-spacing:0.08em}
         .ticker-track-wrap{flex:1;overflow:hidden;height:100%;display:flex;align-items:center}
@@ -1205,6 +1208,11 @@
                             <span class="feature-icon">✓</span>
                             <span>COVID-19 Testing & Vaccines</span>
                         </div>
+                    </div>
+
+                    <div class="hero-cta-row">
+                        <a href="https://app.formdr.com/practice/NDUzNjE=/form/eg8P_60baYvMleMIRDy3ux7YtPT4GAAY" class="btn btn-primary" target="_blank">Refill Prescription</a>
+                        <a href="tel:+14106989068" class="btn btn-secondary">Call (410) 698-9068</a>
                     </div>
                 </div>
                 

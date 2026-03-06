@@ -2,11 +2,12 @@
 
 .hero-section {
     min-height: calc(100vh - 80px);
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background: linear-gradient(150deg, #f0f7f4 0%, #e0ede6 60%, #cfe3d8 100%);
     display: flex;
     align-items: center;
     position: relative;
     overflow: hidden;
+    padding-bottom: 3rem;
 }
 
 .hero-section::before {
@@ -95,9 +96,10 @@
 
 .hero-image img {
     width: 100%;
-    height: auto;
+    height: 480px;
+    object-fit: cover;
     border-radius: 20px;
-    box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+    box-shadow: 0 24px 64px rgba(0,0,0,0.18);
 }
 
 /* Animated Background Elements */
