@@ -1,14 +1,134 @@
 {
-  "fetched_at": "2026-03-06T02:44:10.341Z",
+  "fetched_at": "2026-03-08T04:14:47.026Z",
   "count": 40,
   "articles": [
     {
-      "title": "Infections May Help Fuel Frailty, With a Potential Push From Obesity",
-      "link": "https://www.medpagetoday.com/geriatrics/generalgeriatrics/120188",
-      "description": "(MedPage Today) -- Infections were linked to a significantly greater risk of frailty in older people, and obesity may help shape that relationship, according to an observational cohort study.\nAmong 1,399 participants in",
-      "pubDate": "2026-03-05T22:40:57.000Z",
+      "title": "COVID Vaccination and Preeclampsia; Menstrual Blood for HPV Testing",
+      "link": "https://www.medpagetoday.com/podcasts/healthwatch/120202",
+      "description": "(MedPage Today) -- TTHealthWatch is a weekly podcast from Texas Tech. In it, Elizabeth Tracey, director of electronic media for Johns Hopkins Medicine in Baltimore, and Rick Lange, MD, president of Texas Tech Health El",
+      "pubDate": "2026-03-07T19:00:00.000Z",
       "source": "MedPage Today",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "As Bay Bridge planning starts in earnest, bike lanes need to be more than an afterthought",
+      "link": "https://marylandmatters.org/2026/03/07/as-bay-bridge-planning-starts-in-earnest-bike-lanes-need-to-be-more-than-an-afterthought/",
+      "description": "As planning for a replacement Chesapeake Bay Bridge gets underway, the option of a pedestrian/bike lane needs serious consideration, writes Eric Brenner, for the once-in-a-century opportunity it presents as a world-class",
+      "pubDate": "2026-03-07T10:57:13.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Senate OKs bill to reduce number of crimes, ages of youth who can be charged as adults",
+      "link": "https://marylandmatters.org/2026/03/07/senate-oks-bill-to-reduce-number-of-crimes-ages-of-youth-who-can-be-charged-as-adults/",
+      "description": "The Maryland Senate, without debate Friday, voted mostly along party lines to trim the number of offenses that automatically land a juvenile in adult court, a change that has been a decade in the making.",
+      "pubDate": "2026-03-07T05:57:22.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Study offers best picture yet of sinking land in the Chesapeake Bay region",
+      "link": "https://marylandmatters.org/2026/03/06/study-offers-best-picture-yet-of-sinking-land-in-the-chesapeake-bay-region/",
+      "description": "Scientists have known for years that water levels are rising faster in the Chesapeake Bay region than just about anywhere else in the world — because the land is sinking at the same time the water is rising. But measurem",
+      "pubDate": "2026-03-07T04:30:41.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Legionella found in water system of federal building that houses ICE detainees, others",
+      "link": "https://marylandmatters.org/2026/03/06/legionella-found-in-water-system-of-federal-building-that-houses-ice-detainees-others/",
+      "description": "Advocates and state officials are demanding answers on the status of a dangerous bacteria outbreak detected in the water of a Baltimore federal building that houses several agencies, but also a child care facility and an",
+      "pubDate": "2026-03-07T03:52:52.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "State agencies blast &#8216;deeply flawed&#8217; ICE detention site, lawmakers want &#8216;immediate halt&#8217; to project",
+      "link": "https://marylandmatters.org/2026/03/06/state-agencies-blast-deeply-flawed-ice-detention-site-lawmakers-want-immediate-halt-to-project/",
+      "description": "Three Maryland agencies blasted the Trump administration's \"deeply flawed\" plans to convert a Washington County warehouse into an immigration detention center, which they said poses a threat to the area's wildlife and in",
+      "pubDate": "2026-03-07T01:58:28.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "STAT+: Novo Nordisk&#8217;s Wegovy and Ozempic shots could be made for as little as $3 a month, analysis finds",
+      "link": "https://www.statnews.com/pharmalot/2026/03/06/novo-ozempic-wegovy-generics-patents-glp1/?utm_campaign=rss",
+      "description": "Generic versions of Novo Nordisk’s Wegovy and Ozempic medications could be mass produced for about $3 per person a month, according to a new analysis.",
+      "pubDate": "2026-03-06T19:20:26.000Z",
+      "source": "STAT News",
       "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "<![CDATA[As Peptides Go Mainstream, USP <795> and <797> Matter More Than Ever]]>",
+      "link": "https://www.pharmacytimes.com/view/as-peptides-go-mainstream-usp-795-and-797-matter-more-than-ever",
+      "description": "<![CDATA[Peptide compounders face rising scrutiny as regulators and lawsuits lean on USP 795/797.]]>",
+      "pubDate": "2026-03-06T18:09:45.000Z",
+      "source": "Pharmacy Times",
+      "category": "Peptides"
+    },
+    {
+      "title": "<![CDATA[Roche Announces Topline Results for Petrelintide for Weight Management]]>",
+      "link": "https://www.drugtopics.com/view/roche-announces-topline-results-for-petrelintide-for-weight-management",
+      "description": "<![CDATA[Once weekly petrelintide, a long-acting amylin analog, delivers up to 10.7% weight loss with placebo-like gastrointestinal tolerability in phase 2.]]>",
+      "pubDate": "2026-03-06T18:00:00.000Z",
+      "source": "Drug Topics",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "RFK Jr. Says FDA Will Lift Ban on Peptides",
+      "link": "https://www.medpagetoday.com/washington-watch/washington-watch/120196",
+      "description": "(MedPage Today) -- Health Secretary Robert F. Kennedy Jr. plans to loosen restrictions on some peptides that the FDA previously prohibited compounding pharmacies from producing, he said on an episode of Joe Rogan's podc",
+      "pubDate": "2026-03-06T16:38:39.000Z",
+      "source": "MedPage Today",
+      "category": "Compounding"
+    },
+    {
+      "title": "STAT+: Pharmalittle: We&#8217;re reading about an FDA-UniQure tussle, a Pfizer obesity drug approval in China, and more",
+      "link": "https://www.statnews.com/pharmalot/2026/03/06/fda-uniqure-china-pfizer-obesity-antibiotics/?utm_campaign=rss",
+      "description": "China has approved a new obesity treatment from Pfizer, heightening competition in a market poised to become even more crowded",
+      "pubDate": "2026-03-06T14:25:38.000Z",
+      "source": "STAT News",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "How the &#8216;holy grail&#8217; weight loss pill became a reality, and what comes next",
+      "link": "https://www.statnews.com/2026/03/06/glp-1-weight-loss-pill-development-status-report-alex-hogan/?utm_campaign=rss",
+      "description": "In this week’s STATus Report, host Alex Hogan explains why weight loss pills were so much harder to develop than injectables.",
+      "pubDate": "2026-03-06T09:30:00.000Z",
+      "source": "STAT News",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "LGBTQ+ Caucus targets legislative priorities for the rest of the 2026 session",
+      "link": "https://marylandmatters.org/2026/03/05/lgbtq-caucus-targets-legislative-priorities-for-the-rest-of-the-2026-session/",
+      "description": "With slightly more than a month left in the 2026 General Assembly session, the Maryland Legislative LGBTQ+ Caucus laid out its priorities Thursday and assessed its progress on bills, some of which it conceded remain a he",
+      "pubDate": "2026-03-06T03:34:33.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Maryland joins two dozen states challenging Trump&#8217;s second tariff push",
+      "link": "https://marylandmatters.org/2026/03/05/maryland-joins-two-dozen-states-challenging-trumps-second-tariff-push/",
+      "description": "Maryland was one of two dozen states that asked a federal court to block the tariffs that President Donald Trump instituted last month after the U.S. Supreme Court struck down his previous tariffs.",
+      "pubDate": "2026-03-06T01:47:29.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Maryland&#8217;s federal lawmakers back effort to regulate energy use by AI companies",
+      "link": "https://marylandmatters.org/2026/03/05/maryland-delegation-in-congress-backs-effort-to-regulate-energy-use-by-ai-companies/",
+      "description": "As power costs surge across Maryland, the state’s congressional delegation Thursday took a bipartisan stance in support of legislation that would regulate energy use by artificial intelligence companies.",
+      "pubDate": "2026-03-06T01:14:21.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Maryland, South Carolina lose bid to try PFAS contamination cases in state courts",
+      "link": "https://marylandmatters.org/2026/03/05/maryland-south-carolina-lose-bid-to-try-pfas-contamination-cases-in-state-courts/",
+      "description": "Maryland and South Carolina will have to press their cases for PFAS damages against 3M Co. in federal court, after the U.S. Supreme Court declined to hear their petition to have the lawsuits returned to their respective",
+      "pubDate": "2026-03-05T23:55:15.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
     },
     {
       "title": "Your GLP-1 Drugs May Also Have Yet Another Undiscovered Benefit",
@@ -27,44 +147,12 @@
       "category": "GLP-1 & Weight"
     },
     {
-      "title": "GLP-1 Drugs May Prevent, Treat Multiple Addictions",
-      "link": "https://www.medpagetoday.com/psychiatry/addictions/120182",
-      "description": "(MedPage Today) -- Initiation of a GLP-1 receptor agonist was tied to lower risks of several substance use disorders (SUDs) in adults with type 2 diabetes, according to a target trial emulation using data on veterans.\nI",
-      "pubDate": "2026-03-05T20:53:17.000Z",
-      "source": "MedPage Today",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "Robotic Hip Arthroplasty: Infection Risk Skyrockets in Morbid Obesity",
-      "link": "https://www.medpagetoday.com/meetingcoverage/aaos/120177",
-      "description": "(MedPage Today) -- NEW ORLEANS  --  Patients with morbid obesity undergoing robotically assisted hip replacement faced a dramatically increased likelihood of prosthetic joint infections (PJIs), a researcher said here.\nA",
-      "pubDate": "2026-03-05T18:23:57.000Z",
-      "source": "MedPage Today",
-      "category": "GLP-1 & Weight"
-    },
-    {
       "title": "How Hockey Star Hilary Knight Managed to Play in the Olympics Injured",
       "link": "https://www.womenshealthmag.com/life/a70609358/hilary-knight-olympics-pwhl-huddle/",
       "description": "\"I didn't want it to detract from anything that we were doing as a team or as individuals,\" she tells Women's Health in the first episode of the new podcast The Huddle.",
       "pubDate": "2026-03-05T17:00:00.000Z",
       "source": "Women's Health",
       "category": "Hormones"
-    },
-    {
-      "title": "STAT+: A drug company with a side of gold?",
-      "link": "https://www.statnews.com/2026/03/05/biotech-news-klotho-neurosciences-share-greenland-mining-company/?utm_campaign=rss",
-      "description": "GLP-1s and addiction, a gene therapy company and a mining corporation, and more biotech news from The Readout",
-      "pubDate": "2026-03-05T16:29:57.000Z",
-      "source": "STAT News",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "STAT+: Eli Lilly launches program for employers to subsidize cost of obesity drug outside insurance",
-      "link": "https://www.statnews.com/2026/03/05/eli-lilly-zepbound-employers/?utm_campaign=rss",
-      "description": "Eli Lilly is going beyond its efforts to sell its obesity drug Zepbound directly to patients, and is now trying to target employers.",
-      "pubDate": "2026-03-05T11:00:00.000Z",
-      "source": "STAT News",
-      "category": "GLP-1 & Weight"
     },
     {
       "title": "Behavioral health advocates seek &#8216;sensible&#8217; provider payment boost amid workforce shortage",
@@ -81,14 +169,6 @@
       "pubDate": "2026-03-05T02:36:33.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
-    },
-    {
-      "title": "Opinion: Obesity drugs may silence the ‘drug noise’ behind all addiction",
-      "link": "https://www.statnews.com/2026/03/04/glp-1-drugs-addiction-biological-driver/?utm_campaign=rss",
-      "description": "A new study found GLP-1 drugs were associated with 50% fewer substance-related deaths, 39% fewer drug overdoses, and 26% fewer drug-related hospitalizations.",
-      "pubDate": "2026-03-04T23:30:00.000Z",
-      "source": "STAT News",
-      "category": "GLP-1 & Weight"
     },
     {
       "title": "US Senate rejects limits on Trump war powers, as Hegseth vows ‘death and destruction’ for Iran",
@@ -136,14 +216,6 @@
       "description": "\"I wish I would've known all of this sooner,\" she tells Women's Health of being diagnosed in her 20s.",
       "pubDate": "2026-03-03T19:45:00.000Z",
       "source": "Women's Health",
-      "category": "Hormones"
-    },
-    {
-      "title": "<![CDATA[Elinzanetant: Advancing Treatment for Vasomotor Symptoms]]>",
-      "link": "https://www.pharmacytimes.com/view/elinzanetant-advancing-treatment-for-vasomotor-symptoms",
-      "description": "<![CDATA[FDA-approved elinzanetant offers stronger nonhormonal relief for menopausal vasomotor symptoms, with promising trial results and simpler liver monitoring.]]>",
-      "pubDate": "2026-03-03T14:27:11.000Z",
-      "source": "Pharmacy Times",
       "category": "Hormones"
     },
     {
@@ -243,82 +315,10 @@
       "category": "Maryland Health"
     },
     {
-      "title": "Chloe Kitts Is Staying at South Carolina for Another Year to Prove She's Not Done Yet",
-      "link": "https://www.womenshealthmag.com/fitness/a70512330/chloe-kitts-south-carolina-wnba-draft/",
-      "description": "The forward will not enter the WNBA Draft this year, she exclusively tells Women's Health.",
-      "pubDate": "2026-02-26T18:36:00.000Z",
-      "source": "Women's Health",
-      "category": "Hormones"
-    },
-    {
-      "title": "The 10 Best Hair Masks of 2026, Tested By Women's Health Editors",
-      "link": "https://www.womenshealthmag.com/beauty/g28271129/best-hair-masks/",
-      "description": "These picks, from Olaplex, SheaMoisture, and Ouai, hydrate, soften, and add shine.",
-      "pubDate": "2026-02-26T16:29:00.000Z",
-      "source": "Women's Health",
-      "category": "Hormones"
-    },
-    {
       "title": "<![CDATA[Orforglipron Demonstrates Superior Blood Sugar Control Compared With Oral Semaglutide]]>",
       "link": "https://www.drugtopics.com/view/orforglipron-demonstrates-superior-blood-sugar-control-compared-with-oral-semaglutide",
       "description": "<![CDATA[Orforglipron beats oral semaglutide in A1C and weight loss in a head-to-head study for type 2 diabetes.]]>",
       "pubDate": "2026-02-26T15:30:34.000Z",
-      "source": "Drug Topics",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "House poised to approve bill creating tools to challenge federal agents in Maryland courts",
-      "link": "https://marylandmatters.org/2026/02/25/house-poised-to-approve-bill-creating-tools-to-challenge-federal-agents-in-maryland-courts/",
-      "description": "The Maryland House advanced a bill Wednesday that would give state officials and state residents new legal tools to fight federal agents in court who violate their constitutional rights.",
-      "pubDate": "2026-02-26T04:05:41.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Pioneering Speaker Jones to retire, Schaufele moves on, and a zebra debate, in political notes",
-      "link": "https://marylandmatters.org/2026/02/25/pioneering-speaker-jones-to-retire-schaufele-moves-on-and-a-zebra-debate-in-political-notes/",
-      "description": "Former House Speaker Adrienne Jones (D-Baltimore County), a pioneer, will not seek reelection this fall, self-described government nerd Andrew Schaufele leaves the comptroller's office after 20 years, and the House debat",
-      "pubDate": "2026-02-26T03:35:41.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland joins other Democratic states suing the CDC over childhood vaccine schedule changes",
-      "link": "https://marylandmatters.org/2026/02/25/maryland-joins-other-democratic-states-suing-the-cdc-over-childhood-vaccine-schedule-changes/",
-      "description": "Maryland this week joined a multistate lawsuit against the Trump administration over the Centers for Disease Control and Prevention’s (CDC) decision to overhaul the national childhood immunization schedule.",
-      "pubDate": "2026-02-26T02:01:51.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "<![CDATA[Almost 70% of GLP-1 Users Report Cost as Key Influence on Treatment Decisions]]>",
-      "link": "https://www.drugtopics.com/view/almost-70-of-glp-1-users-report-cost-as-key-influence-on-treatment-decisions",
-      "description": "<![CDATA[Navitus Health Solutions conducted a survey of 2000 US adults who have been taking glucagon-like peptide-1 therapies for the past 2 years.]]>",
-      "pubDate": "2026-02-25T18:26:47.000Z",
-      "source": "Drug Topics",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "Maryland lawmakers snub Trump at contentious State of the Union address",
-      "link": "https://marylandmatters.org/2026/02/25/maryland-lawmakers-snub-trump-at-contentious-state-of-the-union-address/",
-      "description": "President Donald Trump said the U.S. is “bigger, better, richer and stronger than ever,\" but Maryland lawmakers either boycotted his State of the Union address, brought guests to rebuke his policies or countered him on.",
-      "pubDate": "2026-02-25T06:43:32.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "House committee takes up bill that would ban masks on police, immigration agents",
-      "link": "https://marylandmatters.org/2026/02/24/house-committee-takes-up-bill-that-would-ban-masks-on-police-immigration-agents/",
-      "description": "Supporters of a Maryland bill that would prohibit police from wearing face coverings while on duty said they are confident the measure can survive legal challenges like the one that struck down a similar law in Californi",
-      "pubDate": "2026-02-25T03:33:34.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "<![CDATA[CagriSema Did Not Meet Primary End Point of Noninferiority to Tirzepatide]]>",
-      "link": "https://www.drugtopics.com/view/cagrisema-did-not-meet-primary-end-point-of-noninferiority-to-tirzepatide",
-      "description": "<![CDATA[Novo Nordisk’s CagriSema drives 23% weight loss in REDEFINE 4 but misses noninferiority compared with tirzepatide, shaping the next wave of obesity drugs.]]>",
-      "pubDate": "2026-02-24T16:00:00.000Z",
       "source": "Drug Topics",
       "category": "GLP-1 & Weight"
     }
