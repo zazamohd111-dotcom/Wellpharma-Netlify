@@ -1,19 +1,219 @@
 {
-  "fetched_at": "2026-03-15T04:35:22.781Z",
+  "fetched_at": "2026-03-22T04:23:48.204Z",
   "count": 40,
   "articles": [
     {
-      "title": "Potential Benefits and Harms of Colon Cancer Screening; Sleep in Adolescents",
-      "link": "https://www.medpagetoday.com/podcasts/healthwatch/120296",
+      "title": "Glaucoma Checks in Primary Care; Wastewater to Screen for Colorectal Cancer",
+      "link": "https://www.medpagetoday.com/podcasts/healthwatch/120415",
       "description": "(MedPage Today) -- TTHealthWatch is a weekly podcast from Texas Tech. In it, Elizabeth Tracey, director of electronic media for Johns Hopkins Medicine in Baltimore, and Rick Lange, MD, president of Texas Tech Health El",
-      "pubDate": "2026-03-14T18:00:00.000Z",
+      "pubDate": "2026-03-21T18:00:00.000Z",
       "source": "MedPage Today",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Supreme Court of Maryland restores Bereano&#8217;s law license, 26 years later",
+      "link": "https://marylandmatters.org/briefs/supreme-court-of-maryland-restores-bereanos-law-license-26-years-later/",
+      "description": "The Supreme Court of Maryland restored the law license Friday of Annapolis power lobbyist Bruce Bereano, more than 26 years after it disbarred him in the wake of a federal mail fraud conviction linked to his lobbying fir",
+      "pubDate": "2026-03-21T05:40:46.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "HHS to investigate 13 states that require insurers to cover abortions",
+      "link": "https://marylandmatters.org/2026/03/20/repub/hhs-to-investigate-13-states-that-require-insurers-to-cover-abortions/",
+      "description": "Maryland is reportedly one of 13 states that is being investigated by the U.S. Department of Health and Human Services, because the states require health insurance plans to cover abortion care.",
+      "pubDate": "2026-03-21T00:32:31.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "STAT+: Medicare chief says TrumpRx is meant to be narrow in scope",
+      "link": "https://www.statnews.com/2026/03/20/chris-klomp-trumprx-high-dose-wegovy-readout-newsletter/?utm_campaign=rss",
+      "description": "Today's biotech news includes the Medicare director offering a tempered view of TrumpRx and high-dose Wegovy getting an FDA nod.",
+      "pubDate": "2026-03-20T15:32:01.000Z",
+      "source": "STAT News",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "<![CDATA[FDA Approves New Higher Dose of Semaglutide, Wegovy HD, for Weight Loss]]>",
+      "link": "https://www.drugtopics.com/view/fda-approves-new-higher-dose-of-semaglutide-wegovy-hd-for-weight-loss",
+      "description": "<![CDATA[The FDA clears the highest-dose weekly semaglutide for obesity, showing 20.7% mean weight loss with the same blood sugar-lowering effects.]]>",
+      "pubDate": "2026-03-20T13:45:26.000Z",
+      "source": "Drug Topics",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "STAT+: Pharmalittle: We&#8217;re reading about TrumpRx expectations, a high-dose version of Wegovy, and more",
+      "link": "https://www.statnews.com/pharmalot/2026/03/20/trumprx-expectations-high-dose-wegovy-fda-approval/?utm_campaign=rss",
+      "description": "And so, another working week will soon come to a close. Not a moment too soon, yes? This is, you may recall, our treasured signal to daydream about weekend plans.&#8230;",
+      "pubDate": "2026-03-20T13:26:01.000Z",
+      "source": "STAT News",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Advocates could begin recruiting appointees for long-awaited Reparations Commission soon",
+      "link": "https://marylandmatters.org/2026/03/19/advocates-could-begin-recruiting-appointees-for-long-awaited-reparations-commission-soon/",
+      "description": "Supporters could begin soliciting volunteers to serve on the long-awaited, and long-delayed Maryland Reparations Commission as soon as next week, ending a year of starts and stops on the measure.",
+      "pubDate": "2026-03-20T00:00:24.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "This Is The Best Diet For Stronger Bones During Weight Loss, Per Research",
+      "link": "https://www.womenshealthmag.com/weight-loss/a70795497/mediterranean-diet-during-weight-loss-bone-health/",
+      "description": "It'll keep you healthy, too.",
+      "pubDate": "2026-03-19T20:30:00.000Z",
+      "source": "Women's Health",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "<![CDATA[A Pharmacist’s Look Into the Rise, Challenges of GLP-1 Compounding]]>",
+      "link": "https://www.drugtopics.com/view/a-pharmacist-s-look-into-the-rise-challenges-of-glp-1-compounding",
+      "description": "<![CDATA[With ongoing concerns about the safety and formulation of compounded GLP-1s, Annie Lambert, PharmD, BCSCP, added her expert insights into the recent crackdown of these products.]]>",
+      "pubDate": "2026-03-19T18:30:00.000Z",
+      "source": "Drug Topics",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "<strong>Which Is Better: The Weight Loss Pill or Injection?</strong>",
+      "link": "https://www.womenshealthmag.com/weight-loss/a70783075/wegovy-pill-vs-injection-which-is-better/",
+      "description": "How to decide which GLP-1 option is right for you.",
+      "pubDate": "2026-03-19T11:00:00.000Z",
+      "source": "Women's Health",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Money doesn’t grow on trees, but nature pays dividends in Maryland",
+      "link": "https://marylandmatters.org/2026/03/18/money-doesnt-grow-on-trees-but-nature-pays-dividends-in-maryland/",
+      "description": "Programs like Open Space are efficient, effective investments in the health and beauty and livability of Maryland, writes Allison Colden, and are worth defending even in lean budget times.",
+      "pubDate": "2026-03-19T00:13:44.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "<![CDATA[Q&A: Pharmacists Must Navigate GLP-1 Compounding Regulations Carefully, Compliantly]]>",
+      "link": "https://www.drugtopics.com/view/pharmacists-must-navigate-glp-1-compounding-regulations-carefully-compliantly",
+      "description": "<![CDATA[Annie Lambert, PharmD, BCSCP, discusses pharmacies’ regulation and compliance needs when it comes to dispensing compounded GLP-1s.]]>",
+      "pubDate": "2026-03-18T16:00:00.000Z",
+      "source": "Drug Topics",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "<![CDATA[FDA Approves Icotyde as Treatment for Plaque Psoriasis]]>",
+      "link": "https://www.drugtopics.com/view/fda-approves-icotyde-as-treatment-for-plaque-psoriasis",
+      "description": "<![CDATA[FDA approves icotrokinra as a first-line systemic treatment of plaque psoriasis with a targeted oral peptide for adults and pediatric patients.]]>",
+      "pubDate": "2026-03-18T13:30:16.000Z",
+      "source": "Drug Topics",
+      "category": "Peptides"
+    },
+    {
+      "title": "Bill bans those convicted in the Jan. 6 attack on U.S. Capitol from serving on Maryland boards",
+      "link": "https://marylandmatters.org/2026/03/17/bill-bans-those-convicted-in-the-jan-6-attack-on-u-s-capitol-from-serving-on-maryland-boards/",
+      "description": "The way Sen. Cheryl Kagan sees it, actions have consequences. That's why the Montgomery County Democrat is sponsoring a bill to ban anyone convicted in the Jan. 6 attacks on U.S. Capitol from serving on certain state boa",
+      "pubDate": "2026-03-18T03:11:55.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "&#8216;No Kings Act&#8217; passes committee, heads to full Senate for consideration",
+      "link": "https://marylandmatters.org/2026/03/17/no-kings-act-passes-committee-heads-to-full-senate-for-consideration/",
+      "description": "A Senate panel approved a bill to let Marylanders sue federal agents in state courts for constitutional violations, despite concerns by one Republican lawmaker who called it just “another slap at federal law enforcement”",
+      "pubDate": "2026-03-18T02:33:38.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Broad energy bill passes Maryland House with bipartisan support",
+      "link": "https://marylandmatters.org/2026/03/17/energy-bill-passes-house/",
+      "description": "The House gave overwhelming approval Tuesday night to a broad piece of energy legislation that Democrats believe will lead to a noticeable reduction in peoples' gas and electric bills, starting as soon as this summer.",
+      "pubDate": "2026-03-18T02:10:58.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Maryland’s moment: Protecting Marylanders from high drug costs",
+      "link": "https://marylandmatters.org/2026/03/17/marylands-moment-protecting-marylanders-from-high-drug-costs/",
+      "description": "Maryland is showing what's possible at the state level to rein in drug costs, writes David Conway, but it can't let up now, as a growing senior population and higher need make efforts like the Prescription Drug Affordabi",
+      "pubDate": "2026-03-17T22:54:11.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Pain of soaring gas prices compounded by electricity rate increases across states",
+      "link": "https://marylandmatters.org/2026/03/17/pain-of-soaring-gas-prices-compounded-by-electricity-rate-increases-across-states/",
+      "description": "Electricity rates “increased significantly” in nearly every U.S. state in 2025, with residents in a dozen states seeing at least a 10% jump, according to a congressional report released by Democrats Tuesday, and Maryland",
+      "pubDate": "2026-03-17T19:42:41.000Z",
+      "source": "Maryland Matters",
+      "category": "Compounding"
+    },
+    {
+      "title": "<![CDATA[Semaglutide Shows Comparable Glycemic Control Compared With Dulaglutide]]>",
+      "link": "https://www.drugtopics.com/view/semaglutide-shows-comparable-glycemic-control-compared-with-dulaglutide",
+      "description": "<![CDATA[Combined with nutritional interventions, semaglutide also demonstrates greater weight loss compared with dulaglutide.]]>",
+      "pubDate": "2026-03-17T16:15:00.000Z",
+      "source": "Drug Topics",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Is GLP-1 Itch Something to Be Concerned About?",
+      "link": "https://www.womenshealthmag.com/health/a70761173/glp-1-skin-itch-side-effect/",
+      "description": "Here's what doctors want you to know.",
+      "pubDate": "2026-03-17T11:00:00.000Z",
+      "source": "Women's Health",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Sewer limits force development moratorium in Baltimore suburbs",
+      "link": "https://marylandmatters.org/2026/03/16/sewer-limits-force-development-moratorium-in-baltimore-suburbs/",
+      "description": "A portion of Anne Arundel County, including a shopping complex and business district near BWI, has been put under a growth moratorium to control the threat of more wet-weather sewage overflows into the Patapsco River.",
+      "pubDate": "2026-03-17T00:52:41.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Demi Moore’s Hairstylist Used This $40 Amazon Product for Her Sleek Oscars Look",
+      "link": "https://www.womenshealthmag.com/beauty/a70760981/demi-moore-oscars-hair-keratase-2026/",
+      "description": "Women's Health beauty editors swear by the brand.",
+      "pubDate": "2026-03-16T19:31:00.000Z",
+      "source": "Women's Health",
+      "category": "Hormones"
+    },
+    {
+      "title": "<![CDATA[Pharmacists Should Verify Supplier Quality for Compounded GLP-1s]]>",
+      "link": "https://www.drugtopics.com/view/pharmacists-should-verify-supplier-quality-for-compounded-glp-1s",
+      "description": "<![CDATA[Annie Lambert, PharmD, BCSCP, discusses the key approaches to ensuring safe and effective dispensing of compounded GLP-1 medications.]]>",
+      "pubDate": "2026-03-16T15:15:04.000Z",
+      "source": "Drug Topics",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Songs, sharks and Charlie Kirk: Commemorative bills are many, but few are passed into law",
+      "link": "https://marylandmatters.org/2026/03/16/songs-sharks-and-charlie-kirk-commemorative-bills-are-many-but-few-are-passed-into-law/",
+      "description": "It's a rite of Annapolis. Every year Maryland legislators hear requests for commemorative pieces of legislation and official state symbols, but even though \"the testimony is compelling,\" few end up making the cut, even a",
+      "pubDate": "2026-03-16T08:51:31.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Maryland religious leaders call for continuing conversations after Michigan synagogue attack",
+      "link": "https://marylandmatters.org/2026/03/15/maryland-religious-leaders-call-for-continuing-conversations-after-michigan-synagogue-attack/",
+      "description": "After last week's shooting at a Michigan synagogue, Maryland faith leaders were called upon to discuss the situation, and what can be done. But they say it's a conversation that needs to be had all the time, not just aft",
+      "pubDate": "2026-03-16T00:06:19.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Maryland says &#8216;Leave no one behind.&#8217; So, why are young adults still invisible?",
+      "link": "https://marylandmatters.org/2026/03/15/maryland-says-leave-no-one-behind-so-why-are-young-adults-still-invisible/",
+      "description": "When it comes to inclusion for young adults with chronic conditions, Maryland has studied the issue, documented it and adopted policies on it, writes Santi Bhagat. But it lags when it comes to executing, leaving many \"Yo",
+      "pubDate": "2026-03-15T21:28:58.000Z",
+      "source": "Maryland Matters",
       "category": "Maryland Health"
     },
     {
       "title": "Energy legislation would save Marylanders at least $150 annually on bills, lawmakers say",
       "link": "https://marylandmatters.org/2026/03/13/energy-legislation-announcement-utility-relief-act/",
-      "description": "Maryland househ0lds will see at least $150 a year in utility bill savings from a package of bills unveiled late this week, the governor and legislative leaders promised Friday.",
+      "description": "Maryland households will see at least $150 a year in utility bill savings from a package of bills unveiled late this week, the governor and legislative leaders promised Friday.",
       "pubDate": "2026-03-14T01:44:51.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
@@ -35,59 +235,11 @@
       "category": "Maryland Health"
     },
     {
-      "title": "Docs in All Specialties Need More Menopause Education, Experts Say",
-      "link": "https://www.medpagetoday.com/obgyn/hrt/120306",
-      "description": "(MedPage Today) -- WASHINGTON  --  Doctors in all specialties need more education on menopause and hormone therapy so that they don't give women conflicting recommendations, several speakers said here Friday at the HHS",
-      "pubDate": "2026-03-13T21:05:02.000Z",
-      "source": "MedPage Today",
-      "category": "Hormones"
-    },
-    {
-      "title": "Low Testosterone May Raise Risk of 'Extreme' Prostate Cancer Progression",
-      "link": "https://www.medpagetoday.com/hematologyoncology/prostatecancer/120302",
-      "description": "(MedPage Today) -- Low testosterone levels may increase the risk of higher-grade progression in prostate cancer patients under active surveillance, a retrospective cohort study suggested.\nAmong over 900 patients, low te",
-      "pubDate": "2026-03-13T19:30:59.000Z",
-      "source": "MedPage Today",
-      "category": "Hormones"
-    },
-    {
-      "title": "Bobsledder Elana Meyers Taylor Won Olympic Gold—Then Thanked the Nanny Who Helped Make It Possible",
-      "link": "https://www.womenshealthmag.com/life/a70726997/elana-meyers-taylor-olympics-huddle/",
-      "description": "\"It felt, in that moment, so important to give back to the people who gave so much to me,\" the 41-year-old tells Women's Health in the latest episode of The Huddle.",
+      "title": "<![CDATA[Eli Lilly Issues Warning Regarding Safety Risks of Tirzepatide Compounded With Vitamin B12]]>",
+      "link": "https://www.drugtopics.com/view/eli-lilly-issues-warning-regarding-safety-risks-of-tirzepatide-compounded-with-vitamin-b12",
+      "description": "<![CDATA[Eli Lilly flags unknown impurities in compounded tirzepatide with B12 as FDA targets misleading GLP-1 marketing.]]>",
       "pubDate": "2026-03-13T17:00:00.000Z",
-      "source": "Women's Health",
-      "category": "Hormones"
-    },
-    {
-      "title": "If Medical Schools Can Make Room for Nutrition, Why Not Women's Health?",
-      "link": "https://www.medpagetoday.com/opinion/second-opinions/120288",
-      "description": "(MedPage Today) -- There is a common complaint among medical educators: the medical school curriculum is \"too crowded.\" New topics keep showing up, but where to put them? As ethics and quality improvement and \"shared de",
-      "pubDate": "2026-03-13T13:50:31.000Z",
-      "source": "MedPage Today",
-      "category": "Hormones"
-    },
-    {
-      "title": "The Surprising Way Weight Loss Drugs May Help After a Heart Attack",
-      "link": "https://www.womenshealthmag.com/health/a70725806/glp-1-heart-attack-treatment/",
-      "description": "Here's what experts say about the latest research.",
-      "pubDate": "2026-03-13T11:00:00.000Z",
-      "source": "Women's Health",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "STAT+: Pharmalittle: We&#8217;re reading about telehealth prescribers, a Lilly push against compounding, and more",
-      "link": "https://www.statnews.com/pharmalot/2026/03/12/fda-telehealth-lilly-obesity-compounding-pbm-glp1-abortion/?utm_campaign=rss",
-      "description": "Medical groups affiliated with telehealth companies the FDA warned about marketing of compounded weight loss drugs may be under the microscope, too",
-      "pubDate": "2026-03-12T13:23:58.000Z",
-      "source": "STAT News",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "An NIH whistleblower warning",
-      "link": "https://www.statnews.com/2026/03/12/health-news-warning-from-nih-whistleblower/?utm_campaign=rss",
-      "description": "The doctors behind the telehealth GLP-1 boom, a men's health office moment, and other health news",
-      "pubDate": "2026-03-12T12:28:28.000Z",
-      "source": "STAT News",
+      "source": "Drug Topics",
       "category": "GLP-1 & Weight"
     },
     {
@@ -131,22 +283,6 @@
       "category": "Maryland Health"
     },
     {
-      "title": "Inside '56 Days' Actor Karla Souza’s No-Fuss Self-Care Routine as a Mom of Three",
-      "link": "https://www.womenshealthmag.com/health/a70698113/karla-souza-wellness-rituals/",
-      "description": "The busy actor and mom says it's a struggle to \"choose yourself,\" in the latest episode of the Women's Health video series Well Said.",
-      "pubDate": "2026-03-10T17:48:00.000Z",
-      "source": "Women's Health",
-      "category": "Hormones"
-    },
-    {
-      "title": "30 Healthy Snacks For Weight Loss That Will Keep You Full And Satisfied, According To Nutritionists",
-      "link": "https://www.womenshealthmag.com/weight-loss/a19959160/best-healthy-snacks-for-weight-loss/",
-      "description": "These options are delicious *and* nutrient-packed.",
-      "pubDate": "2026-03-10T15:57:00.000Z",
-      "source": "Women's Health",
-      "category": "GLP-1 & Weight"
-    },
-    {
       "title": "Half of Maryland’s school districts still not at $60K teacher salary threshold",
       "link": "https://marylandmatters.org/2026/03/10/half-of-marylands-school-districts-still-not-at-60k-teacher-salary-threshold/",
       "description": "With just months until they have to meet a July 1 deadline to raise teacher salaries to a $60,000 minimum, only about half of Maryland’s 24 school districts have reached the threshold, with the rest scrambling to get the",
@@ -179,146 +315,10 @@
       "category": "Maryland Health"
     },
     {
-      "title": "Here’s When It Actually Makes Sense to Go on Ozempic for Weight Loss, According to Experts",
-      "link": "https://www.womenshealthmag.com/weight-loss/a43557514/ozempic-for-weight-loss/",
-      "description": "If you're trying to drop 5 pounds, this is not for you.",
-      "pubDate": "2026-03-09T16:38:00.000Z",
-      "source": "Women's Health",
-      "category": "GLP-1 & Weight"
-    },
-    {
       "title": "Maryland flag celebrates 122nd anniversary amid newfound controversy",
       "link": "https://marylandmatters.org/2026/03/08/maryland-flag-celebrates-122nd-anniversary-amid-newfound-controversy/",
       "description": "Maryland will celebrate the 122nd birthday of its official state flag Monday at a time when its symbols have become a political flashpoint, divided between those who see the flag as a proud cultural linchpin and those wh",
       "pubDate": "2026-03-09T03:26:06.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "As Bay Bridge planning starts in earnest, bike lanes need to be more than an afterthought",
-      "link": "https://marylandmatters.org/2026/03/07/as-bay-bridge-planning-starts-in-earnest-bike-lanes-need-to-be-more-than-an-afterthought/",
-      "description": "As planning for a replacement Chesapeake Bay Bridge gets underway, the option of a pedestrian/bike lane needs serious consideration, writes Eric Brenner, for the once-in-a-century opportunity it presents as a world-class",
-      "pubDate": "2026-03-07T10:57:13.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Senate OKs bill to reduce number of crimes, ages of youth who can be charged as adults",
-      "link": "https://marylandmatters.org/2026/03/07/senate-oks-bill-to-reduce-number-of-crimes-ages-of-youth-who-can-be-charged-as-adults/",
-      "description": "The Maryland Senate, without debate Friday, voted mostly along party lines to trim the number of offenses that automatically land a juvenile in adult court, a change that has been a decade in the making.",
-      "pubDate": "2026-03-07T05:57:22.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Study offers best picture yet of sinking land in the Chesapeake Bay region",
-      "link": "https://marylandmatters.org/2026/03/06/study-offers-best-picture-yet-of-sinking-land-in-the-chesapeake-bay-region/",
-      "description": "Scientists have known for years that water levels are rising faster in the Chesapeake Bay region than just about anywhere else in the world — because the land is sinking at the same time the water is rising. But measurem",
-      "pubDate": "2026-03-07T04:30:41.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Legionella found in water system of federal building that houses ICE detainees, others",
-      "link": "https://marylandmatters.org/2026/03/06/legionella-found-in-water-system-of-federal-building-that-houses-ice-detainees-others/",
-      "description": "Advocates and state officials are demanding answers on the status of a dangerous bacteria outbreak detected in the water of a Baltimore federal building that houses several agencies, but also a child care facility and an",
-      "pubDate": "2026-03-07T03:52:52.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "State agencies blast &#8216;deeply flawed&#8217; ICE detention site, lawmakers want &#8216;immediate halt&#8217; to project",
-      "link": "https://marylandmatters.org/2026/03/06/state-agencies-blast-deeply-flawed-ice-detention-site-lawmakers-want-immediate-halt-to-project/",
-      "description": "Three Maryland agencies blasted the Trump administration's \"deeply flawed\" plans to convert a Washington County warehouse into an immigration detention center, which they said poses a threat to the area's wildlife and in",
-      "pubDate": "2026-03-07T01:58:28.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "LGBTQ+ Caucus targets legislative priorities for the rest of the 2026 session",
-      "link": "https://marylandmatters.org/2026/03/05/lgbtq-caucus-targets-legislative-priorities-for-the-rest-of-the-2026-session/",
-      "description": "With slightly more than a month left in the 2026 General Assembly session, the Maryland Legislative LGBTQ+ Caucus laid out its priorities Thursday and assessed its progress on bills, some of which it conceded remain a he",
-      "pubDate": "2026-03-06T03:34:33.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland joins two dozen states challenging Trump&#8217;s second tariff push",
-      "link": "https://marylandmatters.org/2026/03/05/maryland-joins-two-dozen-states-challenging-trumps-second-tariff-push/",
-      "description": "Maryland was one of two dozen states that asked a federal court to block the tariffs that President Donald Trump instituted last month after the U.S. Supreme Court struck down his previous tariffs.",
-      "pubDate": "2026-03-06T01:47:29.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland&#8217;s federal lawmakers back effort to regulate energy use by AI companies",
-      "link": "https://marylandmatters.org/2026/03/05/maryland-delegation-in-congress-backs-effort-to-regulate-energy-use-by-ai-companies/",
-      "description": "As power costs surge across Maryland, the state’s congressional delegation Thursday took a bipartisan stance in support of legislation that would regulate energy use by artificial intelligence companies.",
-      "pubDate": "2026-03-06T01:14:21.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland, South Carolina lose bid to try PFAS contamination cases in state courts",
-      "link": "https://marylandmatters.org/2026/03/05/maryland-south-carolina-lose-bid-to-try-pfas-contamination-cases-in-state-courts/",
-      "description": "Maryland and South Carolina will have to press their cases for PFAS damages against 3M Co. in federal court, after the U.S. Supreme Court declined to hear their petition to have the lawsuits returned to their respective",
-      "pubDate": "2026-03-05T23:55:15.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Behavioral health advocates seek &#8216;sensible&#8217; provider payment boost amid workforce shortage",
-      "link": "https://marylandmatters.org/2026/03/04/behavioral-health-advocates-seek-sensible-provider-payment-boost-amid-workforce-shortage/",
-      "description": "Advocates know Maryland faces a tight budget this year, but worry that another year without rate increases for behavioral health workers will worsen a 34,000-person workforce shortage and threaten the services that strug",
-      "pubDate": "2026-03-05T03:04:23.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland plans to reduce inspection fee for EV chargers",
-      "link": "https://marylandmatters.org/2026/03/04/maryland-plans-to-reduce-inspection-fee-for-ev-chargers/",
-      "description": "The Maryland Department of Agriculture plans to reduce a controversial inspection fee for electric vehicle chargers, after charging companies and EV drivers expressed concerns that the proposed fee would kneecap the indu",
-      "pubDate": "2026-03-05T02:36:33.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "US Senate rejects limits on Trump war powers, as Hegseth vows ‘death and destruction’ for Iran",
-      "link": "https://marylandmatters.org/2026/03/04/repub/us-senate-rejects-limits-on-trump-war-powers-as-hegseth-vows-death-and-destruction-for-iran/",
-      "description": "Senate Republicans and a single Democrat blocked a War Powers Resolution to limit President Donald Trump’s joint war in Iran that has taken the lives of six American troops and killed top Iranian leaders. Both Maryland s",
-      "pubDate": "2026-03-04T23:28:47.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "BGE &#8216;temporarily pausing&#8217; Baltimore transmission project Ferguson opposes",
-      "link": "https://marylandmatters.org/2026/03/04/bge-pause-underground-transmission-ferguson/",
-      "description": "Baltimore Gas &#038; Electric said it is \"temporarily pausing\" an underground transmission project near the stadiums in downtown Baltimore, days after Senate President Bill Ferguson (D-Baltimore City) held a press confer",
-      "pubDate": "2026-03-04T18:08:23.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "House speaker&#8217;s energy efficiency proposals get mixed reviews",
-      "link": "https://marylandmatters.org/2026/03/03/house-speaker-energy-bills-empower-program/",
-      "description": "House Speaker Joseline Peña-Melnyk's plan to lower energy bills got mostly positive reviews Tuesday, but a proposal to tweak the state’s signature energy efficiency program, EmPOWER Maryland, raised concerns that it coul",
-      "pubDate": "2026-03-04T01:17:19.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Senate, House advance measures to boost number of school psychologists",
-      "link": "https://marylandmatters.org/briefs/senate-house-advance-measures-to-boost-numbrer-of-school-psychologists/",
-      "description": "The Senate and House both advanced measures aimed at boosting the number of school psychologists in Maryland by joining a multistate compact with states that have comparable licensing standards and reciprocal licensing a",
-      "pubDate": "2026-03-03T23:26:13.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Record-breaking numbers head to the emergency room for carbon monoxide poisoning",
-      "link": "https://marylandmatters.org/2026/03/02/record-breaking-numbers-head-to-the-emergency-room-for-carbon-monoxide-poisoning/",
-      "description": "A record-breaking number of Marylanders have landed in the emergency room this winter due to exposure to carbon monoxide, as cold temperatures lead people to seek warmth in unsafe ways.",
-      "pubDate": "2026-03-02T10:00:09.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
     }
