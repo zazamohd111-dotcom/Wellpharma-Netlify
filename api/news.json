@@ -1,13 +1,229 @@
 {
-  "fetched_at": "2026-04-19T04:53:51.920Z",
+  "fetched_at": "2026-04-26T05:14:54.465Z",
   "count": 40,
   "articles": [
     {
-      "title": "Exercise According to Chronotrope Type; Estimating Kidney Function",
-      "link": "https://www.medpagetoday.com/podcasts/healthwatch/120839",
+      "title": "Controlling Hypertension After Intracerebral Hemorrhage; Treating Acute Sinusitis",
+      "link": "https://www.medpagetoday.com/podcasts/healthwatch/120945",
       "description": "(MedPage Today) -- TTHealthWatch is a weekly podcast from Texas Tech. In it, Elizabeth Tracey, director of electronic media for Johns Hopkins Medicine in Baltimore, and Rick Lange, MD, president of Texas Tech Health El",
-      "pubDate": "2026-04-18T18:00:00.000Z",
+      "pubDate": "2026-04-25T18:00:00.000Z",
       "source": "MedPage Today",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Maryland joins lawsuit against EPA for failing to follow rules on airborne &#8216;fine particulate matter&#8217;",
+      "link": "https://marylandmatters.org/2026/04/25/maryland-joins-lawsuit-against-epa-for-failing-to-follow-rules-on-airborne-fine-particulate-matter/",
+      "description": "Maryland joined 13 other jurisdictions that sued the Environmental Protection Agency Friday for its failure to meet a February deadline to determine which parts of the country are in compliance with a 2024 standard for \"",
+      "pubDate": "2026-04-25T16:49:29.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "<![CDATA[Social Media Allows Patients to Discuss Less Frequent GLP-1 Adverse Effects]]>",
+      "link": "https://www.drugtopics.com/view/social-media-allows-patients-to-discuss-less-frequent-glp-1-adverse-effects",
+      "description": "<![CDATA[Researchers find Reddit posts provides a look at the real-world adverse effects of glucagon-like peptide-1 receptor agonists.]]>",
+      "pubDate": "2026-04-25T16:00:00.000Z",
+      "source": "Drug Topics",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Opinion: The podcast telling the stories behind Ambien, Ozempic, EpiPens, and other game-changing drugs",
+      "link": "https://www.statnews.com/2026/04/25/drug-story-podcast-interview-transcript/?utm_campaign=rss",
+      "description": "“We're basically not using our body as directed,” says \"Drug Story\" host Thomas Goetz.",
+      "pubDate": "2026-04-25T11:00:00.000Z",
+      "source": "STAT News",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "After the confetti: Maryland lawmakers return to other jobs after the legislative session",
+      "link": "https://marylandmatters.org/2026/04/25/after-the-confetti-maryland-lawmakers-return-to-other-jobs-after-the-legislative-session/",
+      "description": "After  90 days of drafting, debating and passing bills, Maryland lawmakers have returned to their districts to do constituency work and, for many, go back to other jobs, from business owners to artists to steelworkers.",
+      "pubDate": "2026-04-25T09:11:00.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Maryland allows new chicken house construction to resume after permitting delay",
+      "link": "https://marylandmatters.org/2026/04/24/mde-cafo-permit-issued-chicken-houses/",
+      "description": "For more than nine months, Maryland poultry farmers haven't been able to build any new chicken houses because the state had not issued a pollution permit setting environmental requirements for animal feeding operations.",
+      "pubDate": "2026-04-24T21:18:10.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "GLP-1 Drugs Make Promising Debut in TAVR, Carotid Artery Stenting",
+      "link": "https://www.medpagetoday.com/meetingcoverage/scai/120958",
+      "description": "(MedPage Today) -- Cardiovascular protection with GLP-1 receptor agonists may benefit patients undergoing certain transcatheter procedures, according to two observational studies.\nWhen used as an adjunct to transcathete",
+      "pubDate": "2026-04-24T19:53:55.000Z",
+      "source": "MedPage Today",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "<![CDATA[FDA Set to Review Peptide Access for Compounding Pharmacies]]>",
+      "link": "https://www.drugtopics.com/view/fda-set-to-review-peptide-access-for-compounding-pharmacies",
+      "description": "<![CDATA[The FDA’s Pharmacy Compounding Advisory Committee will meet in late July of 2026 to convene on peptides and their inclusion on the 503A Bulk Drug Substances List.]]>",
+      "pubDate": "2026-04-24T14:00:00.000Z",
+      "source": "Drug Topics",
+      "category": "Compounding"
+    },
+    {
+      "title": "Sudden cannabis reclassification leaves Maryland industry, regulators confused",
+      "link": "https://marylandmatters.org/2026/04/23/sudden-cannabis-reclassification-leaves-maryland-industry-regulators-confused/",
+      "description": "A surprise reclassification of medical marijuana to a less dangerous drug on Thursday has left many Maryland regulators and businesses with more questions than answers about what the change will mean for businesses in th",
+      "pubDate": "2026-04-24T01:21:08.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "State’s $25K payment to EV nonprofit attracts auditors’ scrutiny",
+      "link": "https://marylandmatters.org/2026/04/23/states-25k-payment-to-ev-nonprofit-attracts-auditors-scrutiny/",
+      "description": "A state audit on the Maryland Department of the Environment raised questions about the agency's payments to an organization that advocates for electric vehicles, an organization for which Environment Secretary Serena McI",
+      "pubDate": "2026-04-23T20:42:20.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "<![CDATA[Orforglipron Demonstrates Sustained Glycemic Control, Weight Loss in Phase 3 ACHIEVE-4 Trial]]>",
+      "link": "https://www.pharmacytimes.com/view/orforglipron-demonstrates-sustained-glycemic-control-weight-loss-in-phase-3-achieve-4-trial",
+      "description": "<![CDATA[Extended data from ACHIEVE-4 reinforce the durability of oral GLP-1 receptor agonist therapy, with implications for long-term diabetes management and pharmacist-led care.]]>",
+      "pubDate": "2026-04-23T16:18:00.000Z",
+      "source": "Pharmacy Times",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Maryland could have identified fraudulent lead inspections sooner, auditors say",
+      "link": "https://marylandmatters.org/2026/04/23/mde-audit-lead-inspections-spending-veloz/",
+      "description": "A legislative audit released Thursday said deficiencies in Maryland’s inspection program for lead paint in rental homes made it easier for a string of fraudulent inspections to go undetected for several years, one of a n",
+      "pubDate": "2026-04-23T16:05:05.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Radon Linked to Higher Risk of Ovarian Cancer—Post Menopausal Women May Be at Greater Risk",
+      "link": "https://www.womenshealthmag.com/health/a71099072/radon-ovarian-cancer-study/",
+      "description": "Here’s what you can do to reduce your exposure.",
+      "pubDate": "2026-04-23T11:00:00.000Z",
+      "source": "Women's Health",
+      "category": "Hormones"
+    },
+    {
+      "title": "Maryland Supreme Court blocks suit by woman who was shot on Towson campus",
+      "link": "https://marylandmatters.org/2026/04/23/maryland-supreme-court-blocks-suit-by-woman-who-was-shot-on-towson-campus/",
+      "description": "A Towson University alumna who was shot at an on-campus party in 2021 cannot sue the university for failing to protect her in the incident, after the Maryland Supreme Court dismissed her case this week.",
+      "pubDate": "2026-04-23T06:20:27.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "&#8216;Dangerous&#8217; winter weather broke state records for cold-related deaths, ER visits",
+      "link": "https://marylandmatters.org/2026/04/22/dangerous-winter-weather-broke-state-records-for-cold-related-deaths-er-visits/",
+      "description": "A “dangerous” winter season with prolonged drops in temperatures led to record-breaking numbers of both cold-related fatalities and emergency room visits this year, according to reports from the Maryland Department of He",
+      "pubDate": "2026-04-23T01:49:37.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "<![CDATA[MHC Class II Peptide Binding Prediction: Challenges, AlphaFold 3, and ESM2 Explained]]>",
+      "link": "https://www.pharmacytimes.com/view/mhc-class-ii-peptide-binding-prediction-challenges-alphafold-3-and-esm2-explained",
+      "description": "<![CDATA[Pharmacy Times interviews Kamel Lahouel, PhD, and Cristian Tomasetti, PhD, on the challenges of predicting MHC class II peptide binding and how combining structural and sequence-based models can improve accuracy",
+      "pubDate": "2026-04-22T18:49:57.000Z",
+      "source": "Pharmacy Times",
+      "category": "Peptides"
+    },
+    {
+      "title": "<![CDATA[Obesity Linked to Increased Risk of Severe Infection, Hospitalization, and Death Across Disease Types]]>",
+      "link": "https://www.pharmacytimes.com/view/obesity-linked-to-increased-risk-of-severe-infection-hospitalization-and-death-across-disease-types",
+      "description": "<![CDATA[A large multicohort analysis highlights obesity as a modifiable risk factor for severe infectious outcomes, reinforcing the pharmacist’s role in prevention, vaccination, and chronic disease management.]]>",
+      "pubDate": "2026-04-22T17:15:00.000Z",
+      "source": "Pharmacy Times",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "<![CDATA[One in 10 Online Pharmacies Found Website Cloned for Counterfeit GLP-1s]]>",
+      "link": "https://www.drugtopics.com/view/one-in-10-online-pharmacies-found-website-cloned-for-counterfeit-glp-1s",
+      "description": "<![CDATA[Cloned pharmacy sites and fake GLP-1 weight-loss pens surge online, prompting federal crackdowns and urgent safety warnings for patients.]]>",
+      "pubDate": "2026-04-22T14:00:00.000Z",
+      "source": "Drug Topics",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Resistance Training After Menopause May Still Be Just as Effective",
+      "link": "https://www.womenshealthmag.com/health/a71085768/resistance-training-after-menopause-study/",
+      "description": "Pass the weights.",
+      "pubDate": "2026-04-22T11:00:00.000Z",
+      "source": "Women's Health",
+      "category": "Hormones"
+    },
+    {
+      "title": "Churchill Downs buys rights to Preakness, Black-Eyed Susan Stakes",
+      "link": "https://marylandmatters.org/2026/04/21/churchill-downs-buys-rights-to-preakness-black-eyed-susan-stakes/",
+      "description": "Owners of the Triple Crown's first leg now own property rights to the second. Churchill Downs Inc. has reached an agreement with 1/ST Maryland LLC to buy the intellectual property rights for the Preakness Stakes and Blac",
+      "pubDate": "2026-04-21T22:59:54.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Maryland, Justice Department sue DC Water over Potomac sewage spill",
+      "link": "https://marylandmatters.org/2026/04/21/maryland-justice-department-sue-dc-water-over-potomac-sewage-spill/",
+      "description": "The Justice Department and the Maryland Department of the Environment have filed separate lawsuits against D.C. Water over the pollution of the Potomac River due to a massive sewage spill from a ruptured pipe back in Jan",
+      "pubDate": "2026-04-21T10:12:19.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "State health officials announce 2026’s first confirmed case of measles in Maryland",
+      "link": "https://marylandmatters.org/2026/04/20/state-health-officials-announce-2026s-first-confirmed-case-of-measles-in-maryland/",
+      "description": "Maryland health officials warn that a Baltimore-area resident was confirmed to have measles after traveling internationally, marking the first confirmed measles case of the year in the state.",
+      "pubDate": "2026-04-20T23:59:19.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Instructional coaches coming soon to Maryland elementary schools",
+      "link": "https://marylandmatters.org/2026/04/20/instructional-coaches-coming-soon-to-maryland-elementary-schools/",
+      "description": "State Superintendent Carey Wright announced Monday that 61 literacy and math instructional coaches will be hired for schools around the state in 2026-27, thanks to a $14.2 million approved by lawmakers for what had been",
+      "pubDate": "2026-04-20T23:06:24.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Maryland property search tool goes offline after cyber threat",
+      "link": "https://marylandmatters.org/briefs/maryland-property-search-tool-goes-offline-after-cyber-threat/",
+      "description": "Maryland’s online property records database has been taken offline following a cybersecurity threat, according to a statement from the State Department of Assessments and Taxation.",
+      "pubDate": "2026-04-20T19:16:22.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "<![CDATA[Orforglipron Demonstrates Cardiovascular Benefits for Type 2 Diabetes]]>",
+      "link": "https://www.drugtopics.com/view/orforglipron-demonstrates-cardiovascular-benefits-for-type-2-diabetes",
+      "description": "<![CDATA[A long-term trial shows oral orforglipron boosts A1C and weight loss with reassuring cardiovascular safety and simpler dosing for type 2 diabetes.]]>",
+      "pubDate": "2026-04-20T15:00:00.000Z",
+      "source": "Drug Topics",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Battles over data centers intensify in the State House and communities",
+      "link": "https://marylandmatters.org/2026/04/20/battles-over-data-centers-intensify-in-the-state-house-and-communities/",
+      "description": "Across Maryland, activists and data center supporters are battling over where and how the facilities will be built, as legislators this year debated how to regulate them and their possible impact on the electric grid. De",
+      "pubDate": "2026-04-20T09:15:14.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Math in Maryland schools has finally begun to add up",
+      "link": "https://marylandmatters.org/2026/04/19/math-in-maryland-schools-has-finally-begun-to-add-up/",
+      "description": "Maryland's math reform efforts have been overshadowed by its literacy reform, but State Board President Josh Michael says there are similarities: Alignment with research, teacher training, interventions, accountability a",
+      "pubDate": "2026-04-20T00:10:47.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Many states don’t report losses from data center tax breaks, study says",
+      "link": "https://marylandmatters.org/2026/04/19/repub/many-states-dont-report-losses-from-data-center-tax-breaks-study-says/",
+      "description": "Though public scrutiny of data centers is growing, 14 states, including Maryland, do not disclose how much revenue they lose to data center tax breaks. It comes as three states reported losing $1 billion a year or more t",
+      "pubDate": "2026-04-20T00:10:02.000Z",
+      "source": "Maryland Matters",
       "category": "Maryland Health"
     },
     {
@@ -17,70 +233,6 @@
       "pubDate": "2026-04-18T12:38:29.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
-    },
-    {
-      "title": "50 High-Protein Breakfasts For Weight Loss That’ll Keep You Full For Hours, According To Dietitians",
-      "link": "https://www.womenshealthmag.com/weight-loss/a19993913/protein-breakfast-ideas/",
-      "description": "They’re healthy and satisfying.",
-      "pubDate": "2026-04-17T20:08:00.000Z",
-      "source": "Women's Health",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "FDA Takes Steps to Expand Testosterone for Men's Libido",
-      "link": "https://www.medpagetoday.com/urology/urology/120842",
-      "description": "(MedPage Today) -- Heralding a \"step forward on testosterone therapy for men,\" the FDA announced an initiative to support a potential new indication of low libido in men due to idiopathic hypogonadism.\nThe FDA will enco",
-      "pubDate": "2026-04-17T19:00:21.000Z",
-      "source": "MedPage Today",
-      "category": "Hormones"
-    },
-    {
-      "title": "What Are Copper Peptides? Dermatologists Weigh In on Their Benefits, Uses, and Risks",
-      "link": "https://www.womenshealthmag.com/beauty/a71052909/what-are-copper-peptides/",
-      "description": "The trending ingredient promises smoother, firmer skin—but how effective is it?",
-      "pubDate": "2026-04-17T17:52:35.000Z",
-      "source": "Women's Health",
-      "category": "Peptides"
-    },
-    {
-      "title": "<![CDATA[Leading Obesity Experts Deem Obesity Medications as Safe and Effective]]>",
-      "link": "https://www.drugtopics.com/view/leading-obesity-experts-deem-obesity-medications-as-safe-and-effective",
-      "description": "<![CDATA[New 2026 guidance backs long-term obesity drugs, spotlighting GLP-1 benefits, side effects, and off-label risks pharmacists must navigate.]]>",
-      "pubDate": "2026-04-17T15:00:00.000Z",
-      "source": "Drug Topics",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "STAT+: FDA eyes expanding testosterone therapy for libido",
-      "link": "https://www.statnews.com/2026/04/17/biotech-news-fda-eyes-expanding-testosterone-for-libido/?utm_campaign=rss",
-      "description": "New research questions GLP-1's purpose, a pancreatic cancer breakthrough, and more biotech news from The Readout",
-      "pubDate": "2026-04-17T13:40:42.000Z",
-      "source": "STAT News",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "New GLP-1 Side Effect? Highest-Burnout Specialties; Trump's Psychedelic Plan",
-      "link": "https://www.medpagetoday.com/endocrinology/obesity/120831",
-      "description": "(MedPage Today) -- Note that some links may require registration or subscription.\nAnother side effect of GLP-1 drugs? Anecdotal reports from doctors and patients suggest the blockbuster diabetes and weight-loss drugs ma",
-      "pubDate": "2026-04-17T13:37:20.000Z",
-      "source": "MedPage Today",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "The deadly consequences of ICE detention",
-      "link": "https://www.statnews.com/2026/04/17/health-news-people-detained-by-ice-dying-at-a-record-rate/?utm_campaign=rss",
-      "description": "New research challenges what we know about GLP-1s, vaccine skepticism, and more health news from Morning Rounds",
-      "pubDate": "2026-04-17T13:23:38.000Z",
-      "source": "STAT News",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "STAT+: Pharmalittle: We&#8217;re reading about Lilly weight loss pill trial results, slashed U.K. clinical trial times, and more",
-      "link": "https://www.statnews.com/pharmalot/2026/04/17/lilly-weight-loss-pill-results-uk-slashing-clinical-trial-times/?utm_campaign=rss",
-      "description": "Scientists whose work led to powerful obesity drugs like Zepbound are now suggesting targeting the GLP-1 hormone is not necessary for effective weight loss",
-      "pubDate": "2026-04-17T13:07:51.000Z",
-      "source": "STAT News",
-      "category": "GLP-1 & Weight"
     },
     {
       "title": "Millions already raised, spent on handful of Maryland congressional primaries",
@@ -97,30 +249,6 @@
       "pubDate": "2026-04-17T02:23:40.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
-    },
-    {
-      "title": "STAT+: Researchers behind GLP-1 obesity drugs advance new approach: Drop GLP-1 as a target",
-      "link": "https://www.statnews.com/2026/04/16/glp1-weight-loss-new-approach/?utm_campaign=rss",
-      "description": "Scientists are raising a provocative hypothesis about GLP-1 drugs for obesity: Perhaps targeting the GLP-1 hormone isn't actually necessary to achieve effective weight loss.",
-      "pubDate": "2026-04-16T15:58:16.000Z",
-      "source": "STAT News",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "STAT+: Cochrane review reignites Alzheimer&#8217;s amyloid wars",
-      "link": "https://www.statnews.com/2026/04/16/biotech-news-cochrane-review-reignites-alzheimers-amyloid-war/?utm_campaign=rss",
-      "description": "Another Elevidys trial, FDA reconsiders peptides, and other biotech news from The Readout",
-      "pubDate": "2026-04-16T15:18:54.000Z",
-      "source": "STAT News",
-      "category": "Peptides"
-    },
-    {
-      "title": "STAT+: Pharmalittle: We&#8217;re reading about a review of Alzheimer&#8217;s drugs, FDA interest in compounded peptides, and more",
-      "link": "https://www.statnews.com/pharmalot/2026/04/16/alzheimers-drugs-review-fda-panel-for-compounded-peptides/?utm_campaign=rss",
-      "description": "The FDA will convene an outside panel of advisers to discuss whether to allow compounding pharmacies to manufacture certain peptides",
-      "pubDate": "2026-04-16T13:15:21.000Z",
-      "source": "STAT News",
-      "category": "Compounding"
     },
     {
       "title": "Voting Rights Act for Maryland stirred emotions well before Monday meltdown",
@@ -147,14 +275,6 @@
       "category": "Maryland Health"
     },
     {
-      "title": "Meet The Winners of The 2026 Women's Health Beauty Awards",
-      "link": "https://www.womenshealthmag.com/beauty/a70855378/best-beauty-products-2026/",
-      "description": "Picture it: Your skin, glowier; your hair, shinier; your makeup, effortlessly natural-looking. With these top-performing products, you can have it all.",
-      "pubDate": "2026-04-14T12:00:00.000Z",
-      "source": "Women's Health",
-      "category": "Hormones"
-    },
-    {
       "title": "Penman wins appeal, reinstatement to seat on Harford County Council",
       "link": "https://marylandmatters.org/2026/04/14/penman-wins-appeal-reinstatement-to-seat-on-harford-county-council/",
       "description": "A Republican removed from the Harford County Council will get his seat back, after the Appellate Court of Maryland said he had been wrongfully removed last year, and could both serve on the council and work as a deputy s",
@@ -169,14 +289,6 @@
       "pubDate": "2026-04-13T18:50:09.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
-    },
-    {
-      "title": "Walking Vs. Cycling: Which Workout Is Better For Endurance, Strength, And Weight Loss",
-      "link": "https://www.womenshealthmag.com/fitness/a71002803/walking-vs-cycling-what-is-the-better-workout/",
-      "description": "Both activities have pros and cons.",
-      "pubDate": "2026-04-13T13:56:43.000Z",
-      "source": "Women's Health",
-      "category": "GLP-1 & Weight"
     },
     {
       "title": "The General Assembly wants to encourage energy competition again. But will it work?",
@@ -203,122 +315,10 @@
       "category": "Maryland Health"
     },
     {
-      "title": "<![CDATA[FDA Tentatively Approves Generic Version of Semaglutide]]>",
-      "link": "https://www.drugtopics.com/view/fda-tentatively-approves-generic-version-of-semaglutide",
-      "description": "<![CDATA[Tentative FDA nod for generic semaglutide signals more glucagon-like peptide-1 access, easing pharmacy hurdles and curbing risky compounded alternatives.]]>",
-      "pubDate": "2026-04-10T19:41:16.000Z",
-      "source": "Drug Topics",
-      "category": "GLP-1 & Weight"
-    },
-    {
       "title": "Senate panel votes to advance reworked Community Trust Act",
       "link": "https://marylandmatters.org/2026/04/10/senate-panel-advances-community-trust-act/",
       "description": "A Maryland Senate committee voted Thursday night to recommend approval of a measure that would limit the ability of Immigration and Customs Enforcement agents to operate in the state, even as the committee continues to r",
       "pubDate": "2026-04-10T10:33:42.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "&#8216;No Kings Act&#8217; sails through House despite Republican pushback",
-      "link": "https://marylandmatters.org/2026/04/10/no-kings-act-sails-through-house-despite-republican-pushback/",
-      "description": "The House gave overwhelming approval Thursday to the No Kings Act, which would let Marylanders sue federal agents who violate their constitutional rights, despite heated opposition from House Republicans.",
-      "pubDate": "2026-04-10T10:15:00.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Landmark status for Ciliberti, a reminder to be kind and carbon posturing, in political notes",
-      "link": "https://marylandmatters.org/2026/04/10/landmark-status-for-ciliberti-a-reminder-to-be-kind-and-carbon-posturing-in-political-notes/",
-      "description": "When Pippy gets chippy, Peña-Melnyk reminds to be kind, Chisholm debates the dangers of carbon dioxide pretty much by himself, Goetz takes over at the Maryland Association of Boards of Education and Ciliberti officially",
-      "pubDate": "2026-04-10T09:39:12.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Brown announces &#8216;settlement in principle&#8217; with ship owner in Key Bridge collapse lawsuit",
-      "link": "https://marylandmatters.org/2026/04/10/brown-announces-settlement-in-principle-with-ship-owner-in-key-bridge-collapse-lawsuit/",
-      "description": "The owner and operator of a cargo ship that caused the collapse of the Francis Scott Key Bridge in 2024 has reached a \"settlement in principle\" with the state of Maryland, state officials announced Thursday. No dollar am",
-      "pubDate": "2026-04-10T07:26:36.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Advocates to legislators: ‘Pass the Community Trust Act now’",
-      "link": "https://marylandmatters.org/2026/04/09/advocates-to-legislators-pass-the-community-trust-act-now/",
-      "description": "There may be just five days left in the 2026 Maryland General Assembly session, but immigrant rights supporters aren’t giving up on a bill that would further limit the ability of Immigration and Customs Enforcement offic",
-      "pubDate": "2026-04-09T09:56:47.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Economic policy experts, whistleblower urge House to oppose captive insurance tax pause",
-      "link": "https://marylandmatters.org/2026/04/09/economic-policy-experts-whistleblower-urge-house-to-oppose-captive-insurance-tax-pause/",
-      "description": "Economic policy advocates don’t want to see Maryland’s hospitals let “off the hook” for what could be years of unpaid taxes on offshore insurance accounts, calling on lawmakers to abandon a plan to pause collections on t",
-      "pubDate": "2026-04-09T09:14:00.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland House and Senate leaders reach a deal on comprehensive energy bill",
-      "link": "https://marylandmatters.org/2026/04/08/house-senate-deal-energy/",
-      "description": "The Maryland House Speaker and Senate President have come to a deal on the General Assembly’s broad energy bill, they announced Wednesday, easing concerns that disagreements that cropped up in recent weeks might have der",
-      "pubDate": "2026-04-08T16:17:10.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Delegates pull record-keeping rule from bill on birth certificate gender changes",
-      "link": "https://marylandmatters.org/2026/04/08/delegates-pull-record-keeping-rule-from-bill-on-birth-certificate-gender-changes/",
-      "description": "A House panel removed state record-keeping language Tuesday from a bill to streamline gender changes on Maryland birth certificates, after advocates raised concerns that those records could make it easier target transgen",
-      "pubDate": "2026-04-08T10:45:39.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Commemorative bill becomes focus of religious, cultural debate in the Senate",
-      "link": "https://marylandmatters.org/2026/04/08/commemorative-bill-becomes-focus-of-religious-cultural-debate-in-the-senate/",
-      "description": "A bill to create  commemorative months honoring Jewish and Muslim heritage sparked a religious and cultural debate in the Maryland Senate Tuesday on whether a Christian heritage month is needed.",
-      "pubDate": "2026-04-08T10:09:07.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland Senate passes energy bill, setting up clash with the House",
-      "link": "https://marylandmatters.org/2026/04/06/senate-passes-utility-relief-act-energy-bill/",
-      "description": "The Maryland Senate voted overwhelmingly Monday for legislation that aims to reduce Marylanders’ electric bills, setting up a clash with the House of Delegates, which took some more aggressive steps to lower bills.",
-      "pubDate": "2026-04-07T02:39:12.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Residency case for Anne Arundel House opponents heads back to Supreme Court",
-      "link": "https://marylandmatters.org/2026/04/06/residency-case-for-anne-arundel-house-opponents-heads-back-to-supreme-court/",
-      "description": "The attorney for an Anne Arundel legislative challenger has already appealed to the Supreme Court of Maryland, after a circuit court judge ruled Monday morning that John Dove Jr. does not live in the district where he ho",
-      "pubDate": "2026-04-06T19:37:04.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Democratic states sue Trump over mail-in ballot order, joining rush to courts",
-      "link": "https://marylandmatters.org/2026/04/04/repub/democratic-states-sue-trump-over-mail-in-ballot-order-joining-rush-to-courts/",
-      "description": "A coalition of Democratic states, including Maryland, filed a lawsuit Friday seeking to block President Donald Trump’s executive order restricting mail ballots, which experts call an extraordinary attempt to assert autho",
-      "pubDate": "2026-04-04T11:09:50.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland House and Senate keep diverging on energy bill",
-      "link": "https://marylandmatters.org/2026/04/03/senate-house-diverging-energy-bill-gas-lines/",
-      "description": "The Senate version of the Utility RELIEF Act is inching farther and farther from the version passed a few weeks ago by the House, with less than two weeks left in the legislative session to iron out their differences.",
-      "pubDate": "2026-04-03T09:46:18.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "‘Not based in reality’: Climate groups pan study added to Maryland&#8217;s major energy bill",
-      "link": "https://marylandmatters.org/2026/04/02/utility-relief-act-levelized-energy-cost-study-concerns/",
-      "description": "A study of the actual costs of energy generation seems innocent enough. But renewable energy advocates are sounding the alarm, saying the model underlying the study unfairly disadvantages renewable energy.",
-      "pubDate": "2026-04-02T09:05:09.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
     }
