@@ -1,7 +1,127 @@
 {
-  "fetched_at": "2026-05-10T05:40:19.562Z",
+  "fetched_at": "2026-05-17T05:51:54.877Z",
   "count": 40,
   "articles": [
+    {
+      "title": "Exercise and Blood Pressure; Maternal Occupation and Autism",
+      "link": "https://www.medpagetoday.com/podcasts/healthwatch/121290",
+      "description": "(MedPage Today) -- TTHealthWatch is a weekly podcast from Texas Tech. In it, Elizabeth Tracey, director of electronic media for Johns Hopkins Medicine in Baltimore, and Rick Lange, MD, president of Texas Tech Health El",
+      "pubDate": "2026-05-16T18:00:00.000Z",
+      "source": "MedPage Today",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Second thoughts? Maryland regulators put controversial gas line policy on hold",
+      "link": "https://marylandmatters.org/2026/05/16/psc-delays-gas-line-policy/",
+      "description": "The Maryland Public Service Commission is delaying a policy that would make new gas customers pay the full cost of pipeline extensions to their properties, a proposal that had enraged natural gas companies. The pause con",
+      "pubDate": "2026-05-16T07:39:59.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Maryland launches ‘one-stop’ resource website for new, expecting parents",
+      "link": "https://marylandmatters.org/briefs/maryland-launches-one-stop-resource-website-for-new-expecting-parents/",
+      "description": "New families in need of health insurance, parental leave and other resources can look up that information on a new state website, described as a “one-stop” resource hub to support families and make sure children have a h",
+      "pubDate": "2026-05-16T02:04:01.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "GLP-1 Drug Makes Its Case for Treating Plaque Psoriasis",
+      "link": "https://www.medpagetoday.com/dermatology/psoriasis/121299",
+      "description": "(MedPage Today) -- Adding a dual GLP-1/GIP receptor agonist to the psoriasis drug ixekizumab (Taltz) significantly improved outcomes in adults with difficult-to-treat plaque psoriasis due to overweight or obesity, the o",
+      "pubDate": "2026-05-15T21:38:48.000Z",
+      "source": "MedPage Today",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "<strong>Do Women Need to Do Different Workouts in Perimenopause?</strong>",
+      "link": "https://www.womenshealthmag.com/fitness/a71242849/perimenopause-workout-changes/",
+      "description": "It depends on a few variables.",
+      "pubDate": "2026-05-15T10:00:00.000Z",
+      "source": "Women's Health",
+      "category": "Hormones"
+    },
+    {
+      "title": "Chesapeake blue crab population drops 50%. The question is: Why?",
+      "link": "https://marylandmatters.org/2026/05/15/chesapeake-blue-crab-population-drops-50-the-question-is-why/",
+      "description": "The Chesapeake Bay’s blue crab population has declined by about 50% since 2010, a new study estimates, and while invasive blue catfish are responsible for some of that worrisome decline, the main cause or causes remain a",
+      "pubDate": "2026-05-15T07:47:00.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Sherry trades O&#8217;s job for Ag job, a shakeup at top of Moore reelection campaign, in political notes",
+      "link": "https://marylandmatters.org/2026/05/15/sherry-trades-os-job-for-ag-job-shakeup-at-top-of-moore-reelection-campaign-in-political-notes/",
+      "description": "Nicole Sherry trades her job as the Baltimore Orioles' head groundskeeper for a job as a state bureaucrat -- and is actually excited by the move -- while Ron Owens abruptly \"steps away\" from his job running the governor'",
+      "pubDate": "2026-05-15T07:13:36.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "State officials demand transparency as businesses get billions in Trump tariff refunds",
+      "link": "https://marylandmatters.org/2026/05/15/repub/state-officials-demand-transparency-as-businesses-get-billions-in-trump-tariff-refunds/",
+      "description": "The fiscal leaders of several states, including Maryland, are demanding transparency and consumer fairness as President Donald Trump’s administration seeks to refund billions in international tariffs following a recent S",
+      "pubDate": "2026-05-15T06:19:02.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "&#8216;Super fun&#8217;: The tale of how a prehistoric shark became Maryland’s official state shark",
+      "link": "https://marylandmatters.org/2026/05/14/super-fun-the-tale-of-how-a-prehistoric-shark-became-marylands-official-state-shark/",
+      "description": "As paleontologist Stephen Godfrey walked into the Calvert Marine Museum one morning in April, other staffers congratulated him. In a way, he had brought an extinct species back to life: His proposal to make a prehistoric",
+      "pubDate": "2026-05-14T09:25:47.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Public risk of hantavirus &#8216;very low&#8217; in Maryland, as officials monitor two residents for symptoms",
+      "link": "https://marylandmatters.org/2026/05/14/public-risk-of-hantavirus-very-low-in-maryland-as-officials-monitor-two-residents-for-symptoms/",
+      "description": "State health officials reiterated Wednesday that the risk to public health from hantavirus remains very low, even as the health department keeps tabs on two Maryland residents who were potentially exposed to the rare inf",
+      "pubDate": "2026-05-14T05:28:43.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "‘No Kings Act,’ &#8216;Mason’s Law&#8217; among more than 200 bills signed into law",
+      "link": "https://marylandmatters.org/2026/05/13/no-kings-act-masons-law-among-more-than-200-bills-signed-into-law/",
+      "description": "Maryland continued its pushback against Trump administration policies Tuesday with the signing of the \"No Kings Act,\" allowing civil suits against federal agents for violating someone's constitutional rights, one of more",
+      "pubDate": "2026-05-13T09:30:17.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "As the weather warms up, the bugs that bite you are ramping up",
+      "link": "https://marylandmatters.org/briefs/as-the-weather-warms-up-the-bugs-that-bite-you-are-ramping-up/",
+      "description": "Despite the very cold weather earlier this year, don’t expect relief from mosquitoes this summer, says University of Maryland professor emeritus Mike Raupp, who adds that we can expect spotted lanternflies to be back and",
+      "pubDate": "2026-05-13T08:58:30.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Moore signs Maryland energy bill aimed at cutting power costs",
+      "link": "https://marylandmatters.org/2026/05/12/moore-signs-utility-relief-act/",
+      "description": "Gov. Wes Moore (D) signed the Utility RELIEF Act into law Tuesday, ushering in a series of changes to the state’s energy markets that officials hope will lower customers’ electric bills in the months and years to come.",
+      "pubDate": "2026-05-12T21:45:58.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "The Apprentice: Boafo fills coffers with support from Hoyer’s political network",
+      "link": "https://marylandmatters.org/2026/05/12/the-apprentice-boafo-fills-coffers-with-support-from-hoyers-political-network/",
+      "description": "It’s no secret that Rep. Steny Hoyer (D-5th), the dean of Maryland’s federal delegation, is working hard to elect Del. Adrian Boafo (D-Prince George’s) to succeed him. But the full extent of Hoyer’s investment in Boafo’s",
+      "pubDate": "2026-05-12T09:57:16.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "More Maryland state parks likely to require registration, possibly starting this summer",
+      "link": "https://marylandmatters.org/2026/05/11/more-maryland-state-parks-likely-to-require-registration-possibly-starting-this-summer/",
+      "description": "Beginning as soon as this summer, Maryland officials plan to expand the online reservation system that debuted last year at some of the state’s most popular parks, eliminating long lines in the process.",
+      "pubDate": "2026-05-11T09:30:14.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
     {
       "title": "Maryland Matters reporters improve haul in MDDC awards",
       "link": "https://marylandmatters.org/2026/05/09/maryland-matters-reporters-improve-haul-in-mddc-awards/",
@@ -11,36 +131,12 @@
       "category": "Maryland Health"
     },
     {
-      "title": "Transcranial Stimulation for ASD; Hospital Consultants Worth the Money?",
-      "link": "https://www.medpagetoday.com/podcasts/healthwatch/121179",
-      "description": "(MedPage Today) -- TTHealthWatch is a weekly podcast from Texas Tech. In it, Elizabeth Tracey, director of electronic media for Johns Hopkins Medicine in Baltimore, and Rick Lange, MD, president of Texas Tech Health El",
-      "pubDate": "2026-05-08T18:40:17.000Z",
-      "source": "MedPage Today",
-      "category": "Maryland Health"
-    },
-    {
       "title": "Maryland’s new media advertising law raises serious policy concerns",
       "link": "https://marylandmatters.org/2026/05/08/marylands-new-media-advertising-law-raises-serious-policy-concerns/",
       "description": "Strengthening local news is a commendable goal, but the Local News for Maryland Communities Act of 2026 is the wrong way to get there, writes J.H. Snider, who says it is protectionist, pro-incumbent legislation that will",
       "pubDate": "2026-05-08T18:01:47.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
-    },
-    {
-      "title": "<![CDATA[Amazon Pharmacy Now Offering Same-Day Delivery for Ozempic Pill]]>",
-      "link": "https://www.drugtopics.com/view/amazon-pharmacy-now-offering-same-day-delivery-for-ozempic-pill",
-      "description": "<![CDATA[The weight-loss and diabetes drug will now be available via Amazon Pharmacy for same-day delivery or in-person kiosk pickup.]]>",
-      "pubDate": "2026-05-08T16:51:55.000Z",
-      "source": "Drug Topics",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "<![CDATA[What Community Pharmacists Must Know About the GLP-1 Medicare Bridge Program]]>",
-      "link": "https://www.drugtopics.com/view/what-community-pharmacists-must-know-about-the-glp-1-medicare-bridge-program",
-      "description": "<![CDATA[Medicare’s new GLP‑1 bridge program launches soon, easing access without shortages, and pharamcists are at the focal point of these transitions.]]>",
-      "pubDate": "2026-05-08T14:31:00.000Z",
-      "source": "Drug Topics",
-      "category": "GLP-1 & Weight"
     },
     {
       "title": "Mifepristone ruling could halt mailed abortion pills in &#8216;shield states&#8217; like Maryland",
@@ -67,27 +163,11 @@
       "category": "Maryland Health"
     },
     {
-      "title": "Seaport&#8217;s IPO adventure, obesity pill battles, and Makary&#8217;s troubles",
-      "link": "https://www.statnews.com/2026/05/07/readout-loud-podcast-seaport-ipo-fda-makary-white-house/?utm_campaign=rss",
-      "description": "This week on \"The Readout LOUD\" podcast: Seaport Therapeutics’ successful IPO, obesity pill battles, and the FDA commissioner's White House troubles.",
-      "pubDate": "2026-05-07T18:15:31.000Z",
-      "source": "STAT News",
-      "category": "GLP-1 & Weight"
-    },
-    {
       "title": "Do ‘Natural GLP-1 Supplements’ Actually Work as Well as Ozempic?",
       "link": "https://www.womenshealthmag.com/weight-loss/a62230472/natural-glp-supplement/",
       "description": "Here’s what experts really think about the trend.",
       "pubDate": "2026-05-07T16:30:00.000Z",
       "source": "Women's Health",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "<![CDATA[Medicare’s GLP-1 Bridge Model Expands Obesity Drug Access]]>",
-      "link": "https://www.drugtopics.com/view/medicare-s-glp-1-bridge-model-expands-obesity-drug-access",
-      "description": "<![CDATA[CMS pilots BALANCE and GLP-1 Bridge models to widen Medicare/Medicaid obesity drug coverage, spotlighting pharmacists’ role in access and safe therapy.]]>",
-      "pubDate": "2026-05-07T14:31:04.000Z",
-      "source": "Drug Topics",
       "category": "GLP-1 & Weight"
     },
     {
@@ -131,14 +211,6 @@
       "category": "Maryland Health"
     },
     {
-      "title": "<![CDATA[GLP-1s Made Up Eight Of Every 100 Prescriptions Filled in March 2026]]>",
-      "link": "https://www.drugtopics.com/view/glp-1s-made-up-eight-of-every-100-prescriptions-filled-in-march-2026",
-      "description": "<![CDATA[GLP-1 prescriptions surge to nearly 8% of fills, fueled by weight-loss demand.]]>",
-      "pubDate": "2026-05-05T17:00:00.000Z",
-      "source": "Drug Topics",
-      "category": "GLP-1 & Weight"
-    },
-    {
       "title": "Gas prices jump again as Trump turns to new plan for Strait of Hormuz",
       "link": "https://marylandmatters.org/2026/05/04/repub/gas-prices-jump-again-as-trump-turns-to-new-plan-for-strait-of-hormuz/",
       "description": "Americans saw the nationwide average price for a gallon of gas shoot up 38 cents over the past week, to an average of $4.457, according to GasBuddy. Maryland drivers saw a 26-cent increase, to an average of $4.274 a gall",
@@ -161,14 +233,6 @@
       "pubDate": "2026-05-01T22:35:30.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
-    },
-    {
-      "title": "<![CDATA[Advanced Therapies Are Expanding Patient Access in Specialty Pharmacy | Asembia AXS26]]>",
-      "link": "https://www.drugtopics.com/view/advanced-therapies-are-expanding-patient-access-in-specialty-pharmacy",
-      "description": "<![CDATA[Specialty pharmacy shifts toward holistic, empathetic care, easier oral therapies, and wider community access to advanced cell and gene treatments.]]>",
-      "pubDate": "2026-05-01T15:18:32.000Z",
-      "source": "Drug Topics",
-      "category": "Compounding"
     },
     {
       "title": "Frost puts a chill on the spring and summer selling season for farmers in Maryland",
@@ -255,70 +319,6 @@
       "link": "https://marylandmatters.org/2026/04/25/maryland-joins-lawsuit-against-epa-for-failing-to-follow-rules-on-airborne-fine-particulate-matter/",
       "description": "Maryland joined 13 other jurisdictions that sued the Environmental Protection Agency Friday for its failure to meet a February deadline to determine which parts of the country are in compliance with a 2024 standard for \"",
       "pubDate": "2026-04-25T16:49:29.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "After the confetti: Maryland lawmakers return to other jobs after the legislative session",
-      "link": "https://marylandmatters.org/2026/04/25/after-the-confetti-maryland-lawmakers-return-to-other-jobs-after-the-legislative-session/",
-      "description": "After  90 days of drafting, debating and passing bills, Maryland lawmakers have returned to their districts to do constituency work and, for many, go back to other jobs, from business owners to artists to steelworkers.",
-      "pubDate": "2026-04-25T09:11:00.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland allows new chicken house construction to resume after permitting delay",
-      "link": "https://marylandmatters.org/2026/04/24/mde-cafo-permit-issued-chicken-houses/",
-      "description": "For more than nine months, Maryland poultry farmers haven't been able to build any new chicken houses because the state had not issued a pollution permit setting environmental requirements for animal feeding operations.",
-      "pubDate": "2026-04-24T21:18:10.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Sudden cannabis reclassification leaves Maryland industry, regulators confused",
-      "link": "https://marylandmatters.org/2026/04/23/sudden-cannabis-reclassification-leaves-maryland-industry-regulators-confused/",
-      "description": "A surprise reclassification of medical marijuana to a less dangerous drug on Thursday has left many Maryland regulators and businesses with more questions than answers about what the change will mean for businesses in th",
-      "pubDate": "2026-04-24T01:21:08.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "State’s $25K payment to EV nonprofit attracts auditors’ scrutiny",
-      "link": "https://marylandmatters.org/2026/04/23/states-25k-payment-to-ev-nonprofit-attracts-auditors-scrutiny/",
-      "description": "A state audit on the Maryland Department of the Environment raised questions about the agency's payments to an organization that advocates for electric vehicles, an organization for which Environment Secretary Serena McI",
-      "pubDate": "2026-04-23T20:42:20.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland could have identified fraudulent lead inspections sooner, auditors say",
-      "link": "https://marylandmatters.org/2026/04/23/mde-audit-lead-inspections-spending-veloz/",
-      "description": "A legislative audit released Thursday said deficiencies in Maryland’s inspection program for lead paint in rental homes made it easier for a string of fraudulent inspections to go undetected for several years, one of a n",
-      "pubDate": "2026-04-23T16:05:05.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland Supreme Court blocks suit by woman who was shot on Towson campus",
-      "link": "https://marylandmatters.org/2026/04/23/maryland-supreme-court-blocks-suit-by-woman-who-was-shot-on-towson-campus/",
-      "description": "A Towson University alumna who was shot at an on-campus party in 2021 cannot sue the university for failing to protect her in the incident, after the Maryland Supreme Court dismissed her case this week.",
-      "pubDate": "2026-04-23T06:20:27.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "&#8216;Dangerous&#8217; winter weather broke state records for cold-related deaths, ER visits",
-      "link": "https://marylandmatters.org/2026/04/22/dangerous-winter-weather-broke-state-records-for-cold-related-deaths-er-visits/",
-      "description": "A “dangerous” winter season with prolonged drops in temperatures led to record-breaking numbers of both cold-related fatalities and emergency room visits this year, according to reports from the Maryland Department of He",
-      "pubDate": "2026-04-23T01:49:37.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Churchill Downs buys rights to Preakness, Black-Eyed Susan Stakes",
-      "link": "https://marylandmatters.org/2026/04/21/churchill-downs-buys-rights-to-preakness-black-eyed-susan-stakes/",
-      "description": "Owners of the Triple Crown's first leg now own property rights to the second. Churchill Downs Inc. has reached an agreement with 1/ST Maryland LLC to buy the intellectual property rights for the Preakness Stakes and Blac",
-      "pubDate": "2026-04-21T22:59:54.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
     }
