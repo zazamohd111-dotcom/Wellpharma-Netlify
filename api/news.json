@@ -1,14 +1,214 @@
 {
-  "fetched_at": "2026-05-31T06:23:04.938Z",
+  "fetched_at": "2026-06-07T06:33:32.237Z",
   "count": 40,
   "articles": [
     {
-      "title": "Weight Loss and Atrial Fibrillation; DAPT After Bypass Surgery",
-      "link": "https://www.medpagetoday.com/podcasts/healthwatch/121494",
-      "description": "(MedPage Today) -- TTHealthWatch is a weekly podcast from Texas Tech. In it, Elizabeth Tracey, director of electronic media for Johns Hopkins Medicine in Baltimore, and Rick Lange, MD, president of Texas Tech Health El",
-      "pubDate": "2026-05-30T18:00:00.000Z",
-      "source": "MedPage Today",
+      "title": "STAT+: Triple hormone receptors, a monthly obesity drug, and a bittersweet ending",
+      "link": "https://www.statnews.com/2026/06/06/triple-g-safety-data-monthly-obesity-drug-ada-in-30/?utm_campaign=rss",
+      "description": "You're reading the web edition of STAT's ADA in 30 Seconds, from the American Diabetes Association's annual conference in New Orleans.",
+      "pubDate": "2026-06-06T20:54:24.000Z",
+      "source": "STAT News",
       "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "STAT+: Lilly shares safety, tolerability data on its next-gen obesity drug",
+      "link": "https://www.statnews.com/2026/06/06/illy-retatrutide-triple-g-weight-loss-obesity-safety-data-ada/?utm_campaign=rss",
+      "description": "Eli Lilly presented new safety and tolerability data on retatrutide at the annual meeting of the American Diabetes Association on Saturday.",
+      "pubDate": "2026-06-06T18:32:27.000Z",
+      "source": "STAT News",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Cancer Diagnosis Delays During Screening Study; Benefits of Resistance Training",
+      "link": "https://www.medpagetoday.com/podcasts/healthwatch/121624",
+      "description": "(MedPage Today) -- TTHealthWatch is a weekly podcast from Texas Tech. In it, Elizabeth Tracey, director of electronic media for Johns Hopkins Medicine in Baltimore, and Rick Lange, MD, president of Texas Tech Health El",
+      "pubDate": "2026-06-06T18:00:00.000Z",
+      "source": "MedPage Today",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "An endorsement parade U-turn, an electric bill break &#8212; sort of &#8212; in political notes",
+      "link": "https://marylandmatters.org/2026/06/06/an-endorsement-parade-u-turn-an-electric-bill-break-sort-of-in-political-notes/",
+      "description": "Gov. Wes Moore makes a U-turn in his latest round of endorsements and weighs in on a high-profile county executive race, and federal officials make a U-turn in their assessment of Maryland electricity prices -- but they'",
+      "pubDate": "2026-06-06T14:18:26.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "STAT+: Detailed data show Pfizer’s monthly obesity drug continues to show potential",
+      "link": "https://www.statnews.com/2026/06/06/pfizer-obesity-drug-berobenatide-metsera-results/?utm_campaign=rss",
+      "description": "Detailed data from a midstage study offered further evidence that the obesity drug Pfizer acquired from the biotech Metsera could be dosed monthly.",
+      "pubDate": "2026-06-06T13:00:00.000Z",
+      "source": "STAT News",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Report: Deaths by suicide increased in Maryland as numbers declined nationally",
+      "link": "https://marylandmatters.org/2026/06/06/reportdeaths-by-suicide-increased-in-maryland-as-numbers-nationally-declined/",
+      "description": "A new report says states are finally seeing reductions in fatal drug overdoses, alcohol-induced deaths and suicides, after two decades of increases across the nation, leaving some hopeful of a potential “turning point” i",
+      "pubDate": "2026-06-06T10:48:44.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "STAT+: Newer GLP-1s, pushback on research cuts, and a protest",
+      "link": "https://www.statnews.com/2026/06/05/newer-glp-1s-pushback-on-research-cuts-and-a-protest-ada-in-30/?utm_campaign=rss",
+      "description": "You're reading the web edition of STAT's ADA in 30 Seconds, from the American Diabetes Association's annual conference in New Orleans.",
+      "pubDate": "2026-06-05T21:22:33.000Z",
+      "source": "STAT News",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Coble retires from environmental advocacy after 30 years",
+      "link": "https://marylandmatters.org/2026/06/05/kim-coble-retires-lcv/",
+      "description": "After three decades in Maryland environmental politics, Kim Coble revealed Thursday that she will be retiring from her role as executive director of the Maryland League of Conservation Voters.",
+      "pubDate": "2026-06-05T19:48:30.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Deadly Cheese-Linked Outbreak; 15 Med Schools Probed; 'Concern' on FDA Voucher Pilot",
+      "link": "https://www.medpagetoday.com/publichealthpolicy/productalert/121612",
+      "description": "(MedPage Today) -- Note that some links may require registration or subscription.\nFDA said a multi-year Listeria monocytogenes outbreak linked to soft ricotta/requeson cheese sold in Maryland, New York, and Virginia has",
+      "pubDate": "2026-06-05T13:37:34.000Z",
+      "source": "MedPage Today",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Trump plan would reopen Western Maryland coal plant",
+      "link": "https://marylandmatters.org/2026/06/04/trump-warrior-run-reopening/",
+      "description": "President Donald Trump $700 million in investments on Thursday to fortify existing coal-fired power plants, build new ones — and restart the retired Warrior Run coal-fired plant in Allegany County.",
+      "pubDate": "2026-06-04T22:56:00.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Disappearing demographic data hurts efforts to track laid-off federal workers",
+      "link": "https://marylandmatters.org/2026/06/04/disappearing-demographic-data-hurts-efforts-to-track-laid-off-federal-workers/",
+      "description": "Some civil rights activists and Maryland lawmakers said the federal government’s removal of data tracking the race and gender of its workforce impedes efforts to identify exactly who has been impacted by last year’s mass",
+      "pubDate": "2026-06-04T22:39:59.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Year-over-year homelessness declines nationwide, but Maryland saw increase",
+      "link": "https://marylandmatters.org/2026/06/04/repub/year-over-year-homelessness-declines-nationwide-but-maryland-saw-increase/",
+      "description": "There were fewer homeless people in the United States on a single night in January 2025 than in January 2024, but homelessness increased in 28 states including Maryland, one of a handful to see double-digit percentage in",
+      "pubDate": "2026-06-04T22:32:44.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "A special session is needed in Maryland to support democracy",
+      "link": "https://marylandmatters.org/2026/06/04/a-special-session-is-needed-in-maryland-to-support-democracy/",
+      "description": "Critics will attack a special session on redistricting as an assault on democratic values, but lawmakers can undercut those criticisms by resuming debate on a special elections bill, write Edward Fischman, Sarah Brand-Wi",
+      "pubDate": "2026-06-04T10:38:52.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "UMd lays off 84 employees during ‘period of uncertainty’",
+      "link": "https://marylandmatters.org/2026/06/04/umd-lays-off-84-employees-amongst-period-of-uncertainty/",
+      "description": "The University of Maryland, College Park, laid off 84 employees Wednesday, cuts it said were necessary to cope with projected $18 million rise in energy costs at a time of a decrease of $15 million in federal funding in",
+      "pubDate": "2026-06-04T10:22:28.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Baltimore City Community College gave financial aid to &#8216;ghost students,&#8217; audit finds",
+      "link": "https://marylandmatters.org/2026/06/03/baltimore-city-community-college-gave-financial-aid-to-ghost-students-state-audit-finds/",
+      "description": "A state audit shows Baltimore City Community College awarded $264,000 in financial aid to 145 potentially fictitious or “ghost students.”",
+      "pubDate": "2026-06-03T23:26:37.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Upcoming closure of agricultural research center troubles Maryland officials",
+      "link": "https://marylandmatters.org/2026/06/03/upcoming-closure-of-agricultural-research-center-troubles-maryland-officials/",
+      "description": "Rural Maryland Council Executive Director Charlotte Davis says the federal agricultural research facility in Beltsville is \"such an important part of the rural economy” -- which is why she and others are concerned about",
+      "pubDate": "2026-06-03T19:19:14.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Federal worker layoffs threaten cornerstone industry for Maryland",
+      "link": "https://marylandmatters.org/2026/06/03/federal-worker-layoffs-threaten-cornerstone-industry-for-maryland/",
+      "description": "In a given year, Maryland draws about $150 billion in federal contracts, grants, salaries and other funding, benefiting from its proximity to the capital, but in the past year Maryland has lost more than 31,000 federal j",
+      "pubDate": "2026-06-03T10:38:56.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "A Large Study Links GLP-1 Use to a 35% Lower Risk of Developing Breast Cancer",
+      "link": "https://www.womenshealthmag.com/health/a71471660/glp-1-breast-cancer-reduction-study/",
+      "description": "Here’s why doctors say this makes sense.",
+      "pubDate": "2026-06-02T21:18:00.000Z",
+      "source": "Women's Health",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Improvements in farm data reporting starting in Maryland, North Dakota",
+      "link": "https://marylandmatters.org/2026/06/02/improvements-in-farm-data-reporting-starting-in-maryland-north-dakota/",
+      "description": "It’s 2026 and farmers still write planting information on a paper map, later translated into a spreadsheet for access to federal programs. But starting Wednesday, North Dakota and Maryland will be the first two states to",
+      "pubDate": "2026-06-02T18:22:33.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Scientists Are Much Closer to Figuring Out What’s Up with Memory Decline After Menopause",
+      "link": "https://www.womenshealthmag.com/health/a71462658/memory-decline-menopause-study/",
+      "description": "This is the first study of its kind to examine this part of the brain and its relationship to estrogen.",
+      "pubDate": "2026-06-02T10:00:00.000Z",
+      "source": "Women's Health",
+      "category": "Hormones"
+    },
+    {
+      "title": "Hale calls for color-coded mulligan on mail-in ballot mix-up",
+      "link": "https://marylandmatters.org/2026/06/02/hale-calls-for-color-coded-mulligan-on-mail-in-ballot-mixup/",
+      "description": "One Republican candidate for governor is calling on the Maryland State Board of elections to send out yet another round of mail-in ballots, saying the first attempt to fix more than 400,000 ballots just led to more confu",
+      "pubDate": "2026-06-02T09:00:58.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "A year later, laid-off federal workers are still piecing their lives back together",
+      "link": "https://marylandmatters.org/2026/06/02/a-year-later-laid-off-federal-workers-are-still-piecing-their-lives-back-together/",
+      "description": "For the tens of thousands of federal workers in Maryland who were laid off in the early days of the second Trump presidency, the cuts set off months of financial strain, career upheaval and emotional fallout in a state u",
+      "pubDate": "2026-06-02T07:54:18.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Gas tax in Maryland to increase slightly on July 1",
+      "link": "https://marylandmatters.org/2026/06/01/gas-tax-in-maryland-to-increase-slightly-on-july-1/",
+      "description": "Maryland motorists will face an increase in the state gas tax rate starting next month, but whether they notice the change is another thing entirely. New tax rates released Monday set the new tax at 46.6 cents per gallon",
+      "pubDate": "2026-06-02T01:36:26.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "How To Support Your Skin During Weight Loss",
+      "link": "https://www.womenshealthmag.com/beauty/a71307146/how-to-support-your-skin-during-weight-loss/",
+      "description": "A dermatologist shares the routine tweaks that can help target and prevent common concerns like sagging skin.",
+      "pubDate": "2026-06-01T14:00:00.000Z",
+      "source": "Women's Health",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Follow the money: New dashboard tracks use of opioid settlement funds",
+      "link": "https://marylandmatters.org/2026/06/01/follow-the-money-new-dashboard-tracks-use-of-opioid-settlement-funds/",
+      "description": "Maryland has received more than $380 million from a nationwide settlement with pharmaceutical companies for the opioid crisis -- and could get total of almost $750 million over the course of 15 years to combat further ov",
+      "pubDate": "2026-06-01T10:00:59.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "When ICE arrests you, what happens to your car?",
+      "link": "https://marylandmatters.org/2026/06/01/when-ice-arrests-you-what-happens-to-your-car/",
+      "description": "They are ghostly relics of immigration raids, abandoned cars littering Maryland highways and parking lots, some with shattered windows, often left with no chance to tell family members where the car or work truck can be",
+      "pubDate": "2026-06-01T09:59:51.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
     },
     {
       "title": "Free grocery store opens inside Prince George’s County library",
@@ -35,14 +235,6 @@
       "category": "Maryland Health"
     },
     {
-      "title": "Which vaccines will curb the Ebola outbreak? WHO debates",
-      "link": "https://www.statnews.com/2026/05/29/health-news-which-vaccines-will-curb-ebola-outbreak/?utm_campaign=rss",
-      "description": "The growing Ebola outbreak, the unknowns of microdosing GLP-1s, and more health news from Morning Rounds",
-      "pubDate": "2026-05-29T12:47:04.000Z",
-      "source": "STAT News",
-      "category": "GLP-1 & Weight"
-    },
-    {
       "title": "First heat-related death of the year brings reminder of safety measures from health officials",
       "link": "https://marylandmatters.org/2026/05/29/first-heat-related-death-of-the-year-brings-reminder-of-safety-measures-from-health-officials/",
       "description": "State health officials are urging Marylanders to take personal safety measures and check on vulnerable neighbors as temperatures start to rise this summer, following the death of an elderly man in Calvert County due to h",
@@ -59,28 +251,12 @@
       "category": "Maryland Health"
     },
     {
-      "title": "Opinion: I’m a weight-loss doctor. Here’s why I worry about GLP-1 ‘microdoses’",
-      "link": "https://www.statnews.com/2026/05/29/glp-1-microdose-popular-but-unsupported-by-evidence/?utm_campaign=rss",
-      "description": "Long term, we don’t know what tiny doses of GLP-1s for cosmetic weight loss can do, writes a weight-loss doctor.",
-      "pubDate": "2026-05-29T08:30:00.000Z",
-      "source": "STAT News",
-      "category": "GLP-1 & Weight"
-    },
-    {
       "title": "State dumps Moody&#8217;s a year after it downgraded Maryland bonds",
       "link": "https://marylandmatters.org/2026/05/28/state-dumps-moodys-a-year-after-it-downgraded-maryland-bonds/",
       "description": "Maryland has ended a decades-long relationship with one of three major bond rating firms a year after that firm downgraded the state's credit rating, although state officials insist the downgrade was not the reason for t",
       "pubDate": "2026-05-28T17:44:23.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
-    },
-    {
-      "title": "Walking Less Than 10k Steps Daily Can Help Maintain Weight Loss, Study Finds",
-      "link": "https://www.womenshealthmag.com/health/a71423358/how-much-to-walk-to-lose-weight-study/",
-      "description": "Here’s what the latest research says.",
-      "pubDate": "2026-05-28T11:00:00.000Z",
-      "source": "Women's Health",
-      "category": "GLP-1 & Weight"
     },
     {
       "title": "Chesapeake crab population rallies a bit from long-term slump",
@@ -105,14 +281,6 @@
       "pubDate": "2026-05-28T08:30:31.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
-    },
-    {
-      "title": "The Appointment You Shouldn’t Skip When Taking A GLP-1",
-      "link": "https://www.womenshealthmag.com/health/a71240221/the-appointment-you-shouldnt-skip-when-taking-a-glp-1/",
-      "description": "Why regular eye exams matter when taking weight-loss medications—and what they can help detect early.",
-      "pubDate": "2026-05-27T16:10:00.000Z",
-      "source": "Women's Health",
-      "category": "GLP-1 & Weight"
     },
     {
       "title": "County sheriffs file lawsuit challenging Community Trust Act",
@@ -151,174 +319,6 @@
       "link": "https://marylandmatters.org/2026/05/25/the-state-of-housing-in-maryland-closing-the-funding-gap/",
       "description": "Maryland has a housing shortage -- no surprise there -- and that's because it's hard for builders to make the numbers work here, writes Tom Coale. But there are answers to be had, if the state is willing to make the inve",
       "pubDate": "2026-05-25T09:30:32.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Researchers: Look for a smaller dead zone in the Chesapeake Bay this summer",
-      "link": "https://marylandmatters.org/briefs/researchers-look-for-a-smaller-dead-zone-in-the-chesapeake-bay-this-summer/",
-      "description": "Drought conditions this year may have hurt crops and strained drinking water supplies, but there’s an upside: Low river flows mean less nutrient runoff into the Chesapeake Bay, which could make this year's annual “dead z",
-      "pubDate": "2026-05-25T08:36:23.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "In Allegany County, flood recovery pushes forward a year later",
-      "link": "https://marylandmatters.org/2026/05/23/in-allegany-county-flood-recovery-pushes-forward-a-year-later/",
-      "description": "A year after historic flooding damaged hundreds of buildings and businesses in Western Maryland, the slow, steady recovery effort can be seen in the temporary Westernport Library and heard in the laughter of children in",
-      "pubDate": "2026-05-23T10:00:13.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Biden&#8217;s back, Buckel&#8217;s upset, Moore signs a baseball &#8212; or a crystal ball? &#8212; in notes",
-      "link": "https://marylandmatters.org/2026/05/23/bidens-back-buckels-upset-moore-signs-a-baseball-or-a-crystal-ball-in-notes/",
-      "description": "In political notes, Joe Biden is back to keynote for Maryland Democrats, House Minority Leader Jason Buckel (R-Allegany) is upset that people outside District 1B are donating to his challenger, and Gov. Wes Moore will fi",
-      "pubDate": "2026-05-23T09:18:12.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "In Nashville, a federal judge dismisses indictment against Kilmar Abrego Garcia",
-      "link": "https://marylandmatters.org/2026/05/22/in-nashville-a-federal-judge-dismisses-indictment-against-kilmar-abrego-garcia/",
-      "description": "A federal judge in Tennessee dismissed a criminal indictment Friday against Kilmar Abrego Garcia, a 30-year-old man living in Maryland who was wrongly deported to El Salvador last year, calling the prosecution “vindictiv",
-      "pubDate": "2026-05-22T22:43:23.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Ferguson opens the door to redistricting, slightly, in wake of Supreme Court ruling",
-      "link": "https://marylandmatters.org/2026/05/22/ferguson-opens-the-door-to-redistricting-slightly-in-wake-of-supreme-court-ruling/",
-      "description": "Saying \"the rules have changed\" since the U.S. Supreme Court \"gutted the Voting Rights Act,\" Maryland Senate President Bill Ferguson said Friday he's talking with Democratic senators about calling a special session to ad",
-      "pubDate": "2026-05-22T22:07:46.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland passed a life-saving cancer law. Now the state needs to enforce it.",
-      "link": "https://marylandmatters.org/2026/05/22/maryland-passed-a-life-saving-cancer-law-now-the-state-needs-to-enforce-it/",
-      "description": "Biomarker testing is effective, cost-efficient and protected by Maryland law, which requires insurance to cover it, writes Erin Dalder-Alpher, who asks why patients like herself have to fight to get coverage, while other",
-      "pubDate": "2026-05-22T09:34:54.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland’s &#8216;aging workforce&#8217; in healthcare presents challenges, opportunities",
-      "link": "https://marylandmatters.org/2026/05/22/marylands-aging-workforce-in-healthcare-presents-challenges-opportunities/",
-      "description": "Older workers are a “defining feature” of Maryland healthcare, which has the nation's second-oldest nurses and fourth-oldest physicians. While that brings benefits, it also poses a challenge as looming retirements could",
-      "pubDate": "2026-05-22T09:28:11.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland water systems cut fluoride levels amid Middle East supply disruptions",
-      "link": "https://marylandmatters.org/2026/05/22/maryland-water-systems-cut-fluoride-levels-amid-middle-east-supply-disruptions/",
-      "description": "The war in Iran has strained global supply chains in a variety of areas -- including drinking water. Major water systems in Maryland have temporarily cut fluoride levels in response to a shortage of a key compound for fl",
-      "pubDate": "2026-05-22T07:26:18.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Jan. 6 police officers sue Trump over $1.77B ‘taxpayer-funded slush fund’",
-      "link": "https://marylandmatters.org/2026/05/21/repub/jan-6-police-officers-sue-trump-over-1-77b-taxpayer-funded-slush-fund/",
-      "description": "Two police officers who defended the U.S. Capitol on Jan. 6, 2021, including Maryland congressional candidate Harry Dunn, sued the Trump administration over its planned $1.8 billion fund to reimburse victims of \"judicial",
-      "pubDate": "2026-05-22T01:04:54.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland&#8217;s first &#8212; and only &#8212; Hispanic Serving Institution&#8217;s cautious next steps",
-      "link": "https://marylandmatters.org/2026/05/21/marylands-first-and-only-hispanic-serving-institutions-cautious-next-steps/",
-      "description": "Montgomery College remains Maryland's first, and only, Hispanic Serving Institution, even after the U.S. Department of Education pulled the HSI page from its site and ended access to $350 million in grants, a shift that",
-      "pubDate": "2026-05-21T08:53:12.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Board of Public Works votes to expand park registration program",
-      "link": "https://marylandmatters.org/2026/05/21/board-of-public-works-votes-to-expand-park-registration-program/",
-      "description": "The Board of Public Works on Wednesday approved a plan for the Maryland Park Service to expand an online registration system for state parks and shooting ranges, and it OK'd a deal for Days Cove landfill to close, but no",
-      "pubDate": "2026-05-21T08:30:10.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Trump attacks Maryland leaders after mail-in ballot snafu",
-      "link": "https://marylandmatters.org/2026/05/19/trump-attacks-maryland-leaders-after-mail-in-ballot-snafu/",
-      "description": "President Donald Trump is attacking Maryland officials after a vendor mix-up that caused a portion of voters to receive the wrong mail-in ballot for the state’s June 23 primary. State officials accuse Trump of spreading",
-      "pubDate": "2026-05-20T01:56:08.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland reaches $4.1M settlement with homebuilder in sediment pollution case",
-      "link": "https://marylandmatters.org/2026/05/19/maryland-settlement-harford-home-builder/",
-      "description": "Maryland inked a $4.1 million settlement deal with the developer, homebuilder and contractor of a Harford County home development blamed for damaging releases of sediment into the Gunpowder River, the attorney general’s",
-      "pubDate": "2026-05-20T01:43:49.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland leads states suing Education Department for &#8216;unlawful&#8217; student loan cap",
-      "link": "https://marylandmatters.org/2026/05/19/maryland-leads-states-suing-education-department-for-unlawful-student-loan-cap/",
-      "description": "Maryland is at the head of a lawsuit with 25 other Democratic jurisdictions that are challenging a new U.S. Department of Education rule that would limit loan access for students pursuing some graduate and professional d",
-      "pubDate": "2026-05-19T23:58:17.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Board votes to cap how much state, local governments spend on Ozempic",
-      "link": "https://marylandmatters.org/2026/05/19/board-votes-to-cap-how-much-state-local-governments-spend-on-ozempic/",
-      "description": "State officials determined that Ozempic, a popular diabetes treatment and weight-loss drug, is unaffordable for Marylanders and voted Monday to limit how much state and local governments will pay for it on state health p",
-      "pubDate": "2026-05-19T05:10:24.000Z",
-      "source": "Maryland Matters",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "At Maryland’s newest state park, a story of Black resilience",
-      "link": "https://marylandmatters.org/2026/05/18/at-marylands-newest-state-park-a-story-of-black-resilience/",
-      "description": "Maryland's newest state park, the 1,042-acre Freedman’s State Park near Gaithersburg, honors the legacy of the Howard family, who owned the land after emancipation from slavery, and became major contributors to Black com",
-      "pubDate": "2026-05-19T00:59:07.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Despite threats, Maryland sheriffs quickly dropped 287(g) agreements with ICE",
-      "link": "https://marylandmatters.org/2026/05/18/despite-threats-maryland-sheriffs-quickly-dropped-287g-agreements-with-ice/",
-      "description": "Maryland sheriffs vowed to fight legislation prohibiting formal agreements between local police agencies and ICE. But eight of the nine counties that had the 287(g) agreements have pulled out and the ninth said the pact",
-      "pubDate": "2026-05-18T09:56:56.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland resends thousands of mail-in primary ballots after vendor mix-up",
-      "link": "https://marylandmatters.org/briefs/maryland-resends-thousands-of-mail-in-primary-ballots-after-vendor-mix-up/",
-      "description": "Thousands of Maryland voters will be getting new primary election ballots in the mail after the State Board of Elections announced Friday that some voters received the wrong party’s ballot for the June 23 primary because",
-      "pubDate": "2026-05-18T08:02:18.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Second thoughts? Maryland regulators put controversial gas line policy on hold",
-      "link": "https://marylandmatters.org/2026/05/16/psc-delays-gas-line-policy/",
-      "description": "The Maryland Public Service Commission is delaying a policy that would make new gas customers pay the full cost of pipeline extensions to their properties, a proposal that had enraged natural gas companies. The pause con",
-      "pubDate": "2026-05-16T07:39:59.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland launches ‘one-stop’ resource website for new, expecting parents",
-      "link": "https://marylandmatters.org/briefs/maryland-launches-one-stop-resource-website-for-new-expecting-parents/",
-      "description": "New families in need of health insurance, parental leave and other resources can look up that information on a new state website, described as a “one-stop” resource hub to support families and make sure children have a h",
-      "pubDate": "2026-05-16T02:04:01.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Chesapeake blue crab population drops 50%. The question is: Why?",
-      "link": "https://marylandmatters.org/2026/05/15/chesapeake-blue-crab-population-drops-50-the-question-is-why/",
-      "description": "The Chesapeake Bay’s blue crab population has declined by about 50% since 2010, a new study estimates, and while invasive blue catfish are responsible for some of that worrisome decline, the main cause or causes remain a",
-      "pubDate": "2026-05-15T07:47:00.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
     }
