@@ -1,13 +1,221 @@
 {
-  "fetched_at": "2026-07-05T06:08:55.251Z",
+  "fetched_at": "2026-07-12T05:32:07.074Z",
   "count": 40,
   "articles": [
     {
-      "title": "Tech to Improve Stroke Outcomes; Impact of a Nation's Social Media Ban",
-      "link": "https://www.medpagetoday.com/podcasts/healthwatch/122042",
+      "title": "Prosthesis for Hip Replacement; Testing for Respiratory Viruses in Nursing Homes",
+      "link": "https://www.medpagetoday.com/podcasts/healthwatch/122141",
       "description": "(MedPage Today) -- TTHealthWatch is a weekly podcast from Texas Tech. In it, Elizabeth Tracey, director of electronic media for Johns Hopkins Medicine in Baltimore, and Rick Lange, MD, president of Texas Tech Health El",
-      "pubDate": "2026-07-04T18:00:00.000Z",
+      "pubDate": "2026-07-11T18:00:00.000Z",
       "source": "MedPage Today",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "New Research Says This Hot Flash Drug May Also Improve Depression and Anxiety",
+      "link": "https://www.womenshealthmag.com/health/a71899082/veozah-anxiety-depression-study/",
+      "description": "We don’t know exactly why or how this works, but the theories so far are pretty interesting.",
+      "pubDate": "2026-07-11T11:00:00.000Z",
+      "source": "Women's Health",
+      "category": "Hormones"
+    },
+    {
+      "title": "Q&#038;A: A conversation with Chris Van Hollen",
+      "link": "https://marylandmatters.org/2026/07/11/qa-a-conversation-with-chris-van-hollen/",
+      "description": "Maryland Matters sat down with Sen. Chris Van Hollen (D-Md.) shortly after he said he was \"kicking the tires\" on a possible 2028 presidential run, to talk about his presidential musings, the state of political discourse",
+      "pubDate": "2026-07-11T08:27:44.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Maryland may have to go to court to fight for $20M in annual relief for electric customers",
+      "link": "https://marylandmatters.org/2026/07/11/maryland-may-have-to-go-to-court-to-fight-for-20m-in-annual-relief-for-electric-customers/",
+      "description": "A new Maryland rule could save utility customers $20 million a year. But getting those savings will take more work: Three state agencies asked federal regulators to make utilities stop levying a surcharge for required pa",
+      "pubDate": "2026-07-11T06:12:44.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Seidman moves on, Agriculture staffs up, Barron gets another role, in political notes",
+      "link": "https://marylandmatters.org/2026/07/10/seidman-moves-on-agriculture-staffs-up-barron-gets-another-role-in-political-notes/",
+      "description": "Ross Seidman moves on from the Senate, Bill Ferguson sticks up for Jared DeMarinis, the Agriculture Department picks up Allie Carter Cavanagh and Rachel Felver, and Erek Barron takes over at the Maryland Access to Justic",
+      "pubDate": "2026-07-11T01:33:08.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Maryland one of 15 states suing administration to block school mental health funding cuts",
+      "link": "https://marylandmatters.org/2026/07/10/repub/maryland-one-of-15-states-suing-administration-to-block-school-mental-health-funding-cuts/",
+      "description": "Maryland is one of 15 states that sued the Trump administration to prevent millions of dollars in cuts to school-based mental health funding. At stake is a $1 billion program to help hire and train more mental health pro",
+      "pubDate": "2026-07-11T01:29:08.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Study Compares GLP-1 Drugs on Their Benefits, Harms",
+      "link": "https://www.medpagetoday.com/primarycare/obesity/122142",
+      "description": "(MedPage Today) -- Variable weight-loss and cardiovascular benefits were seen with GLP-1 drugs in a systematic review and network meta-analysis, but effects on quality of life were less clear.\nAcross 262 randomized stud",
+      "pubDate": "2026-07-10T17:51:54.000Z",
+      "source": "MedPage Today",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Holiday heat wave sent hundreds to Maryland emergency rooms",
+      "link": "https://marylandmatters.org/2026/07/10/holiday-heat-wave-sent-hundreds-to-maryland-emergency-rooms/",
+      "description": "More than 470 heat-related emergency room visits were reported during last week's Independence Day heat wave, more ER visits in one week than had been recorded for the entire heat season that began in May, according to n",
+      "pubDate": "2026-07-10T09:00:24.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Trump administration sues the state over passage of the Community Trust Act",
+      "link": "https://marylandmatters.org/2026/07/10/trump-administration-sues-the-state-over-passage-of-the-community-trust-act/",
+      "description": "The Trump administration sued the state of Maryland Thursday, claiming that the state's new immigrant protection law, the Community Trust Act, interferes with the federal government's ability to enforce immigration law a",
+      "pubDate": "2026-07-10T08:29:56.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "State claims immunity from some sexual abuse lawsuits filed under the Child Victims Act",
+      "link": "https://marylandmatters.org/2026/07/09/state-claims-immunity-from-some-sexual-abuse-lawsuits-filed-under-the-child-victims-act/",
+      "description": "The Supreme Court of Maryland has agreed to hear the state's challenge to the Child Victims Act in a case that could end hundreds of sexual abuse lawsuits and save the state and its taxpayers more than $1 billion, while",
+      "pubDate": "2026-07-10T00:35:59.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Trump plan to overhaul historic D.C. golf course troubles Maryland, Virginia senators",
+      "link": "https://marylandmatters.org/2026/07/09/repub/trump-plan-to-overhaul-historic-d-c-golf-course-troubles-maryland-virginia-senators/",
+      "description": "All four senators from Maryland and Virginia, all Democrats, said Thursday they have sent a second letter to the Department of the Interior, demanding answers on the Trump administration’s plan to redevelop the East Poto",
+      "pubDate": "2026-07-09T23:53:27.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Experts Say this Common Menopause-Linked Condition Can Make Everyday Movements Painful",
+      "link": "https://www.womenshealthmag.com/health/a71888669/frozen-shoulder-menopause-symptoms/",
+      "description": "Frozen shoulder isn't well-understood yet but more women and experts are talking about it.",
+      "pubDate": "2026-07-09T22:59:20.000Z",
+      "source": "Women's Health",
+      "category": "Hormones"
+    },
+    {
+      "title": "Targeted Therapy Reverses Weight Gain From Rare Cause of Obesity",
+      "link": "https://www.medpagetoday.com/endocrinology/obesity/122131",
+      "description": "(MedPage Today) -- Treatment with setmelanotide (Imcivree), a melanocortin-4 receptor (MC4R) agonist, led to significant reductions in body mass index (BMI) and hunger in individuals with acquired hypothalamic obesity,",
+      "pubDate": "2026-07-09T21:44:09.000Z",
+      "source": "MedPage Today",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Newer Diabetes Drugs, Including GLP-1 Agonists, Tied to Autoimmunity Risk",
+      "link": "https://www.medpagetoday.com/rheumatology/generalrheumatology/122130",
+      "description": "(MedPage Today) -- Analysis of hundreds of thousands of patient records showed differing risks for autoimmune disorders for new users of the more recent types of antidiabetic medications.\nRates of new-onset autoimmune c",
+      "pubDate": "2026-07-09T21:34:17.000Z",
+      "source": "MedPage Today",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "<b><strong>Is This Peptide the Solution to Tanning Without Sun Damage?</strong></b>",
+      "link": "https://www.womenshealthmag.com/health/a71885407/melanotan-safety-risks/",
+      "description": "What doctors want you to know about melanotan.",
+      "pubDate": "2026-07-09T18:23:45.000Z",
+      "source": "Women's Health",
+      "category": "Peptides"
+    },
+    {
+      "title": "Supreme Court ruling on transgender athletes revives debate in Maryland",
+      "link": "https://marylandmatters.org/2026/07/09/supreme-court-ruling-on-transgender-athletes-revives-debate-in-maryland/",
+      "description": "The U.S. Supreme Court ruling that states can keep transgender youth off of girls' sports teams raised hopes for Maryland lawmakers who have long tried to get such a law, and brought renewed commitment from advocates tha",
+      "pubDate": "2026-07-09T09:16:51.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Opinion: Who benefits from classifying obesity as a disease?",
+      "link": "https://www.statnews.com/2026/07/09/obesity-disease-classification-glp-1-eli-lilly-novo-nordisk/?utm_campaign=rss",
+      "description": "“The new wave of obesity pharmacotherapy has leaned heavily on disease framing,” writes Max Moser, drawing comparisons to the antidepressant revolution.",
+      "pubDate": "2026-07-09T08:30:00.000Z",
+      "source": "STAT News",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Multistate outbreak of foodborne parasitic illness reaches Virginia and Maryland",
+      "link": "https://marylandmatters.org/2026/07/09/multistate-outbreak-of-foodborne-parasitic-illness-reaches-virginia-and-maryland/",
+      "description": "An intestinal illness that can cause nausea and watery, sometimes explosive diarrhea that’s been reported in several states has reached Virginia and Maryland, where 10 cases and one case, respectively, of cyclosporiasis",
+      "pubDate": "2026-07-09T06:46:15.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Justice Department threatens Maryland&#8217;s top election official with criminal charges",
+      "link": "https://marylandmatters.org/2026/07/08/justice-department-threatens-marylands-top-election-official-with-criminal-charges/",
+      "description": "Maryland's top election official is being threatened with criminal charges by the Justice Department, the latest effort by the Trump administration to pressure state elections officials and cast doubt on the validity of",
+      "pubDate": "2026-07-08T23:40:08.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Moore calls on Platner to drop out, more Maryland hopefuls concede, in political notes",
+      "link": "https://marylandmatters.org/2026/07/08/moore-calls-on-platner-to-drop-out-more-maryland-hopefuls-concede-in-political-notes/",
+      "description": "Maryland Gov. Wes Moore joined the chorus of Democratic leaders urging Graham Platner to drop out of the Senate race in Maine, while more candidates in Maryland bowed to reality and conceded their primary races Tuesday,",
+      "pubDate": "2026-07-08T07:02:45.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Judge rebukes Maryland oyster farmer in tampering case",
+      "link": "https://marylandmatters.org/2026/07/08/judge-rebukes-maryland-oyster-farmer-in-tampering-case/",
+      "description": "The manager of an oyster-farming operation on Maryland’s Eastern Shore was found guilty Monday of tampering with evidence amid a state investigation into allegations of widespread dumping of illegal oyster bed material i",
+      "pubDate": "2026-07-08T05:41:50.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "A Conversation About Moderate To Severe Hot Flashes Due To Menopause",
+      "link": "https://www.womenshealthmag.com/health/a71180204/a-conversation-about-moderate-to-severe-hot-flashes-due-to-menopause/",
+      "description": "In a Bayer-sponsored conversation, Garcelle Beauvais and Nurse Barb discuss moderate to severe hot flashes due to menopause and the importance of talking to a healthcare provider to develop a treatment plan that’s right",
+      "pubDate": "2026-07-07T14:30:00.000Z",
+      "source": "Women's Health",
+      "category": "Hormones"
+    },
+    {
+      "title": "Stay Strong on a GLP-1 With the <i><em>WH+ GLP-1 Strength Plan</em></i>: Download the PDF Now",
+      "link": "https://www.womenshealthmag.com/fitness/a71728705/glp-1-strength-training-plan-muscle-building-download-pdf/",
+      "description": "Maintaining muscle on a GLP-1 is hard. This plan makes it easier.",
+      "pubDate": "2026-07-07T11:00:00.000Z",
+      "source": "Women's Health",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Building Muscle While on a GLP-1 Is Hard—But Possible. This Plan Makes It Much Easier.",
+      "link": "https://www.womenshealthmag.com/fitness/a71717525/build-maintain-muscle-on-glp-1-strength-training-plan/",
+      "description": "Introducing the WH+ GLP-1 Strength Plan.",
+      "pubDate": "2026-07-07T11:00:00.000Z",
+      "source": "Women's Health",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "The results are in, and the Maryland Matters election contest has a winner",
+      "link": "https://marylandmatters.org/2026/07/06/the-results-are-in-and-the-maryland-matters-election-contest-has-a-winner/",
+      "description": "The Board of Elections made it official Monday, so Maryland Matters will, too: Anne Arundel County Council candidate and Chick &#038; Ruth's Delly owner Spencer Jones won our primary election contest, getting 18 of 20 qu",
+      "pubDate": "2026-07-07T00:44:39.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Maryland school districts face fall deadline to set AI policies",
+      "link": "https://marylandmatters.org/2026/07/06/maryland-school-districts-face-fall-deadline-to-set-ai-policies/",
+      "description": "Maryland schools have a summer homework assignment: Establish artificial intelligence policies for their classrooms. They do have a cheat sheet of sorts to go by — the Maryland State Department of Education’s recently re",
+      "pubDate": "2026-07-06T09:05:36.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "After years of effort, Chesapeake Bay-specific menhaden population study gets funding",
+      "link": "https://marylandmatters.org/2026/07/06/after-years-of-effort-chesapeake-bay-specific-menhaden-population-study-gets-funding/",
+      "description": "With new state dollars granted by the Virginia General Assembly by way of a budget amendment from Gov. Abigail Spanberger, scientists and lawmakers plan to examine the menhaden population inside the Chesapeake Bay, the c",
+      "pubDate": "2026-07-06T09:00:51.000Z",
+      "source": "Maryland Matters",
       "category": "Maryland Health"
     },
     {
@@ -25,14 +233,6 @@
       "pubDate": "2026-07-04T09:00:32.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
-    },
-    {
-      "title": "Medicare Is Now Covering Some GLP-1s for Weight-Loss for $50. Here's What to Know",
-      "link": "https://www.medpagetoday.com/publichealthpolicy/medicare/122008",
-      "description": "(MedPage Today) -- Popular  --  and expensive  --  GLP-1 agonists for weight loss just got a lot cheaper for many older Americans.\nStarting this week, the federal government is offering a selection of the brand name med",
-      "pubDate": "2026-07-03T16:00:00.000Z",
-      "source": "MedPage Today",
-      "category": "GLP-1 & Weight"
     },
     {
       "title": "Maryland goes all out for country&#8217;s 250th celebration",
@@ -75,36 +275,12 @@
       "category": "Hormones"
     },
     {
-      "title": "STAT+: More frequent, more intense, and longer heat waves pose health risks for Americans",
-      "link": "https://www.statnews.com/2026/07/02/health-news-frequent-intense-heat-waves-pose-health-risks-for-americans/?utm_campaign=rss",
-      "description": "The presidential fitness test is back, surprising new data on the health risks of obesity, and more Morning Rounds news",
-      "pubDate": "2026-07-02T11:24:59.000Z",
-      "source": "STAT News",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "Could GLP-1s Help with Fertility in Men and Women? Here’s What the Latest Data Says",
-      "link": "https://www.womenshealthmag.com/health/a71784751/glp-1-fertility-news/",
-      "description": "These popular meds may do even more than previously thought.",
-      "pubDate": "2026-07-02T10:30:00.000Z",
-      "source": "Women's Health",
-      "category": "GLP-1 & Weight"
-    },
-    {
       "title": "Maryland&#8217;s first &#8216;human composting&#8217; facility is open for business",
       "link": "https://marylandmatters.org/2026/07/02/earth-funeral-human-composting-maryland/",
       "description": "Earth Funeral's new \"human composting\" facility is likely the first on the East Coast.",
       "pubDate": "2026-07-02T09:00:25.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
-    },
-    {
-      "title": "Statins and blood pressure drugs changing health risks of obesity, study suggests",
-      "link": "https://www.statnews.com/2026/07/01/lancet-obesity-blood-pressure-cholesterol-study/?utm_campaign=rss",
-      "description": "New research shows obesity patients over 40 are managing blood pressure and cholesterol as well as healthy-weight peers, but younger adults remain at risk.",
-      "pubDate": "2026-07-01T22:30:00.000Z",
-      "source": "STAT News",
-      "category": "GLP-1 & Weight"
     },
     {
       "title": "From deer hunting to cellphone bans in schools, hundreds of new laws are now in effect in Maryland",
@@ -143,182 +319,6 @@
       "link": "https://marylandmatters.org/2026/06/29/state-commission-returns-to-monitor-insurance-coverage-under-trump-administration/",
       "description": "Almost 10 years ago, Maryland lawmakers pulled together a watchdog group of state officials, representatives for insurance companies and healthcare advocates to monitor health insurance coverage under President Donald Tr",
       "pubDate": "2026-06-29T23:18:09.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland prisons saw 46 inmate homicides since 2015; 22 were in the last two years",
-      "link": "https://marylandmatters.org/2026/06/29/maryland-prisons-saw-46-inmate-homicides-since-2015-22-were-in-the-last-two-years/",
-      "description": "Twenty-two inmate deaths were classified as homicides between 2024 and 2025, accounting for almost half of all inmate homicides since 2015, according to data from the state’s Department of Public Safety and Correctional",
-      "pubDate": "2026-06-29T09:15:38.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Tangier Island: rising waters, eroding shores, dwindling time",
-      "link": "https://marylandmatters.org/2026/06/29/tangier-island-rising-waters-eroding-shores-dwindling-time/",
-      "description": "TANGIER ISLAND, CHESAPEAKE BAY — On a windy June morning, the Chesapeake Bay Foundation’s boat rocked violently on the waves of its namesake watershed, brackish drops splashing into the vessel as it sped towards Tangier",
-      "pubDate": "2026-06-29T09:00:40.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Biden rallies Democrats, slams Trump at Maryland Democratic Party gala",
-      "link": "https://marylandmatters.org/2026/06/28/biden-rallies-democrats-slams-trump-at-maryland-democratic-party-gala/",
-      "description": "HANOVER — Former President Joe Biden embraced the theme of the Maryland Democratic Party’s “Fight Back &#38; Win” gala Saturday night, urging state Democrats to stand up to President Donald Trump and his administration.",
-      "pubDate": "2026-06-28T05:22:21.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland health insurers want to raise premiums an average 13.7% for individual plans in 2027",
-      "link": "https://marylandmatters.org/2026/06/26/maryland-health-insurers-want-to-raise-premiums-an-average-13-7-for-individual-plans-in-2027/",
-      "description": "Marylanders who purchase individual healthcare plans on the state’s insurance marketplace may see another year of higher monthly costs as health insurers have requested an average rate increase of 13.7% across plans in 2",
-      "pubDate": "2026-06-26T20:31:17.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland may be steeply penalized after reducing SNAP payment error rates",
-      "link": "https://marylandmatters.org/2026/06/26/maryland-may-be-steeply-penalized-after-reducing-snap-payment-error-rates/",
-      "description": "This story has been updated to include additional comments from the USDA and the Maryland Department of Human Services. In recent years, Maryland has reduced the administrative errors it makes when sending food assistanc",
-      "pubDate": "2026-06-26T09:15:02.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland’s members of Congress stress affordable housing needs after Trump stalls bill",
-      "link": "https://marylandmatters.org/2026/06/25/repub/marylands-members-of-congress-stress-affordable-housing-needs-after-trump-stalls-bill/",
-      "description": "WASHINGTON — U.S. lawmakers from Maryland vowed to continue focusing on affordable housing initiatives for state residents and beyond at a Capitol press conference Thursday, taking stabs at President Donald Trump’s refus",
-      "pubDate": "2026-06-26T00:49:16.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Some Maryland delegates still locked in tight primary contests two days after election",
-      "link": "https://marylandmatters.org/2026/06/25/maryland-delegates-tight-races/",
-      "description": "For most of the candidates running for Maryland’s General Assembly, the dust is now settling after Tuesday’s primary election. But a select few are still locked in tight races two days later as counting of more than 200,",
-      "pubDate": "2026-06-25T21:19:59.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Concessions, victory laps mark the day after a &#8216;smooth&#8217; Maryland primary contest",
-      "link": "https://marylandmatters.org/2026/06/25/concessions-victory-laps-mark-the-day-after-a-smooth-maryland-primary-contest/",
-      "description": "Despite worries over a mail-in ballot snafu, state officials said Tuesday's voting was \"smooth and boring\" and are turning now to counting almost 182,000 mail-in ballots. Despite the number of outstanding ballots, conces",
-      "pubDate": "2026-06-25T05:10:37.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Feds: Maryland school policies on transgender students, athletes may violate Title IX",
-      "link": "https://marylandmatters.org/2026/06/25/feds-maryland-schools-policies-on-transgender-students-athletes-may-violate-title-ix/",
-      "description": "Maryland school districts are defending their policies to protect transgender student athletes, despite a U.S. Department of Education charge this week that the policies may violate Title IX.",
-      "pubDate": "2026-06-25T05:09:55.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Most Maryland congressional incumbents cruise to primary wins",
-      "link": "https://marylandmatters.org/2026/06/24/maryland-congressional-incumbents-cruise-to-primary-wins/",
-      "description": "The crowded 5th District race and the costly 6th District race drew most of the attention during primary elections. But in the state's six other congressional districts, incumbents appeared headed to renomination in race",
-      "pubDate": "2026-06-24T04:30:02.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "U.S. Rep. April McClain Delaney projected to win Maryland 6th Congressional District",
-      "link": "https://marylandmatters.org/2026/06/24/u-s-rep-april-mcclain-delaney-projected-to-win-maryland-6th-congressional-district/",
-      "description": "After a bitter, expensive and largely self-funded campaign, freshman U.S. Rep. April McClain Delaney (D-6th) has held her seat against David Trone, who was trying to reclaim it after a two year absence.",
-      "pubDate": "2026-06-24T04:18:59.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Don&#8217;t bet on it: State eyes action against election &#8216;trading&#8217; on prediction markets",
-      "link": "https://marylandmatters.org/2026/06/23/dont-bet-on-it-state-eyes-action-against-election-trading-on-prediction-markets/",
-      "description": "Maryland residents wagering on the outcome of elections using online prediction markets could find themselves on the wrong side of election law and potentially face criminal prosecution, state officials say.",
-      "pubDate": "2026-06-23T09:21:21.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Election officials urge patience as holiday, mail-in ballots will affect count",
-      "link": "https://marylandmatters.org/2026/06/23/election-officials-urge-patience-as-holiday-mail-in-ballots-will-affect-count/",
-      "description": "Once they exercise their right to vote Tuesday, Marylanders should expect to exercise patience waiting for results. Many will be available election night but counting mail-in and provision ballots, with a federal holiday",
-      "pubDate": "2026-06-23T08:31:19.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "&#8216;Double-stacked&#8217; trains arrive in Baltimore after tunnel expansion",
-      "link": "https://marylandmatters.org/2026/06/22/double-stacked-trains-arrive-in-baltimore-after-tunnel-expansion/",
-      "description": "Maryland officials gathered in the Dundalk area Monday to commemorate the arrival of the first “double-stacked” shipping containers arriving by rail to the Port of Baltimore, thanks to hundreds of millions of dollars wor",
-      "pubDate": "2026-06-23T01:30:12.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland announces fourth measles case of 2026 found in international traveler",
-      "link": "https://marylandmatters.org/2026/06/22/maryland-announces-fourth-measles-case-of-2026-found-in-international-traveler/",
-      "description": "Health officials this weekend said a fourth measles case has been detected in the state this year, after a Maryland resident living in the Washington, D.C., area contracted the respiratory virus while traveling internati",
-      "pubDate": "2026-06-23T01:27:47.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Federal judge tosses Justice Department lawsuit seeking Maryland voter records",
-      "link": "https://marylandmatters.org/2026/06/22/federal-judge-tosses-justice-department-lawsuit-seeking-maryland-voter-records/",
-      "description": "A federal district judge has dismissed a Justice Department lawsuit demanding Maryland voter registration records, what state officials derided as a \"fishing expedition\" for sensitive personal information on voters.",
-      "pubDate": "2026-06-22T21:46:27.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "The (primary) winner takes all: Dozens of seats likely to be decided Tuesday",
-      "link": "https://marylandmatters.org/2026/06/22/the-primary-winner-takes-all-dozens-of-seats-likely-to-be-decided-tuesday/",
-      "description": "Voters go to the polls Tuesday to select nominees who will face off this fall. That's the theory, anyway. But in a blue state like Maryland, where the GOP did not field candidates for 72 of 188 State House seats, the pri",
-      "pubDate": "2026-06-22T09:00:43.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland Revolutionary War soldier&#8217;s remains identified in South Carolina",
-      "link": "https://marylandmatters.org/2026/06/21/john-pumphrey-remains-discovered-revolutionary-war/",
-      "description": "A Texas-based forensics company has solved a vexing mystery, identifying the long-buried remains of a Revolutionary War soldier found in South Carolina — who turned out to be a teenager from Anne Arundel County.",
-      "pubDate": "2026-06-21T21:48:46.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Legislative candidates’ biggest challenge? The state’s budget outlook",
-      "link": "https://marylandmatters.org/2026/06/21/legislative-candidates-biggest-challenge-the-states-budget-outlook/",
-      "description": "Candidates for the Maryland General Assembly have all kinds of ideas for the state’s future, but one thing could stand in the way of any grand plans: the state's looming — and widening — budget shortfalls.",
-      "pubDate": "2026-06-21T21:43:59.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland history… relevant or a relic?",
-      "link": "https://marylandmatters.org/2026/06/21/maryland-history-relevant-or-a-relic/",
-      "description": "History was already undervalued in our culture, and state history valued even less, and recent trends have been to sideline it even more, writes Jennifer Brown, but that deprives students of knowing the events, good and",
-      "pubDate": "2026-06-21T21:37:59.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Millions spent in last two weeks before Maryland congressional primaries",
-      "link": "https://marylandmatters.org/2026/06/20/millions-spent-in-last-two-weeks-before-maryland-congressional-primaries/",
-      "description": "Late bursts of heavy spending in political primaries by outside groups is becoming more and more common, and nowhere is that more evident than in the 5th District House race, where almost $4 million has poured in since e",
-      "pubDate": "2026-06-20T11:13:21.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "House sets target dates for special session",
-      "link": "https://marylandmatters.org/2026/06/19/house-sets-target-dates-for-special-session/",
-      "description": "Members of the House of Delegates are being asked to consider two windows for a special session that could consider two possible amendments to the Maryland Constitution.",
-      "pubDate": "2026-06-19T19:31:07.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
     }
