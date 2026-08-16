@@ -1,13 +1,165 @@
 {
-  "fetched_at": "2026-08-09T03:46:12.190Z",
+  "fetched_at": "2026-08-16T03:03:03.524Z",
   "count": 40,
   "articles": [
     {
-      "title": "A Community-Designed Diet for Heart Failure; E-Cigarettes After Smoking Cessation",
-      "link": "https://www.medpagetoday.com/podcasts/healthwatch/122531",
+      "title": "Moore and Cox differ on data centers at Maryland conference",
+      "link": "https://marylandmatters.org/2026/08/15/moore-cox-data-centers/",
+      "description": "GOP gubernatorial nominee Dan Cox has latched on to data centers for his campaign, saying at a forum Saturday it's a \"big difference between Wes Moore and me.\" Cox wants a statewide moratorium, but Moore wants tighter re",
+      "pubDate": "2026-08-15T21:19:17.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "New Polymyalgia Rheumatica Treatment; Genetic Treatment for Hypercholesterolemia",
+      "link": "https://www.medpagetoday.com/podcasts/healthwatch/122619",
       "description": "(MedPage Today) -- TTHealthWatch is a weekly podcast from Texas Tech. In it, Elizabeth Tracey, director of electronic media for Johns Hopkins Medicine in Baltimore, and Rick Lange, MD, president of Texas Tech Health El",
-      "pubDate": "2026-08-08T18:00:00.000Z",
+      "pubDate": "2026-08-15T18:00:00.000Z",
       "source": "MedPage Today",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Most people get by on less than a 10.4% return on their investments, BGE can do it, too",
+      "link": "https://marylandmatters.org/2026/08/15/bge-psc-pinsky/",
+      "description": "Most investors would be thrilled to earn a 10.4% return on investment, but that's the \"bare minimum\" Baltimore Gas and Electric says it needs to survive in it latest rate filing. It's nothing but a money grab, writes Pau",
+      "pubDate": "2026-08-15T09:54:00.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "When data centers come knocking, counties should have a &#8216;wish list,&#8217; officials say",
+      "link": "https://marylandmatters.org/2026/08/15/data-centers-county-moratoriums-wish-lists/",
+      "description": "If one thing was clear after the second panel on data centers at the Maryland Association of Counties conference, it's that data centers are not going anywhere any time soon. So counties should start drawing up a wish li",
+      "pubDate": "2026-08-15T09:39:23.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Financing, permit challenges stand in the way of building new housing, officials say",
+      "link": "https://marylandmatters.org/2026/08/15/financing-permit-challenges-stand-in-the-way-of-building-new-housing-officials-say/",
+      "description": "State and local housing and planning officials say there is an urgent need to build more housing to bring down Maryland’s skyrocketing housing costs, but there are two major hurdles: cumbersome permitting and securing fi",
+      "pubDate": "2026-08-15T09:32:40.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "10-year-old girl attacked by beaver at Montgomery County park, leading to closure of park",
+      "link": "https://marylandmatters.org/2026/08/15/10-year-old-girl-attacked-by-beaver-at-montgomery-county-park-leading-to-closure-of-park/",
+      "description": "A 10-year-old girl was attacked by a beaver Thursday at Seneca Creek State Park in Montgomery County, Maryland, the third attacke by a beaver in a state park in a month, leading to the temporary shutdown of part of the p",
+      "pubDate": "2026-08-15T08:59:57.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Van Hollen reports the &#8216;good news&#8217;, but mostly &#8216;bad news&#8217; coming out of Washington",
+      "link": "https://marylandmatters.org/2026/08/14/van-hollen-reports-the-good-news-but-mostly-bad-news-coming-out-of-washington/",
+      "description": "In his second town hall appearance before the Maryland Association of Counties as the state's senior senator, Sen. Chris Van Hollen (D-Md) rattled off a list of good news coming out of Washington, but a much longer list",
+      "pubDate": "2026-08-15T01:51:49.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Digital ad sales tax struck down by court",
+      "link": "https://marylandmatters.org/2026/08/14/digital-ad-sales-tax-struck-down/",
+      "description": "A first-of-its-kind state tax on some digital ads, worth an estimated $250 million a year to the state, was struck down Friday as a violation of the federal Internet Tax Freedom Act by the Maryland Tax Court. The law had",
+      "pubDate": "2026-08-14T16:03:43.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Ripple effects of AHEAD model could &#8216;topple&#8217; state healthcare system, CareFirst official warns",
+      "link": "https://marylandmatters.org/2026/08/14/ripple-effects-of-ahead-model-could-topple-state-healthcare-system-carefirst-official-warns/",
+      "description": "State officials, hospitals, and insurance companies need to tread carefully as Maryland transitions into a new hospital rate-setting system -- or else it could topple over like a Jenga tower, they were told Thursday.",
+      "pubDate": "2026-08-14T09:41:30.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "New collaboration unveiled on Conowingo Dam, as Maryland awaits federal OK on settlement",
+      "link": "https://marylandmatters.org/2026/08/14/conowingo-county-advisory-group/",
+      "description": "Rural county leaders, state officials and Constellation Energy representatives -- at odds a year ago over a proposed settlement of issues at the Conowingo Dam -- sat down Thursday to discuss the settlement agreement in a",
+      "pubDate": "2026-08-14T08:51:46.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Preoperative GLP-1s Don't Diminish Bariatric Surgery Results, Study Suggests",
+      "link": "https://www.medpagetoday.com/endocrinology/obesity/122606",
+      "description": "(MedPage Today) -- Bariatric surgery patients who took GLP-1 medications prior to surgery lost the same amount of weight after 1 year as individuals unexposed to the blockbuster class of drugs, a retrospective review in",
+      "pubDate": "2026-08-13T21:00:46.000Z",
+      "source": "MedPage Today",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "People Thought GLP-1s Might Have This Side Effect—New Research Proves the Opposite",
+      "link": "https://www.womenshealthmag.com/health/a73408505/glp-1-less-risk-bone-fracture/",
+      "description": "It’s yet another win for this popular medication.",
+      "pubDate": "2026-08-13T11:00:00.000Z",
+      "source": "Women's Health",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "They called for help. The system called their deaths inevitable.",
+      "link": "https://marylandmatters.org/2026/08/13/they-called-for-help-the-system-called-their-deaths-inevitable/",
+      "description": "There were 143 deaths in Maryland police encounters from 2015 to 2023, many of them people calling for help, writes Sonia Kumar, but in the wake of a shooting no one's asking the important question: Not why it happened b",
+      "pubDate": "2026-08-13T10:18:13.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Lowdown from Loudoun: Virginia official shares data center tips with Maryland audience",
+      "link": "https://marylandmatters.org/2026/08/13/lowdown-from-loudoun-virginia-official-shares-data-center-tips-with-maryland-audience/",
+      "description": "Loudoun County, Virginia, has one of the highest concentrations of data centers in the world, so when Loudoun County Supervisor Michael Turner shared his tips with Maryland officials at the Maryland Association of Counti",
+      "pubDate": "2026-08-13T10:01:03.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Maryland, nine other states sue White House to protect interest payments to homeowners",
+      "link": "https://marylandmatters.org/2026/08/12/maryland-nine-other-states-sue-white-house-to-protect-interest-payments-to-homeowners/",
+      "description": "Maryland is one of 10 Democratic-led states that sued the Trump administration Tuesday over its a new rule preempting state laws that require mortgage lenders to pay interest on the money borrowers deposit into escrow ac",
+      "pubDate": "2026-08-12T06:08:09.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "‘Enough is enough’: Activists push back as BGE requests another rate increase",
+      "link": "https://marylandmatters.org/2026/08/11/bge-rate-increase-protest/",
+      "description": "Consumer advocates, environmental groups and workers’ unions rallied Tuesday against the latest rate hike proposal from Baltimore Gas &#038; Electric, calling it unjustified, particularly after the Exelon utility earned",
+      "pubDate": "2026-08-11T22:03:37.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Poll: Utility costs, the economy and taxes top of mind for voters",
+      "link": "https://marylandmatters.org/2026/08/11/poll-utility-costs-the-economy-and-taxes-top-of-mind-for-voters/",
+      "description": "A majority of Marylanders said they favor raising taxes on wealthy households over other options, including legalizing internet gaming or making changes to the state sales tax, according to a poll released Tuesday.ac",
+      "pubDate": "2026-08-11T15:16:06.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Medical systems, health agencies get $80 million from feds to boost rural health",
+      "link": "https://marylandmatters.org/2026/08/11/medical-systems-local-health-agencies-get-80-million-in-federal-funds-to-boost-rural-health/",
+      "description": "Dozens of projects from county health departments, healthcare systems and Maryland hospitals will share $80 million in new federal funding to improve access to healthcare in Maryland’s rural communities, the Moore admini",
+      "pubDate": "2026-08-11T09:00:53.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "How Maryland&#8217;s partisan election system disenfranchises a quarter of voters",
+      "link": "https://marylandmatters.org/2026/08/10/how-marylands-partisan-election-system-disenfranchises-a-quarter-of-voters/",
+      "description": "There's an election in November, but for many Maryland offices the winners were picked in the primary, writes Roberto Alejandro, disenfranchising not only voters not affiliated with a party but the unaffiliated candidate",
+      "pubDate": "2026-08-10T20:04:29.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Vibrio on the rise as climate change warms the Chesapeake Bay",
+      "link": "https://marylandmatters.org/2026/08/10/vibrio-on-the-rise-as-climate-warms-the-chesapeake-bay/",
+      "description": "Infections of Vibrio vulnificus, sometimes called flesh-eating bacteria, are still rare but growing in the Chesapeake Bay region, as climate change warms the bay, making its mildly salty and nutrient-gorged waters prime",
+      "pubDate": "2026-08-10T10:00:40.000Z",
+      "source": "Maryland Matters",
       "category": "Maryland Health"
     },
     {
@@ -41,14 +193,6 @@
       "pubDate": "2026-08-07T14:02:43.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
-    },
-    {
-      "title": "STAT+: Pharmalittle: We&#8217;re reading about Replimune&#8217;s melanoma drug, a Medicare policy change, and more",
-      "link": "https://www.statnews.com/pharmalot/2026/08/07/replimune-melanoma-drug-medicare-policy-change/?utm_campaign=rss",
-      "description": "Eli Lilly and Novo Nordisk convinced a federal judge to toss an antitrust lawsuit by a compound pharmacy",
-      "pubDate": "2026-08-07T13:18:05.000Z",
-      "source": "STAT News",
-      "category": "Compounding"
     },
     {
       "title": "Maryland reinvented how it pays hospitals. Primary care was left underfunded",
@@ -97,14 +241,6 @@
       "pubDate": "2026-08-06T07:06:08.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
-    },
-    {
-      "title": "Harvard Researchers Discovered This Surprising Link For Women Who Went on a GLP-1",
-      "link": "https://www.womenshealthmag.com/health/a73344454/glp-1-job-marriage-study/",
-      "description": "Here’s what experts say about the eyebrow-raising findings.",
-      "pubDate": "2026-08-05T11:00:00.000Z",
-      "source": "Women's Health",
-      "category": "GLP-1 & Weight"
     },
     {
       "title": "Maryland wants better readers. Have we asked children what they need?",
@@ -183,142 +319,6 @@
       "link": "https://marylandmatters.org/2026/08/01/trial-by-fire-in-the-senate-a-bay-trust-shuffle-and-more-help-for-howard-in-political-notes/",
       "description": "Senate President Bill Ferguson names a new senior adviser just days before the start of the special session, Jana Davis steps down at the Chesapeake Bay Trust and St. Mary's College joins schools extending a hand to Howa",
       "pubDate": "2026-08-01T09:24:51.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Judge rejects states’ bid to block Medicaid work rules",
-      "link": "https://marylandmatters.org/2026/07/31/repub/judge-rejects-states-bid-to-block-medicaid-work-rules/",
-      "description": "States will have to meet a Jan. 1 deadline to implement new Medicaid work requirements, after a federal judge denied a request from 25 Democratic-led states, including Maryland, to pause implementation of the rule.",
-      "pubDate": "2026-07-31T21:42:02.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "State finalizes deal to buy rights to Preakness for $85 million",
-      "link": "https://marylandmatters.org/2026/07/31/preakness-working/",
-      "description": "Maryland got deeper into the horse-racing business Thursday, announcing it has finalized its purchase of the rights to the Preakness Stakes and the Black-Eyed Susan Stakes for $85 million.",
-      "pubDate": "2026-07-31T10:46:26.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Moore offers late admission, $800 credit for students disenrolled at Howard University",
-      "link": "https://marylandmatters.org/2026/07/30/moore-offers-late-admission-800-credit-for-students-disenrolled-at-howard-university/",
-      "description": "Maryland Gov. Wes Moore (D) said Thursday the state would provide an $800 credit and expedited admission processing for any of the hundreds of incoming Howard University freshmen who were abruptly told last week that the",
-      "pubDate": "2026-07-31T00:56:01.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Trump administration rules out mass ICE enforcement at the polls in midterms",
-      "link": "https://marylandmatters.org/2026/07/30/repub/trump-administration-rules-out-mass-ice-enforcement-at-the-polls-in-midterms/",
-      "description": "The Department of Homeland Security said it is not planning to send ICE agents to voting sites this fall, after Senate Democrats, including both from Maryland, wrote a letter raising concerns about the possibility of arm",
-      "pubDate": "2026-07-30T21:16:24.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Former Baltimore delegate will take over as leader of Maryland Transit Administration",
-      "link": "https://marylandmatters.org/2026/07/29/former-baltimore-delegate-will-take-over-as-leader-of-maryland-transit-administration/",
-      "description": "One day after Holly Arnold announced she was stepping down from leading the Maryland Transit Administration, the governor’s office announced Wednesday her replacement will be former Del. Tony Bridges.",
-      "pubDate": "2026-07-30T02:31:10.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland lawmakers open limited window for public testimony on redistricting",
-      "link": "https://marylandmatters.org/2026/07/29/maryland-lawmakers-open-limited-window-for-public-testimony-on-redistricting/",
-      "description": "Marylanders looking to testify during next week’s special session on congressional redistricting will have their chance Monday afternoon, but speakers will be limited and sign-up must be done in advance.",
-      "pubDate": "2026-07-29T18:31:45.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland students continue minimal gains on test scores, but demographic gaps remain",
-      "link": "https://marylandmatters.org/2026/07/29/maryland-students-continue-minimal-gains-on-test-scores-but-demographic-gaps-remain/",
-      "description": "Test results released Tuesday by the Maryland State Department of Education show public school students making steady progress in math and language arts proficiency, but wide gaps still remain between the scores of diffe",
-      "pubDate": "2026-07-29T08:30:42.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Arnold leaves transit post, Scott readies for &#8216;rodeo,&#8217; Mitchell hangs a shingle, in political notes",
-      "link": "https://marylandmatters.org/2026/07/29/arnold-leaves-transit-post-scott-readies-for-rodeo-mitchell-hangs-a-shingle-in-political-notes/",
-      "description": "Maryland Transit Administration head Holly Arnold steps down after five years, Baltimore Mayor Brandon Scott returns to Martha's Vineyard for a fundraiser and former delegate and Hogan administration adviser Keiffer Mitc",
-      "pubDate": "2026-07-29T04:59:37.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Reflecting Pool damaged before Olympian charged with felony touched it, witness says",
-      "link": "https://marylandmatters.org/2026/07/29/repub/reflecting-pool-damaged-before-olympian-charged-with-felony-touched-it-witness-says/",
-      "description": "Attorneys for the former Olympic canoeist charged with damaging the Reflecting Pool have asked for information from the grand jury that indicted Maryland resident David Hearn, saying it could show he could not have cause",
-      "pubDate": "2026-07-29T04:35:44.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland geothermal energy program faces delays amid cost concerns",
-      "link": "https://marylandmatters.org/2026/07/28/maryland-geothermal-energy-program-faces-delays-amid-cost-concerns/",
-      "description": "A program to install geothermal energy systems in several Maryland housing complexes is facing delays amid concerns about cost effectiveness, two years after its passage.",
-      "pubDate": "2026-07-28T09:00:34.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Old hands return to Blueprint board, new judges and a Pepco veteran to PSC, in political notes",
-      "link": "https://marylandmatters.org/2026/07/28/old-hands-return-to-blueprint-board-new-judges-and-a-pepco-veteran-to-psc-in-political-notes/",
-      "description": "Some familiar faces return to the board overseeing the Blueprint for Maryland's Future, an industry spokesman moves to the government side, and six new district court judges are appointed, in political notes.",
-      "pubDate": "2026-07-28T07:10:25.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "River otters are making a comeback – and in surprising places around the Chesapeake Bay",
-      "link": "https://marylandmatters.org/2026/07/28/river-otters-are-making-a-comeback-and-in-surprising-places-around-the-chesapeake-bay/",
-      "description": "Four decades ago, river otter populations were so depleted that most states around the Chesapeake Bay considered them endangered, but today they areturning up throughout the bay watershed, including seemingly unlikely pl",
-      "pubDate": "2026-07-28T07:02:56.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Health experts: State&#8217;s high vaccination rate is keeping spread of measles in check",
-      "link": "https://marylandmatters.org/2026/07/28/health-experts-states-high-vaccination-rate-is-keeping-spread-of-measles-in-check/",
-      "description": "Just seven months into the year, confirmed measles cases Maryland are already four times higher than they were for all of last year, but health officials say the situation could be much worse if the state did not maintai",
-      "pubDate": "2026-07-28T05:42:26.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Canceled federal grants hit teen pregnancy prevention in Baltimore, rural counties",
-      "link": "https://marylandmatters.org/2026/07/27/canceled-federal-grants-hit-teen-pregnancy-prevention-in-baltimore-rural-counties/",
-      "description": "The federal government's abrupt termination of teen pregnancy prevention funding last month means the loss of more than $3 million to Maryland programs, which are trying to see if they can still offer young people progra",
-      "pubDate": "2026-07-27T08:26:02.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Measles cases have reached a 35-year high, CDC reports",
-      "link": "https://marylandmatters.org/2026/07/26/repub/measles-cases-have-reached-a-35-year-high-cdc-reports/",
-      "description": "Measles cases this year have surpassed all of 2025 to become the worst since the disease was declared eliminated in 2000, with cases in 44 states and the District, a federal report said Friday. Maryland cases have risen",
-      "pubDate": "2026-07-27T01:10:07.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Citing a hunger ‘crisis,’ US mayors call for end to federal SNAP cuts",
-      "link": "https://marylandmatters.org/2026/07/25/repub/citing-a-hunger-crisis-us-mayors-call-for-end-to-federal-snap-cuts/",
-      "description": "Five Maryland mayors are among more than 200 U.S. mayors calling on the federal government to reverse changes that will cost states billions and push millions of people off the food stamp program as they struggle with hi",
-      "pubDate": "2026-07-25T10:25:09.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Road deaths down in Maryland in 2026, officials hope trend continues",
-      "link": "https://marylandmatters.org/briefs/road-deaths-down-in-maryland-in-2026-officials-hope-trend-continues/",
-      "description": "Traffic fatalities fell from 252 as of June 20, 2025, to 213 on the same date this year, according to data from the Maryland Highway Safety Office, a trend that state and local officials are hoping to continue.",
-      "pubDate": "2026-07-25T09:59:28.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
     }
