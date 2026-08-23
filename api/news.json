@@ -1,21 +1,149 @@
 {
-  "fetched_at": "2026-08-16T03:03:03.524Z",
+  "fetched_at": "2026-08-23T03:05:20.496Z",
   "count": 40,
   "articles": [
+    {
+      "title": "Boarding in the ED; Devices or Manual CPR?",
+      "link": "https://www.medpagetoday.com/podcasts/healthwatch/122713",
+      "description": "(MedPage Today) -- TTHealthWatch is a weekly podcast from Texas Tech. In it, Elizabeth Tracey, director of electronic media for Johns Hopkins Medicine in Baltimore, and Rick Lange, MD, president of Texas Tech Health El",
+      "pubDate": "2026-08-22T18:00:00.000Z",
+      "source": "MedPage Today",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Maryland has more EV chargers than ever – but they’re not everywhere",
+      "link": "https://marylandmatters.org/2026/08/22/maryland-has-more-ev-chargers-than-ever-but-theyre-not-everywhere/",
+      "description": "Access to electric vehicle charging stations in Maryland has improved, but it's not spread evenly: An analysis of federal data shows that 45% of all Maryland ZIP codes don't have a public charging station and a quarter o",
+      "pubDate": "2026-08-22T10:33:39.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Popular Diet May Not Help for Weight, but Trial Points to Another Benefit",
+      "link": "https://www.medpagetoday.com/primarycare/dietnutrition/122717",
+      "description": "(MedPage Today) -- A Mediterranean-style diet program did not lead to greater weight loss compared with a control intervention among primary care patients with obesity, though it did improve diet quality, the DELISH tri",
+      "pubDate": "2026-08-21T20:07:25.000Z",
+      "source": "MedPage Today",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "STAT+: Pharmalittle: We&#8217;re reading about a big Roche investment in the U.S., estrogen patch shortages, and more",
+      "link": "https://www.statnews.com/pharmalot/2026/08/21/roche-genentech-investment-estrogen-patch-shortages/?utm_campaign=rss",
+      "description": "Roche's Genentech will invest $750 million to double the size of its existing production facility in Oregon",
+      "pubDate": "2026-08-21T13:40:19.000Z",
+      "source": "STAT News",
+      "category": "Hormones"
+    },
+    {
+      "title": "Could This Pill Replace Exercise and GLP-1s?",
+      "link": "https://www.womenshealthmag.com/health/a73485811/env-308-pill-results-glp1/",
+      "description": "There’s a lot of interest swirling around new clinical data about the ENV-308 pill. Here’s what doctors say.",
+      "pubDate": "2026-08-21T11:00:00.000Z",
+      "source": "Women's Health",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Maryland launches court-ordered mental health care in Baltimore, some counties",
+      "link": "https://marylandmatters.org/2026/08/21/maryland-launches-court-ordered-mental-health-care-in-baltimore-some-counties/",
+      "description": "Maryland health officials are rolling out a new and controversial program to help those with severe mental health challenges stay on top of their treatment --  by using a court order to mandate that those patients comply",
+      "pubDate": "2026-08-21T09:30:40.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Lawmakers from six more states, including Maryland, back centrist ‘Promise to America’",
+      "link": "https://marylandmatters.org/2026/08/21/lawmakers-from-six-more-states-including-maryland-back-centrist-promise-to-america/",
+      "description": "A national Democratic centrist group said legislators from six more states, including Maryland, had signed the “Promise to America” pledge calling for common ground solutions, in what's seen as a pushback against gains b",
+      "pubDate": "2026-08-21T09:17:09.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "There are good reasons to back redistricting reform. &#8216;They started it&#8217; isn&#8217;t one of them",
+      "link": "https://marylandmatters.org/2026/08/21/there-are-good-reasons-to-back-redistricting-reform-they-started-it-isnt-one-of-them/",
+      "description": "The schoolyard excuse for bad behavior, “He started it,” is the worst possible justification for amending the Maryland Constitution to perpetuate the practice of partisan gerrymandering, writes Gary Hodge, who says voter",
+      "pubDate": "2026-08-21T08:02:03.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "<b><strong>The Internet Is Suddenly Talking About ‘Progesterone Sensitivity’ During Hormone Therapy. Here’s What to Know About It, According to Doctors.</strong></b>",
+      "link": "https://www.womenshealthmag.com/health/a73477382/progesterone-sensitivity/",
+      "description": "And whether you should pay attention to the claims that progesterone leads to negative side effects.",
+      "pubDate": "2026-08-20T11:00:00.000Z",
+      "source": "Women's Health",
+      "category": "Hormones"
+    },
+    {
+      "title": "New Research Shows a Strong Link Between This GLP Medication and Hair Loss. Experts Weigh In.",
+      "link": "https://www.womenshealthmag.com/beauty/a73437359/semaglutide-vs-tirzepatide-hair-loss/",
+      "description": "Can GLP-1 medication make you more susceptible to hair loss? Experts say there might be more factors to consider.",
+      "pubDate": "2026-08-18T11:00:00.000Z",
+      "source": "Women's Health",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Scientists Just Discovered One Reason Menopause Symptoms Might Be Worse for Certain Women",
+      "link": "https://www.womenshealthmag.com/health/a73425626/menopause-type-2-diabetes-study/",
+      "description": "Doctors have a few theories.",
+      "pubDate": "2026-08-18T11:00:00.000Z",
+      "source": "Women's Health",
+      "category": "Hormones"
+    },
+    {
+      "title": "Second lawsuit challenging redistricting amendment filed in Dorchester County",
+      "link": "https://marylandmatters.org/2026/08/18/second-lawsuit-challenging-redistricting-amendment-filed-in-dorchester-county/",
+      "description": "A national law firm that advised Louisiana lawmakers on a redistricting effort that led to the Supreme Court decision upending the Voting Rights Act is representing a group of Maryland Republicans seeking to block a prop",
+      "pubDate": "2026-08-18T08:30:34.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Public input sought on possible cuts to menhaden harvest in Chesapeake Bay",
+      "link": "https://marylandmatters.org/2026/08/18/public-input-sought-on-possible-cuts-to-menhaden-harvest-in-chesapeake-bay/",
+      "description": "A plan to slash the large-scale commercial harvest of Atlantic menhaden in the Chesapeake Bay later this year could help starving osprey chicks and other struggling fish but could also hurt a Virginia fishing village whe",
+      "pubDate": "2026-08-18T05:13:44.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Greenbelt back as next home for FBI, after court rejects &#8216;unlawful&#8217; plan to stay in DC",
+      "link": "https://marylandmatters.org/2026/08/17/greenbelt-back-as-next-home-for-fbi-after-court-rejects-unlawful-plan-to-stay-in-dc/",
+      "description": "A federal district judge in Maryland Monday overturned Trump administration plans to build the next FBI headquarters in Washington, D.C., restoring Greenbelt as the likely next home for the agency.",
+      "pubDate": "2026-08-18T00:50:18.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "A decade after settlement, medical care still falls short at Baltimore jail",
+      "link": "https://marylandmatters.org/2026/08/17/a-decade-after-settlement-medical-care-still-falls-short-at-baltimore-jail/",
+      "description": "A decade-old settlement requiring the state to improve medical care at a Baltimore jail was extended for the third time this June after the federal court found the state remained partially or fully noncompliant with seve",
+      "pubDate": "2026-08-17T08:56:26.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Help for local governments on Bay-related work is spread unevenly, report finds",
+      "link": "https://marylandmatters.org/2026/08/16/help-for-local-governments-on-bay-related-work-is-spread-unevenly-report-finds/",
+      "description": "Local governments are widely seen as crucial to restoring the health of the Chesapeake Bay and its rivers, but many lack the workforce and expertise to carry out the work and while programs have sprung up to help, their",
+      "pubDate": "2026-08-17T01:22:43.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Maryland&#8217;s primary results prove it&#8217;s time for ranked choice voting",
+      "link": "https://marylandmatters.org/2026/08/16/marylands-primary-results-prove-its-time-for-ranked-choice-voting/",
+      "description": "In all but two counties in this year's primaries, there were races decided by a plurality vote, sending winners to the general with less than majority support and leaving a majority of voters disappointed. It's time for",
+      "pubDate": "2026-08-17T00:02:15.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
     {
       "title": "Moore and Cox differ on data centers at Maryland conference",
       "link": "https://marylandmatters.org/2026/08/15/moore-cox-data-centers/",
       "description": "GOP gubernatorial nominee Dan Cox has latched on to data centers for his campaign, saying at a forum Saturday it's a \"big difference between Wes Moore and me.\" Cox wants a statewide moratorium, but Moore wants tighter re",
       "pubDate": "2026-08-15T21:19:17.000Z",
       "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "New Polymyalgia Rheumatica Treatment; Genetic Treatment for Hypercholesterolemia",
-      "link": "https://www.medpagetoday.com/podcasts/healthwatch/122619",
-      "description": "(MedPage Today) -- TTHealthWatch is a weekly podcast from Texas Tech. In it, Elizabeth Tracey, director of electronic media for Johns Hopkins Medicine in Baltimore, and Rick Lange, MD, president of Texas Tech Health El",
-      "pubDate": "2026-08-15T18:00:00.000Z",
-      "source": "MedPage Today",
       "category": "Maryland Health"
     },
     {
@@ -81,22 +209,6 @@
       "pubDate": "2026-08-14T08:51:46.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
-    },
-    {
-      "title": "Preoperative GLP-1s Don't Diminish Bariatric Surgery Results, Study Suggests",
-      "link": "https://www.medpagetoday.com/endocrinology/obesity/122606",
-      "description": "(MedPage Today) -- Bariatric surgery patients who took GLP-1 medications prior to surgery lost the same amount of weight after 1 year as individuals unexposed to the blockbuster class of drugs, a retrospective review in",
-      "pubDate": "2026-08-13T21:00:46.000Z",
-      "source": "MedPage Today",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "People Thought GLP-1s Might Have This Side Effect—New Research Proves the Opposite",
-      "link": "https://www.womenshealthmag.com/health/a73408505/glp-1-less-risk-bone-fracture/",
-      "description": "It’s yet another win for this popular medication.",
-      "pubDate": "2026-08-13T11:00:00.000Z",
-      "source": "Women's Health",
-      "category": "GLP-1 & Weight"
     },
     {
       "title": "They called for help. The system called their deaths inevitable.",
@@ -207,118 +319,6 @@
       "link": "https://marylandmatters.org/2026/08/07/health-officials-report-record-breaking-50-heat-related-deaths-this-summer/",
       "description": "The 2026 heat season is now the deadliest in known history, as new data from the Maryland Department of Health reports a total of 50 heat-related fatalities since May, surpassing the previous record set of 46 in 2012.",
       "pubDate": "2026-08-07T10:11:43.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Surveys for Piedmont power line can continue, appellate court rules",
-      "link": "https://marylandmatters.org/2026/08/06/piedmont-power-line-surveys-4th-circuit/",
-      "description": "Land surveys for the planned Maryland Piedmont power line project can continue, despite landowner opposition, a federal appeals court ruled Thursday, upholding a lower court that said last summer that landowners could no",
-      "pubDate": "2026-08-06T20:03:15.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Former Holy Cross Hospital CEO Kevin Sexton tapped to lead HSCRC",
-      "link": "https://marylandmatters.org/2026/08/06/former-holy-cross-hospital-ceo-kevin-sexton-tapped-to-lead-hscrc/",
-      "description": "Kevin Sexton, former president and CEO of Holy Cross Health hospitals, has been tapped to chair a powerful state commission charged with setting hospital rates in Maryland, the Moore administration announced Thursday.",
-      "pubDate": "2026-08-06T10:00:32.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Moore: New deal allows state to direct the future of Preakness",
-      "link": "https://marylandmatters.org/2026/08/06/moore-new-deal-allows-state-to-direct-the-future-of-preakness/",
-      "description": "The Preakness has a new, later race day and a new television contract, the latest in a week of rapid-fire developments that saw the state buy the Preakness away from Churchill Downs, which responded by excluding Maryland",
-      "pubDate": "2026-08-06T08:32:38.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Legislative committee puts new Maryland building code on hold amid environmental concerns",
-      "link": "https://marylandmatters.org/2026/08/06/maryland-building-code-on-hold/",
-      "description": "A Maryland legislative committee is holding up a new building code regulation amid concerns that it is less environmentally stringent than the national code, which Maryland is supposed to adhere to.",
-      "pubDate": "2026-08-06T07:06:08.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland wants better readers. Have we asked children what they need?",
-      "link": "https://marylandmatters.org/2026/08/05/maryland-wants-better-readers-have-we-asked-children-what-they-need/",
-      "description": "There's lots of talk about the importance of keeping kids reading over the summer to prevent the dreaded summer slide, but one thing may be missing from those discussions,  writes Melissa Bellamy: Is anyone is asking the",
-      "pubDate": "2026-08-05T10:38:30.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Commission to assess tragedy of Black youth at former reform school holds first meeting",
-      "link": "https://marylandmatters.org/2026/08/05/commission-to-assess-tragedy-of-black-youth-at-former-reform-school-holds-first-meeting/",
-      "description": "At their first meeting, members of a panel researching \"the history, operations, and resident deaths” at the site of a formerly segregated Maryland reform school were thanked for their service and warned to steel themsel",
-      "pubDate": "2026-08-05T10:15:18.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland Republicans predict legal challenge to constitutional amendment on redistricting",
-      "link": "https://marylandmatters.org/2026/08/05/maryland-republicans-predict-legal-challenge-to-constitutional-amendment-on-redistricting/",
-      "description": "Maryland lawmakers ended a two-day special session by approving a proposed constitutional amendment changing the way the state draws congressional maps, but the measure could land in court before it lands on a ballot for",
-      "pubDate": "2026-08-05T09:05:52.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland joins two more lawsuits against the Trump administration",
-      "link": "https://marylandmatters.org/2026/08/04/maryland-joins-two-more-lawsuits-against-the-trump-administration/",
-      "description": "Maryland joined 24 other jurisdictions in two lawsuits against the Trump administration Monday, to reverse “unlawful” tariffs and to block an upcoming policy that would expand federal authorities' access to personal info",
-      "pubDate": "2026-08-04T05:00:05.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland&#8217;s case for a statewide housing revolving fund",
-      "link": "https://marylandmatters.org/2026/08/03/marylands-case-for-a-statewide-housing-revolving-fund/",
-      "description": "Maryland has big housing problems and ambitious housing goals, but it also has an example of a possible solution, write Zachary Marks and Tom Coale, who say the state should mimic Montgomery County's successful Housing P",
-      "pubDate": "2026-08-04T01:25:32.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Top officials leave hospital rate-setting commission amid AHEAD model transition",
-      "link": "https://marylandmatters.org/2026/08/03/top-officials-leave-hospital-rate-setting-commission-amid-ahead-model-transition/",
-      "description": "As Maryland begins the transition into a new hospital rate-setting system, the state commission authorized to establish those rates is heading into its own transition – a change in leadership.",
-      "pubDate": "2026-08-03T10:14:43.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Lawmakers convene for what leaders hope is quick work on a redistricting bill",
-      "link": "https://marylandmatters.org/2026/08/03/lawmakers-convene-for-what-leaders-hope-is-quick-work-on-a-redistricting-bill/",
-      "description": "Maryland lawmakers meet in special session this week to take up legislation asking voters to approve a constitutional amendment changing the was congressional districts are drawn. It's expected to pass, but that doesn't",
-      "pubDate": "2026-08-03T10:01:12.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Moore touts friendship with GOP governor as he takes over national association",
-      "link": "https://marylandmatters.org/2026/08/02/moore-touts-friendship-with-gop-governor-as-he-takes-over-national-association/",
-      "description": "Maryland Gov. Wes Moore officially took over as National Governors Association chair Saturday, assuming the prominent position just ahead of a high-stakes national election that could reset the balance of power in Washin",
-      "pubDate": "2026-08-02T13:33:06.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "State records 31 heat deaths in the month, pushing total to second-highest in 15 years",
-      "link": "https://marylandmatters.org/2026/08/01/state-records-31-heat-deaths-in-the-month-pushing-total-to-second-highest-in-15-years/",
-      "description": "Maryland has recorded 38 heat-related deaths so far this year, the second-highest total in the last 15 years, with two months left in the heat season, according to the latest data from the Maryland Department of Health.",
-      "pubDate": "2026-08-01T10:39:01.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Trial by fire in the Senate, a Bay Trust shuffle and more help for Howard, in political notes",
-      "link": "https://marylandmatters.org/2026/08/01/trial-by-fire-in-the-senate-a-bay-trust-shuffle-and-more-help-for-howard-in-political-notes/",
-      "description": "Senate President Bill Ferguson names a new senior adviser just days before the start of the special session, Jana Davis steps down at the Chesapeake Bay Trust and St. Mary's College joins schools extending a hand to Howa",
-      "pubDate": "2026-08-01T09:24:51.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
     }
