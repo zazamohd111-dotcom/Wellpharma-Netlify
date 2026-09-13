@@ -1,13 +1,125 @@
 {
-  "fetched_at": "2026-09-06T06:58:41.423Z",
+  "fetched_at": "2026-09-13T07:18:41.810Z",
   "count": 40,
   "articles": [
     {
-      "title": "Digital Intervention to Protect Cognitive Health; Afib Ablation and Quality of Life",
-      "link": "https://www.medpagetoday.com/podcasts/healthwatch/122899",
+      "title": "Predicting Preeclampsia With a Protein? Gene-Silencing for Cardiomyopathy",
+      "link": "https://www.medpagetoday.com/podcasts/healthwatch/122965",
       "description": "(MedPage Today) -- TTHealthWatch is a weekly podcast from Texas Tech. In it, Elizabeth Tracey, director of electronic media for Johns Hopkins Medicine in Baltimore, and Rick Lange, MD, president of Texas Tech Health El",
-      "pubDate": "2026-09-05T18:00:00.000Z",
+      "pubDate": "2026-09-12T18:00:00.000Z",
       "source": "MedPage Today",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Officials, advocates seek funds to soften blow of rising healthcare costs",
+      "link": "https://marylandmatters.org/2026/09/11/officials-advocates-look-to-new-revenue-to-soften-blow-of-rising-healthcare-costs/",
+      "description": "State officials are scrambling to cushion the blow of skyrocketing healthcare costs and federal changes to the Medicaid program on Marylanders' pocketbooks, in hopes that people can still afford coverage.",
+      "pubDate": "2026-09-12T00:42:39.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Menopausal Hormone Therapy May Ease Severe Mood Symptoms",
+      "link": "https://www.medpagetoday.com/obgyn/hrt/122979",
+      "description": "(MedPage Today) -- Use of systemic hormone therapy for menopause was associated with improvements in mood symptoms, a retrospective observational study suggested.\nAt a mean follow-up of 4.5 months, women starting on hor",
+      "pubDate": "2026-09-11T21:09:49.000Z",
+      "source": "MedPage Today",
+      "category": "Hormones"
+    },
+    {
+      "title": "How Was Menopausal Hormone Therapy Linked to Heart Health?",
+      "link": "https://www.medpagetoday.com/quizzes/news-quiz/122974",
+      "description": "(MedPage Today) -- You passed medical training, now see if you can pass our weekly quiz",
+      "pubDate": "2026-09-11T18:37:39.000Z",
+      "source": "MedPage Today",
+      "category": "Hormones"
+    },
+    {
+      "title": "Exactly How To Start Weight Training For Weight Loss, According To Experts",
+      "link": "https://www.womenshealthmag.com/weight-loss/a73671078/weight-training-weight-loss-beginners/",
+      "description": "Plus, three custom workouts to help you get started.",
+      "pubDate": "2026-09-11T16:00:00.000Z",
+      "source": "Women's Health",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Maryland 9/11 victims&#8217; families fear others no longer remember the day they can&#8217;t forget",
+      "link": "https://marylandmatters.org/2026/09/11/maryland-9-11-victims-families-fear-others-no-longer-remember-the-day-they-cant-forget/",
+      "description": "In the 25 years since the 9/11 attacks, family members of the 69 Marylanders who were killed that day said they're coping but the pain is still with them, but they worry that others are beginning to forget.",
+      "pubDate": "2026-09-11T09:00:51.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "State health officials issue vaccine schedule amid ongoing shifts in federal vaccine guidance",
+      "link": "https://marylandmatters.org/2026/09/10/state-health-officials-issue-vaccine-schedule-amid-ongoing-shifts-in-federal-vaccine-guidance/",
+      "description": "Maryland health officials issued a first-ever state vaccine schedule Thursday ahead of the annual flu and respiratory illness season, under a new policy created to buck anti-vaccine messaging from the Trump administratio",
+      "pubDate": "2026-09-10T22:22:56.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Baltimore City Community College leader defends school against audit",
+      "link": "https://marylandmatters.org/2026/09/09/baltimore-city-community-college-leader-defends-school-against-audit/",
+      "description": "The president of Baltimore City Community College defended the school against a recent state audit that found management problems and the potential payment of financial aid to nonexistent \"ghost students,\" but lawmakers",
+      "pubDate": "2026-09-10T02:48:59.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Maryland Supreme Court rejects Prince George’s executive hopeful&#8217;s ballot appeal",
+      "link": "https://marylandmatters.org/2026/09/09/maryland-supreme-court-rejects-prince-georges-executive-hopefuls-ballot-appeal/",
+      "description": "The Maryland Supreme Court ruled Wednesday that Tonya Sweat does not qualify for the ballot in the Prince George's County executive race, upholding county election officials who said she failed to collect enough petition",
+      "pubDate": "2026-09-09T23:38:43.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Chesapeake Bay grasses notch best numbers since 2018",
+      "link": "https://marylandmatters.org/2026/09/08/chesapeake-bay-grasses-best-since-2018/",
+      "description": "Aerial surveys show that underwater grasses in the Chesapeake Bay had a strong year in 2025, covering 89,385 acres, the most since 2018 and a 7% improvement over 2024. Despite the gains, some advocates said the results a",
+      "pubDate": "2026-09-08T23:26:20.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Rockville diner group files lawsuit against airport concessionaire",
+      "link": "https://marylandmatters.org/2026/09/08/rockville-diner-group-files-lawsuit-against-airport-concessionaire/",
+      "description": "A Rockville-owned and operated diner chain is suing a Germany-based corporation for what it says are attempts to end its decades-long operations at Baltimore-Washington Thurgood Marshall International Airport.",
+      "pubDate": "2026-09-08T22:35:19.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Salvadorans worry about deportations ahead of this week&#8217;s TPS deadline",
+      "link": "https://marylandmatters.org/2026/09/07/salvadorans-worry-about-deportations-ahead-of-this-weeks-tps-deadline/",
+      "description": "Tens of thousands of people from El Salvador, including many in Maryland, could face deportation if the Trump administration does not extend their Temporary Protected Status, which is currently scheduled to end Wednesday",
+      "pubDate": "2026-09-07T23:00:43.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "A Maryland military mystery: Museum tries to identify soldiers in Civil War tintypes",
+      "link": "https://marylandmatters.org/2026/09/06/maryland-military-history-museum-civil-war-tintype/",
+      "description": "Historians at the Maryland Museum of Military History​ hope that genealogy whizzes or military history buffs might help them identify the 45 Union soldiers from the Eastern Shore, in a rare collection of individual tinty",
+      "pubDate": "2026-09-06T22:00:24.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "A new beginning: Construction underway at Maryland’s James Island",
+      "link": "https://marylandmatters.org/2026/09/06/a-new-beginning-construction-underway-at-marylands-james-island/",
+      "description": "Nearly two decades after it was conceived as a beneficial reuse site for dredged material from Chesapeake Bay shipping channels, a renewed James Island, recently just a spit of land, is rising from the bay near the mouth",
+      "pubDate": "2026-09-06T21:00:04.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Maryland modernized physician assistant practice. Now, lawmakers should finish the job",
+      "link": "https://marylandmatters.org/2026/09/06/maryland-modernized-physician-assistant-practice-now-lawmakers-should-finish-the-job/",
+      "description": "Physician assistants deliver quality health care and could do so much more if their ability to practice was not tied to a collaborating physician, writes Brandon McMullen, who says it's time to change that policy and fur",
+      "pubDate": "2026-09-06T19:30:45.000Z",
+      "source": "Maryland Matters",
       "category": "Maryland Health"
     },
     {
@@ -35,14 +147,6 @@
       "category": "Maryland Health"
     },
     {
-      "title": "GLP-1s May Be Taking Our Eyes Off the Real Obesity Problem",
-      "link": "https://www.medpagetoday.com/endocrinology/obesity/122895",
-      "description": "(MedPage Today) -- GLP-1 receptor agonists may be powerful tools for treating obesity and cardiometabolic disease, but relying on medications alone risks overlooking the forces helping drive the obesity epidemic, accord",
-      "pubDate": "2026-09-04T16:24:37.000Z",
-      "source": "MedPage Today",
-      "category": "GLP-1 & Weight"
-    },
-    {
       "title": "<b><strong>Meet the Proud GLP-1-Taking Dietitians on a Mission to Change the Medication’s Stigma</strong></b>",
       "link": "https://www.womenshealthmag.com/weight-loss/a73543834/dietitians-taking-glp-1-stigma/",
       "description": "Here’s why they’re so much more than weight-loss drugs.",
@@ -56,22 +160,6 @@
       "description": "There’s a lot to unpack.",
       "pubDate": "2026-09-04T10:30:00.000Z",
       "source": "Women's Health",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "Off-Label GLP-1 Use Skyrockets in Young Kids",
-      "link": "https://www.medpagetoday.com/pediatrics/obesity/122883",
-      "description": "(MedPage Today) -- Prescribing GLP-1 receptor agonists to children ages 8 to 11 years with obesity surged 310-fold since 2019, despite a lack of FDA approval in kids under 12, a large cross-sectional analysis showed.\nAm",
-      "pubDate": "2026-09-04T04:01:00.000Z",
-      "source": "MedPage Today",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "GLP-1 Scripts Rising Faster Among Adults With Serious Mental Illness",
-      "link": "https://www.medpagetoday.com/psychiatry/generalpsychiatry/122882",
-      "description": "(MedPage Today) -- Adults with serious mental illness (SMI) received GLP-1 drug prescriptions at higher rates than those without SMI from 2018 to 2024, an analysis of U.S. insurance claims data showed.\nAmong people with",
-      "pubDate": "2026-09-03T20:24:43.000Z",
-      "source": "MedPage Today",
       "category": "GLP-1 & Weight"
     },
     {
@@ -113,22 +201,6 @@
       "pubDate": "2026-09-03T00:11:45.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
-    },
-    {
-      "title": "<b><strong>GLP-1s Silence ‘Food Noise’—But What If That Noise Matters?</strong></b>",
-      "link": "https://www.womenshealthmag.com/health/a73539673/glp-1-food-noise/",
-      "description": "What we’re getting wrong in the GLP-1 era.",
-      "pubDate": "2026-09-02T15:16:01.000Z",
-      "source": "Women's Health",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "Researchers Looked at 180,000 Post-Menopausal Women and Found This Surprising Link Between HRT and Dementia",
-      "link": "https://www.womenshealthmag.com/health/a73555170/hormone-therapy-dementia-risk-study/",
-      "description": "One group of women in particular showed the greatest risk reduction.",
-      "pubDate": "2026-09-02T11:00:00.000Z",
-      "source": "Women's Health",
-      "category": "Hormones"
     },
     {
       "title": "Advocates relieved, businesses concerned about long-awaited launch of paid leave",
@@ -177,14 +249,6 @@
       "pubDate": "2026-08-31T00:45:07.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
-    },
-    {
-      "title": "Does The 6-6-6 Walking Challenge Actually Work For Weight Loss? Experts Explain How It Works",
-      "link": "https://www.womenshealthmag.com/fitness/a73554915/6-6-6-walking-challenge-benefits/",
-      "description": "Here's whether the TikTok trend is worth the hype.",
-      "pubDate": "2026-08-29T16:00:00.000Z",
-      "source": "Women's Health",
-      "category": "GLP-1 & Weight"
     },
     {
       "title": "Court: Former Washington Commanders player can get workers&#8217; comp for training camp injury",
@@ -255,70 +319,6 @@
       "link": "https://marylandmatters.org/2026/08/26/maryland-republicans-take-round-one-in-redistricting-challenge/",
       "description": "State Republicans challenging a proposed constitutional amendment on congressional redistricting notched a courtroom win Wednesday, when an Anne Arundel County judge found multiple problems with how the bill was passed a",
       "pubDate": "2026-08-26T16:36:16.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "‘We would like to slow down to go fast’: State delays math instruction requirement",
-      "link": "https://marylandmatters.org/2026/08/26/we-would-like-to-slow-down-to-go-fast-state-delays-math-instruction-requirement/",
-      "description": "The Maryland State Board of Education voted Tuesday to delay plans to require all school districts to include 60 minutes of math instruction for students in kindergarten through eighth grade. Schools will now have until",
-      "pubDate": "2026-08-26T07:58:56.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland Supreme Court refuses to hear appeal of D.C. sniper Lee Boyd Malvo",
-      "link": "https://marylandmatters.org/2026/08/25/maryland-supreme-court-refuses-to-hear-appeal-of-d-c-sniper-lee-boyd-malvo/",
-      "description": "The Maryland Supreme Court declined to hear Lee Boyd Malvo's attempt to withdraw his guilty plea to six counts of first-degree murder in the D.C. sniper attacks that terrorized the Washington area for three weeks in 2002",
-      "pubDate": "2026-08-25T23:18:22.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Measles outbreak in three counties shows importance of vaccination, officials say",
-      "link": "https://marylandmatters.org/2026/08/25/measles-outbreak-in-three-counties-shows-importance-of-vaccination-officials-say/",
-      "description": "Maryland is declaring a measles outbreak in St. Mary's, Carroll and Cecil counties as cases continue to rise across the state, highlighting the importance of getting immunized, health experts say.",
-      "pubDate": "2026-08-25T10:55:40.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Guthrie exhausts appeals to regain council seat lost after a 2024 felony theft hearing",
-      "link": "https://marylandmatters.org/2026/08/25/guthrie-exhausts-appeals-to-regain-council-seat-lost-after-a-2024-felony-theft-hearing/",
-      "description": "Former Harford County Councilman Dion Guthrie is not backing down from claims he was wrongfully removed from office after entering a no-contest plea to felony theft charges, even after the Maryland Supreme Court rejected",
-      "pubDate": "2026-08-25T06:39:22.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Yurts, campsites open for reservation at new Western Maryland state park",
-      "link": "https://marylandmatters.org/2026/08/24/savage-highlands-state-park-open-yurts-camping/",
-      "description": "The yurts are open for business. Gates will officially open this Friday at Maryland’s newest state park, Savage Highlands, with rooms -- and yurts -- for rent, unlocking some 55,000 acres of Western Maryland woodlands ou",
-      "pubDate": "2026-08-25T01:04:03.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland Hispanic student enrollment declines amid immigration fears",
-      "link": "https://marylandmatters.org/2026/08/24/marylands-hispanic-student-enrollment-declines-amid-immigration-fears/",
-      "description": "Hispanic enrollment in Maryland public schools began to decline during the last school year, the first year of the Trump administration, after growing at an average rate of 4.7% a year since pandemic-era lows, according",
-      "pubDate": "2026-08-24T10:00:08.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "‘Hundred Acre Wood’ saved from bulldozers in Maryland",
-      "link": "https://marylandmatters.org/2026/08/24/hundred-acre-wood-saved-from-bulldozers-in-maryland/",
-      "description": "A Maryland version of Winnie-the-Pooh’s fabled forest is protected from development. Informally known as the “Hundred Acre Wood,” the forested tract was transferred by NASA to the Fish and Wildlife Service to become part",
-      "pubDate": "2026-08-24T09:13:53.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland has more EV chargers than ever – but they’re not everywhere",
-      "link": "https://marylandmatters.org/2026/08/22/maryland-has-more-ev-chargers-than-ever-but-theyre-not-everywhere/",
-      "description": "Access to electric vehicle charging stations in Maryland has improved, but it's not spread evenly: An analysis of federal data shows that 45% of all Maryland ZIP codes don't have a public charging station and a quarter o",
-      "pubDate": "2026-08-22T10:33:39.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
     }
