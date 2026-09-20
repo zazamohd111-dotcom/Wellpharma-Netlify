@@ -1,14 +1,110 @@
 {
-  "fetched_at": "2026-09-13T07:18:41.810Z",
-  "count": 40,
+  "fetched_at": "2026-09-20T07:35:29.961Z",
+  "count": 37,
   "articles": [
     {
-      "title": "Predicting Preeclampsia With a Protein? Gene-Silencing for Cardiomyopathy",
-      "link": "https://www.medpagetoday.com/podcasts/healthwatch/122965",
+      "title": "Oxygen for Preterm Infants; Top-Down Therapy in Crohn's",
+      "link": "https://www.medpagetoday.com/podcasts/healthwatch/123064",
       "description": "(MedPage Today) -- TTHealthWatch is a weekly podcast from Texas Tech. In it, Elizabeth Tracey, director of electronic media for Johns Hopkins Medicine in Baltimore, and Rick Lange, MD, president of Texas Tech Health El",
-      "pubDate": "2026-09-12T18:00:00.000Z",
+      "pubDate": "2026-09-19T18:00:00.000Z",
       "source": "MedPage Today",
       "category": "Maryland Health"
+    },
+    {
+      "title": "Moore confident Marylanders will check &#8216;yes&#8217; on redistricting ballot question",
+      "link": "https://marylandmatters.org/2026/09/18/moore-convinced-marylanders-will-check-yes-on-redistricting-ballot-question/",
+      "description": "Gov. Wes Moore said he believes Marylanders will “overwhelmingly\" support Question 3 when they go to the polls in November, the proposed constitutional question on the ballot this fall that would change the way congressi",
+      "pubDate": "2026-09-18T18:15:30.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Wegovy Benefits Heart Disease Patients Regardless of Frailty",
+      "link": "https://www.medpagetoday.com/cardiology/prevention/123063",
+      "description": "(MedPage Today) -- Frailty did not appear to prevent adults with cardiovascular disease and overweight or obesity from reaping the benefits of semaglutide (Wegovy), a secondary analysis of SELECT trial data indicated.\nB",
+      "pubDate": "2026-09-18T16:48:00.000Z",
+      "source": "MedPage Today",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "The 6 Best Undereye Patches, Tested and Reviewed by Dermatologists And Beauty Editors",
+      "link": "https://www.womenshealthmag.com/beauty/g42165675/best-undereye-gel-patches/",
+      "description": "The entire Women's Health team swears by them.",
+      "pubDate": "2026-09-18T14:30:00.000Z",
+      "source": "Women's Health",
+      "category": "Hormones"
+    },
+    {
+      "title": "Maryland officials grapple with &#8216;bizarre&#8217; Trump executive order on Chesapeake Bay",
+      "link": "https://marylandmatters.org/2026/09/17/maryland-officials-grapple-with-bizarre-trump-executive-order-on-chesapeake-bay/",
+      "description": "Just months after federal officials joined Chesapeake Bay states to renew their pledge to restore the nation's largest estuary, President Donald Trump on Wednesday rescinded an Obama-era executive order that called for f",
+      "pubDate": "2026-09-17T23:50:20.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Maryland is right to shift focus of community school funding to academics",
+      "link": "https://marylandmatters.org/2026/09/17/maryland-is-right-to-shift-focus-of-community-school-funding-to-academics/",
+      "description": "Changes proposed in the Blueprint for Maryland's Future, to shift Community Schools' emphasis to investments that support reading and math, is a crucial change, write Trish Brennan-Gac and Clarence Crawford, that needs s",
+      "pubDate": "2026-09-17T21:59:28.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Maryland warns of possible measles exposure at three Ocean City locations",
+      "link": "https://marylandmatters.org/2026/09/17/maryland-warns-of-possible-measles-exposure-at-three-ocean-city-locations/",
+      "description": "Maryland health officials are warning that people who visited several locations in Ocean City earlier this month may have been exposed to measles, after an out-of-state resident who was infected with the virus visited th",
+      "pubDate": "2026-09-17T20:28:45.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Developers say housing regulations drive up costs that price Marylanders out of homeownership",
+      "link": "https://marylandmatters.org/2026/09/16/developers-say-housing-regulations-drive-up-costs-that-price-marylanders-out-of-homeownership/",
+      "description": "Developers say that having to navigate the “complex web” of federal, state and local regulations contributes to the rising cost of housing and rent, which winds up pricing more and more Marylanders out of housing options",
+      "pubDate": "2026-09-17T00:24:26.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "State appeals tax court ruling that struck down digital ad tax",
+      "link": "https://marylandmatters.org/2026/09/15/state-appeals-tax-court-ruling-that-struck-down-digital-ad-tax/",
+      "description": "State officials are asking a circuit court to review a Maryland tax court ruling last month that struck down a first-of-its-kind digital ad tax that was challenged by three tech companies, Apple, Google and Peacock TV.",
+      "pubDate": "2026-09-15T23:28:32.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Past secretaries, union leader call for probe into Education Department slashing",
+      "link": "https://marylandmatters.org/2026/09/15/repub/past-secretaries-union-leader-call-for-probe-into-education-department-slashing/",
+      "description": "Maryland Democratic Sens. Angela Alsobrooks and Chris Van Hollen joined three former education secretaries and the union representing agency workers to urge the Education Department's top watchdog to investigate the cost",
+      "pubDate": "2026-09-15T23:22:30.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "States, cities sue Trump administration over new green card restrictions",
+      "link": "https://marylandmatters.org/2026/09/14/repub/states-cities-sue-trump-administration-over-new-green-card-restrictions/",
+      "description": "Maryland signed on to one of two lawsuits filed Monday by states, cities and counties challenging new federal rules that will allow immigrants’ use of safety net resources to count against them for green cards and other",
+      "pubDate": "2026-09-14T23:02:44.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Maryland leaders must fight to restore climate justice funding",
+      "link": "https://marylandmatters.org/2026/09/14/maryland-leaders-must-fight-to-restore-climate-justice-funding/",
+      "description": "The effects of climate change are being felt in Maryland, and the impact is even greater in Black and brown communities, writes Sacoby Wilson, which is why our lawmakers need to fight to restore the climate justice grant",
+      "pubDate": "2026-09-14T22:57:40.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "<b><strong>Your Expert-Backed Guide to Maintaining Weight Loss After Quitting a GLP-1</strong></b>",
+      "link": "https://www.womenshealthmag.com/weight-loss/a73687764/how-to-quit-a-glp-1-and-maintain-weight-loss/",
+      "description": "It’s extremely common to regain weight—but you can prevent it with these steps.",
+      "pubDate": "2026-09-14T10:00:00.000Z",
+      "source": "Women's Health",
+      "category": "GLP-1 & Weight"
     },
     {
       "title": "Officials, advocates seek funds to soften blow of rising healthcare costs",
@@ -17,22 +113,6 @@
       "pubDate": "2026-09-12T00:42:39.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
-    },
-    {
-      "title": "Menopausal Hormone Therapy May Ease Severe Mood Symptoms",
-      "link": "https://www.medpagetoday.com/obgyn/hrt/122979",
-      "description": "(MedPage Today) -- Use of systemic hormone therapy for menopause was associated with improvements in mood symptoms, a retrospective observational study suggested.\nAt a mean follow-up of 4.5 months, women starting on hor",
-      "pubDate": "2026-09-11T21:09:49.000Z",
-      "source": "MedPage Today",
-      "category": "Hormones"
-    },
-    {
-      "title": "How Was Menopausal Hormone Therapy Linked to Heart Health?",
-      "link": "https://www.medpagetoday.com/quizzes/news-quiz/122974",
-      "description": "(MedPage Today) -- You passed medical training, now see if you can pass our weekly quiz",
-      "pubDate": "2026-09-11T18:37:39.000Z",
-      "source": "MedPage Today",
-      "category": "Hormones"
     },
     {
       "title": "Exactly How To Start Weight Training For Weight Loss, According To Experts",
@@ -147,22 +227,6 @@
       "category": "Maryland Health"
     },
     {
-      "title": "<b><strong>Meet the Proud GLP-1-Taking Dietitians on a Mission to Change the Medication’s Stigma</strong></b>",
-      "link": "https://www.womenshealthmag.com/weight-loss/a73543834/dietitians-taking-glp-1-stigma/",
-      "description": "Here’s why they’re so much more than weight-loss drugs.",
-      "pubDate": "2026-09-04T11:00:00.000Z",
-      "source": "Women's Health",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "Researchers Just Linked This Rare Vision Loss Condition to GLP-1s—Should You Be Concerned?",
-      "link": "https://www.womenshealthmag.com/health/a73572057/vision-loss-glp-1-study/",
-      "description": "There’s a lot to unpack.",
-      "pubDate": "2026-09-04T10:30:00.000Z",
-      "source": "Women's Health",
-      "category": "GLP-1 & Weight"
-    },
-    {
       "title": "Maryland Supreme Court says redistricting ballot question can go to voters",
       "link": "https://marylandmatters.org/2026/09/03/maryland-supreme-court-redistricting-constitutional-amendment-ruling/",
       "description": "A proposed ballot question that could set new standards for the way congressional maps are drawn in Maryland will go to voters in November, a divided Supreme Court of Maryland ruled Thursday evening.",
@@ -231,94 +295,6 @@
       "link": "https://marylandmatters.org/2026/08/31/repub/feds-and-22-states-sue-amazon-alleging-deceptive-advertising-scheme/",
       "description": "Maryland joined 21 other states and the Federal Trade Commission on Monday to sue the giant online retailer Amazon for allegedly using artificial bids to inflate costs for advertisers, bringing in tens of billions of dol",
       "pubDate": "2026-09-01T00:19:36.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "The plight of the Blueprint: a deeper dive",
-      "link": "https://marylandmatters.org/2026/08/31/the-plight-of-the-blueprint-a-deeper-dive/",
-      "description": "The Blueprint for Maryland's Future is admirable for the ambitious goals it set for the state's schools, but achieving those goals is proving to be a challenge for some local school systems, writes Kalman Hettleman, who",
-      "pubDate": "2026-08-31T09:00:15.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland regulators slash Pepco rate increase request by more than half",
-      "link": "https://marylandmatters.org/2026/08/30/maryland-regulators-slash-pepco-rate-increase-request-by-more-than-half/",
-      "description": "Pepco customers will still see their electric bills go up, but by far less than the utility had requested after state regulators rejected more than half of the utility's proposed rate increase last week, authorizing $50.",
-      "pubDate": "2026-08-31T00:45:07.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Court: Former Washington Commanders player can get workers&#8217; comp for training camp injury",
-      "link": "https://marylandmatters.org/2026/08/28/court-former-washington-commanders-player-can-get-workers-comp-for-training-camp-injury/",
-      "description": "A former Washington Commanders football player who ruptured his Achilles tendon during training camp in 2023 is entitled to workers’ compensation benefits for the injury, the Appellate Court of Maryland ruled this week.",
-      "pubDate": "2026-08-28T19:59:00.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Republicans win in Dorchester challenge to redistricting ballot question",
-      "link": "https://marylandmatters.org/2026/08/28/republicans-win-in-dorchester-challenge-to-redistricting-ballot-question/",
-      "description": "The Maryland General Assembly violated the state constitution and the Declaration of Rights and failed to follow election laws when it passed a proposed redistricting amendment to the state constitution, a Circuit Court",
-      "pubDate": "2026-08-28T16:57:00.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Who benefits from the ‘mansion tax’? Marylanders deserve to know",
-      "link": "https://marylandmatters.org/2026/08/28/who-benefits-from-the-mansion-tax-marylanders-deserve-to-know/",
-      "description": "Taxes on high-end real estate are an increasingly popular way to raise funds for affordable housing units, writes J.H. Snider, but without data on who's actually benefiting, taxpayers can't know if the programs are payin",
-      "pubDate": "2026-08-28T09:38:54.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Canadian tariffs to further raise prices, a top concern for voters",
-      "link": "https://marylandmatters.org/2026/08/27/repub/canadian-tariffs-to-further-raise-prices-a-top-concern-for-voters/",
-      "description": "A developing trade war with Canada -- Maryland's No. 1 export market -- could bite Republicans ahead of the upcoming midterm elections as voters worry about rising prices and industries in states with competitive races c",
-      "pubDate": "2026-08-27T23:51:24.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland, 22 other states sue Trump administration over family planning restrictions",
-      "link": "https://marylandmatters.org/2026/08/27/maryland-22-other-states-sue-trump-administration-over-family-planning-restrictions/",
-      "description": "Maryland is co-leading a lawsuit with 22 other states against new Trump administration funding requirements that threaten family planning grants unless states comply with what Attorney General Anthony Brown calls “unlawf",
-      "pubDate": "2026-08-27T22:47:14.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Baltimore City Community College faculty ratify first-ever contract",
-      "link": "https://marylandmatters.org/2026/08/27/baltimore-city-community-college-faculty-ratify-first-ever-contract/",
-      "description": "A faculty union at Baltimore City Community College ratified its first-ever contract after more than a year and a half of negotiations, that includes a 3.25% raise and $1,000 bonus in the first year and 8.25% over the co",
-      "pubDate": "2026-08-27T21:23:57.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Vaccination protections &#8216;teetering&#8217; as state declares measles outbreaks in 3 counties",
-      "link": "https://marylandmatters.org/2026/08/27/vaccination-protections-teetering-as-state-declares-measles-outbreaks-in-3-counties/",
-      "description": "Despite Maryland’s relatively high measles vaccination rate statewide, those rates are slipping and varying coverage by county can leave community members exposed to potentially severe or deadly infection.",
-      "pubDate": "2026-08-27T09:50:49.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland hopes to pick all new Key Bridge contractors by spring 2027",
-      "link": "https://marylandmatters.org/2026/08/26/key-bridge-rebuild-contractors-spring-2027/",
-      "description": "After parting ways with the contractor once expected to build the new Francis Scott Key Bridge, Maryland has started requesting bids for four separate contracts, which it hopes to award by late next spring.",
-      "pubDate": "2026-08-27T00:37:37.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland Republicans take round one in redistricting challenge",
-      "link": "https://marylandmatters.org/2026/08/26/maryland-republicans-take-round-one-in-redistricting-challenge/",
-      "description": "State Republicans challenging a proposed constitutional amendment on congressional redistricting notched a courtroom win Wednesday, when an Anne Arundel County judge found multiple problems with how the bill was passed a",
-      "pubDate": "2026-08-26T16:36:16.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
     }
