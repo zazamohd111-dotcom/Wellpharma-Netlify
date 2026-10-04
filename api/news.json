@@ -1,13 +1,301 @@
 {
-  "fetched_at": "2026-09-27T07:49:07.862Z",
-  "count": 37,
+  "fetched_at": "2026-10-04T07:56:32.058Z",
+  "count": 40,
   "articles": [
     {
-      "title": "Exercise and Cancer Survival; COVID Vaccine and Immune Checkpoint Inhibitors",
-      "link": "https://www.medpagetoday.com/podcasts/healthwatch/123146",
+      "title": "Improving Primary Care for Chronic Health Conditions; New Target for Asthma and COPD",
+      "link": "https://www.medpagetoday.com/podcasts/healthwatch/123252",
       "description": "(MedPage Today) -- TTHealthWatch is a weekly podcast from Texas Tech. In it, Elizabeth Tracey, director of electronic media for Johns Hopkins Medicine in Baltimore, and Rick Lange, MD, president of Texas Tech Health El",
-      "pubDate": "2026-09-26T18:00:00.000Z",
+      "pubDate": "2026-10-03T18:00:00.000Z",
       "source": "MedPage Today",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Women Over 50 Should Lift Heavier, Says Dr. Vonda Wright—Here's Her 4x4 Formula to Age With Strength",
+      "link": "https://www.womenshealthmag.com/fitness/a73979083/dr-vonda-wright-4x4-formula/",
+      "description": "The healthy-aging expert says lower reps and heavier weights can help replace the muscle-building stimulus lost during menopause—and it's never too late to start.",
+      "pubDate": "2026-10-03T16:00:00.000Z",
+      "source": "Women's Health",
+      "category": "Hormones"
+    },
+    {
+      "title": "<![CDATA[Indirect Comparison Links Tirzepatide to Greater Weight Loss Than Semaglutide]]>",
+      "link": "https://www.drugtopics.com/view/indirect-comparison-links-tirzepatide-to-greater-weight-loss-than-semaglutide",
+      "description": "<![CDATA[The analysis is not a head-to-head trial, and the weight loss gap reached statistical significance under 1 of 2 estimands.]]>",
+      "pubDate": "2026-10-03T14:00:00.000Z",
+      "source": "Drug Topics",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Curtis Bay Energy will end incineration of medical waste under agreement with state",
+      "link": "https://marylandmatters.org/2026/10/02/curtis-bay-energy-will-end-incineration-of-medical-waste-under-agreement-with-state/",
+      "description": "State officials hailed the news that the troubled Curtis Bay Energy facility will stop burning medical waste at its South Baltimore site in order to settle a Maryland Department of the Environment lawsuit charging the co",
+      "pubDate": "2026-10-03T03:52:17.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Bipartisan group of Maryland legislators call for menhaden harvest reductions",
+      "link": "https://marylandmatters.org/2026/10/02/menhaden-reductions-maryland-legislators/",
+      "description": "A bipartisan group of Maryland legislators is pushing for fishery managers to institute further restrictions on the harvest of Atlantic menhaden, a small fish that sits at the base of the Chesapeake Bay food chain.",
+      "pubDate": "2026-10-02T21:19:23.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Retatrutide Delivers Substantial Weight Loss in Type 2 Diabetes",
+      "link": "https://www.medpagetoday.com/meetingcoverage/easd/123260",
+      "description": "(MedPage Today) -- The investigational triple agonist retatrutide substantially improved glycemic control and body weight in adults with obesity and type 2 diabetes, a phase III trial showed.\nAmong 1,152 participants, a",
+      "pubDate": "2026-10-02T20:53:45.000Z",
+      "source": "MedPage Today",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "<![CDATA[EloraTZP Delivers Up to 23.3% Weight Loss in Adults With Obesity and T2D]]>",
+      "link": "https://www.pharmacytimes.com/view/eloratzp-delivers-up-to-23-3-weight-loss-in-adults-with-obesity-and-t2d",
+      "description": "<![CDATA[Phase 2b data from EASD 2026 show the amylin-incretin combination also cut HbA1c by up to 2.9% in adults with obesity or overweight and type 2 diabetes.]]>",
+      "pubDate": "2026-10-02T18:03:52.000Z",
+      "source": "Pharmacy Times",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "<![CDATA[CagriSema Curbs &apos;Food Noise,&apos; Organ Fat in Patients With Obesity, T2D Respectively]]>",
+      "link": "https://www.pharmacytimes.com/view/cagrisema-curbs-food-noise-organ-fat-in-patients-with-obesity-t2d-respectively",
+      "description": "<![CDATA[fMRI data show cagrilintide-semaglutide altered brain responses to high-calorie food cues; REIMAGINE analyses point to ectopic fat and bone effects.]]>",
+      "pubDate": "2026-10-02T17:46:46.000Z",
+      "source": "Pharmacy Times",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "<![CDATA[Data Links GLP-1 With Fewer Asthma Attacks, Lower Psychiatric Risk]]>",
+      "link": "https://www.drugtopics.com/view/data-links-glp-1-with-fewer-asthma-attacks-lower-psychiatric-risk",
+      "description": "<![CDATA[New findings suggest semaglutide&apos;s benefits may extend well beyond diabetes and weight loss and into airway disease and mood disorders.]]>",
+      "pubDate": "2026-10-02T14:00:00.000Z",
+      "source": "Drug Topics",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "STAT+: Lilly bypasses Australian pharmacies with DTC model",
+      "link": "https://www.statnews.com/2026/10/02/biotech-news-lilly-bypasses-australian-phramacies-with-dtc-model/?utm_campaign=rss",
+      "description": "Eli Lilly is launching LillyDirect to deliver Mounjaro straight to Australian patients’ doors — and local doctors and pharmacists aren’t thrilled.",
+      "pubDate": "2026-10-02T13:58:31.000Z",
+      "source": "STAT News",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "STAT+: Pharmalittle: We&#8217;re reading about the 340B drug pilot program, an obesity drug disappointment, and more",
+      "link": "https://www.statnews.com/pharmalot/2026/10/02/340b-drug-pilot-program-boehringer-zealand-obesity-trial/?utm_campaign=rss",
+      "description": "The U.S. approved 10 drugmakers to participate in a 340B pilot program that will allow them to offer rebates, instead of upfront discounts, to certain providers",
+      "pubDate": "2026-10-02T13:11:16.000Z",
+      "source": "STAT News",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "New law on youth charging welcomed, but it&#8217;s not the end of the fight, advocates say",
+      "link": "https://marylandmatters.org/2026/10/02/new-law-on-youth-charging-welcomed-but-its-not-the-end-of-the-fight-advocates-say/",
+      "description": "It took more than a decade to get this far, but lawmakers and advocates who gathered Thursday at the Baltimore City Juvenile Justice Center to celebrate the new youth sentencing act were reminded that they are not finish",
+      "pubDate": "2026-10-02T07:57:19.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Maryland officials say changes to electric grid governance aren&#8217;t enough",
+      "link": "https://marylandmatters.org/2026/10/01/maryland-pjm-proposal-governance/",
+      "description": "Leaders throughout the region overseen by power grid operator PJM Interconnection have long called for states to have a greater voice in grid decision-making, but governance reforms advanced this week by PJM left advocat",
+      "pubDate": "2026-10-02T01:06:04.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Trump administration challenges Maryland&#8217;s ban on police using masks",
+      "link": "https://marylandmatters.org/2026/10/01/trump-administration-challenges-marylands-ban-on-police-using-masks/",
+      "description": "The Trump administration wasted no time challenging Maryland's new law that prohibits masks on police, including immigration officers, suing the state the same day the law took effect. It also sued Montgomery and Prince",
+      "pubDate": "2026-10-01T22:27:20.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "<![CDATA[Semaglutide 2 mg Tied to Lower MACE Risk Than Tirzepatide Switch]]>",
+      "link": "https://www.pharmacytimes.com/view/semaglutide-2-mg-tied-to-lower-mace-risk-than-tirzepatide-switch",
+      "description": "<![CDATA[A Novo Nordisk–funded claims analysis of adults with type 2 diabetes found an adjusted HR of 1.06 for MACE with switching, although the findings cannot show causation.]]>",
+      "pubDate": "2026-10-01T19:47:35.000Z",
+      "source": "Pharmacy Times",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "<![CDATA[Nearly 1 in 6 Pediatric Patients Have Nutritional Deficiency With GLP-1s]]>",
+      "link": "https://www.drugtopics.com/view/nearly-1-in-6-pediatric-patients-have-nutritional-deficiency-with-glp-1s",
+      "description": "<![CDATA[A claims analysis of 2031 patients aged 10 to 17 years found that nutrition counseling was infrequent and often began months after treatment started.]]>",
+      "pubDate": "2026-10-01T18:00:00.000Z",
+      "source": "Drug Topics",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Top journal&#8217;s special issue on women&#8217;s health casts spotlight on menopause and pain",
+      "link": "https://www.statnews.com/2026/10/01/womens-health-issues-academic-journal-science-special-edition/?utm_campaign=rss",
+      "description": "\"Highlighting a ton of open questions\": Top journal's special issue on women's health examines the latest discoveries on chronic pain and menopause.",
+      "pubDate": "2026-10-01T18:00:00.000Z",
+      "source": "STAT News",
+      "category": "Hormones"
+    },
+    {
+      "title": "<![CDATA[Tirzepatide Linked to More Weight Loss Than Semaglutide 7.2 mg]]>",
+      "link": "https://www.pharmacytimes.com/view/tirzepatide-linked-to-more-weight-loss-than-semaglutide-7-2-mg",
+      "description": "<![CDATA[A new analysis finds a significant weight loss edge for tirzepatide under one estimand but not another; no head-to-head trial exists at these doses.]]>",
+      "pubDate": "2026-10-01T15:45:52.000Z",
+      "source": "Pharmacy Times",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "STAT+: Pharmalittle: We&#8217;re reading about a plan to lower Medicare drug prices, a Lilly obesity drug, and more",
+      "link": "https://www.statnews.com/pharmalot/2026/10/01/trump-plan-to-lower-medicare-drug-prices-lilly-obesity-drug/?utm_campaign=rss",
+      "description": "A final Medicare rule aimed at lowering prices for doctor-administered drugs applies to only four companies and saves 96% less than the initial proposal",
+      "pubDate": "2026-10-01T13:26:58.000Z",
+      "source": "STAT News",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Thousands of immigrants in Maryland to lose Medicaid coverage under H.R. 1",
+      "link": "https://marylandmatters.org/2026/10/01/thousands-of-immigrants-in-maryland-to-lose-medicaid-coverage-under-h-r-1/",
+      "description": "Treatments for cancer, diabetes and other conditions could be disrupted for up to 4,500 Maryland residents who will no longer qualify for Medicaid under a federal rule that takes effect Thursday that will disqualify peop",
+      "pubDate": "2026-10-01T04:45:19.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Pennsylvania reports fifth measles-related death, the third death so far in Lancaster County",
+      "link": "https://marylandmatters.org/2026/09/30/pennsylvania-reports-fifth-measles-related-death-the-third-death-so-far-in-lancaster-county/",
+      "description": "A fifth measles-related death was reported in Pennsylvania, which remains one of the nation's hot spots for outbreaks of the virus, with 943 cases reported across the state this year. Maryland has reported 51 confirmed c",
+      "pubDate": "2026-10-01T00:07:47.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Crackdown on out-of-state vehicle registrations to start in October",
+      "link": "https://marylandmatters.org/2026/09/30/crackdown-on-out-of-state-vehicle-registrations-to-start-this-month/",
+      "description": "Under a law that takes effect Thursday, Marylanders who register their cars in other states will have 60 days to register them in Maryland or face fines and other possible penalties, although state officials said they ho",
+      "pubDate": "2026-09-30T22:51:40.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Large upgrade planned at Calvert Cliffs after power deal signed with Amazon",
+      "link": "https://marylandmatters.org/2026/09/30/calvert-cliffs-power-purchase-amazon/",
+      "description": "Constellation, the owner of Maryland’s Calvert Cliffs nuclear plant, said Wednesday it plans to move forward with massive upgrades at the facility after signing a 20-year power purchase deal with data center operator Ama",
+      "pubDate": "2026-09-30T20:05:15.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "<![CDATA[Orforglipron Edges Oral Semaglutide 25 mg in T2D, Indirect Comparison Finds]]>",
+      "link": "https://www.pharmacytimes.com/view/orforglipron-edges-oral-semaglutide-25-mg-in-t2d-indirect-comparison-finds",
+      "description": "<![CDATA[Indirect comparison links orforglipron 17.2 mg to 1.5% more weight loss and 0.3% more A1C lowering than oral semaglutide 25 mg in adults with type 2 diabetes.]]>",
+      "pubDate": "2026-09-30T19:33:58.000Z",
+      "source": "Pharmacy Times",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "30+ Best Fitness Gifts of 2026, According to Women's Health Editors",
+      "link": "https://www.womenshealthmag.com/fitness/g19990274/gifts-for-fitness-fanatics/",
+      "description": "Workout gear they’ll reach for long after gifting season.",
+      "pubDate": "2026-09-30T19:19:00.000Z",
+      "source": "Women's Health",
+      "category": "Hormones"
+    },
+    {
+      "title": "<![CDATA[Study Links Oral Menopausal Hormone Therapy to Thrombotic Risk]]>",
+      "link": "https://www.drugtopics.com/view/study-links-oral-menopausal-hormone-therapy-to-thrombotic-risk",
+      "description": "<![CDATA[A study of women aged 50 to 69 years found that thrombotic risk varied by route of administration, estradiol dose, and duration of use.]]>",
+      "pubDate": "2026-09-30T18:00:00.000Z",
+      "source": "Drug Topics",
+      "category": "Hormones"
+    },
+    {
+      "title": "<![CDATA[Retatrutide Cuts Weight Up to 18.8% in Adults With T2D, Obesity]]>",
+      "link": "https://www.pharmacytimes.com/view/retatrutide-cuts-weight-up-to-18-8-in-adults-with-t2d-obesity",
+      "description": "<![CDATA[Phase 3 TRIUMPH-2 data presented at EASD show HbA1C reductions up to 1.6%, with GI effects, hypotension, and dysesthesia as key counseling points.]]>",
+      "pubDate": "2026-09-30T16:13:16.000Z",
+      "source": "Pharmacy Times",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "<![CDATA[Medicaid Coverage of Obesity GLP-1s May Shift From Diabetes Version]]>",
+      "link": "https://www.drugtopics.com/view/medicaid-coverage-of-obesity-glp-1s-may-shift-from-diabetes-version",
+      "description": "<![CDATA[Medicaid coverage of obesity-labeled GLP-1 receptor agonists may substitute for, rather than simply add to, diabetes-labeled use, a new study finds.]]>",
+      "pubDate": "2026-09-30T14:00:00.000Z",
+      "source": "Drug Topics",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Education advocates to legislature: No cuts to Blueprint education plan",
+      "link": "https://marylandmatters.org/2026/09/30/education-advocates-to-legislature-no-cuts-to-blueprint-education-plan/",
+      "description": "They acknowledged the looming budget shortfall, and said there have been challenges implementing the Blueprint for Maryland's Future, but the main theme of a meeting Tuesday on the state's sweeping education reform plan",
+      "pubDate": "2026-09-30T09:00:32.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "21% of poverty in Maryland driven by high housing costs, report says",
+      "link": "https://marylandmatters.org/2026/09/29/21-of-poverty-in-maryland-driven-by-high-housing-costs-report-says/",
+      "description": "Maryland is one of 10 states where high housing costs contribute the most to the state’s poverty level, according to a new report by the Pew Charitable Trusts, that attributes as much as 21% of Maryland's poverty to its",
+      "pubDate": "2026-09-30T03:12:06.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "School officials celebrate drop in chronic absenteeism, but are still shy of goal",
+      "link": "https://marylandmatters.org/2026/09/29/school-officials-celebrate-drop-in-chronic-absenteeism-but-are-still-shy-of-goal/",
+      "description": "Maryland school officials Tuesday celebrated a sharp drop in chronic absenteeism since the pandemic, despite uneven results across school districts and not reaching their goal of cutting post-pandemic rates in half.",
+      "pubDate": "2026-09-29T22:21:29.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Battery energy storage to the rescue",
+      "link": "https://marylandmatters.org/2026/09/29/battery-energy-storage-to-the-rescue/",
+      "description": "Challenges for Maryland's electricity markets are many -- rising prices, surging demand, stalled projects -- but the answer is readily available in the form of grid-connected battery storage, writes Bruce Daggy, who said",
+      "pubDate": "2026-09-29T18:41:38.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Major bill to set standards for college athletes’ pay passes US Senate",
+      "link": "https://marylandmatters.org/2026/09/29/repub/major-bill-to-set-standards-for-college-athletes-pay-passes-us-senate/",
+      "description": "Both Maryland senators voted against a bill Monday to overhaul the college sports landscape in the face of student payments and transfers. The bipartisan bill passed the Senate easily; critics said it does not do enough",
+      "pubDate": "2026-09-29T14:01:56.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Contract appeals board sanctions lottery agency for &#8216;roadblocks&#8217; to investigation",
+      "link": "https://marylandmatters.org/2026/09/28/contract-appeals-board-sanctions-lottery-agency-for-roadblocks-to-investigation/",
+      "description": "A nearly yearlong battle over a lucrative lottery contract has landed the state's gaming agency in hot water with the Maryland Board of Contract Appeals, which sanctioned the agency last week for dragging its feet on dem",
+      "pubDate": "2026-09-29T00:46:57.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Advocates may try to extend life of the &#8216;flush tax&#8217; in 2027",
+      "link": "https://marylandmatters.org/2026/09/28/bay-restoration-fund-flush-tax-changes-2027/",
+      "description": "Since 2004, Maryland's “flush tax” has raised $2.3 billion for wastewater treatment plant upgrades that have kept hundreds of millions of pounds of nutrients out of the Bay. It could decrease in 2030, but advocates say s",
+      "pubDate": "2026-09-28T09:00:10.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "A $250 million loss in court could be a win for Maryland energy customers",
+      "link": "https://marylandmatters.org/2026/09/27/a-250-million-loss-in-court-could-be-a-win-for-maryland-energy-customers/",
+      "description": "Maryland’s energy companies are getting a $250 million sales tax refund after a Supreme Court of Maryland ruling in their favor, the state comptroller said, urging them to give the “windfall” to their customers.",
+      "pubDate": "2026-09-27T22:31:40.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "How does trade war with Canada hit Maryland, hon? Pretty hard, eh?",
+      "link": "https://marylandmatters.org/2026/09/27/how-does-trade-war-with-canada-hit-maryland-hon-pretty-hard-eh/",
+      "description": "The escalating trade war between the United States and Canada also means an escalating trade war with one of Maryland’s biggest trading partners, with the state sending $2.2 billion in goods north in 2025 and importing $",
+      "pubDate": "2026-09-27T21:30:16.000Z",
+      "source": "Maryland Matters",
       "category": "Maryland Health"
     },
     {
@@ -31,270 +319,6 @@
       "link": "https://marylandmatters.org/2026/09/25/democrats-unions-advocates-push-for-support-on-question-3-on-redistricting/",
       "description": "Democratic lawmakers, labor union officials and nonprofit leaders rallied in Baltimore Friday to drum up support for ballot Question 3, the proposed constitutional amendment that would remove state standards for drawing",
       "pubDate": "2026-09-26T00:13:38.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland delegation pushes for Port of Baltimore modernization",
-      "link": "https://marylandmatters.org/2026/09/25/maryland-delegation-pushes-for-port-of-baltimore-modernization/",
-      "description": "Two and a half years after the collapse of the Francis Scott Key Bridge, members of Maryland’s congressional delegation are vowing to keep pursuing investments into the Port of Baltimore.",
-      "pubDate": "2026-09-25T14:03:58.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "<b><strong>The Telehealth GLP-1 Gold Rush</strong></b>",
-      "link": "https://www.womenshealthmag.com/health/a73868675/the-telehealth-glp-1-gold-rush/",
-      "description": "Here’s what to know about easy-access GLP-1 prescriptions before you click.",
-      "pubDate": "2026-09-25T11:00:00.000Z",
-      "source": "Women's Health",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "Changes could be coming to Blueprint education plan",
-      "link": "https://marylandmatters.org/2026/09/25/changes-could-be-coming-to-blueprint-education-plan/",
-      "description": "The board overseeing implementation of Maryland's sweeping education reform plan could propose some changes to the plan, as another looming budget shortfall makes it a likely target for cuts to some lawmakers next year.",
-      "pubDate": "2026-09-25T09:00:29.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Poll: Wording of redistricting amendment difficult for voters to understand",
-      "link": "https://marylandmatters.org/2026/09/24/poll-wording-of-redistricting-amendment-difficult-for-voters-to-understand/",
-      "description": "One in four voters in a poll released by Fight Back Maryland were undecided when it came to approving the constitutional amendment that would remove state standards for drawing congressional districts. The reason may be",
-      "pubDate": "2026-09-25T02:52:27.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Nabela Noor's Health Transformation Was Never About Getting Smaller—It Was About Getting Stronger",
-      "link": "https://www.womenshealthmag.com/health/a73760281/nabela-noor-weight-loss-journey/",
-      "description": "By incorporating Pilates, weight training, and a GLP-1, the star of Hosted By Nabela Noor got her diabetes in check and lost 60 lbs.",
-      "pubDate": "2026-09-24T18:00:00.000Z",
-      "source": "Women's Health",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "More Americans lose SNAP as Congress weighs food stamps’ future",
-      "link": "https://marylandmatters.org/2026/09/23/repub/more-americans-lose-snap-as-congress-weighs-food-stamps-future/",
-      "description": "Almost 40,000 Marylanders lost access to food assistance over the past year, just some of the tens of thousands of Americans who continue to lose access to SNAP benefits each month, even as Congress debates slowing down",
-      "pubDate": "2026-09-24T03:35:04.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Military releases details on testosterone screening for men",
-      "link": "https://marylandmatters.org/2026/09/23/military-releases-details-on-testosterone-screening-for-men/",
-      "description": "The Defense Health Agency last week rolled out the clinical guidelines military medical providers will use to begin screening men over 30 for low testosterone each year, part of Secretary Pete Hegseth's promise of a \"Hig",
-      "pubDate": "2026-09-23T18:00:15.000Z",
-      "source": "Maryland Matters",
-      "category": "Hormones"
-    },
-    {
-      "title": "New data centers in Maryland to get additional scrutiny under governor&#8217;s order",
-      "link": "https://marylandmatters.org/2026/09/23/data-centers-moore-executive-order/",
-      "description": "Gov. Wes Moore is creating a state task force to examine new data center proposals and advise local jurisdictions considering the project whether they meet state standards, but he insisted that final say on data center p",
-      "pubDate": "2026-09-23T13:54:49.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "State, university officials tout opening of new quantum research center",
-      "link": "https://marylandmatters.org/2026/09/23/state-university-officials-tout-opening-of-new-quantum-research-center/",
-      "description": "State officials, University of Maryland leaders and quantum research representatives celebrated the opening of the Microsoft Quantum Research Center in the university’s Discovery District Tuesday.",
-      "pubDate": "2026-09-23T09:01:23.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Poll finds opposition to Maryland redistricting ballot question",
-      "link": "https://marylandmatters.org/2026/09/22/poll-finds-opposition-to-maryland-redistricting-ballot-question/",
-      "description": "Roughly 4 in 10 likely voters say they oppose Question 3, the proposed Maryland constitutional amendment that would change the way state officials redraw congressional districts, according to a poll released Tuesday by a",
-      "pubDate": "2026-09-22T13:13:08.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Native American tribes wanted to join the Chesapeake Bay partnership. Not anymore.",
-      "link": "https://marylandmatters.org/2026/09/21/icc-native-american-tribes-withdraw-chesapeake-bay/",
-      "description": "Seven federally recognized Native American tribes are ending their bid to formally join the Chesapeake Bay cleanup, saying they have been disappointed by the response from Bay Program leaders.",
-      "pubDate": "2026-09-21T21:36:16.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "DOJ presses case against in-state tuition for undocumented Maryland students",
-      "link": "https://marylandmatters.org/2026/09/21/doj-presses-case-against-in-state-tuition-for-undocumented-maryland-students/",
-      "description": "The Justice Department is asking a federal judge in Maryland for summary judgment in its lawsuit challenging a 2011 state law that provides in-state tuition and other education-related assistance to undocumented immigran",
-      "pubDate": "2026-09-21T21:01:19.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "‘A great tree has fallen&#8217;: Remembering Walter Boynton, pioneering Bay scientist",
-      "link": "https://marylandmatters.org/2026/09/21/a-great-tree-has-fallen-remembering-walter-boynton-pioneering-bay-scientist/",
-      "description": "Walter Boynton, one of the Chesapeake Bay’s preeminent scientists and communicators, died Sept. 14 after a long illness, leaving a legacy of more than 50 years of pioneering research and advocacy for his adopted watershe",
-      "pubDate": "2026-09-21T16:13:17.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Proposed rate hikes for long-term care plans would double premiums for thousands of seniors",
-      "link": "https://marylandmatters.org/2026/09/21/proposed-rate-hikes-for-long-term-care-plans-would-double-premiums-for-thousands-of-seniors/",
-      "description": "Thousands of Maryland seniors paying for long-term health care could see their annual premiums double, or triple, over the next several years if state officials approve the steep increases requested by four Maryland insu",
-      "pubDate": "2026-09-21T09:00:02.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Osprey nesting woes in the Chesapeake Bay worsen, survey finds",
-      "link": "https://marylandmatters.org/2026/09/20/osprey-nesting-woes-in-the-chesapeake-bay-worsen-survey-finds/",
-      "description": "Osprey breeding continues to falter around the Chesapeake Bay, a new survey has found, with the meager hatching and survival of chicks this year well below what is needed to maintain the population.",
-      "pubDate": "2026-09-20T23:30:36.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland is closing the gap. Here’s how to boost it.",
-      "link": "https://marylandmatters.org/2026/09/20/maryland-is-closing-the-gap-heres-how-to-boost-it/",
-      "description": "Gov. Wes Moore has given mixed signals on the Federal Scholarship Tax Credit, but the state has to opt in if it wants to take advantage, and it should, writes Jorge Elorza, who says that doing otherwise is just leaving m",
-      "pubDate": "2026-09-20T23:04:57.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Moore confident Marylanders will check &#8216;yes&#8217; on redistricting ballot question",
-      "link": "https://marylandmatters.org/2026/09/18/moore-convinced-marylanders-will-check-yes-on-redistricting-ballot-question/",
-      "description": "Gov. Wes Moore said he believes Marylanders will “overwhelmingly\" support Question 3 when they go to the polls in November, the proposed constitutional question on the ballot this fall that would change the way congressi",
-      "pubDate": "2026-09-18T18:15:30.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland officials grapple with &#8216;bizarre&#8217; Trump executive order on Chesapeake Bay",
-      "link": "https://marylandmatters.org/2026/09/17/maryland-officials-grapple-with-bizarre-trump-executive-order-on-chesapeake-bay/",
-      "description": "Just months after federal officials joined Chesapeake Bay states to renew their pledge to restore the nation's largest estuary, President Donald Trump on Wednesday rescinded an Obama-era executive order that called for f",
-      "pubDate": "2026-09-17T23:50:20.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland is right to shift focus of community school funding to academics",
-      "link": "https://marylandmatters.org/2026/09/17/maryland-is-right-to-shift-focus-of-community-school-funding-to-academics/",
-      "description": "Changes proposed in the Blueprint for Maryland's Future, to shift Community Schools' emphasis to investments that support reading and math, is a crucial change, write Trish Brennan-Gac and Clarence Crawford, that needs s",
-      "pubDate": "2026-09-17T21:59:28.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland warns of possible measles exposure at three Ocean City locations",
-      "link": "https://marylandmatters.org/2026/09/17/maryland-warns-of-possible-measles-exposure-at-three-ocean-city-locations/",
-      "description": "Maryland health officials are warning that people who visited several locations in Ocean City earlier this month may have been exposed to measles, after an out-of-state resident who was infected with the virus visited th",
-      "pubDate": "2026-09-17T20:28:45.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Developers say housing regulations drive up costs that price Marylanders out of homeownership",
-      "link": "https://marylandmatters.org/2026/09/16/developers-say-housing-regulations-drive-up-costs-that-price-marylanders-out-of-homeownership/",
-      "description": "Developers say that having to navigate the “complex web” of federal, state and local regulations contributes to the rising cost of housing and rent, which winds up pricing more and more Marylanders out of housing options",
-      "pubDate": "2026-09-17T00:24:26.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "State appeals tax court ruling that struck down digital ad tax",
-      "link": "https://marylandmatters.org/2026/09/15/state-appeals-tax-court-ruling-that-struck-down-digital-ad-tax/",
-      "description": "State officials are asking a circuit court to review a Maryland tax court ruling last month that struck down a first-of-its-kind digital ad tax that was challenged by three tech companies, Apple, Google and Peacock TV.",
-      "pubDate": "2026-09-15T23:28:32.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Past secretaries, union leader call for probe into Education Department slashing",
-      "link": "https://marylandmatters.org/2026/09/15/repub/past-secretaries-union-leader-call-for-probe-into-education-department-slashing/",
-      "description": "Maryland Democratic Sens. Angela Alsobrooks and Chris Van Hollen joined three former education secretaries and the union representing agency workers to urge the Education Department's top watchdog to investigate the cost",
-      "pubDate": "2026-09-15T23:22:30.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "States, cities sue Trump administration over new green card restrictions",
-      "link": "https://marylandmatters.org/2026/09/14/repub/states-cities-sue-trump-administration-over-new-green-card-restrictions/",
-      "description": "Maryland signed on to one of two lawsuits filed Monday by states, cities and counties challenging new federal rules that will allow immigrants’ use of safety net resources to count against them for green cards and other",
-      "pubDate": "2026-09-14T23:02:44.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland leaders must fight to restore climate justice funding",
-      "link": "https://marylandmatters.org/2026/09/14/maryland-leaders-must-fight-to-restore-climate-justice-funding/",
-      "description": "The effects of climate change are being felt in Maryland, and the impact is even greater in Black and brown communities, writes Sacoby Wilson, which is why our lawmakers need to fight to restore the climate justice grant",
-      "pubDate": "2026-09-14T22:57:40.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Officials, advocates seek funds to soften blow of rising healthcare costs",
-      "link": "https://marylandmatters.org/2026/09/11/officials-advocates-look-to-new-revenue-to-soften-blow-of-rising-healthcare-costs/",
-      "description": "State officials are scrambling to cushion the blow of skyrocketing healthcare costs and federal changes to the Medicaid program on Marylanders' pocketbooks, in hopes that people can still afford coverage.",
-      "pubDate": "2026-09-12T00:42:39.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland 9/11 victims&#8217; families fear others no longer remember the day they can&#8217;t forget",
-      "link": "https://marylandmatters.org/2026/09/11/maryland-9-11-victims-families-fear-others-no-longer-remember-the-day-they-cant-forget/",
-      "description": "In the 25 years since the 9/11 attacks, family members of the 69 Marylanders who were killed that day said they're coping but the pain is still with them, but they worry that others are beginning to forget.",
-      "pubDate": "2026-09-11T09:00:51.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "State health officials issue vaccine schedule amid ongoing shifts in federal vaccine guidance",
-      "link": "https://marylandmatters.org/2026/09/10/state-health-officials-issue-vaccine-schedule-amid-ongoing-shifts-in-federal-vaccine-guidance/",
-      "description": "Maryland health officials issued a first-ever state vaccine schedule Thursday ahead of the annual flu and respiratory illness season, under a new policy created to buck anti-vaccine messaging from the Trump administratio",
-      "pubDate": "2026-09-10T22:22:56.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Baltimore City Community College leader defends school against audit",
-      "link": "https://marylandmatters.org/2026/09/09/baltimore-city-community-college-leader-defends-school-against-audit/",
-      "description": "The president of Baltimore City Community College defended the school against a recent state audit that found management problems and the potential payment of financial aid to nonexistent \"ghost students,\" but lawmakers",
-      "pubDate": "2026-09-10T02:48:59.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland Supreme Court rejects Prince George’s executive hopeful&#8217;s ballot appeal",
-      "link": "https://marylandmatters.org/2026/09/09/maryland-supreme-court-rejects-prince-georges-executive-hopefuls-ballot-appeal/",
-      "description": "The Maryland Supreme Court ruled Wednesday that Tonya Sweat does not qualify for the ballot in the Prince George's County executive race, upholding county election officials who said she failed to collect enough petition",
-      "pubDate": "2026-09-09T23:38:43.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Chesapeake Bay grasses notch best numbers since 2018",
-      "link": "https://marylandmatters.org/2026/09/08/chesapeake-bay-grasses-best-since-2018/",
-      "description": "Aerial surveys show that underwater grasses in the Chesapeake Bay had a strong year in 2025, covering 89,385 acres, the most since 2018 and a 7% improvement over 2024. Despite the gains, some advocates said the results a",
-      "pubDate": "2026-09-08T23:26:20.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Rockville diner group files lawsuit against airport concessionaire",
-      "link": "https://marylandmatters.org/2026/09/08/rockville-diner-group-files-lawsuit-against-airport-concessionaire/",
-      "description": "A Rockville-owned and operated diner chain is suing a Germany-based corporation for what it says are attempts to end its decades-long operations at Baltimore-Washington Thurgood Marshall International Airport.",
-      "pubDate": "2026-09-08T22:35:19.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Salvadorans worry about deportations ahead of this week&#8217;s TPS deadline",
-      "link": "https://marylandmatters.org/2026/09/07/salvadorans-worry-about-deportations-ahead-of-this-weeks-tps-deadline/",
-      "description": "Tens of thousands of people from El Salvador, including many in Maryland, could face deportation if the Trump administration does not extend their Temporary Protected Status, which is currently scheduled to end Wednesday",
-      "pubDate": "2026-09-07T23:00:43.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
     }
