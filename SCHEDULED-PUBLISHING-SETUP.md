@@ -7,7 +7,7 @@ Your blog now supports scheduled publishing! Posts with future dates will remain
 
 1. **Date Filtering** - Future-dated posts are hidden from your website
 2. **Build Script** - Skips generating HTML for scheduled posts
-3. **GitHub Actions** - Automated weekly builds every Wednesday at 7 AM EST
+3. **GitHub Actions** - Automated weekly builds every Wednesday at 7 AM Eastern (all year)
 
 ## 🔧 Final Setup Steps (One-Time Only)
 
@@ -101,6 +101,8 @@ Edit `.github/workflows/scheduled-publish.yml`:
 schedule:
   - cron: '0 12 * * 3'  # Minute Hour DayOfMonth Month DayOfWeek
 ```
+
+**Note:** The workflow fires at both 11:00 and 12:00 UTC on Wednesdays and a "Check Eastern time" step skips the run that isn't 7 AM in New York, so the publish time stays 7 AM through daylight saving changes. If you change the time, update both the cron lines and the hour check in that step.
 
 **Cron format:** `minute hour day month weekday`
 - Minute: 0-59
