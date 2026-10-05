@@ -2,10 +2,11 @@ name: Scheduled Blog Publishing
 
 on:
   schedule:
-    # Runs every Wednesday at 7:00 AM EST (12:00 UTC)
-    # Adjust UTC time based on your timezone:
-    # EST (winter): UTC 12:00 = 7:00 AM EST
-    # EDT (summer): UTC 11:00 = 7:00 AM EDT
+    # Every Wednesday at 7:00 AM Eastern, all year.
+    # GitHub cron is UTC-only, so fire at both 11:00 and 12:00 UTC
+    # (7 AM EDT / 7 AM EST) and let the "Check Eastern time" step
+    # skip whichever run isn't actually 7 AM in New York.
+    - cron: '0 11 * * 3'
     - cron: '0 12 * * 3'
 
   # Allows manual triggering from GitHub Actions tab
@@ -16,11 +17,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Check Eastern time
+        id: time
+        run: |
+          HOUR=$(TZ=America/New_York date +%H)
+          echo "Current Eastern hour: $HOUR"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$HOUR" = "07" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "Not 7 AM Eastern, skipping this run"
+          fi
+
       - name: Trigger Netlify Build
+        if: steps.time.outputs.run == 'true'
         run: |
           curl -X POST -d {} ${{ secrets.NETLIFY_BUILD_HOOK }}
 
       - name: Log deployment
+        if: steps.time.outputs.run == 'true'
         run: |
           echo "Netlify build triggered at $(date)"
           echo "Scheduled posts should now be published"
