@@ -96,8 +96,36 @@ function buildPostSchema(post, wordCount) {
     ]
   };
 
+  // FAQPage schema mirrors the visible FAQ section rendered by buildFaqHtml
+  if (post.faq.length) {
+    schema['@graph'].push({
+      '@type': 'FAQPage',
+      '@id': `${url}#faq`,
+      isPartOf: { '@id': `${url}#webpage` },
+      mainEntity: post.faq.map(item => ({
+        '@type': 'Question',
+        name: item.question,
+        acceptedAnswer: { '@type': 'Answer', text: item.answer }
+      }))
+    });
+  }
+
   // Escape "<" so post text can never close the script tag early
   return JSON.stringify(schema, null, 2).replace(/</g, '\\u003c');
+}
+
+// Render the visible FAQ section (questions as H3 so they sit under one H2)
+function buildFaqHtml(faq) {
+  if (!faq.length) return '';
+  const items = faq.map(item => `
+                <div class="faq-item">
+                    <h3>${escapeAttr(item.question)}</h3>
+                    <p>${escapeAttr(item.answer)}</p>
+                </div>`).join('');
+  return `
+            <section class="post-faq" aria-labelledby="faq-heading">
+                <h2 id="faq-heading">Frequently Asked Questions</h2>${items}
+            </section>`;
 }
 
 // Directories
@@ -144,6 +172,7 @@ files.forEach(file => {
     slug: slug,
     featured: data.featured || false,
     tags: data.tags || [],
+    faq: (data.faq || []).filter(item => item && item.question && item.answer),
     content: htmlContent
   };
 
@@ -218,6 +247,46 @@ ${buildPostSchema(post, wordCount)}
         .blog-post-content p {
             margin-bottom: 1rem;
         }
+        .blog-post-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.95rem;
+        }
+        .blog-post-content th,
+        .blog-post-content td {
+            border: 1px solid #ddd;
+            padding: 0.6rem 0.75rem;
+            text-align: left;
+            vertical-align: top;
+        }
+        .blog-post-content thead th {
+            background: rgb(77, 123, 107);
+            color: #fff;
+        }
+        .table-scroll {
+            overflow-x: auto;
+        }
+        .summary-box {
+            background: #f1f7f4;
+            border-left: 4px solid rgb(77, 123, 107);
+            border-radius: 6px;
+            padding: 1rem 1.25rem;
+            margin: 1.5rem 0;
+        }
+        .summary-box p:last-child,
+        .summary-box ul:last-child {
+            margin-bottom: 0;
+        }
+        .post-faq {
+            margin-top: 3rem;
+            line-height: 1.7;
+        }
+        .post-faq h3 {
+            margin: 1.5rem 0 0.5rem;
+            color: #2c3e50;
+            font-size: 1.15rem;
+        }
         .back-to-blog {
             display: inline-block;
             margin-bottom: 2rem;
@@ -242,7 +311,7 @@ ${buildPostSchema(post, wordCount)}
             <img src="${post.image}" alt="${escapeAttr(post.title)}" class="blog-post-image">
             <div class="blog-post-content">
                 ${post.content}
-            </div>
+            </div>${buildFaqHtml(post.faq)}
         </article>
     </div>
 </body>
