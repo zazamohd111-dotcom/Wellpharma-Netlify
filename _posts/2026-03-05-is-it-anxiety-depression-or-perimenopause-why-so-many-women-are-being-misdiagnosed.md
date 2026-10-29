@@ -10,12 +10,12 @@ excerpt: Up to 70% of perimenopausal women are misdiagnosed with anxiety,
   you suspect perimenopause is the real culprit
 category: Pharmacy News
 tags:
-  - "[perimenopause misdiagnosed anxiety"
+  - perimenopause misdiagnosed anxiety
   - perimenopause symptoms women 40s
   - is it perimenopause or anxiety
   - perimenopause Maryland
   - hormone testing Maryland
-  - perimenopause brain fog depression]
+  - perimenopause brain fog depression
 featured: false
 ---
 <!--StartFragment-->

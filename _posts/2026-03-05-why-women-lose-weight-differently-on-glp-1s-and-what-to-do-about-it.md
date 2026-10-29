@@ -14,7 +14,7 @@ tags:
   - women weight loss hormones
   - perimenopause weight loss GLP-1
   - GLP-1 Maryland women
-  - hormone weight gain women]
+  - hormone weight gain women
 featured: false
 ---
 <!--StartFragment-->

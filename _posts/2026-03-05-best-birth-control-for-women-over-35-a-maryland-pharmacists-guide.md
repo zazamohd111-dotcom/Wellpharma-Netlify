@@ -8,12 +8,12 @@ excerpt: Birth control choices change as women approach 40. A Maryland
   for women over 35, including those in perimenopause, and what to watch out for
 category: Birth Control
 tags:
-  - "[birth control over 35 Maryland"
+  - birth control over 35 Maryland
   - best birth control perimenopause
   - contraception women 40s Maryland
   - birth control options over 35
   - hormonal birth control over 35
-  - safe birth control perimenopause]
+  - safe birth control perimenopause
 featured: false
 ---
 <!--StartFragment-->
