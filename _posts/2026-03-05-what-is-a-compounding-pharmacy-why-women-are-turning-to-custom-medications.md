@@ -9,12 +9,12 @@ excerpt: What exactly is a compounding pharmacy — and why are so many women
   women's health
 category: Pharmacy News
 tags:
-  - "[compounding pharmacy Maryland"
+  - compounding pharmacy Maryland
   - what is compounding pharmacy
   - compounded medications women
   - bioidentical hormones compounding Maryland
   - custom medication Maryland
-  - compounding pharmacy Randallstown MD]
+  - compounding pharmacy Randallstown MD
 featured: false
 ---
 <!--StartFragment-->

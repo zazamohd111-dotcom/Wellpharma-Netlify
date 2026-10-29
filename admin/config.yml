@@ -15,6 +15,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Last Updated", name: "updated", widget: "datetime", required: false, hint: "Set this when you revise or medically re-review a published article"}
       - {label: "Author", name: "author", widget: "string", default: "Dr. Zahraa Babiker"}
       - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Excerpt", name: "excerpt", widget: "text", hint: "Short summary for preview (2-3 sentences)"}
@@ -24,6 +25,14 @@ collections:
         widget: "select"
         options: ["Medication Tips", "Vaccines & Immunizations", "Health & Wellness", "Pharmacy News", "Birth Control", "Senior Care"]
       - {label: "Tags", name: "tags", widget: "list", required: false}
+      - label: "FAQ"
+        name: "faq"
+        widget: "list"
+        required: false
+        hint: "Common questions readers (and AI search) ask. Each answer should be 2-3 plain sentences. Shown at the end of the article."
+        fields:
+          - {label: "Question", name: "question", widget: "string"}
+          - {label: "Answer", name: "answer", widget: "text"}
       - {label: "Featured Post", name: "featured", widget: "boolean", default: false, hint: "Show in homepage carousel"}
 
   # Existing Collections

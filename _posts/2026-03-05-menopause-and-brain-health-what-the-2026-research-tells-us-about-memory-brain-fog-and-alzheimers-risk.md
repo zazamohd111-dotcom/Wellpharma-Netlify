@@ -15,7 +15,7 @@ tags:
   - estrogen memory
   - menopause Alzheimer's risk
   - hormone therapy cognitive health
-  - perimenopause memory loss Maryland]
+  - perimenopause memory loss Maryland
 featured: false
 ---
 <!--StartFragment-->

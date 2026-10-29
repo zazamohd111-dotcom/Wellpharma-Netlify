@@ -1,3 +1,6 @@
+# Keep blog research drafts private (Netlify publishes the whole repo)
+/_drafts/* /index.html 404!
+
 # Redirect home page variations to homepage
 /home /index.html 301
 
