@@ -1,14 +1,254 @@
 {
-  "fetched_at": "2026-10-25T07:24:56.491Z",
+  "fetched_at": "2026-11-01T08:54:44.254Z",
   "count": 40,
   "articles": [
     {
-      "title": "Clinician AI Use; Predicting Bad Infant Outcomes in Labor; Donor Heart Distribution",
-      "link": "https://www.medpagetoday.com/podcasts/healthwatch/123552",
+      "title": "Pancreatic Cancer Vaccine; AI Collaboration for Managing Epilepsy",
+      "link": "https://www.medpagetoday.com/podcasts/healthwatch/123663",
       "description": "(MedPage Today) -- TTHealthWatch is a weekly podcast from Texas Tech. In it, Elizabeth Tracey, director of electronic media for Johns Hopkins Medicine in Baltimore, and Rick Lange, MD, president of Texas Tech Health El",
-      "pubDate": "2026-10-24T18:00:00.000Z",
+      "pubDate": "2026-10-31T18:00:00.000Z",
       "source": "MedPage Today",
       "category": "Maryland Health"
+    },
+    {
+      "title": "Screened for Diabetes at 23 BMI, Denied GLP-1s Until 30 BMI",
+      "link": "https://www.medpagetoday.com/opinion/second-opinions/123667",
+      "description": "(MedPage Today) -- I am a South Asian physician  --  Pakistani, to be specific. By the American Diabetes Association's (ADA) own rule, my doctor should begin screening me for diabetes once my body mass index (BMI) passe",
+      "pubDate": "2026-10-31T16:00:00.000Z",
+      "source": "MedPage Today",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Early voting, mail-in ballots in Maryland likely to top 1 million before Election Day",
+      "link": "https://marylandmatters.org/2026/10/31/early-voting-mail-in-ballots-in-maryland-likely-to-top-1-million-before-election-day/",
+      "description": "Record numbers of voters in a gubernatorial election year turned out for early voting over the last week, with early voting and mail-in ballots likely to top 1 million before Election Day, according to the latest  data f",
+      "pubDate": "2026-10-31T09:00:51.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Frederick GOP wants investigation of Baltimore campaign consultant",
+      "link": "https://marylandmatters.org/2026/10/31/frederick-gop-wants-investigation-of-baltimore-campaign-consultant/",
+      "description": "Frederick County Republicans are asking for an investigation of a high-profile Maryland political fundraiser who they sayd violated state laws barring coordination between a super PAC and a candidate, in this case County",
+      "pubDate": "2026-10-31T07:29:13.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "DOJ warns election officials of potential prosecution again, days before midterms",
+      "link": "https://marylandmatters.org/2026/10/30/doj-warns-election-officials-of-potential-prosecution-again-days-before-midterms/",
+      "description": "Maryland election officials were among those who got another Justice Department letter warning they could face criminal prosecution for violating federal election laws by failing to preserve ballots, voter-registration r",
+      "pubDate": "2026-10-30T21:46:15.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Does ChatGPT Measure Up to Doctors When It Comes to Questions About IVF?",
+      "link": "https://www.medpagetoday.com/meetingcoverage/asrm/123668",
+      "description": "(MedPage Today) -- BALTIMORE  --  ChatGPT's answers to patient queries about assisted reproductive technology (ART) were generally accurate but less complete than professional society education materials, a comparative",
+      "pubDate": "2026-10-30T20:02:10.000Z",
+      "source": "MedPage Today",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Extra Genetic Testing in Young IVF Patients Cut Costs but Came With a Downside",
+      "link": "https://www.medpagetoday.com/meetingcoverage/asrm/123665",
+      "description": "(MedPage Today) -- BALTIMORE  --  Adding a broader genetic test to testing for single-gene disorders among younger patients undergoing in vitro fertilization (IVF) reduced costs  --  but it also may lower cumulative liv",
+      "pubDate": "2026-10-30T19:19:16.000Z",
+      "source": "MedPage Today",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "The 6 Best Undereye Patches, Tested and Reviewed by Dermatologists and Beauty Editors",
+      "link": "https://www.womenshealthmag.com/beauty/g42165675/best-undereye-gel-patches/",
+      "description": "The entire Women's Health team swears by them.",
+      "pubDate": "2026-10-30T17:13:00.000Z",
+      "source": "Women's Health",
+      "category": "Hormones"
+    },
+    {
+      "title": "Lierman seeks another term, Dunn just wants an ear in subdued comptroller&#8217;s race",
+      "link": "https://marylandmatters.org/2026/10/30/lierman-reelection-bid/",
+      "description": "Republican comptroller nominee Sonya Dunn acknowledges she's got her work cut out for her in her bid to unseat Maryland Comptroller Brooke Lierman (D), but both women have ideas for how to improve the office over the nex",
+      "pubDate": "2026-10-30T09:00:27.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Hayes takes over Finance as Ferguson announces early changes to leadership",
+      "link": "https://marylandmatters.org/2026/10/30/hayes-takes-over-as-ferguson-announces-early-changes-to-leadership-team/",
+      "description": "Sen. Antonio Hayes, a two-term Democrat from Baltimore City, will become the first Black lawmaker to chair the Senate Finance Committee, one of a series of changes that will make Senate leadership younger and less Montgo",
+      "pubDate": "2026-10-30T04:32:23.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Half of Maryland schools earn four or five stars out of five on latest report card",
+      "link": "https://marylandmatters.org/2026/10/29/half-of-maryland-schools-earn-four-or-five-stars-out-of-five-on-latest-report-card/",
+      "description": "Half of the slightly more than 1,300 public schools in Maryland earned four or five stars out of five on the state's annual report card of individual school performance, an increase from last year's total, according to d",
+      "pubDate": "2026-10-29T21:28:00.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Alabama's Frozen Embryo Ruling Didn't Change Disposal Choices, for the Most Part",
+      "link": "https://www.medpagetoday.com/meetingcoverage/asrm/123651",
+      "description": "(MedPage Today) -- BALTIMORE  --  Following the 2024 Alabama Supreme Court ruling that frozen embryos could be considered children in the state, most patients at a clinic in neighboring Georgia didn't make different dis",
+      "pubDate": "2026-10-29T21:21:19.000Z",
+      "source": "MedPage Today",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "<![CDATA[Obesity in Young Adulthood Linked to Higher Cancer Risk Into Midlife]]>",
+      "link": "https://www.pharmacytimes.com/view/obesity-in-young-adulthood-linked-to-higher-cancer-risk-into-midlife",
+      "description": "<![CDATA[A cohort study linked higher BMI and abdominal obesity to increased cancer risk in young adults, reinforcing the importance of early weight management.]]>",
+      "pubDate": "2026-10-29T19:36:37.000Z",
+      "source": "Pharmacy Times",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "<![CDATA[HHS Lets Pharmacies Compound Peptides as FDA Writes Official Rule]]>",
+      "link": "https://www.drugtopics.com/view/hhs-lets-pharmacies-compound-peptides-as-fda-writes-official-rule",
+      "description": "<![CDATA[The US health department announced policies that will allow for the compounding of 6 key peptides in US pharmacies.]]>",
+      "pubDate": "2026-10-29T16:00:00.000Z",
+      "source": "Drug Topics",
+      "category": "Compounding"
+    },
+    {
+      "title": "STAT+: El-Sayed claps back at RFK Jr., and FDA&#8217;s ‘enforcement discretion’ on peptides",
+      "link": "https://www.statnews.com/2026/10/29/el-sayed-claps-back-at-rfk-jr-fda-peptide-policy-dc-diagnosis/?utm_campaign=rss",
+      "description": "Abdul El-Sayed, the Democratic Senate candidate in Michigan, pushes back against the RFK Jr.'s claims, and the new FDA policy around peptides.",
+      "pubDate": "2026-10-29T14:18:27.000Z",
+      "source": "STAT News",
+      "category": "Peptides"
+    },
+    {
+      "title": "STAT+: HHS green lights six peptides, despite concerns from FDA scientists",
+      "link": "https://www.statnews.com/2026/10/29/biotech-news-hhs-green-lights-six-peptides-for-now/?utm_campaign=rss",
+      "description": "Great news for peptide fans: The Trump administration is giving the peptide craze a regulatory boost, despite objections from FDA career scientists.",
+      "pubDate": "2026-10-29T13:43:44.000Z",
+      "source": "STAT News",
+      "category": "Peptides"
+    },
+    {
+      "title": "STAT+: Pharmalittle: We&#8217;re reading about a new policy for compounding peptides, a PBM disclosure rule, and more",
+      "link": "https://www.statnews.com/pharmalot/2026/10/29/peptides-policy-released-by-hhs-pbm-disclosure-requirements/?utm_campaign=rss",
+      "description": "HHS released a policy that will temporarily allow compounding pharmacies to manufacture some peptide products",
+      "pubDate": "2026-10-29T12:52:11.000Z",
+      "source": "STAT News",
+      "category": "Compounding"
+    },
+    {
+      "title": "Immigration policy worries Maryland Latino Republicans ahead of midterms",
+      "link": "https://marylandmatters.org/2026/10/28/immigration-policy-worries-maryland-latino-republicans-ahead-of-midterms/",
+      "description": "President Donald Trump’s immigration policies are troubling some of Maryland’s Latino Republican voters, who think he is taking things too far, and worry other Latinos who helped Trump to victory two years ago will vote",
+      "pubDate": "2026-10-28T22:43:27.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "The 25 Best Fitness Gifts of 2026, According to Women's Health Editors",
+      "link": "https://www.womenshealthmag.com/fitness/g19990274/gifts-for-fitness-fanatics/",
+      "description": "Workout gear they won’t want to return.",
+      "pubDate": "2026-10-28T20:13:00.000Z",
+      "source": "Women's Health",
+      "category": "Hormones"
+    },
+    {
+      "title": "<![CDATA[The Growing Role the Specialty Pharmacy Team Plays in Helping Breast Cancer Patients Navigate Treatment]]>",
+      "link": "https://www.pharmacytimes.com/view/the-growing-role-the-specialty-pharmacy-team-plays-in-helping-breast-cancer-patients-navigate-treatment",
+      "description": "<![CDATA[Specialty pharmacy liaisons improve breast cancer care by easing access barriers, managing side effects, boosting adherence, and navigating new therapies and policies.]]>",
+      "pubDate": "2026-10-28T13:20:00.000Z",
+      "source": "Pharmacy Times",
+      "category": "Compounding"
+    },
+    {
+      "title": "Turnout surging in Maryland, as &#8216;jacked up&#8217; voters head to the polls for early voting",
+      "link": "https://marylandmatters.org/2026/10/27/turnout-surging-in-maryland-as-jacked-up-voters-head-to-the-polls-for-early-voting/",
+      "description": "Early voting is surging in Maryland, with turnout 67% higher through the first five days of in-person voting than it at the same time four years ago, state data shows, with increases in every county and both parties -- a",
+      "pubDate": "2026-10-28T03:37:58.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "<![CDATA[Walgreens Adds Pharmacist Outreach, Coverage Help for GLP-1s]]>",
+      "link": "https://www.pharmacytimes.com/view/walgreens-adds-pharmacist-outreach-coverage-help-for-glp-1s",
+      "description": "<![CDATA[Walgreens adds virtual coverage navigation, Medicare GLP-1 Bridge support, and pharmacist follow-up calls as GLP-1 discontinuation remains high.]]>",
+      "pubDate": "2026-10-27T20:09:21.000Z",
+      "source": "Pharmacy Times",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "<![CDATA[5 Questions to Ask Your Pharmacist When You Start a GLP-1 Medication]]>",
+      "link": "https://www.pharmacytimes.com/view/5-questions-to-ask-your-pharmacist-when-you-start-a-glp-1-medication",
+      "description": "<![CDATA[A helpful guide for pharmacists if teas, supplements, or cultural foods are part of a patient&apos;s regular routine.]]>",
+      "pubDate": "2026-10-27T18:07:00.000Z",
+      "source": "Pharmacy Times",
+      "category": "GLP-1 & Weight"
+    },
+    {
+      "title": "Once more, with feeling: Time to enter Maryland Matters’ election contest",
+      "link": "https://marylandmatters.org/2026/10/27/once-more-with-feeling-time-to-enter-maryland-matters-election-contest/",
+      "description": "Ugly and frightening as election season can get – or is that Halloween? – there are some reassuring bits. First, that the voters get their say. Second, that Maryland Matters readers can enter our election contest and sho",
+      "pubDate": "2026-10-27T08:07:42.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Feds: Chesapeake Bay logperch are recovering, don&#8217;t need endangered species protection",
+      "link": "https://marylandmatters.org/2026/10/27/feds-chesapeake-bay-logperch-are-recovering-dont-need-endangered-species-protection/",
+      "description": "Populations of a small darter species found only in the lower Susquehanna River have rebounded enough not to warrant protections under the Endangered Species Act, according to a review by the U.S. Fish and Wildlife Servi",
+      "pubDate": "2026-10-27T08:02:36.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Maryland rolls out new grant program for solar, battery projects",
+      "link": "https://marylandmatters.org/2026/10/26/megawatts-for-maryland-grant-program/",
+      "description": "Maryland is beginning to accept applications for a program to bolster solar, wind and battery storage projects with state grant funding under a $200 million program, called Megawatts for Maryland, established this year b",
+      "pubDate": "2026-10-26T17:52:10.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "<![CDATA[Future IRA Drug Negotiations Expected to Compound Pharmacy Burden]]>",
+      "link": "https://www.drugtopics.com/view/future-ira-drug-negotiations-expected-to-compound-pharmacy-burden",
+      "description": "<![CDATA[Allison Schneider, MPH, provides expertise on how IRA drug price negotiations have impacted pharmacies in 2026 and what’s to come in the years ahead.]]>",
+      "pubDate": "2026-10-26T16:15:00.000Z",
+      "source": "Drug Topics",
+      "category": "Compounding"
+    },
+    {
+      "title": "In a quiet Maryland election year, all eyes turn to Lower Shore district",
+      "link": "https://marylandmatters.org/2026/10/26/in-a-quiet-maryland-election-year-all-eyes-turn-to-lower-shore-district/",
+      "description": "With most in-state contests a foregone conclusion this fall, attention turns to the legislative subdistricts in Maryland with fewer voters, making them more volatile. And the Lower Shore District 38B is getting much of t",
+      "pubDate": "2026-10-26T10:48:37.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "School board candidates view AI with trepidation",
+      "link": "https://marylandmatters.org/2026/10/26/school-board-candidates-view-ai-with-trepidation/",
+      "description": "More than 135 candidates are running in Maryland’s school board elections, and those who win will face a significant challenge: overseeing the implementation — and regulation — of artificial intelligence in the state’s 2",
+      "pubDate": "2026-10-26T10:01:24.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "Most General Assembly contests not likely to be competitive — again, experts say",
+      "link": "https://marylandmatters.org/2026/10/26/most-general-assembly-contests-not-likely-to-be-competitive-again-experts-say/",
+      "description": "When most Marylanders go to the polls this fall, they are not likely to be casting their ballots in State House races considered competitive — and experts say that has long been the case in the largely Democratic state.",
+      "pubDate": "2026-10-26T09:51:19.000Z",
+      "source": "Maryland Matters",
+      "category": "Maryland Health"
+    },
+    {
+      "title": "<![CDATA[CagriSema Reduces Weight in Women Across Menopause Stages, HT Use]]>",
+      "link": "https://www.drugtopics.com/view/cagrisema-reduces-weight-in-women-across-menopause-stages-ht-use",
+      "description": "<![CDATA[Data assessing Novo Nordisk’s investigational diabetes and obesity medication were presented at The Menopause Society&apos;s 2026 Annual Meeting.]]>",
+      "pubDate": "2026-10-25T13:45:00.000Z",
+      "source": "Drug Topics",
+      "category": "GLP-1 & Weight"
     },
     {
       "title": "<![CDATA[EloraTZP Shows Greater Weight Loss, A1C Reduction Than Tirzepatide]]>",
@@ -43,46 +283,6 @@
       "category": "Maryland Health"
     },
     {
-      "title": "Type of Menopause Hormone Therapy Tied to Small Autoimmune Disease Risk",
-      "link": "https://www.medpagetoday.com/meetingcoverage/tms/123560",
-      "description": "(MedPage Today) -- Estrogen-only menopausal hormone therapy was associated with a slightly higher incidence of autoimmune disease compared with estrogen-progestogen therapy, a retrospective cohort study suggested.\nAmong",
-      "pubDate": "2026-10-23T21:08:20.000Z",
-      "source": "MedPage Today",
-      "category": "Hormones"
-    },
-    {
-      "title": "No Daytime Grogginess Observed With Menopause Hot Flash Drug",
-      "link": "https://www.medpagetoday.com/meetingcoverage/tms/123556",
-      "description": "(MedPage Today) -- Taking the nonhormonal dual neurokinin (NK) receptor antagonist elinzanetant (Lynkuet) at bedtime did not result in residual daytime sleepiness and actually improved sleepiness scores in postmenopausa",
-      "pubDate": "2026-10-23T18:46:37.000Z",
-      "source": "MedPage Today",
-      "category": "Hormones"
-    },
-    {
-      "title": "Anxiety builds over Medicaid work requirements",
-      "link": "https://www.statnews.com/2026/10/23/medicaid-work-requirements-anxiety-morning-rounds-health-news/?utm_campaign=rss",
-      "description": "As a Boston judge heard a challenge to Medicaid work requirements, state Medicaid directors gathered in Maryland to figure out how to implement those sweeping changes.",
-      "pubDate": "2026-10-23T14:47:21.000Z",
-      "source": "STAT News",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "<![CDATA[How AI Is Reshaping Specialty Pharmacy Workflows in 2026]]>",
-      "link": "https://www.pharmacytimes.com/view/how-ai-is-reshaping-specialty-pharmacy-workflows-in-2026",
-      "description": "<![CDATA[With AI handling manual calls and clinical notes, pharmacists and technicians can refocus on getting patients to care and keeping them on therapy.]]>",
-      "pubDate": "2026-10-22T19:30:00.000Z",
-      "source": "Pharmacy Times",
-      "category": "Compounding"
-    },
-    {
-      "title": "<![CDATA[CagriSema Tied to 25% Weight Loss in Women, Post Hoc Data Show]]>",
-      "link": "https://www.pharmacytimes.com/view/cagrisema-tied-to-25-weight-loss-in-women-post-hoc-data-show",
-      "description": "<![CDATA[REDEFINE 1 analyses presented at The Menopause Society 2026 meeting found mean weight loss of 23.1% to 26.7% across pre-, peri-, and postmenopausal women.]]>",
-      "pubDate": "2026-10-22T17:37:27.000Z",
-      "source": "Pharmacy Times",
-      "category": "GLP-1 & Weight"
-    },
-    {
       "title": "School board candidates fear it’s a ‘Blueprint’ for red ink",
       "link": "https://marylandmatters.org/2026/10/21/school-board-candidates-fear-its-a-blueprint-for-red-ink/",
       "description": "School board candidates who answered a survey on the biggest issues in this elections said they believed in the sweeping education reform goals of the Blueprint for Maryland's Future, but most also conceded they worry ab",
@@ -97,14 +297,6 @@
       "pubDate": "2026-10-22T00:22:41.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
-    },
-    {
-      "title": "<![CDATA[Recap: Tirzepatide Is Approved to Cut Cardiovascular Risk in Type 2 Diabetes]]>",
-      "link": "https://www.pharmacytimes.com/view/tirzepatide-approved-to-cut-cardiovascular-risk-in-type-2-diabetes",
-      "description": "<![CDATA[Mounjaro becomes the first GIP/GLP-1 receptor agonist cleared to lower MACE risk, based on the SURPASS-CVOT head-to-head trial.]]>",
-      "pubDate": "2026-10-21T20:27:06.000Z",
-      "source": "Pharmacy Times",
-      "category": "GLP-1 & Weight"
     },
     {
       "title": "Guns, drugs, budget cuts, AI join traditional maladies at public health forum",
@@ -127,198 +319,6 @@
       "link": "https://marylandmatters.org/2026/10/20/transportation-troubles-top-concerns-for-school-board-candidates/",
       "description": "School transportation troubles, academic proficiency and financial worries ranked among the main concerns Maryland's school board candidates raised when asked in a survey to name the top issues in this year's elections.",
       "pubDate": "2026-10-21T00:31:44.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland one of nine states and D.C. to shed jobs in the past year",
-      "link": "https://marylandmatters.org/2026/10/20/maryland-one-of-nine-states-and-d-c-to-shed-jobs-in-the-past-year/",
-      "description": "Maryland was one of nine states and the District of Columbia that lost jobs in the year ending in September, according to a report released Tuesday by the U.S. Bureau of Labor Statistics. Federal job cuts appeared to hit",
-      "pubDate": "2026-10-21T00:19:18.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "<![CDATA[FDA Approves First Generic for Climara Pro Hormone Therapy Patch]]>",
-      "link": "https://www.drugtopics.com/view/fda-approves-first-generic-for-climara-pro-hormone-therapy-patch",
-      "description": "<![CDATA[With safety and efficacy profiles aligning with its brand-name formulation, this new patch could be key for women struggling with hormone therapy adherence.]]>",
-      "pubDate": "2026-10-20T19:15:00.000Z",
-      "source": "Drug Topics",
-      "category": "Hormones"
-    },
-    {
-      "title": "Women see gains, but still struggle to stay in Maryland workforce compared to men",
-      "link": "https://marylandmatters.org/2026/10/20/women-see-gains-but-still-struggle-to-stay-in-maryland-workforce-compared-to-men/",
-      "description": "A report on women in the Maryland workforce found that they continue to trail men in labor force participation and that they face several hurdles to greater participation. It also said that recent federal job cuts likely",
-      "pubDate": "2026-10-20T09:00:07.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "The Chesapeake Bay’s young rockfish are still struggling. It may be the ‘new normal.’",
-      "link": "https://marylandmatters.org/2026/10/19/rockfish-young-of-the-year-2026/",
-      "description": "For the eighth straight year, Maryland scientists found well below average numbers of young rockfish in the Chesapeake Bay. This summer's numbers were the best since 2018, but the “young of the year” index of 5.5 was sti",
-      "pubDate": "2026-10-20T00:36:04.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland officials announce dramatic decrease in teacher vacancy rate",
-      "link": "https://marylandmatters.org/2026/10/19/maryland-officials-announce-dramatic-decrease-in-teacher-vacancy-rate/",
-      "description": "The number of teacher vacancies fell from 2,145 in the 2022-23 school year to roughly 572 for the current school year, state officials announced Monday, a 70% drop that was attributed to programs to expand recruitment an",
-      "pubDate": "2026-10-19T19:23:56.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Report shows hate bias incidents declined slightly Maryland",
-      "link": "https://marylandmatters.org/2026/10/18/report-shows-hate-bias-incidents-declined-slightly-maryland/",
-      "description": "Hate bias incidents fell slightly in the state of Maryland in 2025, according to a new state report, with racial bias against Black remaining the number one incident, followed by antisemitic bias, as anti-Latino incident",
-      "pubDate": "2026-10-18T23:05:25.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Why Weight Regain is So Common After GLP-1 Medications—and What Actually Helps to Avoid It",
-      "link": "https://www.womenshealthmag.com/fitness/a74163233/glp-1-weight-regain-prevention/",
-      "description": "Nutritionist Kim Pearson shares the habits that can help to maintain weight loss long term.",
-      "pubDate": "2026-10-18T16:00:00.000Z",
-      "source": "Women's Health",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "<![CDATA[FAQ: Scaling Pharmacy Services Through GLP-1 Care | NCPA 2026]]>",
-      "link": "https://www.drugtopics.com/view/scaling-pharmacy-services-through-glp-1-care-ncpa-2026",
-      "description": "<![CDATA[Nicole Pezzino, PharmD, BCACP, BC-ADM, CDCES, details how pharmacies can utilize the booming GLP-1 medication class for greater revenue opportunities.]]>",
-      "pubDate": "2026-10-17T14:00:00.000Z",
-      "source": "Drug Topics",
-      "category": "GLP-1 & Weight"
-    },
-    {
-      "title": "Musical chairs in the Maryland Senate president&#8217;s office and other political notes",
-      "link": "https://marylandmatters.org/2026/10/16/musical-chairs-in-the-maryland-senate-presidents-office-and-other-political-notes/",
-      "description": "David Schuhlein will leave his role with the Office of the Senate President after five years of managing and coordinating the wide-ranging communication needs for Senate President Bill Ferguson (D-Baltimore City). Fergus",
-      "pubDate": "2026-10-16T22:18:58.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Trump administration asks to reconsider Ocean City offshore wind permit",
-      "link": "https://marylandmatters.org/2026/10/16/trump-administration-asks-to-reconsider-ocean-city-offshore-wind-permit/",
-      "description": "The Trump administration has officially filed a request to reconsider the construction permit it issued to an offshore wind project proposed off the coast of Ocean City, Maryland.",
-      "pubDate": "2026-10-16T20:56:44.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "<![CDATA[Pharmacists Must Guide Peptide Talks Pending FDA Action | NCPA 2026]]>",
-      "link": "https://www.drugtopics.com/view/pharmacists-must-guide-peptide-talks-pending-fda-action-ncpa-2026",
-      "description": "<![CDATA[Matt Martin, PharmD, BCSCP, explores current developments in the peptide space and what pharmacists need to know amid FDA decision-making processes.]]>",
-      "pubDate": "2026-10-16T17:50:00.000Z",
-      "source": "Drug Topics",
-      "category": "Peptides"
-    },
-    {
-      "title": "Commentary: Marylanders can&#8217;t afford the cost of a climate superfund",
-      "link": "https://marylandmatters.org/2026/10/16/marylanders-cant-afford-the-cost-of-a-climate-superfund/",
-      "description": "A study due Dec. 1 could address whether fossil fuel companies must pay for the effects of climate change, but the state must proceed cautiously, writes Mary D. Kane, who says  that policy's effectiveness, and its cost t",
-      "pubDate": "2026-10-16T10:00:36.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Moore orders review of campus sexual assault policies following Cornell case",
-      "link": "https://marylandmatters.org/2026/10/15/moore-review-campus-sexual-assault-policies-cornell/",
-      "description": "Maryland Gov. Wes Moore (D) is asking state officials to take a closer look at sexual assault policies on college campuses in the state.",
-      "pubDate": "2026-10-15T22:12:49.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "States OK solar panels for balconies. Safety guidelines haven&#8217;t caught up.",
-      "link": "https://marylandmatters.org/2026/10/15/repub/states-ok-solar-panels-for-balconies-safety-guidelines-havent-caught-up/",
-      "description": "Maryland is one of a dozen state to approve a law in recent months to ease the way for homeowners to install small, cheap panels that can be hung from a balcony or porch and plugged into a standard wall outlet to generat",
-      "pubDate": "2026-10-15T19:00:24.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "<![CDATA[Q&A: Emerging Compounded Therapies Demand Pharmacist’s Clinical Judgment | NCPA 2026]]>",
-      "link": "https://www.drugtopics.com/view/emerging-compounded-therapies-demand-pharmacist-s-clinical-judgment-ncpa-2026",
-      "description": "<![CDATA[Sara Hover, RPh, FAARM, explains how these products are putting pharmacists at the center of safety and evidence evaluations one patient at a time.]]>",
-      "pubDate": "2026-10-15T14:30:00.000Z",
-      "source": "Drug Topics",
-      "category": "Compounding"
-    },
-    {
-      "title": "Federal funds for local police enforcement accelerated Trump immigration crackdown",
-      "link": "https://marylandmatters.org/2026/10/15/repub/federal-funds-for-local-police-enforcement-accelerated-trump-immigration-crackdown/",
-      "description": "Immigrant arrests soared this summer to the highest levels since President Donald Trump returned to office, driven largely by a surge in federal-local cooperation under 287(g) agreements -- at the same time that Maryland",
-      "pubDate": "2026-10-15T10:00:17.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Commentary: The most anti-labor law in Maryland you never knew existed",
-      "link": "https://marylandmatters.org/2026/10/14/the-most-anti-labor-law-in-maryland-you-never-knew-existed/",
-      "description": "Workers don't truly have a seat at the table if they don't have an exit from the room, writes Tim Wright, and public sector workers in Maryland don't have that exit because they don't have the right to strike. That needs",
-      "pubDate": "2026-10-14T17:00:49.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Chesapeake Bay gets a C+ in overall health, its highest score in 20 years of records",
-      "link": "https://marylandmatters.org/2026/10/14/chesapeake-bay-gets-a-c-in-overall-health-its-highest-score-in-20-years-of-records/",
-      "description": "The Chesapeake Bay earned a C+ on the annual report card that calculates improvements or losses in key indicators of health and conditions in the estuary and surrounding areas. This is the highest the Bay has ever scored",
-      "pubDate": "2026-10-14T10:00:59.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "In heated debate, Harris-Schwartz clash over diesel, agree on redistricting",
-      "link": "https://marylandmatters.org/2026/10/14/in-heated-debate-harris-schwartz-clash-over-diesel-agree-on-redistricting/",
-      "description": "CAMBRIDGE, MD. — The debate between U.S. Rep. Andy Harris, the Republican incumbent of Maryland’s 1st District, and Dan Schwartz, the Democrat trying to unseat him, was frequently interrupted Tuesday night by outbursts f",
-      "pubDate": "2026-10-14T06:29:49.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Press groups condemn Moore&#8217;s treatment of Sinclair, Sun journalists",
-      "link": "https://marylandmatters.org/2026/10/13/moore-press-freedom-groups-condemn-legal-review/",
-      "description": "National press freedom groups are condemning a practice used by Gov. Wes Moore’s (D) administration in response to inquiries from Sinclair and Baltimore Sun journalists.",
-      "pubDate": "2026-10-13T22:29:36.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Gov. Wes Moore orders state agencies to target youth car thefts",
-      "link": "https://marylandmatters.org/2026/10/13/gov-wes-moore-orders-state-agencies-to-target-youth-car-thefts/",
-      "description": "Gov. Wes Moore issued a directive Tuesday for the Maryland Department of Juvenile Services to immediately implement a pilot program for youth-involved car thefts in Baltimore City and Montgomery County, areas that have h",
-      "pubDate": "2026-10-13T21:36:17.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "More than a dozen states ban this kind of sports wager — except when they don’t",
-      "link": "https://marylandmatters.org/2026/10/13/more-than-a-dozen-states-ban-this-kind-of-sports-wager-except-when-they-dont/",
-      "description": "Harassment of college athletes is one reason 15 states with legalized sports gambling, including Maryland, ban wagers on individual college players. But a loophole in how fantasy sports are regulated means those restrict",
-      "pubDate": "2026-10-13T10:00:49.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Maryland loosens diesel rules for farmers amid high fuel costs",
-      "link": "https://marylandmatters.org/2026/10/12/red-dye-diesel-maryland-executive-order/",
-      "description": "Maryland farmers can use red-dyed diesel in their on-rad trucks for the first time after an order from Gov. Wes Moore (D).",
-      "pubDate": "2026-10-12T20:12:50.000Z",
-      "source": "Maryland Matters",
-      "category": "Maryland Health"
-    },
-    {
-      "title": "Court blocks SNAP penalties, clarifies eligibility, but advocates still worried",
-      "link": "https://marylandmatters.org/2026/10/12/court-blocks-snap-penalties-clarifies-eligibility-but-advocates-still-worried/",
-      "description": "A recent court ruling may have saved states from \"potentially ruinous financial penalties\" related to changes in SNAP rules, but advocates worry that thousands of Maryland families may still lose coverage as they try to",
-      "pubDate": "2026-10-12T09:00:12.000Z",
       "source": "Maryland Matters",
       "category": "Maryland Health"
     }
